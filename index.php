@@ -1,3 +1,4 @@
+<?php include_once "./common.php"; ?>
 <!DOCTYPE html>
 <html lang=<?php echo $lang['lang']; ?>>
 <head>
