@@ -1,5 +1,6 @@
 <?php include_once "./common.php"; ?>
 <!DOCTYPE html>
+<!--alex-->
 <html lang=<?php echo $lang['lang']; ?>>
 <head>
     <meta charset="UTF-8">
