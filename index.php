@@ -8,7 +8,9 @@
     <title>PHPjobdag</title>
 </head>
 <body>
-
+   <a href="?lang=en"> EN </a>
+   <a href="?lang=nl"> NL </a>
+   <h1><?php echo $lang['h1']; ?></h1>
    <nav>
       <a href=""></a>
       <!--anchor voor doorheen de pagina-->
