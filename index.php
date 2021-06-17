@@ -254,14 +254,14 @@
 <section class="register__section">
       <form class="register__section__form" action="mailfile.php" method="post">
          <label class="register__section__form__label" for="name">Your Name</label>
-         <input class="register__section__form__input" type="text" id="name" required>
+         <input class="register__section__form__input" type="text" name="name" id="name" required>
          <label class="register__section__form__label" for="company-name">Company name</label>
-         <input class="register__section__form__input" type="text" id="company-name" required>
+         <input class="register__section__form__input" type="text" name="companyname" id="companyname" required>
          <label class="register__section__form__label" for="telephone">Your digits</label>
-         <input class="register__section__form__input" type="tel" id="telephone" required>
+         <input class="register__section__form__input" type="tel" name="telephone" id="telephone" required>
          <label class="register__section__form__label" for="email">Email</label>
-         <input class="register__section__form__input" type="email" id="email" required>
-         <input type="register__section__form__submit" value="register">
+         <input class="register__section__form__input" type="email" name="email" id="email" required>
+         <input class="register__section__form__submit" type="submit" value="register">
       </form>
       <article class="register__section__info">
           <h3 class="register__section__info__title">Fill in your details and save your spot!</h3>
