@@ -279,7 +279,7 @@
             <input class="footer__register__form__input" type="tel" id="telephone" required>
             <label class="footer__register__form__label" for="email">Email</label>
             <input class="footer__register__form__input" type="email" id="email" required>
-            <input type="footer__register__form__submit" value="register">
+            <input class="footer__register__form__submit" type="submit" value="register">
         </form>
         <article class="footer__register__info">
             <h3 class="footer__register__info__title">Fill in your details and save your spot!</h3>
