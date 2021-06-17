@@ -336,7 +336,7 @@
     </section>
 
     <section class="footer__copyright">
-        <p class="footer__copyright__text">&copy; 2021 PHP</p>
+        <p class="footer__copyright__text">&copy; <?php echo date("Y");?> PHP</p>
         <p class="footer__copyright__corporation"></p>
         <img class="footer__copyright__vdablogo" src="img/partners__vdab.svg" alt="">
     </section>
