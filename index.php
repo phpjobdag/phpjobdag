@@ -12,140 +12,172 @@
     <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous" />
 </head>
 
 <body>
+<section class="landingpage">
+    <header id="header" class="header">
+        <nav class="header__nav">
+            <ul class="header__nav__list">
+                <li class="header__nav__list__item">
+                    <a href="#header">Home</a>
+                </li>
+                <li class="header__nav__list__item">
+                    <a href="#students">Students</a>
+                </li>
+                <li class="header__nav__list__item">
+                    <a href="#agenda">Event Agenda</a>
+                </li>
+                <li class="header__nav__list__item">
+                    <a href="#course">Course Scope</a>
+                </li>
+                <ul class="header__nav__lang">
+                    <li class="header__nav__lang__switch"><a href="?lang=en">EN</a></li>
+                    <li class="header__nav__lang__switch"><a href="?lang=nl">NL</a></li>
+                </ul>
+            </ul>
+        </nav>
+        <nav class="header__mobile">
+                <input type="submit" value="SIGN UP" class="header__mobile__button "> 
+                <i class="fas fa-bars header__mobile__hamburger" id="navknop"></i>
+            
+        </nav> 
+        </header>
+        <section id="header__mobile__dropdown">
+                    <a class="header__mobile__dropdown__link" href="">MEET THE STUDENTS &nbsp; </a>
+                    <a class="header__mobile__dropdown__link" href=""> CHECK OUT AGENDA &nbsp; </a>
+                    <a class="header__mobile__dropdown__link" href=""> SEE THE COURSE SCOPE &nbsp; </a>
+                    <a class="header__mobile__dropdown__link" href=""> SIGN UP &nbsp;   </a>
+                    <section id="header__mobile_dropdown__languages">
+                        <p id="nl">NL</p>
+                        <p id="eng">EN</p>
+                    </section>
+                </section>
+        <script>
+            // open,close menu
+         var navKnop = document.getElementById("navknop");
+         navKnop.addEventListener("click", function () {
+            var menu = document.getElementById("header__mobile__dropdown");
+            if (menu.style.display == "flex") {
+               menu.style.display = "none";
+            } else {
+               menu.style.display = "flex";
+            }
 
-<header id="header" class="header">
+         })
+      </script>
 
-    <nav class="header__nav">
-        <ul class="header__nav__list">
-            <li class="header__nav__list__item">
-                <a href="#header">Home</a>
-            </li>
-            <li class="header__nav__list__item">
-                <a href="#students">Students</a>
-            </li>
-            <li class="header__nav__list__item">
-                <a href="#agenda">Event Agenda</a>
-            </li>
-            <li class="header__nav__list__item">
-                <a href="#course">Course Scope</a>
-            </li>
-        </ul>
-        <ul class="header__nav__lang">
-            <li class="header__nav__lang__switch"><a href="?lang=en">EN</a></li>
-            <li class="header__nav__lang__switch"><a href="?lang=nl">NL</a></li>
-        </ul>
-    </nav>
+        <section class="header__section">
+            <h3 class="header__section__info">26 August 2021, online</h3>
+            <h1 class="header__section__title">PHP JOBDAG</h1>
+            <h4 class="header__section__subtitle">Back-end developers candidates meet business partners</h4>
+            <a href="#footer" class="header__section__registerlink">SIGN UP</a>
+        </section>
 
-    <section class="header__section">
-        <h3 class="header__section__info">26 August 2021, online</h3>
-        <h1 class="header__section__title">PHP Jobdag</h1>
-        <h4 class="header__section__subtitle">Back-end developers meet business partners</h4>
-        <a href="#footer" class="header__section__registerlink">Register</a>
+        <section class="header__counter">
+            <article class="header__counter__box">
+                <h3 class="header__counter__box__time">29</h3>
+                <h3 class="header__counter__box__unit">Days</h3>
+            </article>
+            <article class="header__counter__box">
+                <h3 class="header__counter__box__time">12</h3>
+                <h3 class="header__counter__box__unit">Hours</h3>
+            </article>
+            <article class="header__counter__box">
+                <h3 class="header__counter__box__time">36</h3>
+                <h3 class="header__counter__box__unit">Mins</h3>
+            </article>
+            <article class="header__counter__box">
+                <h3 class="header__counter__box__time">54</h3>
+                <h3 class="header__counter__box__unit">Secs</h3>
+            </article>
+        </section>
     </section>
 
-    <section class="header__counter">
-        <article class="header__counter__day">
-            <h3 class="header__counter__day__time"></h3>
-            <h3 class="header__counter__day__unit">Days</h3>
+
+    <section id="students" class="students">
+        <h2 class="students__title">Meet the Students</h2>
+        <h3 class="students__quote">Quote: “Measuring programming progress by lines of code is like measuring aircraft building progress by weight.” - Bill Gates</h3>
+
+        <article class="students__card">
+            <img class="students__card__img" src="alexander.jpg" alt="profile picture Alexander Decoz">
+            <h5 class="student__card__name">Albert Alexander Decoz</h5>
+            <p class="student__card__pitch">  Pitch...</p>
+            <section class="students__card__social">
+                <a class="students__card__social__item" href=""><img class="students__card__social__item__img" src="img/card__cv.svg" alt="cv icon"></a>
+                <a class="students__card__social__item" href=""><img class="students__card__social__item__img" src="img/card__website.svg" alt="website icon"></a>
+                <a class="students__card__social__item" href=""><img class="students__card__social__item__img" src="img/card__linkedin.svg" alt="linkedin icon"></a>
+            </section>
         </article>
-        <article class="header__counter__hour">
-            <h3 class="header__counter__hour__time"></h3>
-            <h3 class="header__counter__hour__unit">Hours</h3>
+
+        <article class="students__card">
+            <img class="students__card__img" src="anastaya.jpg" alt="profile picture Anastasya Ovchar">
+            <h5 class="student__card__name">Anastasya Ovchar</h5>
+            <p class="student__card__pitch">  Pitch...</p>
+            <section class="students__card__social">
+                <a class="students__card__social__item" href=""><img class="students__card__social__item__img" src="img/card__cv.svg" alt="cv icon"></a>
+                <a class="students__card__social__item" href=""><img class="students__card__social__item__img" src="img/card__website.svg" alt="website icon"></a>
+                <a class="students__card__social__item" href=""><img class="students__card__social__item__img" src="img/card__linkedin.svg" alt="linkedin icon"></a>
+            </section>
         </article>
-        <article class="header__counter__min">
-            <h3 class="header__counter__min__time"></h3>
-            <h3 class="header__counter__min__unit">Minutes</h3>
+
+        <article class="students__card">
+            <img class="students__card__img" src="arne.jpg" alt="profile picture Arne Sneyers">
+            <h5 class="student__card__name">Arne Sneyers</h5>
+            <p class="student__card__pitch">  Pitch...</p>
+            <section class="students__card__social">
+                <a class="students__card__social__item" href=""><img class="students__card__social__item__img" src="img/card__cv.svg" alt="cv icon"></a>
+                <a class="students__card__social__item" href=""><img class="students__card__social__item__img" src="img/card__website.svg" alt="website icon"></a>
+                <a class="students__card__social__item" href=""><img class="students__card__social__item__img" src="img/card__linkedin.svg" alt="linkedin icon"></a>
+            </section>
         </article>
-        <article class="header__counter__sec">
-            <h3 class="header__counter__sec__time"></h3>
-            <h3 class="header__counter__sec__unit">Seconds</h3>
+
+        <article class="students__card">
+            <img class="students__card__img" src="burcu.jpg" alt="profile picture Burcu Avci">
+            <h5 class="student__card__name">Burcu Avci</h5>
+            <p class="student__card__pitch">  Pitch...</p>
+            <section class="students__card__social">
+                <a class="students__card__social__item" href=""><img class="students__card__social__item__img" src="img/card__cv.svg" alt="cv icon"></a>
+                <a class="students__card__social__item" href=""><img class="students__card__social__item__img" src="img/card__website.svg" alt="website icon"></a>
+                <a class="students__card__social__item" href=""><img class="students__card__social__item__img" src="img/card__linkedin.svg" alt="linkedin icon"></a>
+            </section>
         </article>
-    </section>
 
-</header>
+        <article class="students__card">
+            <img class="students__card__img" src="daniel.jpg" alt="profile picture Daniel Paz">
+            <h5 class="student__card__name">Daniel Paz</h5>
+            <p class="student__card__pitch">  Pitch...</p>
+            <section class="students__card__social">
+                <a class="students__card__social__item" href=""><img class="students__card__social__item__img" src="img/card__cv.svg" alt="cv icon"></a>
+                <a class="students__card__social__item" href=""><img class="students__card__social__item__img" src="img/card__website.svg" alt="website icon"></a>
+                <a class="students__card__social__item" href=""><img class="students__card__social__item__img" src="img/card__linkedin.svg" alt="linkedin icon"></a>
+            </section>
+        </article>
 
-<section id="students" class="students">
-    <h2 class="students__title">Meet the Students</h2>
-    <h3 class="students__quote">Quote: “Measuring programming progress by lines of code is like measuring aircraft building progress by weight.” - Bill Gates</h3>
+        <article class="students__card">
+            <img class="students__card__img" src="erik.jpg" alt="profile picture Erik Hendriks">
+            <h5 class="student__card__name">Erik Hendriks</h5>
+            <p class="student__card__pitch">  Pitch...</p>
+            <section class="students__card__social">
+                <a class="students__card__social__item" href=""><img class="students__card__social__item__img" src="img/card__cv.svg" alt="cv icon"></a>
+                <a class="students__card__social__item" href=""><img class="students__card__social__item__img" src="img/card__website.svg" alt="website icon"></a>
+                <a class="students__card__social__item" href=""><img class="students__card__social__item__img" src="img/card__linkedin.svg" alt="linkedin icon"></a>
+            </section>
+        </article>
 
-    <article class="students__card">
-        <img class="students__card__img" src="alexander.jpg" alt="profile picture Alexander Decoz">
-        <h5 class="student__card__name">Albert Alexander Decoz</h5>
-        <p class="student__card__pitch">  Pitch...</p>
-        <section class="students__card__social">
-            <a class="students__card__social__item" href=""><img class="students__card__social__item__img" src="img/card__cv.svg" alt="cv icon"></a>
-            <a class="students__card__social__item" href=""><img class="students__card__social__item__img" src="img/card__website.svg" alt="website icon"></a>
-            <a class="students__card__social__item" href=""><img class="students__card__social__item__img" src="img/card__linkedin.svg" alt="linkedin icon"></a>
-        </section>
-    </article>
-
-    <article class="students__card">
-        <img class="students__card__img" src="anastaya.jpg" alt="profile picture Anastasya Ovchar">
-        <h5 class="student__card__name">Anastasya Ovchar</h5>
-        <p class="student__card__pitch">  Pitch...</p>
-        <section class="students__card__social">
-            <a class="students__card__social__item" href=""><img class="students__card__social__item__img" src="img/card__cv.svg" alt="cv icon"></a>
-            <a class="students__card__social__item" href=""><img class="students__card__social__item__img" src="img/card__website.svg" alt="website icon"></a>
-            <a class="students__card__social__item" href=""><img class="students__card__social__item__img" src="img/card__linkedin.svg" alt="linkedin icon"></a>
-        </section>
-    </article>
-
-    <article class="students__card">
-        <img class="students__card__img" src="arne.jpg" alt="profile picture Arne Sneyers">
-        <h5 class="student__card__name">Arne Sneyers</h5>
-        <p class="student__card__pitch">  Pitch...</p>
-        <section class="students__card__social">
-            <a class="students__card__social__item" href=""><img class="students__card__social__item__img" src="img/card__cv.svg" alt="cv icon"></a>
-            <a class="students__card__social__item" href=""><img class="students__card__social__item__img" src="img/card__website.svg" alt="website icon"></a>
-            <a class="students__card__social__item" href=""><img class="students__card__social__item__img" src="img/card__linkedin.svg" alt="linkedin icon"></a>
-        </section>
-    </article>
-
-    <article class="students__card">
-        <img class="students__card__img" src="burcu.jpg" alt="profile picture Burcu Avci">
-        <h5 class="student__card__name">Burcu Avci</h5>
-        <p class="student__card__pitch">  Pitch...</p>
-        <section class="students__card__social">
-            <a class="students__card__social__item" href=""><img class="students__card__social__item__img" src="img/card__cv.svg" alt="cv icon"></a>
-            <a class="students__card__social__item" href=""><img class="students__card__social__item__img" src="img/card__website.svg" alt="website icon"></a>
-            <a class="students__card__social__item" href=""><img class="students__card__social__item__img" src="img/card__linkedin.svg" alt="linkedin icon"></a>
-        </section>
-    </article>
-
-    <article class="students__card">
-        <img class="students__card__img" src="daniel.jpg" alt="profile picture Daniel Paz">
-        <h5 class="student__card__name">Daniel Paz</h5>
-        <p class="student__card__pitch">  Pitch...</p>
-        <section class="students__card__social">
-            <a class="students__card__social__item" href=""><img class="students__card__social__item__img" src="img/card__cv.svg" alt="cv icon"></a>
-            <a class="students__card__social__item" href=""><img class="students__card__social__item__img" src="img/card__website.svg" alt="website icon"></a>
-            <a class="students__card__social__item" href=""><img class="students__card__social__item__img" src="img/card__linkedin.svg" alt="linkedin icon"></a>
-        </section>
-    </article>
-
-    <article class="students__card">
-        <img class="students__card__img" src="erik.jpg" alt="profile picture Erik Hendriks">
-        <h5 class="student__card__name">Erik Hendriks</h5>
-        <p class="student__card__pitch">  Pitch...</p>
-        <section class="students__card__social">
-            <a class="students__card__social__item" href=""><img class="students__card__social__item__img" src="img/card__cv.svg" alt="cv icon"></a>
-            <a class="students__card__social__item" href=""><img class="students__card__social__item__img" src="img/card__website.svg" alt="website icon"></a>
-            <a class="students__card__social__item" href=""><img class="students__card__social__item__img" src="img/card__linkedin.svg" alt="linkedin icon"></a>
-        </section>
-    </article>
-
-    <article class="students__card">
-        <img class="students__card__img" src="geert.jpg" alt="profile picture Geert Rumen">
-        <h5 class="student__card__name">Geert Rumen</h5>
-        <p class="student__card__pitch">  Pitch...</p>
-        <section class="students__card__social">
-            <a class="students__card__social__item" href=""><img class="students__card__social__item__img" src="img/card__cv.svg" alt="cv icon"></a>
-            <a class="students__card__social__item" href=""><img class="students__card__social__item__img" src="img/card__website.svg" alt="website icon"></a>
-            <a class="students__card__social__item" href=""><img class="students__card__social__item__img" src="img/card__linkedin.svg" alt="linkedin icon"></a>
-        </section>
+        <article class="students__card">
+            <img class="students__card__img" src="geert.jpg" alt="profile picture Geert Rumen">
+            <h5 class="student__card__name">Geert Rumen</h5>
+            <p class="student__card__pitch">  Pitch...</p>
+            <section class="students__card__social">
+                <a class="students__card__social__item" href=""><img class="students__card__social__item__img" src="img/card__cv.svg" alt="cv icon"></a>
+                <a class="students__card__social__item" href=""><img class="students__card__social__item__img" src="img/card__website.svg" alt="website icon"></a>
+                <a class="students__card__social__item" href=""><img class="students__card__social__item__img" src="img/card__linkedin.svg" alt="linkedin icon"></a>
+            </section>
     </article>
 
     <article class="students__card">
