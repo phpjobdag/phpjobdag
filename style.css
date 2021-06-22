@@ -10,14 +10,16 @@
 }
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-body{
-   
-}
+
 /* default classes gevonden in styleguide */
 .Title{
    font-weight: bold;
    font-size: 5.75rem;
    letter-spacing: -2%;
+}
+
+body{
+   min-width:335px;
 }
 
 .Header1{
@@ -140,6 +142,8 @@ body{
    font-weight: normal;
    font-size: 0.75rem;
 }
+
+/* landingpage */
 .landingpage{
    background: #BA6EC6;
    padding-bottom: 8rem;
@@ -241,7 +245,7 @@ letter-spacing: 0.03em;
  }
 
  .header__section{
-    margin-top:4rem;
+    margin-top:3rem;
  }
 
  .header__section__info{
@@ -277,8 +281,6 @@ letter-spacing: 0.03em;
    width:190px;
    height:70px;
    background-color: white;
-/*   
-   border: 3.57px solid linear-gradient(90deg, #FBAE3C -1.61%, #F65277 100%);; */
    display: flex;
    border-radius: 36px;
    border: 3px solid #FBAE3C;
@@ -290,7 +292,7 @@ letter-spacing: 0.03em;
    font-weight: bold;
    text-decoration: none;
    margin-left: 1rem;
-   margin-bottom: 4rem;
+   margin-bottom: 3rem;
  }
 
  .header__counter{
@@ -336,3 +338,114 @@ letter-spacing: 0.03em;
     color: white;
 
  }
+
+/* agenda deel */
+.agenda{
+
+   background-color: #E5E5E5;
+   background-image: url(blob.svg),
+   url(img/blob/blob1.svg),
+   url(img/blob/blob2.svg),
+   url(img/blob/blob3.svg);
+  padding-bottom: 3rem;
+
+   background-position: top left, bottom left,
+   bottom left;
+   background-repeat: no-repeat;
+ 
+}
+.agenda__title{
+   padding-top: 2rem;
+   padding-bottom: 2rem;
+   background: #001220CC;
+   font-size:1.25rem;
+   line-height:1.465rem ;
+   letter-spacing: 0.125em;
+   color: rgba(255, 255, 255, 0.8);
+   font-weight: bold;
+   text-align: center;
+   opacity: 80%;
+   margin-bottom: 3rem;
+}
+
+.agenda__description{
+   font-weight:300;
+   font-size:1rem;
+   line-height: 140%;
+   letter-spacing: 0.03em;
+   margin-bottom: 1rem;
+   margin-left: 1rem;
+   margin-right:1rem;
+}
+
+.agenda__block{
+   margin:1rem 1rem 0rem 1rem;
+   display:flex;
+   flex-direction: row;
+   height:168px;
+   flex-basis: 50%;
+   flex: 1 1 0px;
+   justify-content: space-between;
+}
+.agenda__block__time{
+   align-self: center;
+   justify-self: center;
+   height:32px;
+   width: 111px;
+   font-size: 1rem;
+   text-align: center;
+   letter-spacing: 0.03em;
+   font-weight: bold;
+   line-height: 32px;
+   background: rgba(255, 255, 255, 0.4);
+   
+
+}
+
+.agenda__block__info{
+   position:relative;
+  width:168px;
+   background: #FFFFFF;
+   border-radius: 1px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 1.25rem;
+   font-weight: bold;
+   z-index: 1;
+   flex-direction: column;
+   box-sizing: border-box;
+   padding: 0px 10px 0px 10px;
+   
+
+   
+}
+
+.agenda__block__info::after{
+
+   position: absolute;
+   content: "";
+   color:turquoise;
+   width: 28.13px;
+   height: 28.13px;
+   bottom: 74px;
+   right: 152px;
+   z-index: -1;
+   overflow: hidden;
+   background: white;
+   transform: matrix(-0.71, -0.53, -0.94, 0.71, 0, 0);
+   
+}
+
+.agenda__block__info__lower{
+ font-weight: 300;
+ letter-spacing: 0.03em;
+ margin-top: 1rem;
+ line-height: 140%;
+ 
+}
+
+.margin2{
+   margin-top: 2rem;
+  
+}
