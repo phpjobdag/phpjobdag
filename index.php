@@ -346,7 +346,7 @@
     <h2 class="footer__title">Save your spot</h2>
 
     <section class="footer__register">
-      <form class="register__section__form" action="mailfile.php" method="post">
+    <form class="register__section__form" action="mailfile.php" method="post">
          <label class="register__section__form__label" for="name">Your Name</label>
          <input class="register__section__form__input" type="text" name="name" id="name" required>
          <label class="register__section__form__label" for="company-name">Company name</label>
