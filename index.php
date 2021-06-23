@@ -23,18 +23,18 @@
     <header id="header" class="header">
         <nav class="header__nav">
             <ul class="header__nav__list">
-                <li class="header__nav__list__item">
-                    <a href="#header">Home</a>
-                </li>
-                <li class="header__nav__list__item">
-                    <a href="#students">Students</a>
-                </li>
-                <li class="header__nav__list__item">
-                    <a href="#agenda">Event Agenda</a>
-                </li>
-                <li class="header__nav__list__item">
-                    <a href="#course">Course Scope</a>
-                </li>
+               <li class="header__nav__list__item">
+                  <a href="#header">Home</a>
+               </li>
+               <li class="header__nav__list__item">
+                  <a href="#students"><?php echo $lang['nav1']; ?>Students</a>
+               </li>
+               <li class="header__nav__list__item">
+                  <a href="#agenda"><?php echo $lang['nav2']; ?>Event Agenda</a>
+               </li>
+               <li class="header__nav__list__item">
+                  <a href="#course"><?php echo $lang['mav3']; ?>Course Scope</a>
+               </li>
                 <ul class="header__nav__lang">
                     <li class="header__nav__lang__switch"><a href="?lang=en">EN</a></li>
                     <li class="header__nav__lang__switch"><a href="?lang=nl">NL</a></li>
@@ -74,27 +74,58 @@
         <section class="header__section">
             <h3 class="header__section__info">26 August 2021, online</h3>
             <h1 class="header__section__title">PHP JOBDAG</h1>
-            <h4 class="header__section__subtitle">Back-end developers candidates meet business partners</h4>
-            <a href="#footer" class="header__section__registerlink">SIGN UP</a>
+            <h4 class="header__section__subtitle"><?php echo $lang['intro1']; ?>Back-end developers meet business partners</h4>
+        <a href="#footer" class="header__section__registerlink"><?php echo $lang['intro2']; ?>SIGN UP</a>
         </section>
 
         <section class="header__counter">
             <article class="header__counter__box">
-                <h3 class="header__counter__box__time">29</h3>
-                <h3 class="header__counter__box__unit">Days</h3>
+                <h3 class="header__counter__box__time" id="days">29</h3>
+                <h3 class="header__counter__box__unit"><?php echo $lang['counter1']; ?>Days</h3>
             </article>
             <article class="header__counter__box">
-                <h3 class="header__counter__box__time">12</h3>
-                <h3 class="header__counter__box__unit">Hours</h3>
+                <h3 class="header__counter__box__time" id="hours">12</h3>
+                <h3 class="header__counter__box__unit"><?php echo $lang['counter2']; ?>Hours</h3>
             </article>
             <article class="header__counter__box">
-                <h3 class="header__counter__box__time">36</h3>
-                <h3 class="header__counter__box__unit">Mins</h3>
+                <h3 class="header__counter__box__time" id="minutes">36</h3>
+                <h3 class="header__counter__box__unit"><?php echo $lang['counter3']; ?>Mins</h3>
             </article>
             <article class="header__counter__box">
-                <h3 class="header__counter__box__time">54</h3>
-                <h3 class="header__counter__box__unit">Secs</h3>
+                <h3 class="header__counter__box__time" id="seconds">54</h3>
+                <h3 class="header__counter__box__unit"><?php echo $lang['counter4']; ?>Secs</h3>
             </article>
+
+            <!-- Countdown Script -->
+            <script>
+               var countDownDate = <?php echo strtotime('Aug 26, 2021 09:37:25') ?> * 1000;
+               var now = <?php echo time() ?> * 1000;
+
+               var x = setInterval(function() {
+
+                  now = now + 1000;
+
+                  var distance = countDownDate - now;
+
+                  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+                  document.getElementById("days").innerHTML = days;
+
+                  document.getElementById("hours").innerHTML = hours;
+
+                  document.getElementById("minutes").innerHTML = minutes;
+
+                  document.getElementById("seconds").innerHTML = seconds;
+                  
+                  if (distance < 0) {
+                        clearInterval(x);
+                        document.getElementById("demo").innerHTML = "EXPIRED";
+                  }
+               }, 1000);
+            </script>
         </section>
     </section>
 
