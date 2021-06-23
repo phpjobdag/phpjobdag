@@ -1,0 +1,451 @@
+*{
+
+   
+
+
+   /* font-family: 'Roboto'; */
+   color: #001220;
+   margin:0px;
+   padding:0px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+/* default classes gevonden in styleguide */
+.Title{
+   font-weight: bold;
+   font-size: 5.75rem;
+   letter-spacing: -2%;
+}
+
+body{
+   min-width:335px;
+}
+
+.Header1{
+  font-weight: bold;
+  font-size: 4.25rem;
+  letter-spacing: -2%;
+}
+
+.Header2{
+   font-weight:bold;
+   size:3.25rem;
+   letter-spacing: -2%;
+}
+
+.Header3{
+   font-weight: bold;
+   size: 2.25rem;
+   line-height: -2%;
+}
+
+.SectionTitle{
+   font-weight: bold;
+   size: 2.25rem;
+   letter-spacing: 12.5%;
+}
+
+.Subtitle {
+   font-weight:normal;
+   font-size: 1.75rem;
+   line-height: 0%;
+}
+
+.SubtitleBold{
+   font-weight: bold;
+   font-size: 1.75rem;
+   line-height: 0%;
+}
+
+.SubtitleLight{
+   font-weight: lighter;
+   font-size: 1.75rem;
+   line-height: 0%;
+}
+
+.CourseScopeTitle{
+   font-weight: bold;
+   font-size: 1.75rem;
+   letter-spacing: 12.5%;
+}
+
+.bodyLarge{
+   font-weight: normal;
+   font-size:1.25rem ;
+}
+
+.bodyLargeBold{
+   font-weight: bold;
+   font-size:1.25rem ;
+}
+
+.bodyLargeLight{
+   font-weight: lighter;
+   font-size:1.25rem ;
+}
+
+.SectionTitleSmall{
+   font-weight: bold;
+   font-size: 1.25rem;
+   letter-spacing: 12.5%;
+}
+
+.LinkLarge{
+   font-weight: bold;
+   font-size: 1.25rem;
+   text-decoration: underline;
+}
+
+.ButtonTextLarge{
+   font-weight: bold;
+   font-size: 1.25rem;
+   letter-spacing: 4%;
+}
+
+.ButtonText{
+   font-weight: bold;
+   font-size: 1rem;
+   letter-spacing: 4%;
+}
+
+.Body{
+   font-weight: lighter;
+   line-height: 140%;
+   font-size: 1rem;
+   
+}
+
+.BodyBold{
+   font-weight: bold;
+   font-size: 1rem;
+   line-height: 140px;
+}
+
+.Link{
+   font-weight: bold;
+   font-size: 1rem;
+}
+
+.MobileNavLink{
+   font-weight: bold;
+   font-size: 1rem;
+}
+
+.Pre-Title{
+   font-weight: normal;
+   font-size: 0.75rem;
+   
+}
+
+.Small {
+   font-weight: normal;
+   font-size: 0.75rem;
+}
+
+/* landingpage */
+.landingpage{
+   background: #BA6EC6;
+   padding-bottom: 8rem;
+}
+.header{
+   height:78px;
+   width:100%;
+   box-shadow: 0px 6px 6px rgba(0, 18, 32, 0.2);
+}
+
+.header__nav{
+   display:none;
+}
+
+.header__mobile{
+   padding-top: 1rem;
+   padding-bottom: 1rem;
+   display: flex;
+   flex-direction: row;
+   justify-content: flex-end;
+   margin-right: 20px;
+   
+}
+
+.header__mobile__button{
+   height: 46.42px;
+   width:133.07px;
+   box-sizing: border-box;
+   border: 3.76366px solid #FFFFFF;
+   border-radius: 87.8188px;
+   background-color: rgba(0, 0, 0, 0.0);
+   color: white;
+   font-size: 1rem;
+   font-weight:bold;
+letter-spacing: 0.03em;
+}
+
+.header__mobile__hamburger{
+   width: 33px;
+   height:22.14px;
+   color: white;
+   font-size: 22.14px;
+   align-self: center;
+   margin-left: 20px;
+}
+#header__mobile__dropdown{
+   box-sizing: border-box;
+   flex-direction: column;
+   height: 257px;
+   width: 100%;
+   display: none;
+   align-items: flex-end;
+   justify-content: center;
+
+}
+.header__mobile__dropdown__link{
+   width: 50%;
+   text-align: end;
+   text-decoration: none;
+   border-bottom: 1px solid white;
+   margin-bottom: 1.5rem;
+   color :white;
+}
+
+#header__mobile_dropdown__languages{
+   display: flex;
+   
+ 
+}
+
+#nl, #eng {
+   box-sizing: border-box;
+   border: 3px solid white;
+   text-align: center;
+   line-height: 38px;
+   width: 44px;
+   height:44px;
+   border-radius: 30px;
+   margin-right: 7px;
+   color:white;
+   font-weight: bold;
+   font-size: 20px;
+   font-variant: small-caps;
+   letter-spacing: 0.04em;
+      
+      }
+ #eng {
+    background-color: white;
+    color: #BA6EC6;
+      }
+
+ .header__mobile__dropdown__link{
+    line-height: 1.1875rem;
+    text-align: right;
+    letter-spacing: 0.08em;
+    font-size: 1rem;
+    width:230px;
+    
+ }
+
+ .header__section{
+    margin-top:3rem;
+ }
+
+ .header__section__info{
+    font-weight: bold ;
+    font-size: 20px;
+    line-height:23px;
+    color:#001220;
+    margin-left: 16px;
+    margin-bottom:2rem;
+ }
+
+ .header__section__title{
+    font-size:4.25rem;
+    font-weight: bold;
+    line-height: 93%;
+    color: #001220;
+    margin-left: 16px;
+ }
+
+ .header__section__subtitle{
+   font-size: 1.25rem;
+   line-height:1.438rem;
+   margin-left: 16px;
+   margin-top: 2rem;
+   margin-bottom: 2rem;
+   margin-right: 16px;
+   width: 315px;
+
+ }
+
+ .header__section__registerlink{
+   box-sizing: border-box;
+   width:190px;
+   height:70px;
+   background-color: white;
+   display: flex;
+   border-radius: 36px;
+   border: 3px solid #FBAE3C;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+   font-size: 1.75rem;
+   line-height: 2.063rem;
+   font-weight: bold;
+   text-decoration: none;
+   margin-left: 1rem;
+   margin-bottom: 3rem;
+ }
+
+ .header__counter{
+
+   margin-left: 16px;
+   height: 104px;
+   background: linear-gradient(90deg, #EF7C33 0%, #F75279 100%);
+   color: white;
+   display: flex;
+   flex-direction: row;
+   justify-content: flex-end;
+   align-items: center;
+   gap: 22px;
+   padding-right: 15px;
+   box-sizing: border-box;
+   border: 1px solid white;
+   
+ }
+
+ .header__counter__box{
+   box-sizing: border-box;
+   width: 60px;
+   height:60px;
+   border: 1px solid white;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   
+
+ }
+
+ .header__counter__box__time{
+    font-size:1.75rem;
+    line-height: 2.063rem;
+    color:white;
+ }
+
+ .header__counter__box__unit{
+    font-weight: normal;
+    font-size:0.75rem;
+    letter-spacing: 0.08em;
+    color: white;
+
+ }
+
+/* agenda deel */
+.agenda{
+
+   background-color: #E5E5E5;
+   background-image: url(blob.svg),
+   url(img/blob/blob1.svg),
+   url(img/blob/blob2.svg),
+   url(img/blob/blob3.svg);
+  padding-bottom: 3rem;
+
+   background-position: top left, bottom left,
+   bottom left;
+   background-repeat: no-repeat;
+ 
+}
+.agenda__title{
+   padding-top: 2rem;
+   padding-bottom: 2rem;
+   background: #001220CC;
+   font-size:1.25rem;
+   line-height:1.465rem ;
+   letter-spacing: 0.125em;
+   color: rgba(255, 255, 255, 0.8);
+   font-weight: bold;
+   text-align: center;
+   opacity: 80%;
+   margin-bottom: 3rem;
+}
+
+.agenda__description{
+   font-weight:300;
+   font-size:1rem;
+   line-height: 140%;
+   letter-spacing: 0.03em;
+   margin-bottom: 1rem;
+   margin-left: 1rem;
+   margin-right:1rem;
+}
+
+.agenda__block{
+   margin:1rem 1rem 0rem 1rem;
+   display:flex;
+   flex-direction: row;
+   height:168px;
+   flex-basis: 50%;
+   flex: 1 1 0px;
+   justify-content: space-between;
+}
+.agenda__block__time{
+   align-self: center;
+   justify-self: center;
+   height:32px;
+   width: 111px;
+   font-size: 1rem;
+   text-align: center;
+   letter-spacing: 0.03em;
+   font-weight: bold;
+   line-height: 32px;
+   background: rgba(255, 255, 255, 0.4);
+   
+
+}
+
+.agenda__block__info{
+   position:relative;
+  width:168px;
+   background: #FFFFFF;
+   border-radius: 1px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 1.25rem;
+   font-weight: bold;
+   z-index: 1;
+   flex-direction: column;
+   box-sizing: border-box;
+   padding: 0px 10px 0px 10px;
+   
+
+   
+}
+
+.agenda__block__info::after{
+
+   position: absolute;
+   content: "";
+   color:turquoise;
+   width: 28.13px;
+   height: 28.13px;
+   bottom: 74px;
+   right: 152px;
+   z-index: -1;
+   overflow: hidden;
+   background: white;
+   transform: matrix(-0.71, -0.53, -0.94, 0.71, 0, 0);
+   
+}
+
+.agenda__block__info__lower{
+ font-weight: 300;
+ letter-spacing: 0.03em;
+ margin-top: 1rem;
+ line-height: 140%;
+ 
+}
+
+.margin2{
+   margin-top: 2rem;
+  
+}
