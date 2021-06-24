@@ -16,7 +16,7 @@
     <section class="agenda__block"> 
         <p class="agenda__block__time">9.30-12</p>
         <div class="agenda__block__info">
-            <P>Speed interview session</P>
+            <p>Speed interview session</p>
             <p class="agenda__block__info__lower">>15 MINUTE JOB INTERVIEWS</p>
        </div>
        
