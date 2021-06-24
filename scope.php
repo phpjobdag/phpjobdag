@@ -1,8 +1,10 @@
 <section id="course" class="course">
+
     <h2 class="course__title">See the course scope</h2>
     <p class="course__body">You can throw at us any online challenge...</p>
 
     <section class="course__hard">
+
         <h3 class="course__hard__title">Hard-Skills</h3>
 
         <article class="course__hard__front">
@@ -30,9 +32,11 @@
             <h6 class="course__hard__control__title">Version Control</h6>
             <img class="course__hard__control__img" src="img/skills__github.svg" alt="github logo">
         </article>
+
     </section>
 
     <section class="course__soft">
+
         <h3 class="course__soft__title">Soft-Skills</h3>
         <article class="agile-method">
             <h6 class="course__soft__agile__title">Agile Tools</h6>
@@ -44,4 +48,6 @@
             <img class="course__soft__remote__img" src="img/skills__slack.svg" alt="slack logo">
             <img class="course__soft__remote__img" src="img/skills__discord.svg" alt="discord logo">
         </article>
+        
     </section>
+</section>
