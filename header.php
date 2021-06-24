@@ -8,15 +8,15 @@
                 </li>
 
                 <li class="header__nav__list__item">
-                    <a href="#students"><?php echo $lang['nav1']; ?>Students</a>
+                    <a href="#students"><?php echo $lang['nav1']; ?></a>
                 </li>
 
                 <li class="header__nav__list__item">
-                    <a href="#agenda"><?php echo $lang['nav2']; ?>Event Agenda</a>
+                    <a href="#agenda"><?php echo $lang['nav2']; ?></a>
                 </li>
 
                 <li class="header__nav__list__item">
-                    <a href="#course"><?php echo $lang['mav3']; ?>Course Scope</a>
+                    <a href="#course"><?php echo $lang['mav3']; ?></a>
                 </li>
 
                 <ul class="header__nav__lang">
@@ -25,7 +25,7 @@
                 </ul>
             </ul>
         </nav>
-        
+
         <nav class="header__mobile">
             <input type="submit" value="SIGN UP" class="header__mobile__button "> 
             <i class="fas fa-bars header__mobile__hamburger" id="navknop"></i>
@@ -60,30 +60,30 @@
     <section class="header__section">
         <h3 class="header__section__info">26 August 2021, online</h3>
         <h1 class="header__section__title">PHP JOBDAG</h1>
-        <h4 class="header__section__subtitle"><?php echo $lang['intro1']; ?>Back-end developers meet business partners</h4>
-        <a href="#footer" class="header__section__registerlink"><?php echo $lang['intro2']; ?>SIGN UP</a>
+        <h4 class="header__section__subtitle"><?php echo $lang['intro1']; ?></h4>
+        <a href="#footer" class="header__section__registerlink"><?php echo $lang['intro2']; ?></a>
     </section>
 
     <section class="header__counter">
 
         <article class="header__counter__box">
             <h3 class="header__counter__box__time" id="days">29</h3>
-            <h3 class="header__counter__box__unit"><?php echo $lang['counter1']; ?>Days</h3>
+            <h3 class="header__counter__box__unit"><?php echo $lang['counter1']; ?></h3>
         </article>
 
         <article class="header__counter__box">
             <h3 class="header__counter__box__time" id="hours">12</h3>
-            <h3 class="header__counter__box__unit"><?php echo $lang['counter2']; ?>Hours</h3>
+            <h3 class="header__counter__box__unit"><?php echo $lang['counter2']; ?></h3>
         </article>
 
         <article class="header__counter__box">
             <h3 class="header__counter__box__time" id="minutes">36</h3>
-            <h3 class="header__counter__box__unit"><?php echo $lang['counter3']; ?>Mins</h3>
+            <h3 class="header__counter__box__unit"><?php echo $lang['counter3']; ?></h3>
         </article>
 
         <article class="header__counter__box">
             <h3 class="header__counter__box__time" id="seconds">54</h3>
-            <h3 class="header__counter__box__unit"><?php echo $lang['counter4']; ?>Secs</h3>
+            <h3 class="header__counter__box__unit"><?php echo $lang['counter4']; ?></h3>
         </article>
 
         <!-- Countdown Script -->

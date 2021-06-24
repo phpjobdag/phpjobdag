@@ -14,16 +14,16 @@ $lang['lang'] = 'nl';
 $lang['h1'] = 'English title';
 
 // Nav
-$lang['nav1'] = 'Students';
-$lang['nav2'] = 'Event Agenda';
-$lang['nav3'] = 'Course Scope';
+$lang['nav1'] = 'Studenten';
+$lang['nav2'] = 'Agenda';
+$lang['nav3'] = 'Cursus';
 
 // Intro
-$lang['intro1'] = 'Back-end developers meet business partners';
-$lang['intro2'] = 'Register';
+$lang['intro1'] = 'Web ontwikkelaars ontmoeten werkgevers ';
+$lang['intro2'] = 'Registreer';
 
 // Counter
-$lang['counter1'] = 'Days';
-$lang['counter2'] = 'Hours';
-$lang['counter3'] = 'Minutes';
-$lang['counter4'] = 'Seconds';
+$lang['counter1'] = 'Dagen';
+$lang['counter2'] = 'Uren';
+$lang['counter3'] = 'Minuten';
+$lang['counter4'] = 'Seconden';
