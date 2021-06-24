@@ -45,4 +45,3 @@
             <img class="course__soft__remote__img" src="img/skills__discord.svg" alt="discord logo">
         </article>
     </section>
-</section>
