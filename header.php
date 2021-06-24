@@ -27,41 +27,40 @@
         </nav>
 
         <nav class="header__mobile">
-            <input type="submit" value="SIGN UP" class="header__mobile__button "> 
-            <i class="fas fa-bars header__mobile__hamburger" id="navknop"></i>
-            
+            <a href="#signup"><input type="button" value=<?php echo $lang['intro2']; ?> class="header__mobile__button "></a>
+            <i class="fas fa-bars header__mobile__hamburger" id="navknop"></i>           
         </nav> 
-    </header>
 
-    <section id="header__mobile__dropdown">
-        <a class="header__mobile__dropdown__link" href="">MEET THE STUDENTS &nbsp; </a>
-        <a class="header__mobile__dropdown__link" href=""> CHECK OUT AGENDA &nbsp; </a>
-        <a class="header__mobile__dropdown__link" href=""> SEE THE COURSE SCOPE &nbsp; </a>
-        <a class="header__mobile__dropdown__link" href=""> SIGN UP &nbsp;   </a>
-        <section id="header__mobile_dropdown__languages">
-            <p id="nl">NL</p>
-            <p id="eng">EN</p>
+        <section id="header__mobile__dropdown">
+            <a class="header__mobile__dropdown__link" href="">MEET THE STUDENTS &nbsp; </a>
+            <a class="header__mobile__dropdown__link" href=""> CHECK OUT AGENDA &nbsp; </a>
+            <a class="header__mobile__dropdown__link" href=""> SEE THE COURSE SCOPE &nbsp; </a>
+            <a class="header__mobile__dropdown__link" href=""> SIGN UP &nbsp;   </a>
+            <section id="header__mobile_dropdown__languages">
+                <p id="nl"><a href="?lang=nl">NL</a></p>
+                <p id="eng"><a href="?lang=en">EN</a></p>
+            </section>
         </section>
-    </section>
 
-    <script>
-        // open,close menu
-        let navKnop = document.getElementById("navknop");
-        navKnop.addEventListener("click", function () {
-        let menu = document.getElementById("header__mobile__dropdown");
-            if (menu.style.display == "flex") {
-                menu.style.display = "none";
-            } else {
-                menu.style.display = "flex";
-            }
-        })
-    </script>
+        <script>
+            // open,close menu
+            let navKnop = document.getElementById("navknop");
+            navKnop.addEventListener("click", function () {
+            let menu = document.getElementById("header__mobile__dropdown");
+                if (menu.style.display == "flex") {
+                    menu.style.display = "none";
+                } else {
+                    menu.style.display = "flex";
+                }
+            })
+        </script>
+    </header>
 
     <section class="header__section">
         <h3 class="header__section__info">26 August 2021, online</h3>
         <h1 class="header__section__title">PHP JOBDAG</h1>
         <h4 class="header__section__subtitle"><?php echo $lang['intro1']; ?></h4>
-        <a href="#footer" class="header__section__registerlink"><?php echo $lang['intro2']; ?></a>
+        <a href="#signup" class="header__section__registerlink"><?php echo $lang['intro2']; ?></a>
     </section>
 
     <section class="header__counter">

@@ -1,7 +1,7 @@
 <footer id="footer" class="footer">
     <h2 class="footer__title">Save your spot</h2>
 
-    <section class="footer__register">
+    <section id="signup" class="footer__register">
          <form class="footer__register__form" action="mailfile.php" method="post">
             <label class="footer__register__form__label" for="name">Your Name</label>
             <input class="footer__register__form__input" type="text" id="name" required>
