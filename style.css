@@ -1,9 +1,10 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,400italic,500,500italic,700,700italic,900,900italic,300italic,300,100italic,100);
 *{
 
    
 
 
-   /* font-family: 'Roboto'; */
+    font-family: 'Roboto';
    color: #001220;
    margin:0px;
    padding:0px;
@@ -354,7 +355,7 @@ letter-spacing: 0.03em;
    background-repeat: no-repeat;
  
 }
-.agenda__title{
+.agenda__title, .course__title{
    padding-top: 2rem;
    padding-bottom: 2rem;
    background: #001220CC;
