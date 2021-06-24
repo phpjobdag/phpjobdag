@@ -20,7 +20,7 @@ $lang['nav3'] = 'Course Scope';
 
 // Intro
 $lang['intro1'] = 'Back-end developers meet business partners';
-$lang['intro2'] = 'Register';
+$lang['intro2'] = 'SIGN UP';
 
 // Counter
 $lang['counter1'] = 'Days';
