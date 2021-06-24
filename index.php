@@ -19,12 +19,11 @@
 </head>
 
 <body>
-<section class="landingpage">
+
 <?php include 'header.php'; ?>
 <?php include 'students.php'; ?>
 <?php include 'agenda.php'; ?>
 <?php include 'scope.php'; ?>
-</section>
 <?php include 'footer.php'; ?>
    
 </body>
