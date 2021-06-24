@@ -1,7 +1,7 @@
 <section id="course" class="course">
 
     <h2 class="course__title">See the course scope</h2>
-    <p class="course__body">You can throw at us any online challenge...</p>
+    <p class="course__body">Managing to work together from a distance was the first thing we learned. You can throw at us any online challenge and we won't break.</p>
 
     <section class="course__hard">
 
