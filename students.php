@@ -3,13 +3,15 @@
     <h3 class="students__quote">Quote: “Measuring programming progress by lines of code is like measuring aircraft building progress by weight.” - Bill Gates</h3>
 
     <article class="students__card">
-        <img class="students__card__img" src="alexander.jpg" alt="profile picture Alexander Decoz">
-        <h5 class="student__card__name">Albert Alexander Decoz</h5>
-        <p class="student__card__pitch">  Pitch...</p>
-        <section class="students__card__social">
-            <a class="students__card__social__item" href=""><img class="students__card__social__item__img" src="img/card__cv.svg" alt="cv icon"></a>
-            <a class="students__card__social__item" href=""><img class="students__card__social__item__img" src="img/card__website.svg" alt="website icon"></a>
-            <a class="students__card__social__item" href=""><img class="students__card__social__item__img" src="img/card__linkedin.svg" alt="linkedin icon"></a>
+        <img class="students__card__img" src="img/students/mathijs.jpg" alt="profile picture Alexander Decoz">
+        <section class="student__card__name__container">
+            <h5 class="student__card__name"> Alexander Decoz</h5>
+            <p class="student__card__pitch"> Due to corona virus this course was completely remote. Managing to work together from a distance.</p>
+            <section class="students__card__social">
+                <a class="students__card__social__item" href=""><img class="students__card__social__item__img" src="img/card__cv.svg" alt="cv icon"></a>
+                <a class="students__card__social__item" href=""><img class="students__card__social__item__img" src="img/card__website.svg" alt="website icon"></a>
+                <a class="students__card__social__item" href=""><img class="students__card__social__item__img" src="img/card__linkedin.svg" alt="linkedin icon"></a>
+            </section>
         </section>
     </article>
 
