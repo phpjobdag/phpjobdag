@@ -30,7 +30,7 @@
             <a href="#signup"><input type="button" value=<?php echo $lang['intro2']; ?> class="header__mobile__button "></a>
             <i class="fas fa-bars header__mobile__hamburger" id="navknop"></i>           
         </nav> 
-
+</header>
         <section id="header__mobile__dropdown">
             <a class="header__mobile__dropdown__link" href="">MEET THE STUDENTS &nbsp; </a>
             <a class="header__mobile__dropdown__link" href=""> CHECK OUT AGENDA &nbsp; </a>
@@ -54,7 +54,7 @@
                 }
             })
         </script>
-    </header>
+    
 
     <section class="header__section">
         <h3 class="header__section__info">26 August 2021, online</h3>
