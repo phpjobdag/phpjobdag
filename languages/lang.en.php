@@ -28,7 +28,7 @@ $lang['counter2'] = 'Hours';
 $lang['counter3'] = 'Minutes';
 $lang['counter4'] = 'Seconds';
 
-$lang['Alexander'] = '';
+$lang['Alexander'] = 'Due to corona virus this course was completely remote. Managing to work together from a distance.';
 $lang['Anastasya'] = '';
 $lang['Arne'] = '';
 $lang['Burcu'] = '';

@@ -30,7 +30,7 @@ $lang['counter4'] = 'Seconden';
 
 
 // Students
-$lang['Alexander'] = '';
+$lang['Alexander'] = 'Door to corona virus this course was completely remote. Managing to work together from a distance.';
 $lang['Anastasya'] = '';
 $lang['Arne'] = '';
 $lang['Burcu'] = '';
