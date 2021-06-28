@@ -23,8 +23,7 @@
     </section>
 
     <section class="footer__info">
-
-            <article class="footer__info__thx">
+        <article class="footer__info__thx">
             <h6 class="footer__info__thx__title">Dankwoord</h6>
             <p class="footer__info__thx__body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis officia, in quis excepturi pariatur itaque dolorum beatae accusamus tenetur aspernatur tempora nam maxime dolore unde dolorem enim rem quod perferendis.</p>
         </article>
@@ -77,4 +76,12 @@
         <p class="footer__copyright__corporation"></p>
         <img class="footer__copyright__vdablogo" src="img/partners__vdab.svg" alt="">
     </section>
+
+            <svg id="footer__blob__orange" viewBox="0 0 943 746">
+            <path d="M1.5775e-05 745.832C37.07 658.331 74.1401 570.829 111.405 473.214C148.67 375.445 186.326 267.409 278.025 218.371C369.725 169.333 515.859 179.141 636.824 152.63C757.594 125.966 853.586 62.9828 949.578 0L949.578 745.833L1.5775e-05 745.832Z" fill="#E1685E"/>
+        </svg>
+
+        <svg id="footer__blob__black" viewBox="0 0 1440 687">
+            <path d="M-16 0C136.549 61.7737 289.408 123.547 474.138 150.393C659.178 177.239 876.089 169.012 1038.54 210.579C1201.3 252.002 1309.29 343.364 1375.51 433.57C1441.73 523.922 1465.86 613.118 1490 702.459H-16V0Z" fill="#001220"/>
+        </svg>
 </footer>
