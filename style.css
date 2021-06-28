@@ -154,6 +154,13 @@ body {
    margin-bottom: 0rem !important;
 }
 
+.svg-container {
+	width: 100%;
+	padding-bottom: 50%; 
+	vertical-align: middle; 
+	overflow: hidden; 
+}
+
 /* landingpage */
 .landingpage {
    background: #BA6EC6;
@@ -388,6 +395,8 @@ body {
    text-align: center;
    opacity: 80%;
    margin-bottom: 3rem;
+   position: relative;
+   z-index: 10;
 }
 
 .agenda__description {
@@ -398,6 +407,8 @@ body {
    margin-bottom: 1rem;
    margin-left: 1rem;
    margin-right: 1rem;
+   position: relative;
+   z-index: 10;
 }
 
 .agenda__block {
@@ -408,6 +419,8 @@ body {
    flex-basis: 50%;
    flex: 1 1 0px;
    justify-content: space-between;
+   position: relative;
+   z-index: 10;
 }
 
 .agenda__block__time {
@@ -468,26 +481,25 @@ body {
 
 }
 
-/*blobs nog te bewerken*/
 #agenda__blob__orange__top {
    position: absolute;
    left: 0;
    top: 0;
-   z-index: -1;
+   z-index: 1;
 }
 
 #agenda__blob__orange__bottom {
    position: absolute;
    left: 0;
    bottom: 0;
-   z-index: -1;
+   z-index: 1;
 }
 
 #agenda__blob__yellow__bottom {
    position: absolute;
    left: 0;
    bottom: 0;
-   z-index: -2;
+   z-index: 2;
 }
 
 /* coursescope */
@@ -941,3 +953,10 @@ body {
    z-index: 3;
    display: none;
 }
+
+@media (min-width: 1050px) {
+   #agenda__blob__orange__bottom,
+   #agenda__blob__yellow__bottom {
+   display: none;
+   }
+  }
