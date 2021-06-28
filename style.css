@@ -154,6 +154,7 @@ body {
    margin-bottom: 0rem !important;
 }
 
+/*om blobs responsive te maken*/
 .svg-container {
 	width: 100%;
 	padding-bottom: 50%; 
@@ -866,6 +867,8 @@ body {
    margin-left: 1rem;
    margin-right: 1rem;
    margin-bottom: 4rem;
+   position: relative;
+   z-index: 10;
 }
 
 .students__card {
@@ -875,7 +878,8 @@ body {
    height: 489px;
    border: 7px solid #FBAE3C;
    display: none;
-
+   position: relative;
+   z-index: 10;
 }
 
 .students__card:nth-of-type(1) {
@@ -916,19 +920,18 @@ body {
    margin: 0.8rem 16px auto 16px;
 }
 
-/* Blob nog te bewerken: */
 #students__blob__orange__top {
    position: absolute;
    right: 0;
    top: 0;
-   z-index: -1;
+   z-index: 1;
 }
 
 #students__blob__yellow__top {
    position: absolute;
    right: 0;
    top: 0;
-   z-index: -2;
+   z-index: 2;
 }
 
 #students__blob__purple__bottom {
@@ -958,6 +961,23 @@ body {
 @media (min-width: 1050px) {
    #agenda__blob__orange__bottom,
    #agenda__blob__yellow__bottom {
-   display: none;
+      display: none;
    }
+
+   #students__blob__yellow__bottom,
+   #students__blob__orange__bottom,
+   #students__blob__purple__bottom {
+      display: block;
+   }
+
+   #students__blob__orange__top {
+      width: 551px;
+      height: 541px;
+   }
+
+   #students__blob__yellow__top {
+      width: 296px;
+      height: 271px;
+   }
+
   }
