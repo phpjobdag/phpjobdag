@@ -52,3 +52,18 @@ $lang['agendap3'] = 'Interview sessie ';
 $lang['agendap4'] = 'U zult de mogelijkheid krijgen iedere student te interviewen voor 15 minuten. (Erg leuk dus)';
 $lang['agendap5'] = 'Feedback ';
 $lang['agendap6'] = 'U krijgt de tijd om de studenten te evalueren en om feedback achter te laten.';
+
+// Course
+$lang['courseTitle'] = 'See the course scope';
+$lang['courseBody1'] = 'Door toedoen van de pandemie vond onze cursus volledig online plaats. Op afstand te werken is een van eerste zaken dat we geleerd hebben. – ';
+$lang['courseBody2'] = 'We hebben behoorlijk veel geleerd de afgelopen maanden, met betrekking tot programmeren. (Wij hebben u afbeeldingen verschaft indien u zich verveeld.) ';
+$lang['courseBody3'] = 'Doorheen de cursus hebben wij veel praktische projecten uitgevoerd, sommigen in groepsverband anderen individueel. We hebben Github gebruikt voor version control, Visual Studio Code en PHPStorm als code editor en Trello voor Scrum Project Management. ';
+
+// Footer
+$lang['footerTitle'] = 'Vul uw gegevens in dan houden wij uw plaats beschikbaar!';
+$lang['footerBody1'] = 'Het evenement zal volledig op afstand plaats vinden.';
+$lang['footerBody2'] = 'Nadat uw registratie goed gekeurd is zullen we u voorzien van een hyperlink en een paswoord om deel te nemen aan het evenement.';
+$lang['footerBody3'] = 'Wij hopen uw spoedig te mogen ontmoeten.';
+$lang['footerThank1'] = 'Dankwoord';
+$lang['footerThank2'] = 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis officia, in quis excepturi pariatur itaque dolorum beatae accusamus tenetur aspernatur tempora nam maxime dolore unde dolorem enim rem quod perferendis.';
+$lang['footerMade'] = 'Deze site werd gemaakt met';
