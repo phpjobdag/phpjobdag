@@ -66,22 +66,22 @@
     <section class="header__counter">
 
         <article class="header__counter__box">
-            <h3 class="header__counter__box__time" id="days">29</h3>
+            <h3 class="header__counter__box__time" id="days"></h3>
             <h3 class="header__counter__box__unit"><?php echo $lang['counter1']; ?></h3>
         </article>
 
         <article class="header__counter__box">
-            <h3 class="header__counter__box__time" id="hours">12</h3>
+            <h3 class="header__counter__box__time" id="hours"></h3>
             <h3 class="header__counter__box__unit"><?php echo $lang['counter2']; ?></h3>
         </article>
 
         <article class="header__counter__box">
-            <h3 class="header__counter__box__time" id="minutes">36</h3>
+            <h3 class="header__counter__box__time" id="minutes"></h3>
             <h3 class="header__counter__box__unit"><?php echo $lang['counter3']; ?></h3>
         </article>
 
         <article class="header__counter__box">
-            <h3 class="header__counter__box__time" id="seconds">54</h3>
+            <h3 class="header__counter__box__time" id="seconds"></h3>
             <h3 class="header__counter__box__unit"><?php echo $lang['counter4']; ?></h3>
         </article>
 
