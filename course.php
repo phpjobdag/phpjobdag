@@ -1,7 +1,8 @@
 <section id="course" class="course">
 
-    <h2 class="course__title">See the course scope</h2>
-    <p class="course__body">Managing to work together from a distance was the first thing we learned. You can throw at us any online challenge and we won't break.</p>
+    <h2 class="course__title"><?php echo $lang['courseTitle']; ?></h2>
+    <p class="course__body"><?php echo $lang['courseBody1']; ?></p>
+    <p class="course__body"><?php echo $lang['courseBody2']; ?></p>
 
     <section class="course__hard">
 
@@ -52,6 +53,8 @@
             </article>
         </section>
     </section>
+
+    <p class="course__body"><?php echo $lang['courseBody3']; ?></p>
 
     <svg id="course__blob__yellow__bottom" viewBox="0 0 1389 1310">
         <path d="M0 0C150.092 79.1279 300.183 158.525 484.801 205.894C669.705 253.263 889.135 268.604 982.158 383.528C1075.18 498.721 1042.08 713.497 1088.88 884.671C1135.39 1055.58 1262.08 1182.61 1388.77 1309.92H0V0Z" fill="#FBAE3C"/>

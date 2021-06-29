@@ -23,7 +23,7 @@
 <?php include 'header.php'; ?>
 <?php include 'students.php'; ?>
 <?php include 'agenda.php'; ?>
-<?php include 'scope.php'; ?>
+<?php include 'course.php'; ?>
 <?php include 'footer.php'; ?>
    
 </body>

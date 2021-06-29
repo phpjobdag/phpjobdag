@@ -52,3 +52,18 @@ $lang['agendap3'] = 'Interview Session';
 $lang['agendap4'] = 'You will get the chance to interview each student for 15 minutes. (Lots of Fun)';
 $lang['agendap5'] = 'Feedback Moment';
 $lang['agendap6'] = 'You get time to evaluate the students and give feedback';
+
+// Course
+$lang['courseTitle'] = 'See the course scope';
+$lang['courseBody1'] = 'Due to the pandemic this course was completely remote. Managing to work together from a distance was the first thing we learned. [You can throw at us any online challenge and we won’t break.]';
+$lang['courseBody2'] = 'There is a whole lot of programming skills we learned the past months. (We put some pictures below in case you get bored.) ';
+$lang['courseBody3'] = 'The course included many hands-on projects some of which involved teamwork others required independent effort. We used Github for version control, Visual Studio Code and PHPStorm as code editor and Trello for Scrum project management. ';
+
+// Footer
+$lang['footerTitle'] = 'Fill in your details and save your spot!';
+$lang['footerBody1'] = 'This event is fully remote.';
+$lang['footerBody2'] = 'After your registration is approved we will provide you a meeting link and the password to the event.';
+$lang['footerBody3'] = 'We are looking forward to hearing  from you.';
+$lang['footerThank1'] = 'Thank you';
+$lang['footerThank2'] = 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis officia, in quis excepturi pariatur itaque dolorum beatae accusamus tenetur aspernatur tempora nam maxime dolore unde dolorem enim rem quod perferendis.';
+$lang['footerMade'] = 'Deze site werd gemaakt met';
