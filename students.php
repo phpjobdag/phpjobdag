@@ -7,7 +7,7 @@
         <img class="students__card__img" src="img/students/mathijs.jpg" alt="profile picture Alexander Decoz">
         <section class="student__card__name__container">
             <h5 class="student__card__name"> Alexander Decoz</h5>
-            <p class="student__card__pitch"> Due to corona virus this course was completely remote. Managing to work together from a distance.</p>
+            <p class="student__card__pitch"><?php echo $lang['Alexander']; ?></p>
             <section class="students__card__social">
                 <a class="students__card__social__item" href=""><img class="students__card__social__item__img" src="img/card__cv.svg" alt="cv icon"></a>
                 <a class="students__card__social__item" href=""><img class="students__card__social__item__img" src="img/card__website.svg" alt="website icon"></a>

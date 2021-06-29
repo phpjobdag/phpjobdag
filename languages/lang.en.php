@@ -1,5 +1,5 @@
 <?php
-/* 
+/*
 ------------------
 Language: English
 ------------------
@@ -28,3 +28,14 @@ $lang['counter2'] = 'Hours';
 $lang['counter3'] = 'Minutes';
 $lang['counter4'] = 'Seconds';
 
+$lang['Alexander'] = 'Due to corona virus this course was completely remote. Managing to work together from a distance.';
+$lang['Anastasya'] = '';
+$lang['Arne'] = '';
+$lang['Burcu'] = '';
+$lang['Daniel'] = '';
+$lang['Erik'] = '';
+$lang['Geert'] = '';
+$lang['Mathijs'] = '';
+$lang['Miguel'] = '';
+$lang['Wouter'] = '';
+$lang['Yves'] = '';
