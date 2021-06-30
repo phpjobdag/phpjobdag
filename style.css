@@ -524,6 +524,8 @@ body {
    line-height: 140%;
    letter-spacing: 0.03em;
    margin: 0px 16px 3rem 16px;
+   position: relative;
+   z-index: 10;
 }
 
 .course__hard,
