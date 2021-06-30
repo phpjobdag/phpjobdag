@@ -169,6 +169,12 @@ body {
 	overflow: hidden;
 }
 
+.fluid2 {
+	width: 100%; 
+	vertical-align: middle; 
+	overflow: hidden;
+}
+
 /* landingpage */
 .landingpage {
    background: #BA6EC6;
@@ -613,12 +619,19 @@ body {
 }
 
 .footer {
-   background: #BA6EC6;
+   /* background: #BA6EC6; */
+   background: linear-gradient(180deg, 
+   #BA6EC6 0%, 
+   #BA6EC6 50%,
+   #001220 55%,
+   #001220 75%);
    position: relative;
 }
 
 .footer__register {
    margin: 0 16px 0 16px;
+   position: relative;
+   z-index: 10;
 
 }
 
@@ -689,8 +702,6 @@ body {
    line-height: 140%;
    letter-spacing: 0.03em;
    margin-bottom: 1rem;
-
-
 }
 
 .footer__register__info__approval {
@@ -857,14 +868,14 @@ body {
 #footer__blob__orange {
    position: absolute;
    right: 0;
-   bottom: 60%;
+   bottom: 45%;
    z-index: 1;
 }
 
 #footer__blob__black {
    position: absolute;
    left: 0;
-   bottom: 0;
+   bottom: 45%;
    z-index: 2;
 }
 
