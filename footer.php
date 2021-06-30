@@ -1,6 +1,7 @@
 <footer id="footer" class="footer">
     <h2 class="footer__title"><?php echo $lang['footerTitle']; ?></h2>
 
+    <div id="footer__wrapper">
     <section id="signup" class="footer__register"> 
         <article class="footer__register__info">
             <h3 class="footer__register__info__title"><?php echo $lang['footerBody1']; ?></h3>
@@ -54,6 +55,33 @@
                 <img  class="footer__info__partners__image" src="img/partners__cevora.svg" alt="logo cevora">
             </article>
         </section>
+
+        <!-- desktopsite geen container -->
+        <article class="footer__info__team no__display">
+                <h6 class="footer__info__team__title">Project Team</h6>
+                <ul class="footer__info__team__list">
+                    <li class="footer__info__team__list__name">Alexander Decoz</li>
+                    <li class="footer__info__team__list__name">Anastasya Ovchar</li>
+                    <li class="footer__info__team__list__name">Arne Sneyers</li>
+                    <li class="footer__info__team__list__name">Burcu Avci</li>
+                    <li class="footer__info__team__list__name">Daniel Paz</li>
+                    <li class="footer__info__team__list__name">Erik Hendriks</li>
+                    <li class="footer__info__team__list__name">Geert Rumen</li>
+                    <li class="footer__info__team__list__name">Mathijs Reykers</li>
+                    <li class="footer__info__team__list__name">Miguel Duarte</li>
+                    <li class="footer__info__team__list__name">Wouter Swerts</li>
+                    <li class="footer__info__team__list__name">Yves Kerkhofs</li>
+                </ul>
+            </article>
+
+        
+
+            <article class="footer__info__partners">
+                <h6 class="footer__info__partners__title">Partners</h6>
+                <img class="footer__info__partners__image" src="img/partners__multimedi.svg" alt="logo multimedi">
+                <img  class="footer__info__partners__image" src="img/partners__cevora.svg" alt="logo cevora">
+            </article>
+
         <article class="footer__info__tools">
             <h6 class="footer__info__tools__title"><?php echo $lang['footerMade']; ?></h6>
             <img class="footer__info__tools__img" src="img/tools__css3.svg" alt="css3 logo">
@@ -78,10 +106,6 @@
     </section>
     
     <div class="fluid2">
-        <!-- <svg id="footer__blob__black" viewBox="0 0 1506 2911">
-        <path d="M490.138 150.393C305.408 123.547 152.549 61.7737 0 0V687V702.459V2911H1506V702.459V687H1501.82C1478.94 602.824 1453.91 518.71 1391.51 433.57C1325.29 343.364 1217.3 252.002 1054.54 210.579C958.794 186.08 844.131 178.878 728.224 171.598C647.473 166.526 566.119 161.416 490.138 150.393Z" fill="#001220"/>
-        </svg> -->
-
         <svg id="footer__blob__black" viewBox="0 0 1440 687">
             <path d="M-16 0C136.549 61.7737 289.408 123.547 474.138 150.393C659.178 177.239 876.089 169.012 1038.54 210.579C1201.3 252.002 1309.29 343.364 1375.51 433.57C1441.73 523.922 1465.86 613.118 1490 702.459H-16V0Z" fill="#001220"/>
         </svg>
@@ -91,6 +115,6 @@
         <svg id="footer__blob__orange" viewBox="0 0 943 746">
         <path d="M1.5775e-05 745.832C37.07 658.331 74.1401 570.829 111.405 473.214C148.67 375.445 186.326 267.409 278.025 218.371C369.725 169.333 515.859 179.141 636.824 152.63C757.594 125.966 853.586 62.9828 949.578 0L949.578 745.833L1.5775e-05 745.832Z" fill="#E1685E"/>
         </svg>
+    </div> -->
     </div>
-    <!-- <p id="footer__blob__black">GJDLHJ</p> -->
 </footer>
