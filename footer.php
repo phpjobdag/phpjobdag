@@ -1,12 +1,12 @@
 <footer id="footer" class="footer">
-    <h2 class="footer__title">Save your spot</h2>
+    <h2 class="footer__title"><?php echo $lang['footerTitle']; ?></h2>
 
     <section id="signup" class="footer__register"> 
         <article class="footer__register__info">
-            <h3 class="footer__register__info__title">Fill in your details and save your spot!</h3>
-            <p class="footer__register__info__location">This event is fully remote.</br>
+            <h3 class="footer__register__info__title"><?php echo $lang['footerBody1']; ?></h3>
+            <p class="footer__register__info__location"><?php echo $lang['footerBody2']; ?></br>
             Date: 26 August 2021</p>
-            <p class="footer__register__info__approval">After your registration is approved we will provide you with a meeting link and the password to the event.</p>
+            <p class="footer__register__info__approval"><?php echo $lang['footerBody3']; ?></p>
         </article>
          <form class="footer__register__form" action="" method="post">
             <!-- <label class="footer__register__form__label" for="name">Your Name</label> -->
@@ -24,8 +24,8 @@
 
     <section class="footer__info">
         <article class="footer__info__thx">
-            <h6 class="footer__info__thx__title">Dankwoord</h6>
-            <p class="footer__info__thx__body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis officia, in quis excepturi pariatur itaque dolorum beatae accusamus tenetur aspernatur tempora nam maxime dolore unde dolorem enim rem quod perferendis.</p>
+            <h6 class="footer__info__thx__title"><?php echo $lang['footerThank1']; ?></h6>
+            <p class="footer__info__thx__body"><?php echo $lang['footerThank2']; ?></p>
         </article>
 
         <section class="footer__info__team__partnerts__container">
@@ -55,7 +55,7 @@
             </article>
         </section>
         <article class="footer__info__tools">
-            <h6 class="footer__info__tools__title">Deze site werd gemaakt met</h6>
+            <h6 class="footer__info__tools__title"><?php echo $lang['footerMade']; ?></h6>
             <img class="footer__info__tools__img" src="img/tools__css3.svg" alt="css3 logo">
             <img class="footer__info__tools__img" src="img/tools__html5.svg" alt="html5 logo">
             <img class="footer__info__tools__img" src="img/tools__js.svg" alt="js logo">
