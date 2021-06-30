@@ -32,15 +32,15 @@ $lang['counter4'] = 'Seconden';
 $lang['studentTitle'] = 'Wie zijn we?';
 $lang['Alexander'] = 'Door to corona virus this course was completely remote. Managing to work together from a distance.';
 $lang['Anastasya'] = '';
-$lang['Arne'] = '';
+$lang['Arne'] = 'Ontwikkelaar op zoek naar mogelijkheden om mezelf te ontwikkelen.';
 $lang['Burcu'] = '';
 $lang['Daniel'] = '';
-$lang['Erik'] = '';
+$lang['Erik'] = 'Goede kennis van programmeer talen, zoals PHP, Python, Javascript, SQL, java, CSS, HTML';
 $lang['Geert'] = '';
-$lang['Mathijs'] = '';
+$lang['Mathijs'] = 'Aspirered full stack developer die voor eender welke uitdaging openstaat.';
 $lang['Miguel'] = '';
-$lang['Wouter'] = '';
-$lang['Yves'] = '';
+$lang['Wouter'] = 'Wouter heeft na 12jaar retail besloten om terug te keren naar zijn passie als webontwikkelaar. ';
+$lang['Yves'] = 'A bachelor in communication management upscaling his webdeveloping skills… Ready to rumble!';
 
 // Agenda
 $lang['agendaTitle'] = 'CHECK OUT THE AGENDA';
