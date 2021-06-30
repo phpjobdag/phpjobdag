@@ -38,7 +38,7 @@ $lang['Daniel'] = '';
 $lang['Erik'] = 'Good knowledge of numerous programming languages PHP, Python, Javascript, SQL, java, CSS, HTML';
 $lang['Geert'] = 'New in this fascinating world of development. But every expert was once a beginner.';
 $lang['Mathijs'] = 'Aspiring full stack developer open for any challenge you throw at him.';
-$lang['Miguel'] = '';
+$lang['Miguel'] = 'Young, ambitious and passionate about web development';
 $lang['Wouter'] = 'Wouter decided after 12 years of retail to go back to his passion as a webdeveloper.';
 $lang['Yves'] = 'A bachelor in communication management upscaling his webdeveloping skills… Ready to rumble!';
 
