@@ -13,7 +13,7 @@
     </section>
 
     <section class="agenda__block"> 
-        <p class="agenda__block__time">9.30-12</p>
+        <p class="agenda__block__time">9.30-12.00</p>
         <div class="agenda__block__info">
             <p><?php echo $lang['agendap3']; ?></p>
             <p class="agenda__block__info__lower"><?php echo $lang['agendap4']; ?></p>
@@ -21,7 +21,7 @@
     </section>
 
     <section class="agenda__block">
-        <p class="agenda__block__time">12-12.30</p>
+        <p class="agenda__block__time">12.00-12.30</p>
         <div class="agenda__block__info">
             <p><?php echo $lang['agendap5']; ?></p>
             <p class="agenda__block__info__lower"><?php echo $lang['agendap6']; ?></p>

@@ -341,8 +341,8 @@ body {
 
 .header__counter__box {
    box-sizing: border-box;
-   width: 60px;
-   height: 60px;
+   width: 70px;
+   height: 70px;
    border: 1px solid white;
    display: flex;
    flex-direction: column;
@@ -377,8 +377,8 @@ body {
 .course__title,
 .footer__title,
 .students__title {
-   padding-top: 2rem;
-   padding-bottom: 2rem;
+   
+   padding: 2rem 1rem 3rem 1rem;
    background: #001220CC;
    font-size: 1.25rem;
    line-height: 1.465rem;
@@ -439,6 +439,7 @@ body {
    flex-direction: column;
    box-sizing: border-box;
    padding: 0px 10px 0px 10px;
+   font-size: 1rem;
 
 
 
@@ -465,6 +466,7 @@ body {
    letter-spacing: 0.03em;
    margin-top: 1rem;
    line-height: 140%;
+   font-size: 0.9rem;
 
 }
 
@@ -940,4 +942,56 @@ body {
    bottom: 0;
    z-index: 3;
    display: none;
+}
+
+/* mediaquery */
+@media only screen and (min-width: 1000px) {
+   body{
+     
+   }
+  .landingpage{
+
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+
+  }
+
+  .header__section{
+     width:1080px;
+  }
+ }
+
+ .header__counter{
+    width:973px;
+    align-self: flex-end;
+ }
+
+ 
+element.style {
+}
+.header__counter {
+    width: 973px;
+    align-self: flex-end;
+    height:131px;
+}
+.header__counter{
+   justify-content: center;
+   gap:45px;
+}
+
+.header__counter__box{
+      width:84px;
+      height:84px;
+}
+
+.students__card {
+   display: flex !important;
+   width:499px;
+   height:250px;
+}
+.students__card__img{
+   width:50%;
+   height:100%;
 }
