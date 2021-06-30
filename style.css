@@ -862,7 +862,7 @@ body {
 #footer__blob__black {
    position: absolute;
    left: 0;
-   bottom: 62%;
+   bottom: 0;
    z-index: 2;
 }
 
@@ -991,5 +991,4 @@ body {
       width: 296px;
       height: 271px;
    }
-
   }
