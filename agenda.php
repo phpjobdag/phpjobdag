@@ -1,6 +1,7 @@
 <section id="agenda" class="agenda">
-
     <h2 class="agenda__title"><?php echo $lang['agendaTitle']; ?></h2>
+     <div id ="agenda__wrapper">
+   
     <p class="agenda__description"><?php echo $lang['agendaDes1']; ?></p>
     <p class="agenda__description"><?php echo $lang['agendaDes2']; ?></p>
 
@@ -12,11 +13,11 @@
         </div>
     </section>
 
-    <section class="agenda__block"> 
-        <p class="agenda__block__time">9.30-12.00</p>
-        <div class="agenda__block__info">
+    <section class="agenda__block middleBlock" > 
+        <p class="agenda__block__time middleBlock">9.30-12.00</p>
+        <div class="agenda__block__info middleBlock" >
             <p><?php echo $lang['agendap3']; ?></p>
-            <p class="agenda__block__info__lower"><?php echo $lang['agendap4']; ?></p>
+            <p class="agenda__block__info__lower "><?php echo $lang['agendap4']; ?></p>
        </div>      
     </section>
 
@@ -39,5 +40,5 @@
     <svg id="agenda__blob__yellow__bottom" viewBox="0 0 238 180">
     <path d="M0 0C16.501 19.0876 33.1775 38.1752 60.0355 39.6333C86.8935 41.2239 124.284 25.3176 139.556 34.1986C154.653 43.2122 147.807 77.0131 149.035 97.4262C150.44 117.839 159.744 124.732 175.893 136.132C191.868 147.399 214.688 163.305 237.333 179.211H0V0Z" fill="#FBAE3C"/>
     </svg>
-
+    </div>
 </section>
