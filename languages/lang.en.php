@@ -39,7 +39,7 @@ $lang['Erik'] = 'Good knowledge of numerous programming languages PHP, Python, J
 $lang['Geert'] = '';
 $lang['Mathijs'] = '';
 $lang['Miguel'] = '';
-$lang['Wouter'] = '';
+$lang['Wouter'] = 'Wouter decided after 12 years of retail to go back to his passion as a webdeveloper.';
 $lang['Yves'] = '';
 
 // Agenda
