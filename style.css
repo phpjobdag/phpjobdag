@@ -378,7 +378,7 @@ body {
 .footer__title,
 .students__title {
    
-   padding: 2rem 1rem 3rem 1rem;
+   padding: 2rem 0rem 3rem 0rem;
    background: #001220CC;
    font-size: 1.25rem;
    line-height: 1.465rem;
@@ -949,7 +949,7 @@ body {
 }
 
 /* mediaquery */
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 1080px) {
    body{
      
    }
