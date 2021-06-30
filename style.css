@@ -983,12 +983,15 @@ body {
    display: none;
 }
 
-@media (min-width: 1050px) {
+@media (min-width: 820px) {
    #agenda__blob__orange__bottom,
    #agenda__blob__yellow__bottom {
       display: none;
    }
+}
 
+
+@media (min-width: 1050px) {
    #students__blob__yellow__bottom,
    #students__blob__orange__bottom,
    #students__blob__purple__bottom {
