@@ -28,8 +28,8 @@
         </div>
     </section>
 
-    <div class="svg-container">
-        <svg id="agenda__blob__orange__top" viewBox="0 0 1440 845" preserveAspectRatio="xMinYMin meet">
+    <div class="fluid">
+        <svg id="agenda__blob__orange__top" viewBox="0 0 1440 845">
         <path d="M0 845C106.409 755 213.95 665 387.148 658.125C560.345 650.625 801.464 725.625 899.949 683.75C997.302 641.25 953.153 481.875 961.077 385.625C970.133 289.375 1030.13 256.875 1134.27 203.125C1237.29 150 1384.45 75 1530.48 0H0V845Z" fill="#E1685E"/>
         </svg>
     </div>
