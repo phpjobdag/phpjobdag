@@ -40,7 +40,7 @@ $lang['Geert'] = '';
 $lang['Mathijs'] = '';
 $lang['Miguel'] = '';
 $lang['Wouter'] = 'Wouter decided after 12 years of retail to go back to his passion as a webdeveloper.';
-$lang['Yves'] = '';
+$lang['Yves'] = 'A bachelor in communication management upscaling his webdeveloping skills… Ready to rumble!';
 
 // Agenda
 $lang['agendaTitle'] = 'CHECK OUT THE AGENDA';
