@@ -393,7 +393,7 @@ body {
 }
 
 .agenda__description {
-   font-weight: 300;
+   font-weight: 400;
    font-size: 1rem;
    line-height: 140%;
    letter-spacing: 0.03em;
@@ -409,7 +409,7 @@ body {
    height: 168px;
    flex-basis: 50%;
    flex: 1 1 0px;
-   justify-content: space-between;
+   justify-content: space-evenly;
 }
 
 .agenda__block__time {
@@ -464,7 +464,7 @@ body {
 }
 
 .agenda__block__info__lower {
-   font-weight: 300;
+   font-weight: 400;
    letter-spacing: 0.03em;
    margin-top: 1rem;
    line-height: 140%;
@@ -503,7 +503,7 @@ body {
 
 .course__body {
    font-style: normal;
-   font-weight: 300;
+   font-weight: 400;
    font-size: 1rem;
    line-height: 140%;
    letter-spacing: 0.03em;
@@ -653,7 +653,7 @@ body {
 }
 
 .footer__register__info__title {
-   font-weight: 300;
+   font-weight: 400;
    font-size: 28px;
    line-height: 33px;
    color: #FFFFFF;
@@ -672,7 +672,7 @@ body {
 }
 
 .footer__register__info__approval {
-   font-weight: 300;
+   font-weight: 350;
    font-size: 1rem;
    line-height: 140%;
    letter-spacing: 0.03em;
@@ -696,7 +696,7 @@ body {
 }
 
 .footer__info__thx__body {
-   font-weight: 300;
+   font-weight: 400;
    font-size: 16px;
    line-height: 140%;
    letter-spacing: 0.03em;
@@ -734,7 +734,7 @@ body {
 }
 
 .footer__info__team__list__name {
-   font-weight: 300;
+   font-weight: 400;
    font-size: 20px;
    line-height: 28px;
    color: #FFFFFF;
@@ -885,7 +885,7 @@ body {
 }
 
 .student__card__pitch {
-   font-weight: 300;
+   font-weight: 400;
    font-size: 16px;
    line-height: 140%;
    color: white;
@@ -973,10 +973,10 @@ body {
   .landingpage{
       box-sizing: border-box;
       display: flex;
-      justify-content: center;
       flex-direction: column;
       align-items: center;
       padding-bottom: 12rem;
+      height: 100vh;
       
 
   }
@@ -984,21 +984,17 @@ body {
   .header__section{
      width:1080px;
      margin-top: 8rem;
-  }.header__counter{
-    width:973px;
-    align-self: flex-end;
- }
-
-
+  }
+  
+  
    .header__counter {
-      width: 973px;
+      width: 67.5%;
       align-self: flex-end;
       height:131px;
-   }
-   .header__counter{
       justify-content: center;
-      gap:45px;
+       gap:45px;
    }
+   
 
    .header__counter__box{
          width:84px;
