@@ -15,9 +15,9 @@
 
     <section class="agenda__block middleBlock" > 
         <p class="agenda__block__time middleBlock">9.30-12.00</p>
-        <div class="agenda__block__info middleBlock" >
+        <div class="agenda__block__info__middle middleBlock" >
             <p><?php echo $lang['agendap3']; ?></p>
-            <p class="agenda__block__info__lower "><?php echo $lang['agendap4']; ?></p>
+            <p class="agenda__block__info__lower " id="middleArrow"><?php echo $lang['agendap4']; ?></p>
        </div>      
     </section>
 

@@ -427,7 +427,7 @@ body {
 
 }
 
-.agenda__block__info {
+.agenda__block__info,.agenda__block__info__middle {
    position: relative;
    width: 168px;
    background: #FFFFFF;
@@ -447,7 +447,7 @@ body {
 
 }
 
-.agenda__block__info::after {
+.agenda__block__info::after,.agenda__block__info__middle::after {
 
    position: absolute;
    content: "";
@@ -461,6 +461,21 @@ body {
    background: white;
    transform: matrix(-0.71, -0.53, -0.94, 0.71, 0, 0);
 
+}
+
+.agenda__block__info__middle::after{
+   
+   position: absolute;
+   content: "";
+   color: turquoise;
+   width: 28.13px;
+   height: 28.13px;
+   bottom: 74px;
+   right: 152px;
+   z-index: -1;
+   overflow: hidden;
+   background: white;
+   transform: matrix(-0.71, -0.53, -0.94, 0.71, 0, 0);
 }
 
 .agenda__block__info__lower {
@@ -881,6 +896,8 @@ body {
    line-height: 108%;
    color: white;
    margin: 0.8rem 1rem 0 1rem;
+   height:60px;
+  
 
 }
 
@@ -889,7 +906,8 @@ body {
    font-size: 16px;
    line-height: 140%;
    color: white;
-   margin: 0.8rem 1rem 0 1rem;
+   margin: 0.8rem 1rem 0 1rem; 
+   height:88px;
 }
 
 .student__card__name__container {
@@ -902,6 +920,8 @@ body {
    flex-direction: row;
    gap: 1rem;
    margin: 0.8rem 16px auto 16px;
+   height:40px;
+   align-items: center;
 }
 
 /* Blob nog te bewerken: */
@@ -977,6 +997,7 @@ body {
       align-items: center;
       padding-bottom: 12rem;
       height: 100vh;
+      justify-content: center;
       
 
   }
@@ -993,6 +1014,7 @@ body {
       height:131px;
       justify-content: center;
        gap:45px;
+       min-height: 131px;
    }
    
 
@@ -1068,7 +1090,7 @@ body {
    .agenda__description{
       width:100%;
    }
-   .agenda__block__info{
+   .agenda__block__info,.agenda__block__info__middle{
       height: 200px;
        width: 235px;
    }
@@ -1206,6 +1228,12 @@ body {
 
    }
 
+   .header{
+      max-height:81px;
+      position:absolute;
+      top:0px;
+   }
+
    .header__section__subtitle{
        width:80%;
        font-size: 28px;
@@ -1218,7 +1246,22 @@ body {
    }
 
    .course__hard__front__img, .course__hard__back__img, .course__hard__edit__img, .course__hard__control__img, .course__soft__agile__img, .course__soft__remote__img {
-      max-width: 80px;
-      max-height: 80px;
-}
+         max-width: 80px;
+         max-height: 80px;
+   }
+   .footer__title{
+      margin-bottom: 8rem;
+   }
+
+   .agenda__block__info::after{
+      bottom:-10px;
+      right:102px;
+   }
+
+   .agenda__block__info__middle::after{
+      right:220px;
+      bottom:-10px;
+   }
+      
+  
 }
