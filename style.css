@@ -998,6 +998,7 @@ body {
       padding-bottom: 12rem;
       height: 100vh;
       justify-content: center;
+      min-height:800px;
       
 
   }
@@ -1256,7 +1257,7 @@ body {
 }
 
 
-   }
+   
 
    .header{
       max-height:81px;
