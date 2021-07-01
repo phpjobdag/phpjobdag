@@ -1218,13 +1218,43 @@ body {
    align-items: flex-end;
    border-bottom: none;
    }
-   #footer__wrapper{
-      justify-content: flex-start;
-   }
+#footer__wrapper{
+   justify-content: flex-start;
+}
+.header__section__info{
+   font-size: 2.25rem;
+}
+.header__section__title {
+   font-size: 5.75rem;
+}
 
-   .header__section__title{
-      font-size: 92px;
-      line-height: 108px;
+.header__section__subtitle {
+   font-size: 1.75rem;
+   width: 680px;
+}
+.agenda__description{
+   font-size: 1.25rem;
+}
+.agenda__block__time{
+   font-size: 1.75rem;
+   text-align: center;
+   vertical-align: middle;
+   line-height: 70px;
+}
+
+.course__body {
+   font-size: 1.25rem;
+}
+
+.course__hard__front__title, 
+.course__hard__back__title, 
+.course__hard__edit__title,
+.course__hard__control__title,
+.course__soft__agile__title,
+.course__soft__remote__title {
+   font-size: 1.25rem;
+}
+
 
    }
 
