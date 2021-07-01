@@ -31,16 +31,16 @@ $lang['counter4'] = 'Seconds';
 // Students
 $lang['studentTitle'] = 'Who are we?';
 $lang['Alexander'] = 'Due to corona virus this course was completely remote. Managing to work together from a distance.';
-$lang['Anastasya'] = '';
-$lang['Arne'] = '';
+$lang['Anastasya'] = 'Small full stack developer with big ambition to become an expert in her field.';
+$lang['Arne'] = 'Developer looking for opportunities to develop myself.';
 $lang['Burcu'] = '';
 $lang['Daniel'] = '';
-$lang['Erik'] = '';
-$lang['Geert'] = '';
-$lang['Mathijs'] = '';
-$lang['Miguel'] = '';
-$lang['Wouter'] = '';
-$lang['Yves'] = '';
+$lang['Erik'] = 'Good knowledge of numerous programming languages PHP, Python, Javascript, SQL, java, CSS, HTML';
+$lang['Geert'] = 'New in this fascinating world of development. But every expert was once a beginner.';
+$lang['Mathijs'] = 'Aspiring full stack developer open for any challenge you throw at him.';
+$lang['Miguel'] = 'Young, ambitious and passionate about web development';
+$lang['Wouter'] = 'Wouter decided after 12 years of retail to go back to his passion as a webdeveloper.';
+$lang['Yves'] = 'A bachelor in communication management upscaling his webdeveloping skills… Ready to rumble!';
 
 // Agenda
 $lang['agendaTitle'] = 'CHECK OUT THE AGENDA';
