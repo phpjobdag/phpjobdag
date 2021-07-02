@@ -32,7 +32,7 @@
     <article class="students__card">
         <img class="students__card__img" src="arne.jpg" alt="profile picture Arne Sneyers">
         <section class="student__card__name__container">
-            <h5 class="student__card__name">Arne Sneyers</h5>
+            <h5 class="student__card__name">Arne </br> Sneyers</h5>
             <p class="student__card__pitch"><?php echo $lang['Arne']; ?></p>
             <section class="students__card__social">
                 <a class="students__card__social__item" href=""><img class="students__card__social__item__img" src="img/card__cv.svg" alt="cv icon"></a>

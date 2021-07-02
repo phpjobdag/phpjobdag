@@ -17,7 +17,7 @@
                 <img class="course__hard__front__img" src="img/skills__css3.svg" alt="css3 logo">
                 <img class="course__hard__front__img" src="img/skills__js.svg" alt="js logo">
                 <img class="course__hard__front__img" src="img/skills__bootstrap.svg" alt="bootstrap logo">
-                <img class="course__hard__front__img" src="img/skills__angular.svg" alt="angular logo">
+                
             </article>
 
             <article class="course__hard__back">
@@ -25,6 +25,7 @@
                 <img class="course__hard__back__img" src="img/skills__php.svg" alt="">
                 <img class="course__hard__back__img" src="img/skills__mysql.svg" alt="">
                 <img class="course__hard__back__img" src="img/skills__laravel.svg" alt="">
+                <img class="course__hard__front__img" src="img/skills__angular.svg" alt="angular logo">
             </article>
         </section>
         <section class="course__hard__edit__control">
