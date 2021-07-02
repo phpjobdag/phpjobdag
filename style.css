@@ -1085,7 +1085,7 @@ body {
 
    }
 
-   #agenda__wrapper,#course__wrapper,#footer__wrapper{
+   #agenda__wrapper,#course__wrapper,#footer__wrapper,.student__wrapper{
       width:1080px;
      justify-content: center;
       flex-direction: row;
@@ -1498,5 +1498,50 @@ body {
 	#footer__wrapper {
 		justify-content: flex-start;
 	}
+   .header__mobile{
+      display: none;
+   }
+   .header__nav{
+   display:block;
+   height:100%;
 
+   }
+
+   .header__nav__list{
+   display: flex;
+   justify-content: flex-end;
+   gap: 40px;
+   align-items: center;
+      height:100%;
+   list-style: none;
+   margin-right: 12%;
+
+   }
+   .header__nav__list a{
+      text-decoration: none; 
+      font-size:1.25rem;
+      color: white;
+   }
+   .header__nav__lang{
+   display:flex;
+   gap: 15px;
+   list-style: none;
+
+   }
+   
+   .header__mobile__dropdown,.header__mobile__dropdown__link,#header__mobile_dropdown__languages{
+         display:none;
+   }
+   #nl, #eng{
+      display:block;
+     margin:0px;
+   }
+   #eng{
+      color: #ba6ec6 !important;
+    text-decoration: none;
+    
+   }
+
+   .student__wrapper{
+      gap:2rem;}
 }

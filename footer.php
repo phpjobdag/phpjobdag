@@ -76,7 +76,7 @@
 
         
 
-            <article class="footer__info__partners">
+            <article class="footer__info__partners no__display">
                 <h6 class="footer__info__partners__title">Partners</h6>
                 <img class="footer__info__partners__image" src="img/partners__multimedi.svg" alt="logo multimedi">
                 <img  class="footer__info__partners__image" src="img/partners__cevora.svg" alt="logo cevora">

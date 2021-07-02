@@ -1,6 +1,7 @@
 <section id="students" class="students">
 
     <h2 class="students__title"><?php echo $lang['studentTitle']; ?></h2>
+    <div class="student__wrapper">
     <h3 class="students__quote">“Measuring programming progress by lines of code is like measuring aircraft building progress by weight.” - Bill Gates</h3>
 
     <article class="students__card">
@@ -165,5 +166,5 @@
     <svg id="students__blob__yellow__bottom" viewBox="0 0 502 449">
     <path d="M-12.2946 0.653809C23.3937 48.3357 59.4617 96.0175 117.55 99.6599C175.638 103.633 256.507 63.8985 289.537 86.0838C322.188 108.6 307.381 193.037 310.039 244.03C313.076 295.023 333.198 312.242 368.127 340.718C402.677 368.864 452.033 408.599 501.009 448.334H-12.2946V0.653809Z" fill="#FBAE3C"/>
     </svg>
-
+    </div>
 </section>
