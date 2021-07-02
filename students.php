@@ -1,7 +1,7 @@
 <section id="students" class="students">
 
     <h2 class="students__title"><?php echo $lang['studentTitle']; ?></h2>
-    <h3 class="students__quote">Quote: “Measuring programming progress by lines of code is like measuring aircraft building progress by weight.” - Bill Gates</h3>
+    <h3 class="students__quote">“Measuring programming progress by lines of code is like measuring aircraft building progress by weight.” - Bill Gates</h3>
 
     <article class="students__card">
         <img class="students__card__img" src="img/students/mathijs.jpg" alt="profile picture Alexander Decoz">
