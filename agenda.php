@@ -4,6 +4,7 @@
    
     <p class="agenda__description"><?php echo $lang['agendaDes1']; ?></p>
     <p class="agenda__description"><?php echo $lang['agendaDes2']; ?></p>
+    <p class="agenda__description"><?php echo $lang['agendaDes3']; ?></p>
 
     <section class="agenda__block margin2">
         <p class="agenda__block__time" >9.00-9.30</p>
