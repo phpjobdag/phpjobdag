@@ -946,7 +946,49 @@ body {
 	display: none;
 }
 
+@media only screen and (min-width: 700px) {
+#agenda__wrapper{
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   flex-direction: column;
+   gap: 25px;;
+  
+}
 
+.agenda__block{
+   flex-direction: column;
+   width: 237px;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column-reverse;
+   gap: 2rem;
+   height: 301px;
+   margin: 0;
+   align-self: center;
+}
+
+.agenda__block__info,.agenda__block__info__middle{
+   height:200px;
+   width: 400px;
+   
+
+}
+
+.agenda__block__info::after{
+   bottom:-10px;
+   right:180px;
+}
+
+.agenda__block__info__middle::after{
+   right:180px;
+   bottom:-10px;
+}
+
+.agenda__block__time{
+   width: 400px;
+}
+}
  
 
 /* mediaquery */
