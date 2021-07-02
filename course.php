@@ -17,6 +17,7 @@
                 <img class="course__hard__front__img" src="img/skills__css3.svg" alt="css3 logo">
                 <img class="course__hard__front__img" src="img/skills__js.svg" alt="js logo">
                 <img class="course__hard__front__img" src="img/skills__bootstrap.svg" alt="bootstrap logo">
+                <img class="course__hard__front__img" src="img/skills__angular.svg" alt="angular logo">
             </article>
 
             <article class="course__hard__back">
