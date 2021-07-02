@@ -31,7 +31,7 @@ $lang['counter4'] = 'Seconds';
 // Students
 $lang['studentTitle'] = 'Who are we?';
 $lang['Alexander'] = 'Due to corona virus this course was completely remote. Managing to work together from a distance.';
-$lang['Anastasya'] = '';
+$lang['Anastasya'] = 'Small full stack developer with big ambition to become an expert in her field.';
 $lang['Arne'] = 'Developer looking for opportunities to develop myself.';
 $lang['Burcu'] = '';
 $lang['Daniel'] = '';
