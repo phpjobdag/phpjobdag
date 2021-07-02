@@ -147,6 +147,13 @@ body {
 	margin-bottom: 0rem !important;
 }
 
+/*om blobs responsive te maken*/
+.fluid2 {
+	width: 100%; 
+	vertical-align: middle; 
+	overflow: hidden;
+}
+
 /* landingpage */
 .landingpage {
 	background: #ba6ec6;
@@ -370,36 +377,42 @@ body {
 .course__title,
 .footer__title,
 .students__title {
-	padding: 2rem 0rem 3rem 0rem;
-	background: #001220cc;
-	font-size: 1.25rem;
-	line-height: 1.465rem;
-	letter-spacing: 0.125em;
-	color: rgba(255, 255, 255, 0.8);
-	font-weight: bold;
-	text-align: center;
-	opacity: 80%;
-	margin-bottom: 3rem;
+   padding: 2rem 0rem 3rem 0rem;
+   background: #001220CC;
+   font-size: 1.25rem;
+   line-height: 1.465rem;
+   letter-spacing: 0.125em;
+   color: rgba(255, 255, 255, 0.8);
+   font-weight: bold;
+   text-align: center;
+   opacity: 80%;
+   margin-bottom: 3rem;
+   position: relative;
+   z-index: 10;
 }
 
 .agenda__description {
-	font-weight: 300;
-	font-size: 1rem;
-	line-height: 140%;
-	letter-spacing: 0.03em;
-	margin-bottom: 1rem;
-	margin-left: 1rem;
-	margin-right: 1rem;
+   font-weight: 300;
+   font-size: 1rem;
+   line-height: 140%;
+   letter-spacing: 0.03em;
+   margin-bottom: 1rem;
+   margin-left: 1rem;
+   margin-right: 1rem;
+   position: relative;
+   z-index: 10;
 }
 
 .agenda__block {
-	margin: 1rem 1rem 0rem 1rem;
-	display: flex;
-	flex-direction: row;
-	height: 168px;
-	flex-basis: 50%;
-	flex: 1 1 0px;
-	justify-content: space-between;
+   margin: 1rem 1rem 0rem 1rem;
+   display: flex;
+   flex-direction: row;
+   height: 168px;
+   flex-basis: 50%;
+   flex: 1 1 0px;
+   justify-content: space-between;
+   position: relative;
+   z-index: 10;
 }
 
 .agenda__block__time {
@@ -454,26 +467,29 @@ body {
 	font-size: 0.9rem;
 }
 
-/*blobs nog te bewerken*/
 #agenda__blob__orange__top {
-	position: absolute;
-	left: 0;
-	top: 0;
-	z-index: -1;
+   position: absolute;
+   left: 0;
+   top: 0;
+   z-index: 1;
 }
 
 #agenda__blob__orange__bottom {
-	position: absolute;
-	left: 0;
-	bottom: 0;
-	z-index: -1;
+   position: absolute;
+   left: 0;
+   bottom: 0;
+   z-index: 1;
+   width: 460px;
+   height: 350px;
 }
 
 #agenda__blob__yellow__bottom {
-	position: absolute;
-	left: 0;
-	bottom: 0;
-	z-index: -2;
+   position: absolute;
+   left: 0;
+   bottom: 0;
+   z-index: 2;
+   width: 390px;
+   height: 160px;
 }
 
 /* coursescope */
@@ -484,20 +500,24 @@ body {
 }
 
 .course__body {
-	font-style: normal;
-	font-weight: 300;
-	font-size: 1rem;
-	line-height: 140%;
-	letter-spacing: 0.03em;
-	margin: 0px 16px 3rem 16px;
+   font-style: normal;
+   font-weight: 300;
+   font-size: 1rem;
+   line-height: 140%;
+   letter-spacing: 0.03em;
+   margin: 0px 16px 3rem 16px;
+   position: relative;
+   z-index: 10;
 }
 
 .course__hard,
 .course__soft {
-	background: linear-gradient(180deg, #001220 0%, rgba(0, 18, 32, 0.65) 100%);
-	margin: 0 1rem 2rem 1rem;
-	padding: 1rem;
-	border-radius: 20px;
+   background: linear-gradient(180deg, #001220 0%, rgba(0, 18, 32, 0.65) 100%);
+   margin: 0 1rem 2rem 1rem;
+   padding: 1rem;
+   border-radius: 20px;
+   position: relative;
+   z-index: 10;
 }
 
 .course__hard__title,
@@ -564,21 +584,26 @@ body {
 	flex-direction: row;
 }
 
-/* nog te bewerken */
 #course__blob__yellow__bottom {
-	position: absolute;
-	left: 0;
-	bottom: 0;
-	z-index: -1;
+   position: absolute;
+   left: 0;
+   bottom: 0;
+   z-index: 1;
 }
 
 .footer {
-	background: #ba6ec6;
-	position: relative;
+   background: linear-gradient(180deg, 
+   #BA6EC6 0%, 
+   #BA6EC6 45%,
+   #001220 50%,
+   #001220 75%);
+   position: relative;
 }
 
 .footer__register {
-	margin: 0 16px 0 16px;
+   margin: 0 16px 0 16px;
+   position: relative;
+   z-index: 10;
 }
 
 .footer__register__form {
@@ -658,7 +683,9 @@ body {
 }
 
 .footer__info {
-	margin: 4rem 16px 4rem 16px;
+   margin: 4rem 16px 4rem 16px;
+   position: relative;
+   z-index: 10;
 }
 
 .footer__info__thx__title {
@@ -674,12 +701,13 @@ body {
 }
 
 .footer__info__thx__body {
-	font-weight: 300;
-	font-size: 16px;
-	line-height: 140%;
-	letter-spacing: 0.03em;
-	color: #ffffff;
-	margin-bottom: 4rem;
+   font-weight: 300;
+   font-size: 16px;
+   line-height: 140%;
+   letter-spacing: 0.03em;
+   color: #FFFFFF;
+   margin-bottom: 4rem;
+   width: 95%;
 }
 
 .footer__info__team__partnerts__container {
@@ -757,8 +785,10 @@ body {
 }
 
 .footer__lang {
-	padding: 0px 16px 16px 16px;
-	border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+   padding: 0px 16px 16px 16px;
+   border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+   position: relative;
+   z-index: 10;
 }
 
 .footer__lang__lang {
@@ -785,10 +815,12 @@ body {
 }
 
 .footer__copyright {
-	display: flex;
-	flex-direction: row;
-	margin: 1rem 16px 0px 16px;
-	padding-bottom: 3rem;
+   display: flex;
+   flex-direction: row;
+   margin: 1rem 16px 0px 16px;
+   padding-bottom: 3rem;
+   position: relative;
+   z-index: 10;
 }
 
 .footer__copyright__text {
@@ -801,18 +833,18 @@ body {
 	color: white;
 }
 
-#footer__blob__black {
-	position: absolute;
-	left: 0;
-	bottom: 0;
-	z-index: -1;
+#footer__blob__orange {
+   position: absolute;
+   right: 0;
+   bottom: 50%;
+   z-index: 1;
 }
 
-#footer__blob__orange {
-	position: absolute;
-	right: 0;
-	bottom: 0;
-	z-index: -2;
+#footer__blob__black {
+   position: absolute;
+   left: 0;
+   bottom: 50%;
+   z-index: 2;
 }
 
 /* students */
@@ -824,19 +856,23 @@ body {
 }
 
 .students__quote {
-	color: white;
-	margin-left: 1rem;
-	margin-right: 1rem;
-	margin-bottom: 4rem;
+   color: white;
+   margin-left: 1rem;
+   margin-right: 1rem;
+   margin-bottom: 4rem;
+   position: relative;
+   z-index: 10;
 }
 
 .students__card {
-	width: 254px;
-	margin: 0 auto;
-	box-sizing: border-box;
-	height: 489px;
-	border: 7px solid #fbae3c;
-	display: none;
+   width: 254px;
+   margin: 0 auto;
+   box-sizing: border-box;
+   height: 489px;
+   border: 7px solid #FBAE3C;
+   display: none;
+   position: relative;
+   z-index: 10;
 }
 
 .students__card:nth-of-type(1) {
@@ -875,19 +911,20 @@ body {
 	margin: 0.8rem 16px auto 16px;
 }
 
-/* Blob nog te bewerken: */
 #students__blob__orange__top {
-	position: absolute;
-	right: 0;
-	top: 0;
-	z-index: -1;
+   position: absolute;
+   right: 0;
+   top: 0;
+   z-index: 1;
+   width: 50%;
 }
 
 #students__blob__yellow__top {
-	position: absolute;
-	right: 0;
-	top: 0;
-	z-index: -2;
+   position: absolute;
+   right: 0;
+   top: 0;
+   z-index: 2;
+   width: 50%;
 }
 
 #students__blob__purple__bottom {
@@ -914,233 +951,305 @@ body {
 	display: none;
 }
 
-.no__display {
-	display: none;
+/* mediaquery */
+@media only screen and (min-width: 820px) {
+   #agenda__blob__orange__bottom,
+   #agenda__blob__yellow__bottom {
+      display: none;
+   }
 }
 
-/* mediaquery */
+@media only screen and (min-width: 1050px) {
+   #students__blob__orange__top {
+      width: 551px;
+      height: 541px;
+   }
+
+   #students__blob__yellow__top {
+      width: 296px;
+      height: 271px;
+   }
+  }
+.no__display{
+   display:none;
+}
+
 @media only screen and (min-width: 1080px) {
-	body {
-	}
-	.landingpage {
-		display: flex;
-		justify-content: center;
-		flex-direction: column;
-		align-items: center;
-	}
 
-	.header__section {
-		width: 1080px;
-	}
-	.header__counter {
-		width: 973px;
-		align-self: flex-end;
-	}
+   body{
+     
+   }
+  .landingpage{
 
-	.header__counter {
-		width: 973px;
-		align-self: flex-end;
-		height: 131px;
-	}
-	.header__counter {
-		justify-content: center;
-		gap: 45px;
-	}
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
 
-	.header__counter__box {
-		width: 84px;
-		height: 84px;
-	}
+  }
 
-	.students__card {
-		display: flex !important;
-		width: 499px;
-		height: 250px;
-		margin: 0;
-		flex-direction: row;
-	}
-	.students__card__img {
-		width: 50%;
-		height: 100%;
-	}
+  .header__section{
+     width:1080px;
+  }.header__counter{
+    width:973px;
+    align-self: flex-end;
+ }
 
-	.students {
-		display: flex;
-		flex-direction: row;
-		flex-wrap: wrap;
-		justify-content: center;
-		align-items: flex-end;
-		gap: 2rem;
-	}
-	.student__card__name__container {
-		width: 50%;
-	}
 
-	.students__title {
-		width: 100%;
-	}
+   .header__counter {
+      width: 973px;
+      align-self: flex-end;
+      height:131px;
+   }
+   .header__counter{
+      justify-content: center;
+      gap:45px;
+   }
 
-	.agenda__title,
-	.course__title,
-	.footer__title,
-	.students__title {
-		font-size: 2.25rem;
-		line-height: 2.5rem;
-	}
-	.students__quote {
-		width: 100%;
-		text-align: center;
-		font-size: 1.75rem;
-	}
+   .header__counter__box{
+         width:84px;
+         height:84px;
+   }
 
-	.agenda__block {
-		flex-direction: column;
-		width: 237px;
-		justify-content: center;
-		align-items: center;
-		flex-direction: column-reverse;
-		gap: 2rem;
-		height: 301px;
-		margin: 0;
-	}
+   .students__card {
+      display: flex!important;
+      width:499px;
+      height:250px;
+      margin:0;
+      flex-direction: row;
+   }
+   .students__card__img{
+      width:50%;
+      height:100%;
+   }
+ 
+   .students {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: flex-end;
+      gap:2rem;
+   }
+   .student__card__name__container{
+      width:50%;
+   }
 
-	.agenda {
-		display: flex;
-		flex-direction: row;
-		flex-wrap: wrap;
-		justify-content: center;
-	}
+   .students__title{
+      width:100%;
+   }
 
-	.agenda__title {
-		width: 100%;
-	}
+   .agenda__title, .course__title, .footer__title, .students__title{
+      font-size:2.25rem;
+      line-height: 2.5rem;
+   }
+   .students__quote{
+      width:100%;
+      text-align: center;
+      font-size:1.75rem;
+   }
 
-	.agenda__description {
-		width: 100%;
-	}
-	.agenda__block__info {
-		height: 200px;
-		width: 235px;
-	}
+   .agenda__block {
+      flex-direction: column;
+      width: 237px;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column-reverse;
+      gap:2rem;
+      height: 301px;
+      margin:0;
+     
 
-	.agenda__block__time {
-		height: 69px;
-		width: 235px;
-	}
-	.middleBlock {
-		width: 500px;
-	}
+   }
 
-	#agenda__wrapper,
-	#course__wrapper,
-	#footer__wrapper {
-		width: 1080px;
-		justify-content: center;
-		flex-direction: row;
-		flex-wrap: wrap;
-		display: flex;
-	}
+   .agenda{
+      display:flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
 
-	.course {
-		justify-content: center;
-		align-items: center;
-		display: flex;
-		flex-direction: column;
-	}
+   }
 
-	.course__title {
-		width: 100%;
-	}
+   .agenda__title{
+      width:100%;
 
-	.course__soft {
-		box-sizing: border-box;
-		width: 500px;
-		height: 664px;
-		margin: 0;
-	}
-	.course__hard {
-		box-sizing: border-box;
-		width: 500px;
-		height: 1140px;
-		margin: 0;
-		margin-right: 2rem;
-	}
+   }
 
-	.footer__title {
-		width: 100%;
-	}
+   .agenda__description{
+      width:100%;
+   }
+   .agenda__block__info{
+      height: 200px;
+       width: 235px;
+   }
 
-	.footer {
-		justify-content: center;
-		align-items: center;
-		display: flex;
-		flex-direction: column;
-	}
+   .agenda__block__time{
+   height:69px;
+   width: 235px;
+   }
+   .middleBlock{
+      width:500px;
 
-	.footer__register__info {
-		width: 50%;
-	}
+   }
 
-	.footer__register__form {
-		width: 50%;
-	}
+   #agenda__wrapper,#course__wrapper,#footer__wrapper{
+      width:1080px;
+     justify-content: center;
+      flex-direction: row;
+      flex-wrap: wrap;
+      display: flex;
+   }
 
-	#signup {
-		width: 100%;
-		display: flex;
-		flex-direction: row-reverse;
-		gap: 2rem;
-	}
+   .course{
+      justify-content: center;
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+   }
 
-	.footer__info__team__partnerts__container {
-		display: none;
-	}
-	.no__display {
-		display: block;
-	}
+   .course__title{
+      width:100%;
+   }
 
-	.footer__info {
-		width: 807px;
-		margin-right: 2rem;
-		display: grid;
-		grid-template-columns: 1fr 1fr 1fr;
-		height: 330px;
-		font-size: 1rem;
-	}
-	.footer__info__team {
-		grid-column: 1 / 2;
-		grid-row: 1/5;
-		font-size: 1rem;
-	}
+   .course__soft {
+      box-sizing: border-box;
+      width: 500px;
+      height:664px;
+      margin:0;
+   }
+   .course__hard{
+      box-sizing: border-box;
+      width: 500px;
+      height:1140px;
+      margin:0;
+      margin-right: 2rem;
+   }
 
-	.footer__info__thx {
-		grid-column: 2/4;
-		grid-row: 1/4;
-		font-size: 1rem;
-		height: 230px;
-	}
+   .footer__title{
+      width:100%;
 
-	.footer__info__partners {
-		grid-column: 2/3;
-		grid-row: 4/5;
-		font-size: 1rem;
-	}
+   }
+   
+   .footer{
+      justify-content: center;
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      background: linear-gradient(180deg, 
+      #BA6EC6 0%, 
+      #BA6EC6 70%,
+      #001220 75%);
+      position: relative;
+   }
 
-	.footer__info__tools {
-		grid-column: 3/4;
-		grid-row: 4/5;
-		font-size: 1rem;
-	}
+   .footer__register__info{
+      width:50%;
+   }
 
-	.footer__info__team__list__name {
-		font-size: 1rem;
-	}
-	.footer__lang {
-		display: flex;
-		align-items: flex-end;
-		border-bottom: none;
-	}
-	#footer__wrapper {
-		justify-content: flex-start;
-	}
+   .footer__register__form{
+      width:50%;
+   }
+
+   #signup{
+      width:100%;
+      display: flex;
+      flex-direction: row-reverse;
+      gap:2rem;
+      
+   }
+
+   .footer__info__team__partnerts__container{
+      display: none;
+   }
+   .no__display{
+      display:block;
+   }
+
+   .footer__info{
+      width:807px;
+      margin-right:2rem;
+      display:grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      height:330px;
+      font-size:1rem;
+   }
+   .footer__info__team {
+      grid-column: 1 / 2 ;
+      grid-row: 1/5;
+      font-size:1rem;
+   }
+
+   .footer__info__thx{
+      grid-column:2/4;
+      grid-row: 1/4;
+      font-size:1rem;
+   height:230px;
+   }
+
+   .footer__info__partners{
+      grid-column:2/3;
+      grid-row: 4/5;
+      font-size:1rem;
+   }
+
+   .footer__info__tools{
+      grid-column: 3/4;
+      grid-row: 4/5;
+      font-size:1rem;
+   }
+
+   .footer__info__team__list__name{
+      font-size:1rem;
+   }
+   .footer__lang{
+   display: flex;
+   align-items: flex-end;
+   border-bottom: none;
+      }
+   #footer__wrapper{
+      justify-content: flex-start;
+   }
+
+   #footer__blob__orange {
+      bottom: 12%;
+      width: 943px;
+      height: 746px;
+   }
+
+   #footer__blob__black {
+      bottom: 12%;
+   }
+
+   #agenda__blob__orange__top {
+      width: 1440px;
+      height: 845px;
+   }
+
+   #students__blob__yellow__bottom,
+   #students__blob__orange__bottom,
+   #students__blob__purple__bottom {
+      display: block;
+      width: 150%;
+   }
+}
+
+@media only screen and (min-width: 1580px) {
+   #footer__blob__orange {
+      bottom: 8%;
+   }
+   
+   #footer__blob__black {
+      bottom: 0%;
+   }
+
+   #course__blob__yellow__bottom {
+      width: 1389px;
+      height: 1310px;
+   }
+
+   #students__blob__yellow__bottom,
+   #students__blob__orange__bottom,
+   #students__blob__purple__bottom {
+   width: 100%;
+   }
 }
