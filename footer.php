@@ -18,7 +18,7 @@
             <input class="footer__register__form__input" type="tel" id="telephone" placeholder="Your digits" required>
             <!-- <label class="footer__register__form__label" for="email">Email</label> -->
             <input class="footer__register__form__input" type="email" id="email" placeholder="email" required>
-            <input class="footer__register__form__submit" type="submit" value="register">
+            <input class="footer__register__form__submit" type="submit" value="Registreer">
         </form>
        
     </section>

@@ -480,7 +480,7 @@ body{
 
 .footer__register__form__input {
    height: 48px;
-   width: 100%;
+   width: 98%;
    box-sizing: border-box;
    border: 2px solid #FFFFFF;
    border-radius: 4px;
@@ -518,7 +518,7 @@ body{
 	line-height: 21px;
 	color: white;
 	border: 0px solid white;
-	margin-bottom: 8rem;
+	margin-bottom: 1rem;
 }
 
 .footer__register__info__title {
@@ -547,7 +547,7 @@ body{
 }
 
 .footer__info {
-	margin: 4rem 16px 4rem 16px;
+	margin: 1rem 16px 4rem 16px;
 }
 
 .footer__info__thx__title {
@@ -592,12 +592,12 @@ body{
 	letter-spacing: 0.08em;
 	font-variant: small-caps;
 	color: #ffffff;
-	margin-bottom: 1rem;
+	margin-bottom: 2rem;
 }
 
 .footer__info__partners__image {
 	margin-bottom: 2rem;
-	width: 75%;
+	width: 50%;
 }
 
 .footer__info__team__list__name {
@@ -861,6 +861,32 @@ body{
 
 .agenda__block__time{
    width: 400px;
+}
+.course__hard {
+   
+   margin-right: 1rem;
+}
+.course__hard, .course__soft{
+   margin: 2rem;
+}
+
+.course__hard__front__title, 
+	.course__hard__back__title, 
+	.course__hard__edit__title,
+	.course__hard__control__title,
+	.course__soft__agile__title,
+	.course__soft__remote__title {
+		font-size: 1.25rem;
+	}
+
+.footer__info__thx__title{
+   margin-top: 2rem;
+}
+
+.footer__info__thx__title,
+.footer__info__team__title,
+.footer__info__partners__title{
+   font-size: 1.25rem;
 }
 }
  
@@ -1206,6 +1232,9 @@ body{
 		font-size: 1rem;
 		height: 230px;
 	}
+   .footer__info__thx__title{
+      margin-top: 0rem;
+   }
 
 	.footer__info__team__partnerts__container {
 		display: none;
@@ -1232,6 +1261,10 @@ body{
 		align-items: flex-end;
 		border-bottom: none;
 	}
+
+   .footer__register__info__location, .footer__register__info__approval{
+      font-size: 20px;
+   }
 	
 /* algemene styling */
 
@@ -1258,6 +1291,28 @@ body{
       flex-wrap: wrap;
       display: flex;
    }
+
+   /* .footer__register__form__submit{
+      box-sizing: border-box;
+      width: 170px;
+      height: 70px;
+      color: black;
+      background-color: white;
+      display: flex;
+      border-radius: 36px;
+      border: 3px solid #fbae3c;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      font-size: 1.75rem;
+      line-height: 2.063rem;
+      font-weight: bold;
+      text-decoration: none;
+      margin-left: 1rem;
+      margin-bottom: 3rem;
+      margin-top: 3rem;
+
+   } */
 
 	::-webkit-scrollbar {
       width: 10px;
