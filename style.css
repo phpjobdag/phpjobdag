@@ -990,9 +990,12 @@ body {
 .agenda__block__time{
    width: 400px;
 }
-
-.course__hard{
+.course__hard {
+   
    margin-right: 1rem;
+}
+.course__hard, .course__soft{
+   margin: 2rem;
 }
 
 .course__hard__front__title, 
