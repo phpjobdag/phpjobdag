@@ -403,6 +403,7 @@ body {
    flex-basis: 50%;
    flex: 1 1 0px;
    justify-content: space-evenly;
+	
 }
 
 .agenda__block__time {
@@ -432,7 +433,8 @@ body {
    flex-direction: column;
    box-sizing: border-box;
    padding: 0px 10px 0px 10px;
-   font-size: 1rem;
+	text-align: center;
+  
 
 
 
@@ -946,7 +948,7 @@ body {
 	display: none;
 }
 
-@media only screen and (min-width: 700px) {
+@media only screen and (min-width: 700px)and (max-width: 1079px)  {
 #agenda__wrapper{
    display: flex;
    justify-content: center;
@@ -1032,9 +1034,10 @@ body {
 	}
 
 	.header{
-      max-height:81px;
+      max-height:85px;
       position:absolute;
       top:0px;
+		height:85px;
    }
 
 
@@ -1126,6 +1129,7 @@ body {
       justify-content: center;
       align-items: flex-end;
       gap:2rem;
+		padding-bottom: 12rem;
    }
 	.student__wrapper{
       gap:2rem;
@@ -1182,6 +1186,7 @@ body {
 
 	.agenda__title {
 		width: 100%;
+		margin-bottom: 8rem;
 	}
 
 	.agenda__block {
@@ -1193,6 +1198,8 @@ body {
 		gap: 2rem;
 		height: 301px;
 		margin: 0;
+		margin-top:4rem;
+		margin-bottom: 12rem;
 	}
 
 	.agenda__block__info {
@@ -1229,7 +1236,7 @@ body {
  
    .agenda__block__info,.agenda__block__info__middle{
       height: 200px;
-       width: 235px;
+       
    }
 
 	
@@ -1450,20 +1457,19 @@ body {
       background: #555;
      
     }
- 
-
-   
-  
-
-
-
-
-
-  
-  
-   
-
-   
-
 	
+}
+
+/* mobile klein scherm */
+@media only screen and  (max-width: 400px)  {
+
+	.header__counter {
+		gap:8px;
+		padding-right: 8px;
+	}
+
+	.agenda__block__time{
+		width:55px;
+		height: auto;
+	}
 }
