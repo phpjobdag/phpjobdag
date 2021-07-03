@@ -9,146 +9,6 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
-/* default classes gevonden in styleguide */
-.Title {
-	font-weight: bold;
-	font-size: 5.75rem;
-	letter-spacing: -2%;
-}
-
-body {
-   min-width: 335px;
-   overflow: overlay;
-  
-}
-
-.Header1 {
-	font-weight: bold;
-	font-size: 4.25rem;
-	letter-spacing: -2%;
-}
-
-.Header2 {
-	font-weight: bold;
-	size: 3.25rem;
-	letter-spacing: -2%;
-}
-
-.Header3 {
-	font-weight: bold;
-	size: 2.25rem;
-	line-height: -2%;
-}
-
-.SectionTitle {
-	font-weight: bold;
-	size: 2.25rem;
-	letter-spacing: 12.5%;
-}
-
-.Subtitle {
-	font-weight: normal;
-	font-size: 1.75rem;
-	line-height: 0%;
-}
-
-.SubtitleBold {
-	font-weight: bold;
-	font-size: 1.75rem;
-	line-height: 0%;
-}
-
-.SubtitleLight {
-	font-weight: lighter;
-	font-size: 1.75rem;
-	line-height: 0%;
-}
-
-.CourseScopeTitle {
-	font-weight: bold;
-	font-size: 1.75rem;
-	letter-spacing: 12.5%;
-}
-
-.bodyLarge {
-	font-weight: normal;
-	font-size: 1.25rem;
-}
-
-.bodyLargeBold {
-	font-weight: bold;
-	font-size: 1.25rem;
-}
-
-.bodyLargeLight {
-	font-weight: lighter;
-	font-size: 1.25rem;
-}
-
-.SectionTitleSmall {
-	font-weight: bold;
-	font-size: 1.25rem;
-	letter-spacing: 12.5%;
-}
-
-.LinkLarge {
-	font-weight: bold;
-	font-size: 1.25rem;
-	text-decoration: underline;
-}
-
-.ButtonTextLarge {
-	font-weight: bold;
-	font-size: 1.25rem;
-	letter-spacing: 4%;
-}
-
-.ButtonText {
-	font-weight: bold;
-	font-size: 1rem;
-	letter-spacing: 4%;
-}
-
-.Body {
-	font-weight: lighter;
-	line-height: 140%;
-	font-size: 1rem;
-}
-
-.BodyBold {
-	font-weight: bold;
-	font-size: 1rem;
-	line-height: 140px;
-}
-
-.Link {
-	font-weight: bold;
-	font-size: 1rem;
-}
-
-.MobileNavLink {
-	font-weight: bold;
-	font-size: 1rem;
-}
-
-.Pre-Title {
-	font-weight: normal;
-	font-size: 0.75rem;
-}
-
-.Small {
-	font-weight: normal;
-	font-size: 0.75rem;
-}
-
-.margin2 {
-	margin-top: 2rem;
-}
-
-.margBot0 {
-	margin-bottom: 0rem !important;
-}
-
 /* landingpage */
 .landingpage {
 	background: #ba6ec6;
@@ -524,6 +384,8 @@ body {
 	margin: 0 1rem 2rem 1rem;
 	padding: 1rem;
 	border-radius: 20px;
+	max-width: 500px;
+	
 }
 
 .course__hard__title,
@@ -598,6 +460,7 @@ body {
 	z-index: -1;
 }
 
+/* footer mobile */
 .footer {
 	background: #ba6ec6;
 	position: relative;
@@ -948,6 +811,13 @@ body {
 	display: none;
 }
 
+.margin2 {
+	margin-top: 2rem;
+}
+
+.margBot0 {
+	margin-bottom: 0rem !important;
+}
 @media only screen and (min-width: 700px)and (max-width: 1079px)  {
 #agenda__wrapper{
    display: flex;
