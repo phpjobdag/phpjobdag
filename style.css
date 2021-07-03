@@ -994,26 +994,11 @@ body {
 /* mediaquery */
 @media only screen and (min-width: 1080px) {
 
-   ::-webkit-scrollbar {
-      width: 10px;
-      
-    }
-    
-    ::-webkit-scrollbar-thumb {
-      background: rgba(90, 90, 90);
-    }
-    
-    ::-webkit-scrollbar-track {
-      background: rgba(0, 0, 0, 0);
-    }
-    
-    /* Handle on hover */
-    ::-webkit-scrollbar-thumb:hover {
-      background: #555;
-     
-    }
-  .landingpage{
-      box-sizing: border-box;
+  
+
+	/* header desktop */
+.landingpage {
+		box-sizing: border-box;
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -1021,44 +1006,97 @@ body {
       height: 100vh;
       justify-content: center;
       min-height:800px;
-      
+	}
 
-  }
+	.header{
+      max-height:81px;
+      position:absolute;
+      top:0px;
+   }
 
-  .header__section{
-     width:1080px;
-     margin-top: 8rem;
-  }
-  
-  
-   .header__counter {
-      width: 67.5%;
+
+	.header__counter {
+		width: 67.5%;
       align-self: flex-end;
       height:131px;
       justify-content: center;
        gap:45px;
        min-height: 131px;
-   }
-   
+	}
+
+	.header__counter__box {
+		width: 84px;
+		height: 84px;
+	}
 
    .header__counter__box{
          width:84px;
          height:84px;
    }
 
-   .students__card {
-      display: flex!important;
-      width:499px;
-      height:250px;
-      margin:0;
-      flex-direction: row;
+	.header__mobile{
+      display: none;
    }
-   .students__card__img{
-      width:50%;
+   .header__nav{
+   display:block;
+   height:100%;
+
+   }
+	
+   .header__nav__list{
+   display: flex;
+   justify-content: flex-end;
+   gap: 40px;
+   align-items: center;
       height:100%;
+   list-style: none;
+   margin-right: 12%;
+
    }
- 
-   .students {
+   .header__nav__list a{
+      text-decoration: none; 
+      font-size:1.25rem;
+      color: white;
+   }
+   .header__nav__lang{
+   display:flex;
+   gap: 15px;
+   list-style: none;
+
+   }
+
+  .header__section{
+     width:1080px;
+     margin-top: 8rem;
+  }
+
+  .header__section__info{
+		font-size: 2.25rem;
+	}
+	.header__section__title {
+		font-size: 5.75rem;
+	}
+
+   .header__section__subtitle{
+       line-height: 33px;
+       font-style: normal;
+       font-weight: 400;
+		 font-size: 1.75rem;
+		 width: 680px;
+   }
+
+	#nl, #eng{
+      display:block;
+     margin:0px;
+   }
+   #eng{
+      color: #ba6ec6 !important;
+    text-decoration: none;
+    
+   }
+
+	/* student desktop */ 
+	  .students {
       display: flex;
       flex-direction: row;
       flex-wrap: wrap;
@@ -1066,287 +1104,8 @@ body {
       align-items: flex-end;
       gap:2rem;
    }
-   .student__card__name__container{
-      width:50%;
-   }
-
-   .students__title{
-      width:100%;
-   }
-
-   .agenda__title, .course__title, .footer__title, .students__title{
-      font-size:2.25rem;
-      line-height: 2.5rem;
-   }
-   .students__quote{
-      width:100%;
-      text-align: center;
-      font-size:1.75rem;
-   }
-
-   .agenda__block {
-      flex-direction: column;
-      width: 237px;
-      justify-content: center;
-      align-items: center;
-      flex-direction: column-reverse;
+	.student__wrapper{
       gap:2rem;
-      height: 301px;
-      margin:0;
-     
-
-   }
-
-   .agenda{
-      display:flex;
-      flex-direction: row;
-      flex-wrap: wrap;
-      justify-content: center;
-
-   }
-
-   .agenda__title{
-      width:100%;
-
-   }
-
-   .agenda__description{
-      width:100%;
-   }
-   .agenda__block__info,.agenda__block__info__middle{
-      height: 200px;
-       width: 235px;
-   }
-
-   .agenda__block__time{
-   height:69px;
-   width: 235px;
-   }
-   .middleBlock{
-      width:500px;
-
-   }
-
-   #agenda__wrapper,#course__wrapper,#footer__wrapper,.student__wrapper{
-      width:1080px;
-     justify-content: center;
-      flex-direction: row;
-      flex-wrap: wrap;
-      display: flex;
-   }
-
-   .course{
-      justify-content: center;
-      align-items: center;
-      display: flex;
-      flex-direction: column;
-   }
-
-   .course__title{
-      width:100%;
-   }
-
-   .course__soft {
-      box-sizing: border-box;
-      width: 500px;
-      height:664px;
-      margin:0;
-   }
-   .course__hard{
-      box-sizing: border-box;
-      width: 500px;
-      height:1140px;
-      margin:0;
-      margin-right: 2rem;
-   }
-
-   .footer__title{
-      width:100%;
-      margin-left:15%;
-      margin-right: 15%;;
-
-   }
-   
-   .footer{
-      justify-content: center;
-      align-items: center;
-      display: flex;
-      flex-direction: column;
-   }
-
-   .footer__register__info{
-      width:50%;
-   }
-
-   .footer__register__form{
-      width:50%;
-   }
-
-   #signup{
-      width:100%;
-      display: flex;
-      flex-direction: row-reverse;
-      gap:2rem;
-      margin-bottom: 4rem;
-      
-   }
-
-   .footer__info__team__partnerts__container{
-      display: none;
-   }
-   .no__display{
-      display:block;
-   }
-
-   .footer__info{
-      width:807px;
-      margin-right:2rem;
-      display:grid;
-      grid-template-columns: 1fr 1fr 1fr;
-      height:330px;
-      font-size:1rem;
-   }
-   .footer__info__team {
-      grid-column: 1 / 2 ;
-      grid-row: 1/5;
-      font-size:1rem;
-      height:330px;
-   }
-
-   .footer__info__thx{
-      grid-column:2/4;
-      grid-row: 1/4;
-      font-size:1rem;
-   height:230px;
-   }
-
-   .footer__info__partners{
-      grid-column:2/3;
-      grid-row: 4/5;
-      font-size:1rem;
-      height:100px;
-   }
-
-   .footer__info__tools{
-      grid-column: 3/4;
-      grid-row: 4/5;
-      font-size:1rem;
-   }
-
-   .footer__info__team__list__name{
-      font-size:1rem;
-   }
-   .footer__lang{
-   display: flex;
-   align-items: flex-end;
-   border-bottom: none;
-   }
-#footer__wrapper{
-   justify-content: flex-start;
-}
-.header__section__info{
-   font-size: 2.25rem;
-}
-.header__section__title {
-   font-size: 5.75rem;
-}
-
-.header__section__subtitle {
-   font-size: 1.75rem;
-   width: 680px;
-}
-.agenda__description{
-   font-size: 1.25rem;
-}
-.agenda__block__time{
-   font-size: 1.75rem;
-   text-align: center;
-   vertical-align: middle;
-   line-height: 70px;
-}
-
-.course__body {
-   font-size: 1.25rem;
-}
-
-.course__hard__front__title, 
-.course__hard__back__title, 
-.course__hard__edit__title,
-.course__hard__control__title,
-.course__soft__agile__title,
-.course__soft__remote__title {
-   font-size: 1.25rem;
-}
-
-
-   
-
-   .header{
-      max-height:81px;
-      position:absolute;
-      top:0px;
-   }
-
-   .header__section__subtitle{
-       width:80%;
-       font-size: 28px;
-       line-height: 33px;
-       font-style: normal;
-       font-weight: 400;
-   }
-   .footer__register__form__input {
-      width:449px;
-   }
-
-   .course__hard__front__img, .course__hard__back__img, .course__hard__edit__img, .course__hard__control__img, .course__soft__agile__img, .course__soft__remote__img {
-         max-width: 80px;
-         max-height: 80px;
-   }
-   .footer__title{
-      margin-bottom: 8rem;
-   }
-
-   .agenda__block__info::after{
-      bottom:-10px;
-      right:102px;
-   }
-
-   .agenda__block__info__middle::after{
-      right:220px;
-      bottom:-10px;
-   }
-      
-  
-
-
-	.landingpage {
-		display: flex;
-		justify-content: center;
-		flex-direction: column;
-		align-items: center;
-	}
-
-	.header__section {
-		width: 1080px;
-	}
-	.header__counter {
-		width: 973px;
-		align-self: flex-end;
-	}
-
-	.header__counter {
-		width: 973px;
-		align-self: flex-end;
-		height: 131px;
-	}
-	.header__counter {
-		justify-content: center;
-		gap: 45px;
-	}
-
-	.header__counter__box {
-		width: 84px;
-		height: 84px;
 	}
 
 	.students__card {
@@ -1356,19 +1115,13 @@ body {
 		margin: 0;
 		flex-direction: row;
 	}
+	
 	.students__card__img {
 		width: 50%;
 		height: 100%;
 	}
 
-	.students {
-		display: flex;
-		flex-direction: row;
-		flex-wrap: wrap;
-		justify-content: center;
-		align-items: flex-end;
-		gap: 2rem;
-	}
+
 	.student__card__name__container {
 		width: 50%;
 	}
@@ -1377,17 +1130,35 @@ body {
 		width: 100%;
 	}
 
-	.agenda__title,
-	.course__title,
-	.footer__title,
-	.students__title {
-		font-size: 2.25rem;
-		line-height: 2.5rem;
-	}
+	
 	.students__quote {
 		width: 100%;
 		text-align: center;
 		font-size: 1.75rem;
+	}
+
+   .students__card__img{
+      width:50%;
+      height:100%;
+   }
+ 
+
+   .student__card__name__container{
+      width:50%;
+   }
+
+
+
+	/* agenda desktop */
+	.agenda {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+	.agenda__title {
+		width: 100%;
 	}
 
 	.agenda__block {
@@ -1401,42 +1172,50 @@ body {
 		margin: 0;
 	}
 
-	.agenda {
-		display: flex;
-		flex-direction: row;
-		flex-wrap: wrap;
-		justify-content: center;
-	}
-
-	.agenda__title {
-		width: 100%;
-	}
-
-	.agenda__description {
-		width: 100%;
-	}
 	.agenda__block__info {
 		height: 200px;
 		width: 235px;
 	}
 
+	.agenda__block__info::after{
+      bottom:-10px;
+      right:102px;
+   }
+
+   .agenda__block__info__middle::after{
+      right:220px;
+      bottom:-10px;
+   }
+
 	.agenda__block__time {
 		height: 69px;
 		width: 235px;
+		font-size: 1.75rem;
+		text-align: center;
+		vertical-align: middle;
+		line-height: 70px;
 	}
 	.middleBlock {
 		width: 500px;
 	}
-
-	#agenda__wrapper,
-	#course__wrapper,
-	#footer__wrapper {
-		width: 1080px;
-		justify-content: center;
-		flex-direction: row;
-		flex-wrap: wrap;
-		display: flex;
+	.agenda__description {
+		width: 100%;
+		font-size: 1.25rem;
 	}
+	
+ 
+   .agenda__block__info,.agenda__block__info__middle{
+      height: 200px;
+       width: 235px;
+   }
+
+	
+   
+
+	
+	
+	/* course desktop */
+
 
 	.course {
 		justify-content: center;
@@ -1463,9 +1242,27 @@ body {
 		margin-right: 2rem;
 	}
 
-	.footer__title {
-		width: 100%;
+	.course__hard__front__img, .course__hard__back__img, .course__hard__edit__img, .course__hard__control__img, .course__soft__agile__img, .course__soft__remote__img {
+		max-width: 80px;
+		max-height: 80px;
 	}
+
+	.course__body {
+		font-size: 1.25rem;
+	}
+	
+	.course__hard__front__title, 
+	.course__hard__back__title, 
+	.course__hard__edit__title,
+	.course__hard__control__title,
+	.course__soft__agile__title,
+	.course__soft__remote__title {
+		font-size: 1.25rem;
+	}
+
+
+	/* footer desktop */
+	
 
 	.footer {
 		justify-content: center;
@@ -1474,41 +1271,55 @@ body {
 		flex-direction: column;
 	}
 
+	#footer__wrapper {
+		justify-content: flex-start;
+	}
+
+	.footer__title{
+      width:100%;
+      margin-left:15%;
+      margin-right: 15%;
+		margin-bottom: 8rem;
+
+   } 
+
 	.footer__register__info {
 		width: 50%;
 	}
 
 	.footer__register__form {
 		width: 50%;
-	}
+	} 
+	
+	.footer__register__form__input {
+      width:449px;
+   }
 
-	#signup {
-		width: 100%;
-		display: flex;
-		flex-direction: row-reverse;
-		gap: 2rem;
-	}
+	
+	#signup{
+      width:100%;
+      display: flex;
+      flex-direction: row-reverse;
+      gap:2rem;
+      margin-bottom: 4rem;
+      
+   }
 
-	.footer__info__team__partnerts__container {
-		display: none;
-	}
-	.no__display {
-		display: block;
-	}
+	  .footer__info{
+      width:807px;
+      margin-right:2rem;
+      display:grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      height:330px;
+      font-size:1rem;
+   }
 
-	.footer__info {
-		width: 807px;
-		margin-right: 2rem;
-		display: grid;
-		grid-template-columns: 1fr 1fr 1fr;
-		height: 330px;
-		font-size: 1rem;
-	}
-	.footer__info__team {
-		grid-column: 1 / 2;
-		grid-row: 1/5;
-		font-size: 1rem;
-	}
+   .footer__info__team {
+      grid-column: 1 / 2 ;
+      grid-row: 1/5;
+      font-size:1rem;
+      height:330px;
+   }
 
 	.footer__info__thx {
 		grid-column: 2/4;
@@ -1517,11 +1328,16 @@ body {
 		height: 230px;
 	}
 
-	.footer__info__partners {
-		grid-column: 2/3;
-		grid-row: 4/5;
-		font-size: 1rem;
+	.footer__info__team__partnerts__container {
+		display: none;
 	}
+	
+	.footer__info__partners{
+      grid-column:2/3;
+      grid-row: 4/5;
+      font-size:1rem;
+      height:100px;
+   }
 
 	.footer__info__tools {
 		grid-column: 3/4;
@@ -1537,53 +1353,65 @@ body {
 		align-items: flex-end;
 		border-bottom: none;
 	}
-	#footer__wrapper {
-		justify-content: flex-start;
+	
+/* algemene styling */
+
+  .no__display {
+		display: block;
 	}
-   .header__mobile{
-      display: none;
-   }
-   .header__nav{
-   display:block;
-   height:100%;
 
-   }
-
-   .header__nav__list{
-   display: flex;
-   justify-content: flex-end;
-   gap: 40px;
-   align-items: center;
-      height:100%;
-   list-style: none;
-   margin-right: 12%;
-
-   }
-   .header__nav__list a{
-      text-decoration: none; 
-      font-size:1.25rem;
-      color: white;
-   }
-   .header__nav__lang{
-   display:flex;
-   gap: 15px;
-   list-style: none;
-
-   }
-   
-   .header__mobile__dropdown,.header__mobile__dropdown__link,#header__mobile_dropdown__languages{
+ 	.header__mobile__dropdown,.header__mobile__dropdown__link,#header__mobile_dropdown__languages{
          display:none;
    }
-   #nl, #eng{
-      display:block;
-     margin:0px;
+
+
+	.agenda__title, .course__title, .footer__title, .students__title{
+      font-size:2.25rem;
+      line-height: 2.5rem;
    }
-   #eng{
-      color: #ba6ec6 !important;
-    text-decoration: none;
-    
+   
+
+
+   #agenda__wrapper,#course__wrapper,#footer__wrapper,.student__wrapper{
+      width:1080px;
+     justify-content: center;
+      flex-direction: row;
+      flex-wrap: wrap;
+      display: flex;
    }
 
-   .student__wrapper{
-      gap:2rem;}
+	::-webkit-scrollbar {
+      width: 10px;
+      
+    }
+    
+    ::-webkit-scrollbar-thumb {
+      background: rgba(90, 90, 90);
+    }
+    
+    ::-webkit-scrollbar-track {
+      background: rgba(0, 0, 0, 0);
+    }
+    
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+      background: #555;
+     
+    }
+ 
+
+   
+  
+
+
+
+
+
+  
+  
+   
+
+   
+
+	
 }
