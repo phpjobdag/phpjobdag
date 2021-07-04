@@ -52,7 +52,7 @@
             <article class="remote-working">
                 <h6 class="course__soft__remote__title">Remote Working</h6>
                 <img class="course__soft__remote__img" src="img/skills__zoom.svg" alt="zoom logo">
-                <img class="course__soft__remote__img" src="img/skills__slack.svg" alt="slack logo">
+                <img class="course__soft__remote__img slack" src="img/skills__slack.svg" alt="slack logo">
                 <img class="course__soft__remote__img" src="img/skills__discord.svg" alt="discord logo">
             </article>
         </section>

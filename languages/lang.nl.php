@@ -62,10 +62,10 @@ $lang['courseBody2'] = 'De afgelopen maanden hebben wij veel kennis en vaardighe
 $lang['courseBody3'] = 'Doorheen de cursus hebben wij <b>GitHub</b> en <b>GitLab</b> gebruikt voor versiebeheer, <b>Visual Studio Code</b> en <b>PHPStorm</b> als code editors en voor Agile Project Management hebben we <b>Trello</b> gebruikt. '; // Waarom staat deze informatie onder de kaders Hard-skills en softskills? //
 
 // Footer
-$lang['footerTitle'] = 'Vul uw gegevens in en reserveer uw plaats!';
+$lang['footerTitle'] = 'VUL UW GEGEVENS IN EN RESERVEER UW PLAATS!';
 $lang['footerBody1'] = 'Het evenement zal volledig op afstand plaats vinden.';
 $lang['footerBody2'] = 'Nadat uw registratie goedgekeurd is voorzien wij u van een link en een paswoord om deel te nemen aan het evenement.';
-$lang['footerBody3'] = 'Wij hopen uw spoedig te mogen ontmoeten.';
+$lang['footerBody3'] = 'Wij hopen u spoedig te mogen ontmoeten.';
 $lang['footerThank1'] = 'Dankwoord';
 $lang['footerThank2'] = 'Wij zouden graag een woord van dank richten aan onze lesgevers. Zij hebben ons de afgelopen maanden de nodige kennis en vaardigheden bijgebracht. Zij zijn medeverantwoordelijk voor onze omvorming tot ontwikkelaars. Bij deze Tim, Sarah, Anke en Yannick. Dank jullie wel!';
 $lang['footerMade'] = 'Deze site werd gemaakt met:';
