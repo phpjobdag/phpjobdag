@@ -4,21 +4,22 @@
     <div id="footer__wrapper">
     <section id="signup" class="footer__register"> 
         <article class="footer__register__info">
-            <h3 class="footer__register__info__title"><?php echo $lang['footerBody1']; ?></h3>
-            <p class="footer__register__info__location"><?php echo $lang['footerBody2']; ?></br>
-            Date: 26 August 2021</p>
-            <p class="footer__register__info__approval"><?php echo $lang['footerBody3']; ?></p>
+            <h3 class="footer__register__info__title"><?php echo $lang['footerSubtitle']; ?></h3>
+            <p class="footer__register__info__location"><?php echo $lang['footerBody1']; ?></br>
+            <?php echo $lang['footerBody2']; ?></p>
+            <p class="footer__register__info__approval"><?php echo $lang['footerBody3']; ?></br>
+            <?php echo $lang['footerBody4']; ?></p>
         </article>
          <form class="footer__register__form" action="" method="post">
             <!-- <label class="footer__register__form__label" for="name">Your Name</label> -->
-            <input class="footer__register__form__input" type="text" id="name" placeholder="Your Name" required>
+            <input class="footer__register__form__input" type="text" id="name" placeholder="<?php echo $lang['formName']; ?>" required>
             <!-- <label class="footer__register__form__label" for="company-name">Company name</label> -->
-            <input class="footer__register__form__input" type="text" id="company-name" placeholder="Company name" required>
+            <input class="footer__register__form__input" type="text" id="company-name" placeholder="<?php echo $lang['formCompany']; ?>" required>
             <!-- <label class="footer__register__form__label" for="telephone">Your digits</label> -->
-            <input class="footer__register__form__input" type="tel" id="telephone" placeholder="Your digits" required>
+            <input class="footer__register__form__input" type="tel" id="telephone" placeholder="<?php echo $lang['formTelephone']; ?>" required>
             <!-- <label class="footer__register__form__label" for="email">Email</label> -->
-            <input class="footer__register__form__input" type="email" id="email" placeholder="email" required>
-            <input class="footer__register__form__submit" type="submit" value="Registreer">
+            <input class="footer__register__form__input" type="email" id="email" placeholder="<?php echo $lang['formMail']; ?>" required>
+            <input class="footer__register__form__submit" type="submit" value="<?php echo $lang['formSubmit']; ?>">
         </form>
        
     </section>
