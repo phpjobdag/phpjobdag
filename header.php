@@ -16,7 +16,7 @@
                 </li>
 
                 <li class="header__nav__list__item">
-                    <a href="#course"><?php echo $lang['mav3']; ?></a>
+                    <a href="#course"><?php echo $lang['nav3']; ?></a>
                 </li>
 
                 <ul class="header__nav__lang">
