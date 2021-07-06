@@ -39,7 +39,7 @@
             <article class="course__hard__control">
                 <h6 class="course__hard__control__title">Version Control</h6>
                 <img class="course__hard__control__img" src="img/skills__github.svg" alt="github logo">
-                <img class="course__hard__control__img" src="img/skills__gitlab.svg.svg" alt="github logo">
+                <img class="course__hard__control__img" src="img/skills__gitlab.svg" alt="gitlab logo">
             </article>
         </section>
     </section>
