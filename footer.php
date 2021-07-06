@@ -18,7 +18,7 @@
             <input class="footer__register__form__input" type="tel" id="telephone" placeholder="Your digits" required>
             <!-- <label class="footer__register__form__label" for="email">Email</label> -->
             <input class="footer__register__form__input" type="email" id="email" placeholder="email" required>
-            <input class="footer__register__form__submit" type="submit" value="register">
+            <input class="footer__register__form__submit" type="submit" value="Registreer">
         </form>
        
     </section>
@@ -76,7 +76,7 @@
 
         
 
-            <article class="footer__info__partners">
+            <article class="footer__info__partners no__display">
                 <h6 class="footer__info__partners__title">Partners</h6>
                 <img class="footer__info__partners__image" src="img/partners__multimedi.svg" alt="logo multimedi">
                 <img  class="footer__info__partners__image" src="img/partners__cevora.svg" alt="logo cevora">

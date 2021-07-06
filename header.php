@@ -20,9 +20,10 @@
                 </li>
 
                 <ul class="header__nav__lang">
-                    <li class="header__nav__lang__switch"><a href="?lang=en">EN</a></li>
-                    <li class="header__nav__lang__switch"><a href="?lang=nl">NL</a></li>
+                    <li class="header__nav__lang__switch"><a  id="eng" href="?lang=en">EN</a></li>
+                    <li class="header__nav__lang__switch"><a id="nl" href="?lang=nl">NL</a></li>
                 </ul>
+                <a href="#signup"><input type="button" value=<?php echo $lang['intro2']; ?> class="header__mobile__button "></a>
             </ul>
         </nav>
 

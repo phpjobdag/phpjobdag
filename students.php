@@ -1,7 +1,8 @@
 <section id="students" class="students">
 
     <h2 class="students__title"><?php echo $lang['studentTitle']; ?></h2>
-    <h3 class="students__quote">Quote: “Measuring programming progress by lines of code is like measuring aircraft building progress by weight.” - Bill Gates</h3>
+    <div class="student__wrapper">
+    <h3 class="students__quote">“Measuring programming progress by lines of code is like measuring aircraft building progress by weight.” - Bill Gates</h3>
 
     <article class="students__card">
         <img class="students__card__img" src="img/students/mathijs.jpg" alt="profile picture Alexander Decoz">
@@ -17,112 +18,132 @@
     </article>
 
     <article class="students__card">
-        <img class="students__card__img" src="anastaya.jpg" alt="profile picture Anastasya Ovchar">
-        <h5 class="student__card__name">Anastasya Ovchar</h5>
-        <p class="student__card__pitch"><?php echo $lang['Anastasya']; ?></p>
-        <section class="students__card__social">
-            <a class="students__card__social__item" href=""><img class="students__card__social__item__img" src="img/card__cv.svg" alt="cv icon"></a>
-            <a class="students__card__social__item" href=""><img class="students__card__social__item__img" src="img/card__website.svg" alt="website icon"></a>
-            <a class="students__card__social__item" href=""><img class="students__card__social__item__img" src="img/card__linkedin.svg" alt="linkedin icon"></a>
-        </section>
+        <img class="students__card__img" src="img/students/anastasya.jpg" alt="profile picture Anastasya Ovchar">
+        <section class="student__card__name__container">
+            <h5 class="student__card__name">Anastasya Ovchar</h5>
+            <p class="student__card__pitch"><?php echo $lang['Anastasya']; ?></p>
+            <section class="students__card__social">
+                <a class="students__card__social__item" href=""><img class="students__card__social__item__img" src="img/card__cv.svg" alt="cv icon"></a>
+                <a class="students__card__social__item" href=""><img class="students__card__social__item__img" src="img/card__website.svg" alt="website icon"></a>
+                <a class="students__card__social__item" href=""><img class="students__card__social__item__img" src="img/card__linkedin.svg" alt="linkedin icon"></a>
+            </section>
+        <section class="student__card__name__container">
     </article>
 
     <article class="students__card">
         <img class="students__card__img" src="arne.jpg" alt="profile picture Arne Sneyers">
-        <h5 class="student__card__name">Arne Sneyers</h5>
-        <p class="student__card__pitch"><?php echo $lang['Arne']; ?></p>
-        <section class="students__card__social">
-            <a class="students__card__social__item" href=""><img class="students__card__social__item__img" src="img/card__cv.svg" alt="cv icon"></a>
-            <a class="students__card__social__item" href=""><img class="students__card__social__item__img" src="img/card__website.svg" alt="website icon"></a>
-            <a class="students__card__social__item" href=""><img class="students__card__social__item__img" src="img/card__linkedin.svg" alt="linkedin icon"></a>
+        <section class="student__card__name__container">
+            <h5 class="student__card__name">Arne </br> Sneyers</h5>
+            <p class="student__card__pitch"><?php echo $lang['Arne']; ?></p>
+            <section class="students__card__social">
+                <a class="students__card__social__item" href=""><img class="students__card__social__item__img" src="img/card__cv.svg" alt="cv icon"></a>
+                <a class="students__card__social__item" href=""><img class="students__card__social__item__img" src="img/card__website.svg" alt="website icon"></a>
+                <a class="students__card__social__item" href=""><img class="students__card__social__item__img" src="img/card__linkedin.svg" alt="linkedin icon"></a>
+            </section>
         </section>
     </article>
 
     <article class="students__card">
         <img class="students__card__img" src="burcu.jpg" alt="profile picture Burcu Avci">
-        <h5 class="student__card__name">Burcu Avci</h5>
-        <p class="student__card__pitch"><?php echo $lang['Burcu']; ?></p>
-        <section class="students__card__social">
-            <a class="students__card__social__item" href=""><img class="students__card__social__item__img" src="img/card__cv.svg" alt="cv icon"></a>
-            <a class="students__card__social__item" href=""><img class="students__card__social__item__img" src="img/card__website.svg" alt="website icon"></a>
-            <a class="students__card__social__item" href=""><img class="students__card__social__item__img" src="img/card__linkedin.svg" alt="linkedin icon"></a>
+        <section class="student__card__name__container">
+            <h5 class="student__card__name">Burcu Avci</h5>
+            <p class="student__card__pitch"><?php echo $lang['Burcu']; ?></p>
+            <section class="students__card__social">
+                <a class="students__card__social__item" href=""><img class="students__card__social__item__img" src="img/card__cv.svg" alt="cv icon"></a>
+                <a class="students__card__social__item" href=""><img class="students__card__social__item__img" src="img/card__website.svg" alt="website icon"></a>
+                <a class="students__card__social__item" href=""><img class="students__card__social__item__img" src="img/card__linkedin.svg" alt="linkedin icon"></a>
+            </section>
         </section>
     </article>
 
     <article class="students__card">
         <img class="students__card__img" src="daniel.jpg" alt="profile picture Daniel Paz">
-        <h5 class="student__card__name">Daniel Paz</h5>
-        <p class="student__card__pitch"><?php echo $lang['Daniel']; ?></p>
-        <section class="students__card__social">
-            <a class="students__card__social__item" href=""><img class="students__card__social__item__img" src="img/card__cv.svg" alt="cv icon"></a>
-            <a class="students__card__social__item" href=""><img class="students__card__social__item__img" src="img/card__website.svg" alt="website icon"></a>
-            <a class="students__card__social__item" href=""><img class="students__card__social__item__img" src="img/card__linkedin.svg" alt="linkedin icon"></a>
+        <section class="student__card__name__container">
+            <h5 class="student__card__name">Daniel Paz</h5>
+            <p class="student__card__pitch"><?php echo $lang['Daniel']; ?></p>
+            <section class="students__card__social">
+                <a class="students__card__social__item" href=""><img class="students__card__social__item__img" src="img/card__cv.svg" alt="cv icon"></a>
+                <a class="students__card__social__item" href=""><img class="students__card__social__item__img" src="img/card__website.svg" alt="website icon"></a>
+                <a class="students__card__social__item" href=""><img class="students__card__social__item__img" src="img/card__linkedin.svg" alt="linkedin icon"></a>
+            </section>
         </section>
     </article>
 
     <article class="students__card">
         <img class="students__card__img" src="erik.jpg" alt="profile picture Erik Hendriks">
-        <h5 class="student__card__name">Erik Hendriks</h5>
-        <p class="student__card__pitch"><?php echo $lang['Erik']; ?></p>
-        <section class="students__card__social">
-            <a class="students__card__social__item" href=""><img class="students__card__social__item__img" src="img/card__cv.svg" alt="cv icon"></a>
-            <a class="students__card__social__item" href=""><img class="students__card__social__item__img" src="img/card__website.svg" alt="website icon"></a>
-            <a class="students__card__social__item" href=""><img class="students__card__social__item__img" src="img/card__linkedin.svg" alt="linkedin icon"></a>
+        <section class="student__card__name__container">
+            <h5 class="student__card__name">Erik Hendriks</h5>
+            <p class="student__card__pitch"><?php echo $lang['Erik']; ?></p>
+            <section class="students__card__social">
+                <a class="students__card__social__item" href=""><img class="students__card__social__item__img" src="img/card__cv.svg" alt="cv icon"></a>
+                <a class="students__card__social__item" href=""><img class="students__card__social__item__img" src="img/card__website.svg" alt="website icon"></a>
+                <a class="students__card__social__item" href=""><img class="students__card__social__item__img" src="img/card__linkedin.svg" alt="linkedin icon"></a>
+            </section>
         </section>
     </article>
 
     <article class="students__card">
         <img class="students__card__img" src="geert.jpg" alt="profile picture Geert Rumen">
-        <h5 class="student__card__name">Geert Rumen</h5>
-        <p class="student__card__pitch"><?php echo $lang['Geert']; ?></p>
-        <section class="students__card__social">
-            <a class="students__card__social__item" href=""><img class="students__card__social__item__img" src="img/card__cv.svg" alt="cv icon"></a>
-            <a class="students__card__social__item" href=""><img class="students__card__social__item__img" src="img/card__website.svg" alt="website icon"></a>
-            <a class="students__card__social__item" href=""><img class="students__card__social__item__img" src="img/card__linkedin.svg" alt="linkedin icon"></a>
+        <section class="student__card__name__container">
+            <h5 class="student__card__name">Geert Rumen</h5>
+            <p class="student__card__pitch"><?php echo $lang['Geert']; ?></p>
+            <section class="students__card__social">
+                <a class="students__card__social__item" href=""><img class="students__card__social__item__img" src="img/card__cv.svg" alt="cv icon"></a>
+                <a class="students__card__social__item" href=""><img class="students__card__social__item__img" src="img/card__website.svg" alt="website icon"></a>
+                <a class="students__card__social__item" href=""><img class="students__card__social__item__img" src="img/card__linkedin.svg" alt="linkedin icon"></a>
+            </section>
         </section>
     </article>
 
     <article class="students__card">
         <img class="students__card__img" src="mathijs.jpg" alt="profile picture Mathijs Reykers">
+        <section class="student__card__name__container">
         <h5 class="student__card__name">Mathijs Reykers</h5>
         <p class="student__card__pitch"><?php echo $lang['Mathijs']; ?></p>
-        <section class="students__card__social">
-            <a class="students__card__social__item" href=""><img class="students__card__social__item__img" src="img/card__cv.svg" alt="cv icon"></a>
-            <a class="students__card__social__item" href=""><img class="students__card__social__item__img" src="img/card__website.svg" alt="website icon"></a>
-            <a class="students__card__social__item" href=""><img class="students__card__social__item__img" src="img/card__linkedin.svg" alt="linkedin icon"></a>
+            <section class="students__card__social">
+                <a class="students__card__social__item" href=""><img class="students__card__social__item__img" src="img/card__cv.svg" alt="cv icon"></a>
+                <a class="students__card__social__item" href=""><img class="students__card__social__item__img" src="img/card__website.svg" alt="website icon"></a>
+                <a class="students__card__social__item" href=""><img class="students__card__social__item__img" src="img/card__linkedin.svg" alt="linkedin icon"></a>
+            </section>
         </section>
     </article>
 
     <article class="students__card">
         <img class="students__card__img" src="miguel.jpg" alt="profile picture Miguel Duarte">
+        <section class="student__card__name__container">
         <h5 class="student__card__name">Miguel Duarte</h5>
         <p class="student__card__pitch"><?php echo $lang['Miguel']; ?>.</p>
-        <section class="students__card__social">
-            <a class="students__card__social__item" href=""><img class="students__card__social__item__img" src="img/card__cv.svg" alt="cv icon"></a>
-            <a class="students__card__social__item" href=""><img class="students__card__social__item__img" src="img/card__website.svg" alt="website icon"></a>
-            <a class="students__card__social__item" href=""><img class="students__card__social__item__img" src="img/card__linkedin.svg" alt="linkedin icon"></a>
+            <section class="students__card__social">
+                <a class="students__card__social__item" href=""><img class="students__card__social__item__img" src="img/card__cv.svg" alt="cv icon"></a>
+                <a class="students__card__social__item" href=""><img class="students__card__social__item__img" src="img/card__website.svg" alt="website icon"></a>
+                <a class="students__card__social__item" href=""><img class="students__card__social__item__img" src="img/card__linkedin.svg" alt="linkedin icon"></a>
+            </section>
         </section>
     </article>
 
     <article class="students__card">
         <img class="students__card__img" src="wouter.jpg" alt="profile picture Wouter Swerts">
+        <section class="student__card__name__container">
         <h5 class="student__card__name">Wouter Swerts</h5>
         <p class="student__card__pitch"><?php echo $lang['Wouter']; ?></p>
-        <section class="students__card__social">
-            <a class="students__card__social__item" href=""><img class="students__card__social__item__img" src="img/card__cv.svg" alt="cv icon"></a>
-            <a class="students__card__social__item" href=""><img class="students__card__social__item__img" src="img/card__website.svg" alt="website icon"></a>
-            <a class="students__card__social__item" href=""><img class="students__card__social__item__img" src="img/card__linkedin.svg" alt="linkedin icon"></a>
+            <section class="students__card__social">
+                <a class="students__card__social__item" href=""><img class="students__card__social__item__img" src="img/card__cv.svg" alt="cv icon"></a>
+                <a class="students__card__social__item" href=""><img class="students__card__social__item__img" src="img/card__website.svg" alt="website icon"></a>
+                <a class="students__card__social__item" href=""><img class="students__card__social__item__img" src="img/card__linkedin.svg" alt="linkedin icon"></a>
+            </section>
         </section>
     </article>
 
     <article class="students__card">
         <img class="students__card__img" src="yves.jpg" alt="profile picture Yves Kerkhofs">
+        <section class="student__card__name__container">
         <h5 class="student__card__name">Yves Kerkhofs</h5>
         <p class="student__card__pitch"><?php echo $lang['Yves']; ?></p>
-        <section class="students__card__social">
-            <a class="students__card__social__item" href=""><img class="students__card__social__item__img" src="img/card__cv.svg" alt="cv icon"></a>
-            <a class="students__card__social__item" href=""><img class="students__card__social__item__img" src="img/card__website.svg" alt="website icon"></a>
-            <a class="students__card__social__item" href=""><img class="students__card__social__item__img" src="img/card__linkedin.svg" alt="linkedin icon"></a>
+            <section class="students__card__social">
+                <a class="students__card__social__item" href=""><img class="students__card__social__item__img" src="img/card__cv.svg" alt="cv icon"></a>
+                <a class="students__card__social__item" href=""><img class="students__card__social__item__img" src="img/card__website.svg" alt="website icon"></a>
+                <a class="students__card__social__item" href=""><img class="students__card__social__item__img" src="img/card__linkedin.svg" alt="linkedin icon"></a>
+            </section>
         </section>
     </article>
 
@@ -145,5 +166,5 @@
     <svg id="students__blob__yellow__bottom" viewBox="0 0 1252 349">
     <path d="M-12.2946 0.653809C23.3937 48.3357 59.4617 96.0175 117.55 99.6599C175.638 103.633 256.507 63.8985 289.537 86.0838C322.188 108.6 307.381 193.037 310.039 244.03C313.076 295.023 333.198 312.242 368.127 340.718C402.677 368.864 452.033 408.599 501.009 448.334H-12.2946V0.653809Z" fill="#FBAE3C"/>
     </svg>
-
+    </div>
 </section>
