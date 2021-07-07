@@ -2,48 +2,73 @@
 
 error_reporting(E_ALL); ini_set('display_errors', 1);
 $error = "";
-$name = $companyname = $email = $telephone = "";
+$companyname = $name = $email = $telephone = $morning = $afternoon = $day = $platform = $link = $questions = "";
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     print_r($_POST);
-
-    //NAME
-    if (empty($_POST['name'])) {
-        echo "nerror";
-        //$error['name'] = "Please enter your name.";
-
-    } else {
-        $name = cleandata($_POST['name']);
-    }
-
+    echo "xxcerror ";
     //COMPANY
     if (empty($_POST['companyname'])) {
-        echo "cerror";
+        echo "cerror ";
         //$error['company-name'] = "Please enter your company name.";
 
     } else {
         $companyname = cleandata($_POST['companyname']);
     }
 
+    //NAME
+    if (empty($_POST['name'])) {
+        echo "nerror ";
+        //$error['name'] = "Please enter your name.";
+
+    } else {
+        $name = cleandata($_POST['name']);
+    }
+
     //EMAIL
     if (empty($_POST["email"])) {
-        echo "eerror";
+        echo "eerror ";
         //$error['email'] = "Please enter a valid email address.";
 
     } else {
         $email = cleandata($_POST["email"]);
         if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
-            $error['email'] = "Please enter a valid email address."; 
+            $error["email"] = "Please enter a valid email address.";
         }
     }
 
     //PHONE
     if (empty($_POST["telephone"])) {
-        echo "perror";
+        echo "perror ";
         //$error['telephone'] = "Please enter your message. It should have at least 99 characters.";
     
     } else {
         $telephone = cleandata($_POST["telephone"]);
+    }
+
+    //Availability
+    if (!empty($_POST["morning"])) {
+        $morning = $_POST["morning"];
+    }
+
+    if (!empty($_POST["afternoon"])) {
+        $afternoon = $_POST["afternoon"];
+    }
+
+    if (!empty($_POST["day"])) {
+        $day = $_POST["day"];
+    }
+
+    if (!empty($_POST["platform"])) {
+        $platform = $_POST["platform"];
+    }
+
+    if (!empty($_POST["link"])) {
+        $link = $_POST["link"];
+    }
+
+    if (!empty($_POST["questions"])) {
+        $questions = $_POST["questions"];
     }
 }
 
@@ -80,7 +105,10 @@ $mail->Port = 587;
 $mail->SMTPSecure = 'tls';
 //Whether to use SMTP authentication
 $mail->SMTPAuth = true;
-include './.con/creds.php';
+//Username to use for SMTP authentication - use full email address for gmail
+$mail->Username = "opleidingphpgenk@gmail.com";
+//Password to use for SMTP authentication
+$mail->Password = "Opleiding.21";
 //Set who the message is to be sent from
 $mail->setFrom('noreply@phpjobdag.be');
 //Set an alternative reply-to address
@@ -96,17 +124,23 @@ $mail->Subject = 'Een email van phpjobdag 2021';
 //Replace the plain text body with one created manually
 $mail->Body = "
 hallo
-$name
+naam $name
 $companyname
 $email
 $telephone
+$morning
+$afternoon
+$day
+$platform
+$link
+$questions
 ";
 //Attach an image file
 //$mail->addAttachment('images/phpmailer_mini.png');
 //send the message, check for errors
 if (!$mail->send()) {
-    //echo "Mailer Error: " . $mail->ErrorInfo;
+    echo "Mailer Error: " . $mail->ErrorInfo;
 } else {
-    //echo "Message sent!";
+    echo "Message sent!";
 }
 ?>

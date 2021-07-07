@@ -20,6 +20,11 @@
 	height: 78px;
 	width: 100%;
 	box-shadow: 0px 6px 6px rgba(0, 18, 32, 0.2);
+	position: fixed;
+	top:0px;
+	z-index: 10000000;
+	background-color: #ba6ec6;;
+	
 }
 
 .header__nav {
@@ -67,6 +72,10 @@
 	justify-content: center;
 	animation: growDown 500ms ease-in-out forwards;
 	transform-origin: top center;
+	z-index: 10000;
+	background-color: #ba6ec6;;
+	box-shadow: 0px 6px 6px rgba(0, 18, 32, 0.2);
+	
 }
 
 @keyframes growDown {
@@ -134,7 +143,7 @@
 }
 
 .header__section {
-	margin-top: 3rem;
+	padding-top: 3rem;
 }
 
 .header__section__info {
@@ -227,6 +236,7 @@
 	background: #fda677;
 	padding-bottom: 3rem;
 	position: relative;
+	overflow:hidden;
 }
 
 .agenda__title,
@@ -234,7 +244,7 @@
 .footer__title,
 .students__title {
    
-   padding: 4rem 0rem 4rem 0rem;
+   padding: 3.438rem 0rem 3.438rem 0rem;
    background: #001220CC;
    font-size: 1.25rem;
    line-height: 1.465rem;
@@ -242,7 +252,7 @@
    color: rgba(255, 255, 255, 0.8);
    font-weight: bold;
    text-align: center;
-   opacity: 80%;
+   opacity: 92%;
    margin-bottom: 3rem;
    position: relative;
    z-index: 10;
@@ -511,7 +521,6 @@ body{
 .footer__register__form__input {
    height: 48px;
    width: 98%;
-   box-sizing: border-box;
    border: 2px solid #FFFFFF;
    border-radius: 4px;
    margin-bottom: 1rem;
@@ -532,6 +541,7 @@ body{
 }
 
 .footer__register__form__submit {
+	text-transform: uppercase;
 	background: #3d3056;
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 	border-radius: 4px;
@@ -597,7 +607,7 @@ body{
 .footer__info__thx__body {
    font-weight: 400;
    font-size: 16px;
-   line-height: 140%;
+   line-height: 28px;
    letter-spacing: 0.03em;
    color: #FFFFFF;
    margin-bottom: 4rem;
@@ -615,6 +625,10 @@ body{
 	width: 50%;
 	display: flex;
 	flex-direction: column;
+}
+
+.no__display__mobile{
+	display:none;
 }
 
 .footer__info__team__title,
@@ -643,8 +657,11 @@ body{
 
 .footer__info__tools {
 	margin: 0 0 8rem 0;
+	
 }
-
+.footer__info__tools__static{
+	margin-bottom: 150px;
+}
 .footer__info__tools__title {
 	font-weight: bold;
 	font-size: 16px;
@@ -803,6 +820,7 @@ body{
 	background-color: #001220;
 	padding-bottom: 8rem;
 	position: relative;
+	overflow:hidden;
 }
 
 .students__quote {
@@ -826,6 +844,8 @@ body{
    display: none;
    position: relative;
    z-index: 10;
+	background: #001220;
+	
 }
 
 .students__card:nth-of-type(1) {
@@ -1000,14 +1020,14 @@ body{
       flex-direction: column;
       align-items: center;
       padding-bottom: 12rem;
-      height: 100vh;
+		height: 95vh;
       justify-content: center;
       min-height:800px;
 	}
 
 	.header{
       max-height:85px;
-      position:absolute;
+      position:sticky;
       top:0px;
 		height:85px;
    }
@@ -1154,6 +1174,7 @@ body{
 		flex-direction: row;
 		flex-wrap: wrap;
 		justify-content: center;
+		overflow:hidden;
 	}
 
 	.agenda__title {
@@ -1263,6 +1284,10 @@ body{
 		font-size: 1.25rem;
 	}
 
+	#course__wrapper{
+		margin-top: 4rem;
+	}
+
 
 	/* footer desktop */
 	
@@ -1309,12 +1334,14 @@ body{
    }
 
 	  .footer__info{
-      width:807px;
       margin-right:2rem;
       display:grid;
       grid-template-columns: 1fr 1fr 1fr;
       height:330px;
       font-size:1rem;
+		width:820px;
+		
+	
    }
 
    .footer__info__team {
@@ -1322,8 +1349,20 @@ body{
       grid-row: 1/5;
       font-size:1rem;
       height:330px;
+		
    }
+	.footer__info__partners {
+		width:100%;
+	}
 
+	.footer__info__partners__image{
+		margin-right:20px;
+		height:31px;
+	}
+	.footer__info__partners__title{
+		margin-bottom: 2.5rem;;
+	}
+	
 	.footer__info__thx {
 		grid-column: 2/4;
 		grid-row: 1/4;
@@ -1332,6 +1371,7 @@ body{
 	}
    .footer__info__thx__title{
       margin-top: 0rem;
+		margin-bottom: 2rem;
    }
 
 	.footer__info__team__partnerts__container {
@@ -1344,6 +1384,16 @@ body{
       font-size:1rem;
       height:100px;
    }
+
+	.no__display__mobile{
+		display:block;
+	}
+
+	.footer__info__thx{
+		margin-bottom: 3.2rem;
+	}
+}
+	
 @media only screen and (min-width: 820px) {
    #agenda__blob__orange__bottom,
    #agenda__blob__yellow__bottom {
@@ -1367,6 +1417,9 @@ body{
 }
 
 @media only screen and (min-width: 1080px) {
+	#header__mobile__dropdown{
+		display: none !important;
+	}
 
 	.footer__info__team__list__name {
 		font-size: 1rem;
@@ -1395,6 +1448,7 @@ body{
 	.agenda__title, .course__title, .footer__title, .students__title{
       font-size:2.25rem;
       line-height: 2.5rem;
+		
    }
    
 
@@ -1407,27 +1461,19 @@ body{
       display: flex;
    }
 
-   /* .footer__register__form__submit{
-      box-sizing: border-box;
-      width: 170px;
-      height: 70px;
-      color: black;
-      background-color: white;
-      display: flex;
-      border-radius: 36px;
-      border: 3px solid #fbae3c;
-      align-items: center;
-      justify-content: center;
-      text-align: center;
-      font-size: 1.75rem;
-      line-height: 2.063rem;
-      font-weight: bold;
-      text-decoration: none;
-      margin-left: 1rem;
-      margin-bottom: 3rem;
-      margin-top: 3rem;
+	#footer__wrapper{
+		justify-content: flex-start;
+	}
 
-   } */
+	.footer__copyright{
+		
+		width:100%;
+		justify-content: center;
+		margin-top: 4rem;
+		padding:0px;
+	}
+
+   
 
 	::-webkit-scrollbar {
       width: 10px;
@@ -1471,7 +1517,7 @@ body{
 	.header__section__subtitle{
 		width:200px;
 	}
-}
+
 
 
 

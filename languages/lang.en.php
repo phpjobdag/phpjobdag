@@ -1,3 +1,4 @@
+
 <?php
 /*
 ------------------
@@ -113,3 +114,4 @@ $lang['footerMade'] = 'This site was made with:';
 
 $lang['FootPartnerMULTIMEDI'] = 'https://translate.google.com/translate?js=n&sl=auto&tl=en&u=http://multimedi.be';
 $lang['FootPartnerCEVORA'] = 'https://www.cevora.be/';
+
