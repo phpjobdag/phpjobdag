@@ -2,19 +2,10 @@
 
 error_reporting(E_ALL); ini_set('display_errors', 1);
 $error = "";
-$name = $companyname = $email = $telephone = "";
+$companyname = $name = $email = $telephone = $morning = $afternoon = $day = $platform = $link = $questions = "";
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     print_r($_POST);
-
-    //NAME
-    if (empty($_POST['name'])) {
-        echo "nerror";
-        //$error['name'] = "Please enter your name.";
-
-    } else {
-        $name = cleandata($_POST['name']);
-    }
 
     //COMPANY
     if (empty($_POST['companyname'])) {
@@ -23,6 +14,15 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     } else {
         $companyname = cleandata($_POST['companyname']);
+    }
+
+    //NAME
+    if (empty($_POST['name'])) {
+        echo "nerror";
+        //$error['name'] = "Please enter your name.";
+
+    } else {
+        $name = cleandata($_POST['name']);
     }
 
     //EMAIL
@@ -44,6 +44,31 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     
     } else {
         $telephone = cleandata($_POST["telephone"]);
+    }
+
+    //Availability
+    if (!empty($_POST["morning"])) {
+        $morning = $_POST["morning"];
+    }
+
+    if (!empty($_POST["afternoon"])) {
+        $afternoon = $_POST["afternoon"];
+    }
+
+    if (!empty($_POST["day"])) {
+        $day = $_POST["day"];
+    }
+
+    if (!empty($_POST["platform"])) {
+        $platform = $_POST["platform"];
+    }
+
+    if (!empty($_POST["link"])) {
+        $link = $_POST["link"];
+    }
+
+    if (!empty($_POST["questions"])) {
+        $questions = $_POST["questions"];
     }
 }
 
@@ -100,6 +125,12 @@ $name
 $companyname
 $email
 $telephone
+$morning
+$afternoon
+$day
+$platform
+$link
+$questions
 ";
 //Attach an image file
 //$mail->addAttachment('images/phpmailer_mini.png');

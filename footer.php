@@ -9,7 +9,7 @@
             <p class="footer__register__info__approval"><?php echo $lang['footerBody3']; ?></p>
         </article>
          <form class="footer__register__form" action="" method="post">
-             <input class="footer__register__form__input" type="text" id="company-name" placeholder="<?php echo $lang['formCompany']; ?>" required>
+             <input class="footer__register__form__input" type="text" id="companyname" placeholder="<?php echo $lang['formCompany']; ?>" required>
 
              <input class="footer__register__form__input" type="text" id="name" placeholder="<?php echo $lang['formName']; ?>" required>
 
@@ -19,9 +19,9 @@
 
              <label for="timeframe"><?php echo $lang['formAvailability']; ?></label>
              <div class="checkbox__wrapper">
-                 <input type="checkbox" id="voormiddag"> <?php echo $lang['fromMorning']; ?> (09u00 - 12u30)
-                 <input type="checkbox" id="namiddag"> <?php echo $lang['formAfternoon']; ?> (13u00 - 17u00)
-                 <input type="checkbox" id="heledag"> <?php echo $lang['formDay']; ?> (09u00 - 17u00)
+                 <input type="checkbox" id="morning"> <?php echo $lang['fromMorning']; ?> (09u00 - 12u30)
+                 <input type="checkbox" id="afternoon"> <?php echo $lang['formAfternoon']; ?> (13u00 - 17u00)
+                 <input type="checkbox" id="day"> <?php echo $lang['formDay']; ?> (09u00 - 17u00)
              </div>
 
              <label for="platform"><?php echo $lang['formCommunication']; ?></label>
@@ -37,7 +37,7 @@
              <input class="footer__register__form__input" type="text" id="link" placeholder="<?php echo $lang['formLink']; ?>" required>
 
 
-             <input class="footer__register__form__input" type="text" id="comments" placeholder="<?php echo $lang['formQuestions']; ?>Overige opmerkingen/vragen?..." required>
+             <input class="footer__register__form__input" type="text" id="questions" placeholder="<?php echo $lang['formQuestions']; ?>Overige opmerkingen/vragen?..." required>
 
             <input class="footer__register__form__submit" type="submit" value="<?php echo $lang['formSubmit']; ?>">
         </form>
