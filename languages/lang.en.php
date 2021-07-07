@@ -34,7 +34,7 @@ $lang['studentTitle'] = 'WHO ARE WE?';
 $lang['Alexander'] = 'Fast-learning, enthusiastic and driven Web Developer with a specialty in Philosophy of Technology';
 $lang['Anastasya'] = 'Small full stack developer with big ambition to become an expert in her field.';
 $lang['Arne'] = 'Developer looking for opportunities to develop myself.';
-$lang['Burcu'] = '';
+$lang['Burcu'] = 'Seasoned designer. Apprentice developer. On my way towards full stack digital product designer.';
 $lang['Daniel'] = 'Not a copywriter.';
 $lang['Erik'] = 'Good knowledge of numerous programming languages PHP, Python, Javascript, SQL, Java, CSS, HTML';
 $lang['Geert'] = 'New in this fascinating world of development. But every expert was once a beginner.';
@@ -61,6 +61,12 @@ $lang['courseTitle'] = 'SEE THE COURSE SCOPE';
 $lang['courseBody1'] = 'Due to the pandemic this course was completely remote. Managing to work together from a distance was the first thing we learned.';
 $lang['courseBody2'] = 'The past few months we have learned an awful lot and developed many new skills. In a relatively short amount of time we have managed to build a strong foundation from which we plan to launch our future careers.';
 $lang['courseBody3'] = 'During the course we used <b>Github</b> and <b>GitLab</b> for version control, <b>Visual Studio Code</b> and <b>PHPStorm</b> as code editors and for Agile Project Management we used <b>Trello</b>.';
+
+$lang['HardSkillHTML'] = '';
+$lang['HardSkillCSS'] = '';
+$lang['HardSkillJS'] = '';
+$lang['HardSkillBS'] = '';
+$lang['HardSkillANGULAR'] = '';
 
 // Footer
 $lang['footerTitle'] = 'Save your spot!';

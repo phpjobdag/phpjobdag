@@ -13,11 +13,11 @@
         <section class="course_hard_front_back">
             <article class="course__hard__front">
                 <h6 class="course__hard__front__title">Front-end Development</h6>
-                <img class="course__hard__front__img" src="img/skills__html5.svg" alt="html5 logo">
-                <img class="course__hard__front__img" src="img/skills__css3.svg" alt="css3 logo">
-                <img class="course__hard__front__img" src="img/skills__js.svg" alt="js logo">
-                <img class="course__hard__front__img" src="img/skills__bootstrap.svg" alt="bootstrap logo">
-                <img class="course__hard__front__img" src="img/skills__angular.svg" alt="angular logo">
+                <a href="<?php echo $lang['HardSkillHTML']; ?>"><img class="course__hard__front__img" src="img/skills__html5.svg" alt="html5 logo"></a>
+                <a href="<?php echo $lang['HardSkillCSS']; ?>"><img class="course__hard__front__img" src="img/skills__css3.svg" alt="css3 logo"></a>
+                <a href="<?php echo $lang['HardSkillJS']; ?>"><img class="course__hard__front__img" src="img/skills__js.svg" alt="js logo"></a>
+                <a href="<?php echo $lang['HardSkillBS']; ?>"><img class="course__hard__front__img" src="img/skills__bootstrap.svg" alt="bootstrap logo"></a>
+                <a href="<?php echo $lang['HardSkillANGULAR']; ?>"><img class="course__hard__front__img" src="img/skills__angular.svg" alt="angular logo"></a>
                 
             </article>
 
