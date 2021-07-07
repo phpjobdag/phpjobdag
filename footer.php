@@ -19,8 +19,8 @@
              <input class="footer__register__form__input" type="tel" id="telephone" placeholder="Your digits" required>
 
              <div class="checkbox__wrapper">
-                 <input type="checkbox" id="timeframe"> Voormiddag (09u00 - 12u30)
-                 <input type="checkbox" id="timeframe"> Namiddag ((13u00 - 17u00)
+                 <input type="checkbox" id="voormiddag"> Voormiddag (09u00 - 12u30)
+                 <input type="checkbox" id="namiddag"> Namiddag (13u00 - 17u00)
              </div>
 
              <input class="footer__register__form__input" type="tel" id="link" placeholder="communicatie platform" required>
