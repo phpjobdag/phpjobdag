@@ -73,15 +73,15 @@ $lang['footerDate'] = 'Date: 26 August 2021';
 
 $lang['formCompany'] = 'Company name';
 $lang['formName'] = 'Your name';
-$lang['formMail'] = 'E-mail';
+$lang['formMail'] = 'Email';
 $lang['formTelephone'] = 'Your digits';
-$lang['formAvailability'] = 'Your digits';
-$lang['fromMorning'] = 'Your digits';
-$lang['formAfterneeo'] = 'Your digits';
-$lang['formDay'] = 'Your digits';
-$lang['formCommunication'] = 'Your digits';
-$lang['formLink'] = 'Your digits';
-$lang['formQuestions'] = 'Your digits';
+$lang['formAvailability'] = 'Availability';
+$lang['fromMorning'] = 'Morning';
+$lang['formAfternoon'] = 'Afternoon';
+$lang['formDay'] = 'Whole day';
+$lang['formCommunication'] = 'Preferred communication platform';
+$lang['formLink'] = 'Paste your communication platform link';
+$lang['formQuestions'] = 'Any Questions?';
 $lang['formSubmit'] = 'Register';
 
 $lang['footerThank1'] = 'Thank you';

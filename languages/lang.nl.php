@@ -69,11 +69,20 @@ $lang['footerBody1'] = 'Het evenement zal volledig op afstand plaats vinden.';
 $lang['footerBody2'] = 'Datum: 26 augustus 2021';
 $lang['footerBody3'] = 'Nadat uw registratie goedgekeurd is voorzien wij u van een link en een paswoord om deel te nemen aan het evenement.';
 $lang['footerBody4'] = 'Wij hopen u spoedig te mogen ontmoeten.';
-$lang['formName'] = 'Uw naam';
-$lang['formCompany'] = 'Naam organisatie';
-$lang['formTelephone'] = 'Telefoonnummer';
-$lang['formMail'] = 'E-mail';
-$lang['formSubmit'] = 'Registreer';
+
+$lang['formCompany'] = 'Bedrijfsnaam';
+$lang['formName'] = 'Jouw naam';
+$lang['formMail'] = 'Email';
+$lang['formTelephone'] = 'Telefoon';
+$lang['formAvailability'] = 'Beschikbaarheid';
+$lang['fromMorning'] = 'Voormiddag';
+$lang['formAfternoon'] = 'Namiddag';
+$lang['formDay'] = 'Hele dag';
+$lang['formCommunication'] = 'Wat is je gewenste communicatie platform?';
+$lang['formLink'] = 'Deel hier de link voor je online (bedrijfs)communicatie platform';
+$lang['formQuestions'] = 'Overige opmerkingen/vragen?';
+$lang['formSubmit'] = 'Register';
+
 $lang['footerThank1'] = 'Dankwoord';
 $lang['footerThank2'] = 'Wij zouden graag een woord van dank richten aan onze lesgevers. Zij hebben ons de afgelopen maanden de nodige kennis en vaardigheden bijgebracht. Zij zijn medeverantwoordelijk voor onze omvorming tot ontwikkelaars. Bij deze Tim, Sarah, Anke en Yannick. Dank jullie wel!';
 $lang['footerMade'] = 'Deze site werd gemaakt met:';
