@@ -29,6 +29,7 @@ $lang['counter2'] = 'Hours';
 $lang['counter3'] = 'Minutes';
 $lang['counter4'] = 'Seconds';
 
+
 // Students
 $lang['studentTitle'] = 'WHO ARE WE?';
 $lang['Alexander'] = 'Fast-learning, enthusiastic and driven Web Developer with a specialty in Philosophy of Technology';
@@ -43,6 +44,7 @@ $lang['Miguel'] = 'Young, ambitious and passionate about web development';
 $lang['Wouter'] = 'Wouter decided after 12 years of retail to go back to his passion as a webdeveloper.';
 $lang['Yves'] = 'A bachelor in communication management upscaling his webdeveloping skills… Ready to rumble!';
 
+
 // Agenda
 $lang['agendaTitle'] = 'CHECK OUT THE SCHEDULE';
 $lang['agendaDes1'] = 'First off you will receive an introductory presentation with an overview of the skills and abilities we have attained during our course.';
@@ -55,6 +57,7 @@ $lang['agendap3'] = 'Interview Session';
 $lang['agendap4'] = 'You will be given 15 minutes to get to know each student';
 $lang['agendap5'] = 'Feedback Moment';
 $lang['agendap6'] = 'Time for evaluation and Feedback';
+
 
 // Course
 $lang['courseTitle'] = 'SEE THE COURSE SCOPE';
@@ -86,7 +89,7 @@ $lang['HardSkillTRELLO'] = 'https://en.wikipedia.org/wiki/Trello';
 
 $lang['HardSkillZOOM'] = 'https://en.wikipedia.org/wiki/Zoom_Video_Communications';
 $lang['HardSkillSLACK'] = 'https://en.wikipedia.org/wiki/Slack_(software)';
-$lang['HardSkillDISCORD'] = '';
+$lang['HardSkillDISCORD'] = 'https://en.wikipedia.org/wiki/Discord_(software)';
 
 
 // Footer
@@ -105,3 +108,6 @@ $lang['formSubmit'] = 'Register';
 $lang['footerThank1'] = 'Thank you';
 $lang['footerThank2'] = 'We would like to show our appreciation for our teachers. In these past few months they have provided us with the necessary knowledge and skills. They are partially responsible for our transformation into developers. Tim, Sarah, Anke and Yannick, thank you for all your support!';
 $lang['footerMade'] = 'This site was made with:';
+
+$lang['FootPartnerMULTIMEDI'] = 'https://translate.google.com/translate?js=n&sl=auto&tl=en&u=http://multimedi.be';
+$lang['FootPartnerCEVORA'] = 'https://www.cevora.be/';

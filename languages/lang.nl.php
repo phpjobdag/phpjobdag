@@ -76,7 +76,8 @@ $lang['HardSkillLARAVEL'] = 'https://nl.wikipedia.org/wiki/Laravel';
 
 // Code Editors
 $lang['HardSkillVSC'] = 'https://nl.wikipedia.org/wiki/Visual_Studio_Code';
-$lang['HardSkillPHPS'] = 'https://fr.wikipedia.org/wiki/PhpStorm';
+//$lang['HardSkillPHPS'] = 'https://translate.google.com/translate?js=n&sl=auto&tl=nl&u=https://en.wikipedia.org/wiki/PhpStorm';
+$lang['HardSkillPHPS'] = 'https://nl.wikipedia.org/wiki/PhpStorm';
 
 // Version Control
 $lang['HardSkillGITHUB'] = 'https://nl.wikipedia.org/wiki/GitHub';
@@ -103,3 +104,6 @@ $lang['formSubmit'] = 'Registreer';
 $lang['footerThank1'] = 'Dankwoord';
 $lang['footerThank2'] = 'Wij zouden graag een woord van dank richten aan onze lesgevers. Zij hebben ons de afgelopen maanden de nodige kennis en vaardigheden bijgebracht. Zij zijn medeverantwoordelijk voor onze omvorming tot ontwikkelaars. Bij deze Tim, Sarah, Anke en Yannick. Dank jullie wel!';
 $lang['footerMade'] = 'Deze site werd gemaakt met:';
+
+$lang['FootPartnerMULTIMEDI'] = 'https://www.multimedi.be/';
+$lang['FootPartnerCEVORA'] = 'https://www.cevora.be/';
