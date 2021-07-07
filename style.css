@@ -511,7 +511,6 @@ body{
 .footer__register__form__input {
    height: 48px;
    width: 98%;
-   box-sizing: border-box;
    border: 2px solid #FFFFFF;
    border-radius: 4px;
    margin-bottom: 1rem;
@@ -532,6 +531,7 @@ body{
 }
 
 .footer__register__form__submit {
+	text-transform: uppercase;
 	background: #3d3056;
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 	border-radius: 4px;
