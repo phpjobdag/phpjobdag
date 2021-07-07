@@ -33,7 +33,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     } else {
         $email = cleandata($_POST["email"]);
         if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
-            $error['email'] = "Please enter a valid email address."; 
+            $error["email"] = "Please enter a valid email address.";
         }
     }
 
