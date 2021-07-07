@@ -14,7 +14,7 @@
 
              <input class="footer__register__form__input" type="text" id="name" placeholder="Your Name" required>
 
-             <input class="footer__register__form__input" type="email" id="email" placeholder="E-mail" required>
+             <input class="footer__register__form__input" type="email" id="email" placeholder="email" required>
 
              <input class="footer__register__form__input" type="tel" id="telephone" placeholder="Your digits" required>
 
@@ -32,14 +32,15 @@
                  <input type="checkbox" id="platform"> Google Meet
                  <input type="checkbox" id="platform"> Andere
              </div>
+             <input class="footer__register__form__input" type="tel" id="link" placeholder="Link communicatie platform" required>
 
              <input class="footer__register__form__input" type="text" id="link" placeholder="Plak link hier..." required>
              <label for="link">Deel hier de link voor je online (bedrijfs)communicatie platform</label>
+
              <input class="footer__register__form__input" type="text" id="comments" placeholder="Overige opmerkingen/vragen?..." required>
 
             <input class="footer__register__form__submit" type="submit" value="Registreer">
         </form>
-
         <!--    Contactpersoon
                 Email
                 Telnr

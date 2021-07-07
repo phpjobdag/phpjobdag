@@ -33,10 +33,9 @@
         </nav> 
 </header>
         <section id="header__mobile__dropdown">
-            <a class="header__mobile__dropdown__link" href="">MEET THE STUDENTS &nbsp; </a>
-            <a class="header__mobile__dropdown__link" href=""> CHECK OUT AGENDA &nbsp; </a>
-            <a class="header__mobile__dropdown__link" href=""> SEE THE COURSE SCOPE &nbsp; </a>
-            <a class="header__mobile__dropdown__link" href=""> SIGN UP &nbsp;   </a>
+            <a class="header__mobile__dropdown__link" href=""><?php echo $lang['nav1']; ?></a>
+            <a class="header__mobile__dropdown__link" href=""><?php echo $lang['nav2']; ?></a>
+            <a class="header__mobile__dropdown__link" href=""><?php echo $lang['nav3']; ?></a>
             <section id="header__mobile_dropdown__languages">
                 <p id="nl"><a href="?lang=nl">NL</a></p>
                 <p id="eng"><a href="?lang=en">EN</a></p>
@@ -58,7 +57,7 @@
     
 
     <section class="header__section">
-        <h3 class="header__section__info">26 August 2021, online</h3>
+        <h3 class="header__section__info"><?php echo $lang['introDate']; ?></h3>
         <h1 class="header__section__title">PHP JOBDAG</h1>
         <h4 class="header__section__subtitle"><?php echo $lang['intro1']; ?></h4>
         <a href="#signup" class="header__section__registerlink"><?php echo $lang['intro2']; ?></a>

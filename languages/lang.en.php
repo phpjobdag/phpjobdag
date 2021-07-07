@@ -19,7 +19,8 @@ $lang['nav2'] = 'Event Agenda';
 $lang['nav3'] = 'Course Scope';
 
 // Intro
-$lang['intro1'] = 'Web developers meet business partners';
+$lang['introDate'] = '26 August 2021, online';
+$lang['intro1'] = 'Web developers meet with employers';
 $lang['intro2'] = 'SIGN-UP';
 
 // Counter
@@ -33,7 +34,7 @@ $lang['studentTitle'] = 'WHO ARE WE?';
 $lang['Alexander'] = 'Fast-learning, enthusiastic and driven Web Developer with a specialty in Philosophy of Technology';
 $lang['Anastasya'] = 'Small full stack developer with big ambition to become an expert in her field.';
 $lang['Arne'] = 'Developer looking for opportunities to develop myself.';
-$lang['Burcu'] = '';
+$lang['Burcu'] = 'Seasoned designer. Apprentice developer. On my way towards becoming full stack digital designer.';
 $lang['Daniel'] = 'Not a copywriter.';
 $lang['Erik'] = 'Good knowledge of numerous programming languages PHP, Python, Javascript, SQL, Java, CSS, HTML';
 $lang['Geert'] = 'New in this fascinating world of development. But every expert was once a beginner.';
@@ -51,9 +52,9 @@ $lang['agendaDes3'] = 'Afterwards there will be time to evaluate the candidates 
 $lang['agendap1'] = 'Introductory presentation ';
 $lang['agendap2'] = 'A brief overview of the course';
 $lang['agendap3'] = 'Interview Session';
-$lang['agendap4'] = 'of 15 minutes.';
+$lang['agendap4'] = 'You will be given 15 minutes to get to know each student';
 $lang['agendap5'] = 'Feedback Moment';
-$lang['agendap6'] = 'Evaluation and Feedback';
+$lang['agendap6'] = 'Time for evaluation and Feedback';
 
 // Course
 $lang['courseTitle'] = 'SEE THE COURSE SCOPE';
@@ -62,10 +63,18 @@ $lang['courseBody2'] = 'The past few months we have learned an awful lot and dev
 $lang['courseBody3'] = 'During the course we used <b>Github</b> and <b>GitLab</b> for version control, <b>Visual Studio Code</b> and <b>PHPStorm</b> as code editors and for Agile Project Management we used <b>Trello</b>.';
 
 // Footer
-$lang['footerTitle'] = 'Fill in your details and save your spot!';
+$lang['footerTitle'] = 'Save your spot!';
+$lang['footerSubtitle'] = 'Fill in your details and save your spot!';
 $lang['footerBody1'] = 'This event is fully remote.';
-$lang['footerBody2'] = 'After your registration is approved we will provide you with a meeting link and a password for the event.';
-$lang['footerBody3'] = 'We are looking forward to hearing from you.';
+$lang['footerBody2'] = 'Date: 26 August 2021';
+$lang['footerBody3'] = 'After your registration is approved we will provide you with a meeting link and a password for the event.';
+$lang['footerBody4'] = 'We are looking forward to hearing from you.';
+$lang['footerDate'] = 'Date: 26 August 2021';
+$lang['formName'] = 'Your name';
+$lang['formCompany'] = 'Company name';
+$lang['formTelephone'] = 'Your digits';
+$lang['formMail'] = 'E-mail';
+$lang['formSubmit'] = 'Register';
 $lang['footerThank1'] = 'Thank you';
 $lang['footerThank2'] = 'We would like to show our appreciation for our teachers. In these past few months they have provided us with the necessary knowledge and skills. They are partially responsible for our transformation into developers. Tim, Sarah, Anke and Yannick, thank you for all your support!';
 $lang['footerMade'] = 'This site was made with:';

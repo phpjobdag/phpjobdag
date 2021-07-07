@@ -806,12 +806,15 @@ body{
 }
 
 .students__quote {
-   color: white;
-   margin-left: 1rem;
-   margin-right: 1rem;
-   margin-bottom: 4rem;
-   position: relative;
-   z-index: 10;
+
+	color: white;
+	font-style: italic;
+	margin-left: 1rem;
+	margin-right: 1rem;
+	margin-bottom: 4rem;
+  position: relative;
+  z-index: 10;
+
 }
 
 .students__card {
