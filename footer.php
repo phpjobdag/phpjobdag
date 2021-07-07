@@ -20,22 +20,23 @@
 
              <label for="timeframe">Wanneer bent u beschikbaar?</label>
              <div class="checkbox__wrapper">
-                 <input type="checkbox" id="timeframe"> Voormiddag (09u00 - 12u30)
-                 <input type="checkbox" id="timeframe"> Namiddag (13u00 - 17u00)
-                 <input type="checkbox" id="timeframe"> Hele dag (09u00 - 17u00)
+                 <input type="checkbox" id="voormiddag"> Voormiddag (09u00 - 12u30)
+                 <input type="checkbox" id="namiddag"> Namiddag (13u00 - 17u00)
+                 <input type="checkbox" id="heledag"> Hele dag (09u00 - 17u00)
              </div>
 
              <label for="platform">Wat je gewenste communicatie platform?</label>
              <div class="checkbox__wrapper">
-                 <input type="checkbox" id="platform"> Zoom
-                 <input type="checkbox" id="platform"> Teams
-                 <input type="checkbox" id="platform"> Google Meet
-                 <input type="checkbox" id="platform"> Andere
+                 <input type="checkbox" id="zoom"> Zoom
+                 <input type="checkbox" id="teams"> Teams
+                 <input type="checkbox" id="googlemeet"> Google Meet
+                 <input type="checkbox" id="andere"> Andere
              </div>
-             <input class="footer__register__form__input" type="tel" id="link" placeholder="Link communicatie platform" required>
 
-             <input class="footer__register__form__input" type="text" id="link" placeholder="Plak link hier..." required>
+
              <label for="link">Deel hier de link voor je online (bedrijfs)communicatie platform</label>
+             <input class="footer__register__form__input" type="text" id="link" placeholder="Plak link hier..." required>
+
 
              <input class="footer__register__form__input" type="text" id="comments" placeholder="Overige opmerkingen/vragen?..." required>
 
