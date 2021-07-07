@@ -19,7 +19,8 @@ $lang['nav2'] = 'Agenda';
 $lang['nav3'] = 'Cursus';
 
 // Intro
-$lang['intro1'] = 'Webontwikkelaars maken kennis met de werkgevers ';
+$lang['introDate'] = '';
+$lang['intro1'] = 'Webontwikkelaars maken kennis met werkgevers ';
 $lang['intro2'] = 'Meld je aan!';
 
 // Counter
@@ -33,11 +34,11 @@ $lang['studentTitle'] = 'WIE ZIJN WIJ?';
 $lang['Alexander'] = 'Fast-learning, enthusiastic and driven Web Developer with a specialty in Philosophy of Technology';
 $lang['Anastasya'] = 'Kleine full stack developer met grote ambitie om één van de besten te worden in haar vak.';
 $lang['Arne'] = 'Ontwikkelaar op zoek naar mogelijkheden om mezelf te ontwikkelen.';
-$lang['Burcu'] = '';
-$lang['Daniel'] = '';
-$lang['Erik'] = 'Goede kennis van programmeer talen, zoals PHP, Python, Javascript, SQL, java, CSS, HTML';
+$lang['Burcu'] = 'Doorgewinterde ontwerper. Aspirant ontwikkelaar. Op weg naar full-stack digital designer.';
+$lang['Daniel'] = 'Géén copywriter.';
+$lang['Erik'] = 'Goede kennis van programmeer talen, zoals PHP, Python, Javascript, SQL, Java, CSS, HTML';
 $lang['Geert'] = 'Nieuw in deze fascinerende wereld van development. Maar elke expert was ooit een beginner.';
-$lang['Mathijs'] = 'Aspirered full stack developer die voor eender welke uitdaging openstaat.';
+$lang['Mathijs'] = 'Aspirerend full stack developer die voor eender welke uitdaging openstaat.';
 $lang['Miguel'] = 'Jong, ambitieus en gepassioneerd door het programmeren';
 $lang['Wouter'] = 'Wouter heeft na 12 jaar retail besloten om terug te keren naar zijn passie als webontwikkelaar. ';
 $lang['Yves'] = 'A bachelor in communication management upscaling his webdeveloping skills… Ready to rumble!';
@@ -49,9 +50,9 @@ $lang['agendaDes2'] = 'Vervolgens het interview. Dit is het moment om vragen te 
 $lang['agendaDes3'] = 'Ter afsluiting hebben we een moment van evaluatie en reflectie zowel voor de kandidaat als de interviewer.';
 
 $lang['agendap1'] = 'Introductie ';
-$lang['agendap2'] = 'Een kort overzicht van onze cursus';
+$lang['agendap2'] = 'Een kort en bondig overzicht van onze cursus';
 $lang['agendap3'] = 'Interview sessies';
-$lang['agendap4'] = 'Van 15 minuten';
+$lang['agendap4'] = 'U krijgt de mogelijkheid iedere student te interviewen voor 15 minuten.';
 $lang['agendap5'] = 'Feedback';
 $lang['agendap6'] = 'Tijd voor evaluatie en feedback';
 
@@ -62,10 +63,27 @@ $lang['courseBody2'] = 'De afgelopen maanden hebben wij veel kennis en vaardighe
 $lang['courseBody3'] = 'Doorheen de cursus hebben wij <b>GitHub</b> en <b>GitLab</b> gebruikt voor versiebeheer, <b>Visual Studio Code</b> en <b>PHPStorm</b> als code editors en voor Agile Project Management hebben we <b>Trello</b> gebruikt. '; // Waarom staat deze informatie onder de kaders Hard-skills en softskills? //
 
 // Footer
-$lang['footerTitle'] = 'VUL UW GEGEVENS IN EN RESERVEER UW PLAATS!';
+$lang['footerTitle'] = 'RESERVEER UW PLAATS!';
+$lang['footerSubtitle'] = 'Vul uw gegevens in en reserveer uw plaats!';
 $lang['footerBody1'] = 'Het evenement zal volledig op afstand plaats vinden.';
-$lang['footerBody2'] = 'Nadat uw registratie goedgekeurd is voorzien wij u van een link en een paswoord om deel te nemen aan het evenement.';
-$lang['footerBody3'] = 'Wij hopen u spoedig te mogen ontmoeten.';
+$lang['footerBody2'] = 'Datum: 26 augustus 2021';
+$lang['footerBody3'] = 'Nadat uw registratie goedgekeurd is voorzien wij u van een link en een paswoord om deel te nemen aan het evenement.';
+$lang['footerBody4'] = 'Wij hopen u spoedig te mogen ontmoeten.';
+
+$lang['formCompany'] = 'Bedrijfsnaam';
+$lang['formName'] = 'Jouw naam';
+$lang['formMail'] = 'Email';
+$lang['formTelephone'] = 'Telefoon';
+$lang['formAvailability'] = 'Beschikbaarheid';
+$lang['fromMorning'] = 'Voormiddag';
+$lang['formAfternoon'] = 'Namiddag';
+$lang['formDay'] = 'Hele dag';
+$lang['formCommunication'] = 'Wat is je gewenste communicatie platform?';
+$lang['formLinkLabel'] = 'Indien je graag gebruik wil maken van je eigen Teams, Zoom, Google Meet kanaal, ... Vul hieronder dan de link in naar je gewenst communicatie platform.';
+$lang['formLink'] = 'Plak hier je link...';
+$lang['formQuestions'] = 'Overige opmerkingen/vragen?';
+$lang['formSubmit'] = 'Register';
+
 $lang['footerThank1'] = 'Dankwoord';
 $lang['footerThank2'] = 'Wij zouden graag een woord van dank richten aan onze lesgevers. Zij hebben ons de afgelopen maanden de nodige kennis en vaardigheden bijgebracht. Zij zijn medeverantwoordelijk voor onze omvorming tot ontwikkelaars. Bij deze Tim, Sarah, Anke en Yannick. Dank jullie wel!';
 $lang['footerMade'] = 'Deze site werd gemaakt met:';

@@ -5,21 +5,51 @@
     <section id="signup" class="footer__register"> 
         <article class="footer__register__info">
             <h3 class="footer__register__info__title"><?php echo $lang['footerBody1']; ?></h3>
-            <p class="footer__register__info__location"><?php echo $lang['footerBody2']; ?></br>
-            Date: 26 August 2021</p>
+            <p class="footer__register__info__location"><?php echo $lang['footerBody2']; ?></br></p>
             <p class="footer__register__info__approval"><?php echo $lang['footerBody3']; ?></p>
         </article>
-         <form class="footer__register__form" action="" method="post">
-            <!-- <label class="footer__register__form__label" for="name">Your Name</label> -->
-            <input class="footer__register__form__input" type="text" id="name" placeholder="Your Name" required>
-            <!-- <label class="footer__register__form__label" for="company-name">Company name</label> -->
-            <input class="footer__register__form__input" type="text" id="company-name" placeholder="Company name" required>
-            <!-- <label class="footer__register__form__label" for="telephone">Your digits</label> -->
-            <input class="footer__register__form__input" type="tel" id="telephone" placeholder="Your digits" required>
-            <!-- <label class="footer__register__form__label" for="email">Email</label> -->
-            <input class="footer__register__form__input" type="email" id="email" placeholder="email" required>
-            <input class="footer__register__form__submit" type="submit" value="Registreer">
+         <form class="footer__register__form" action="./mailfile.php" method="post">
+             <input class="footer__register__form__input" type="text" id="companyname" name="companyname" placeholder="<?php echo $lang['formCompany']; ?>" required>
+
+             <input class="footer__register__form__input" type="text" id="name" name="name" placeholder="<?php echo $lang['formName']; ?>" required>
+
+             <input class="footer__register__form__input" type="email" id="email" name="email" placeholder="<?php echo $lang['formMail']; ?>" required>
+
+             <input class="footer__register__form__input" type="tel" id="telephone" name="telephone" placeholder="<?php echo $lang['formTelephone']; ?>" required>
+
+             <label for="timeframe"><?php echo $lang['formAvailability']; ?></label>
+             <div class="checkbox__wrapper">
+                 <input type="checkbox" id="morning" name="morning"> <?php echo $lang['fromMorning']; ?>
+                 <input type="checkbox" id="afternoon" name="afternoon"> <?php echo $lang['formAfternoon']; ?>
+                 <input type="checkbox" id="day" name="day"> <?php echo $lang['formDay']; ?>
+             </div>
+
+<!--             <label for="platform">--><?php //echo $lang['formCommunication']; ?><!--</label>-->
+<!--             <div class="checkbox__wrapper">-->
+<!--                 <input type="radio" name="platform" id="zoom" name="zoom"> Zoom-->
+<!--                 <input type="radio" name="platform" id="teams" name="teams"> Teams-->
+<!--                 <input type="radio" name="platform" id="googlemeet" name="googlemeet"> Google Meet-->
+<!--                 <input type="radio" name="platform" id="andere" name="andere"> Andere-->
+<!--             </div>-->
+
+
+<!--             <label for="link">--><?php //echo $lang['formLinkLabel']; ?><!--</label>-->
+<!--             <input class="footer__register__form__input" type="text" id="link" name="link" placeholder="--><?php //echo $lang['formLink']; ?><!--" required>-->
+
+
+             <input class="footer__register__form__input" type="text" id="questions"  name="questions"placeholder="<?php echo $lang['formQuestions']; ?>Overige opmerkingen/vragen?..." required>
+
+             <input class="footer__register__form__submit" type="submit" value="<?php echo $lang['formSubmit']; ?>">
         </form>
+        <!--    Contactpersoon
+                Email
+                Telnr
+                Wanneer beschikbaar -> checkboxes (09-12u30, 13u-17u, 09u-17u)
+                Gewenste communicatieplatform
+                Deel hier de link voor je online
+                Overige opmerkingen/vragen
+
+                -->
        
     </section>
 
@@ -53,6 +83,7 @@
                 <h6 class="footer__info__partners__title">Partners</h6>
                 <img class="footer__info__partners__image" src="img/partners__multimedi.svg" alt="logo multimedi">
                 <img  class="footer__info__partners__image" src="img/partners__cevora.svg" alt="logo cevora">
+
             </article>
         </section>
 
