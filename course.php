@@ -24,9 +24,9 @@
             <article class="course__hard__back">
                 <h6 class="course__hard__back__title">Back-end Development</h6>
                 <a href="<?php echo $lang['HardSkillPHP']; ?>"><img class="course__hard__back__img" src="img/skills__php.svg" alt=""></a>
-                <a href="<?php echo $lang['HardSkillPHPUNIT']; ?>"><img class="course__hard__back__img" src="img/skills__phpunit.svg.svg" alt=""></a>
+                <a href="<?php echo $lang['HardSkillPHPUNIT']; ?>"><img class="course__hard__back__img" src="img/skills__phpunit.svg" alt=""></a>
                 <a href="<?php echo $lang['HardSkillMYSQL']; ?>"><img class="course__hard__back__img" src="img/skills__mysql.svg" alt=""></a>
-                <a href="<?php echo $lang['HardSkillWAMP']; ?>"><img class="course__hard__back__img" src="img/skills__wampserver.svg" alt=""></a>
+                <a href="<?php echo $lang['HardSkillWAMP']; ?>"><img class="course__hard__back__img" src="img/skills__wamp.svg" alt=""></a>
                 <a href="<?php echo $lang['HardSkillLARAVEL']; ?>"><img class="course__hard__back__img" src="img/skills__laravel.svg" alt=""></a>
 
             </article>
