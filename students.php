@@ -75,9 +75,9 @@
             <h5 class="student__card__name">Erik Hendriks</h5>
             <p class="student__card__pitch"><?php echo $lang['Erik']; ?></p>
             <section class="students__card__social">
-                <a class="students__card__social__item" href=""><img class="students__card__social__item__img" src="img/card__cv.svg" alt="cv icon"></a>
-                <a class="students__card__social__item" href="https://github.com/ErikHendriks"><img class="students__card__social__item__img" src="img/card__website.svg" alt="website icon"></a>
-                <a class="students__card__social__item" href="https://www.linkedin.com/in/erik-hendriks-371086121/"><img class="students__card__social__item__img" src="img/card__linkedin.svg" alt="linkedin icon"></a>
+                <a class="students__card__social__item" href="https://erikhendriks.be/ErikHendriksResume.html" target="_blank"><img class="students__card__social__item__img" src="img/card__cv.svg" alt="cv icon"></a>
+                <a class="students__card__social__item" href="https://github.com/ErikHendriks" target="_blank"><img class="students__card__social__item__img" src="img/card__website.svg" alt="website icon"></a>
+                <a class="students__card__social__item" href="https://www.linkedin.com/in/erik-hendriks-371086121/" target="_blank"><img class="students__card__social__item__img" src="img/card__linkedin.svg" alt="linkedin icon"></a>
             </section>
         </section>
     </article>
