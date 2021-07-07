@@ -63,7 +63,7 @@ $lang['courseBody2'] = 'The past few months we have learned an awful lot and dev
 $lang['courseBody3'] = 'During the course we used <b>Github</b> and <b>GitLab</b> for version control, <b>Visual Studio Code</b> and <b>PHPStorm</b> as code editors and for Agile Project Management we used <b>Trello</b>.';
 
 // Footer
-$lang['footerTitle'] = 'Save your spot!';
+$lang['footerTitle'] = 'SAVE YOUR SPOT!';
 $lang['footerSubtitle'] = 'Fill in your details and save your spot!';
 $lang['footerBody1'] = 'This event is fully remote.';
 $lang['footerBody2'] = 'Date: 26 August 2021';
