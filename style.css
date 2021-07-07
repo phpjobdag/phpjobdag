@@ -227,6 +227,7 @@
 	background: #fda677;
 	padding-bottom: 3rem;
 	position: relative;
+	overflow:hidden;
 }
 
 .agenda__title,
@@ -807,6 +808,7 @@ body{
 	background-color: #001220;
 	padding-bottom: 8rem;
 	position: relative;
+	overflow:hidden;
 }
 
 .students__quote {
@@ -1155,6 +1157,7 @@ body{
 		flex-direction: row;
 		flex-wrap: wrap;
 		justify-content: center;
+		overflow:hidden;
 	}
 
 	.agenda__title {
@@ -1350,6 +1353,7 @@ body{
 	.no__display__mobile{
 		display:block;
 	}
+}
 	
 @media only screen and (min-width: 820px) {
    #agenda__blob__orange__bottom,
@@ -1478,7 +1482,7 @@ body{
 	.header__section__subtitle{
 		width:200px;
 	}
-}
+
 
 
 
