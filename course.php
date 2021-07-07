@@ -17,6 +17,7 @@
                 <img class="course__hard__front__img" src="img/skills__css3.svg" alt="css3 logo">
                 <img class="course__hard__front__img" src="img/skills__js.svg" alt="js logo">
                 <img class="course__hard__front__img" src="img/skills__bootstrap.svg" alt="bootstrap logo">
+                
             </article>
 
             <article class="course__hard__back">
@@ -24,6 +25,7 @@
                 <img class="course__hard__back__img" src="img/skills__php.svg" alt="">
                 <img class="course__hard__back__img" src="img/skills__mysql.svg" alt="">
                 <img class="course__hard__back__img" src="img/skills__laravel.svg" alt="">
+                <img class="course__hard__front__img" src="img/skills__angular.svg" alt="angular logo">
             </article>
         </section>
         <section class="course__hard__edit__control">
@@ -50,16 +52,14 @@
             <article class="remote-working">
                 <h6 class="course__soft__remote__title">Remote Working</h6>
                 <img class="course__soft__remote__img" src="img/skills__zoom.svg" alt="zoom logo">
-                <img class="course__soft__remote__img" src="img/skills__slack.svg" alt="slack logo">
+                <img class="course__soft__remote__img slack" src="img/skills__slack.svg" alt="slack logo">
                 <img class="course__soft__remote__img" src="img/skills__discord.svg" alt="discord logo">
             </article>
         </section>
     </section>
 
-    
+    <svg id="course__blob__yellow__bottom" viewBox="0 -7 1389 1310">
+    <path d="M0 0C150.092 79.1279 300.183 158.525 484.801 205.894C669.705 253.263 889.135 268.604 982.158 383.528C1075.18 498.721 1042.08 713.497 1088.88 884.671C1135.39 1055.58 1262.08 1182.61 1388.77 1309.92H0V0Z" fill="#FBAE3C"/>
+    </svg>  
 
-    <svg id="course__blob__yellow__bottom" viewBox="0 0 1389 1310">
-        <path d="M0 0C150.092 79.1279 300.183 158.525 484.801 205.894C669.705 253.263 889.135 268.604 982.158 383.528C1075.18 498.721 1042.08 713.497 1088.88 884.671C1135.39 1055.58 1262.08 1182.61 1388.77 1309.92H0V0Z" fill="#FBAE3C"/>
-    </svg>
-</div>
 </section>

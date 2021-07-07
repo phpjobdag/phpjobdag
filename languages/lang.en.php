@@ -19,7 +19,7 @@ $lang['nav2'] = 'Event Agenda';
 $lang['nav3'] = 'Course Scope';
 
 // Intro
-$lang['intro1'] = 'Back-end developers meet business partners';
+$lang['intro1'] = 'Web developers meet business partners';
 $lang['intro2'] = 'SIGN-UP';
 
 // Counter
@@ -29,8 +29,8 @@ $lang['counter3'] = 'Minutes';
 $lang['counter4'] = 'Seconds';
 
 // Students
-$lang['studentTitle'] = 'Who are we?';
-$lang['Alexander'] = 'Due to corona virus this course was completely remote. Managing to work together from a distance.';
+$lang['studentTitle'] = 'WHO ARE WE?';
+$lang['Alexander'] = 'Fast-learning, enthusiastic and driven Web Developer with a specialty in Philosophy of Technology';
 $lang['Anastasya'] = 'Small full stack developer with big ambition to become an expert in her field.';
 $lang['Arne'] = 'Developer looking for opportunities to develop myself.';
 $lang['Burcu'] = '';
@@ -38,32 +38,34 @@ $lang['Daniel'] = 'Not a copywriter.';
 $lang['Erik'] = 'Good knowledge of numerous programming languages PHP, Python, Javascript, SQL, Java, CSS, HTML';
 $lang['Geert'] = 'New in this fascinating world of development. But every expert was once a beginner.';
 $lang['Mathijs'] = 'Aspiring full stack developer open for any challenge you throw at him.';
-$lang['Miguel'] = '';
+$lang['Miguel'] = 'Young, ambitious and passionate about web development';
 $lang['Wouter'] = 'Wouter decided after 12 years of retail to go back to his passion as a webdeveloper.';
 $lang['Yves'] = 'A bachelor in communication management upscaling his webdeveloping skills… Ready to rumble!';
 
 // Agenda
 $lang['agendaTitle'] = 'CHECK OUT THE AGENDA';
-$lang['agendaDes1'] = 'This is the time to ask questions, to spot the skills and talents of each candidate and seek out the potential future fit for your company.';
-$lang['agendaDes2'] = 'During the speed interview session you will be given 15 minutes to get to know the student. So hold your questions ready.';
+$lang['agendaDes1'] = 'First off you will receive an introductory presentation with an overview of the skills and abilities we have attained during our course.';
+$lang['agendaDes2'] = 'Next up is the Interview. This is the time to ask questions, to spot the skills and talents of each candidate and seek out the potential future fit for your company. During the speed interview session you will be given 15 minutes to get to know each student. So have your questions ready.';
+$lang['agendaDes3'] = 'Afterwards there will be time to evaluate the candidates and leave some feedback.';
+
 $lang['agendap1'] = 'Introductory presentation ';
-$lang['agendap2'] = 'A brief overview of our skills and abilities that we have attained during the course';
+$lang['agendap2'] = 'A brief overview of the course';
 $lang['agendap3'] = 'Interview Session';
-$lang['agendap4'] = 'You will get the chance to interview each student for 15 minutes. (Lots of Fun)';
+$lang['agendap4'] = 'of 15 minutes.';
 $lang['agendap5'] = 'Feedback Moment';
-$lang['agendap6'] = 'You get time to evaluate the students and give feedback';
+$lang['agendap6'] = 'Evaluation and Feedback';
 
 // Course
-$lang['courseTitle'] = 'See the course scope';
-$lang['courseBody1'] = 'Due to the pandemic this course was completely remote. Managing to work together from a distance was the first thing we learned. [You can throw at us any online challenge and we won’t break.]';
-$lang['courseBody2'] = 'There is a whole lot of programming skills we learned the past months. (We put some pictures below in case you get bored.) ';
-$lang['courseBody3'] = 'The course included many hands-on projects some of which involved teamwork others required independent effort. We used Github for version control, Visual Studio Code and PHPStorm as code editor and Trello for Scrum project management. ';
+$lang['courseTitle'] = 'SEE THE COURSE SCOPE';
+$lang['courseBody1'] = 'Due to the pandemic this course was completely remote. Managing to work together from a distance was the first thing we learned.';
+$lang['courseBody2'] = 'The past few months we have learned an awful lot and developed many new skills. In a relatively short amount of time we have managed to build a strong foundation from which we plan to launch our future careers.';
+$lang['courseBody3'] = 'During the course we used <b>Github</b> and <b>GitLab</b> for version control, <b>Visual Studio Code</b> and <b>PHPStorm</b> as code editors and for Agile Project Management we used <b>Trello</b>.';
 
 // Footer
 $lang['footerTitle'] = 'Fill in your details and save your spot!';
 $lang['footerBody1'] = 'This event is fully remote.';
-$lang['footerBody2'] = 'After your registration is approved we will provide you a meeting link and the password to the event.';
-$lang['footerBody3'] = 'We are looking forward to hearing  from you.';
+$lang['footerBody2'] = 'After your registration is approved we will provide you with a meeting link and a password for the event.';
+$lang['footerBody3'] = 'We are looking forward to hearing from you.';
 $lang['footerThank1'] = 'Thank you';
-$lang['footerThank2'] = 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis officia, in quis excepturi pariatur itaque dolorum beatae accusamus tenetur aspernatur tempora nam maxime dolore unde dolorem enim rem quod perferendis.';
-$lang['footerMade'] = 'Deze site werd gemaakt met';
+$lang['footerThank2'] = 'We would like to show our appreciation for our teachers. In these past few months they have provided us with the necessary knowledge and skills. They are partially responsible for our transformation into developers. Tim, Sarah, Anke and Yannick, thank you for all your support!';
+$lang['footerMade'] = 'This site was made with:';
