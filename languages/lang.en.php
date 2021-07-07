@@ -80,8 +80,8 @@ $lang['fromMorning'] = 'Morning';
 $lang['formAfternoon'] = 'Afternoon';
 $lang['formDay'] = 'Whole day';
 $lang['formCommunication'] = 'Preferred communication platform';
-$lang['formLinkLabel'] = 'Paste your communication platform link';
-$lang['formLink'] = 'Paste your communication platform link';
+$lang['formLinkLabel'] = 'In case you want to make use of your owm Teams, Zoom or Google Meet channel, please fill in the link to the room below.';
+$lang['formLink'] = 'Paste your link...';
 $lang['formQuestions'] = 'Any Questions?';
 $lang['formSubmit'] = 'Register';
 

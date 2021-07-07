@@ -79,8 +79,8 @@ $lang['fromMorning'] = 'Voormiddag';
 $lang['formAfternoon'] = 'Namiddag';
 $lang['formDay'] = 'Hele dag';
 $lang['formCommunication'] = 'Wat is je gewenste communicatie platform?';
-$lang['formLinkLabel'] = 'Deel hier de link voor je online (bedrijfs)communicatie platform';
-$lang['formLink'] = 'Deel hier de link voor je online (bedrijfs)communicatie platform';
+$lang['formLinkLabel'] = 'Indien je graag gebruik wil maken van je eigen Teams, Zoom, Google Meet kanaal, ... Vul hieronder dan de link in naar je gewenst communicatie platform.';
+$lang['formLink'] = 'Plak hier je link...';
 $lang['formQuestions'] = 'Overige opmerkingen/vragen?';
 $lang['formSubmit'] = 'Register';
 

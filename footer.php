@@ -24,13 +24,13 @@
                  <input type="checkbox" id="day" name="day"> <?php echo $lang['formDay']; ?> (09u00 - 17u00)
              </div>
 
-             <label for="platform"><?php echo $lang['formCommunication']; ?></label>
-             <div class="checkbox__wrapper">
-                 <input type="radio" name="platform" id="zoom" name="zoom"> Zoom
-                 <input type="radio" name="platform" id="teams" name="teams"> Teams
-                 <input type="radio" name="platform" id="googlemeet" name="googlemeet"> Google Meet
-                 <input type="radio" name="platform" id="andere" name="andere"> Andere
-             </div>
+<!--             <label for="platform">--><?php //echo $lang['formCommunication']; ?><!--</label>-->
+<!--             <div class="checkbox__wrapper">-->
+<!--                 <input type="radio" name="platform" id="zoom" name="zoom"> Zoom-->
+<!--                 <input type="radio" name="platform" id="teams" name="teams"> Teams-->
+<!--                 <input type="radio" name="platform" id="googlemeet" name="googlemeet"> Google Meet-->
+<!--                 <input type="radio" name="platform" id="andere" name="andere"> Andere-->
+<!--             </div>-->
 
 
              <label for="link"><?php echo $lang['formLinkLabel']; ?></label>
