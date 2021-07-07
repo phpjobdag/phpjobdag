@@ -64,10 +64,10 @@ $lang['courseBody3'] = 'Doorheen de cursus hebben wij <b>GitHub</b> en <b>GitLab
 
 // Footer
 $lang['footerTitle'] = 'RESERVEER UW PLAATS';
-$lang['footerSubtitle'] = 'Vul uw gegevens in en reserveer uw plaats!';
-$lang['footerBody1'] = 'Het evenement zal volledig op afstand plaats vinden.';
+$lang['footerSubtitle'] = 'Vul uw gegevens in<br> en reserveer uw plaats!';
+$lang['footerBody1'] = 'Het evenement zal volledig op afstand plaatsvinden.';
 $lang['footerBody2'] = 'Datum: 26 augustus 2021';
-$lang['footerBody3'] = 'Nadat uw registratie goedgekeurd is voorzien wij u van een link en een paswoord om deel te nemen aan het evenement.';
+$lang['footerBody3'] = 'Nadat uw registratie goedgekeurd is voorzien wij u van een link<br class="desk__break">  en een paswoord om deel te nemen aan het evenement.';
 $lang['footerBody4'] = 'Wij hopen u spoedig te mogen ontmoeten.';
 
 $lang['formCompany'] = 'Bedrijfsnaam';

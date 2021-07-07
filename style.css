@@ -256,6 +256,7 @@
    margin-bottom: 3rem;
    position: relative;
    z-index: 10;
+	text-transform: uppercase;
 }
 
 .agenda__description {
@@ -580,11 +581,16 @@ body{
 }
 
 .footer__register__info__title {
-   font-weight: 400;
-   font-size: 28px;
-   line-height: 33px;
+   font-weight: 200;
+   /*font-size: 3.25rem;*/
+	font-size: calc(28px + (52 - 28) * ((100vw - 320px) / (1920 - 320)));
+   line-height: calc(32.8px + (61 - 28) * ((100vw - 320px) / (1920 - 320)));
    color: #FFFFFF;
    margin-bottom: 2rem;
+	margin-top: -10px;
+}
+.footer__register__info__location:first-of-type{
+	margin-bottom: 0;
 }
 
 .footer__register__info__location {
@@ -606,6 +612,7 @@ body{
 
 .footer__info {
 	margin: 1rem 16px 4rem 16px;
+	/*margin-top: 5vw;*/
    position: relative;
    z-index: 10;
 }
@@ -654,7 +661,7 @@ body{
 	font-weight: bold;
 	font-size: 16px;
 	line-height: 19px;
-	letter-spacing: 0.08em;
+	letter-spacing: 0.08rem;
 	font-variant: small-caps;
 	color: #ffffff;
 	margin-bottom: 2rem;
@@ -842,7 +849,7 @@ body{
 }
 
 .students__quote {
-
+	text-align: center;
 	color: white;
 	font-style: italic;
 	margin-left: 1rem;
@@ -1430,7 +1437,9 @@ body{
 		margin-bottom: 3.2rem;
 	}
 }
-	
+
+
+
 @media only screen and (min-width: 820px) {
    #agenda__blob__orange__bottom,
    #agenda__blob__yellow__bottom {
@@ -1467,7 +1476,8 @@ body{
 		border-bottom: none;
 	}
 
-   .footer__register__info__location, .footer__register__info__approval{
+   .footer__register__info__location,
+   .footer__register__info__approval{
       font-size: 20px;
    }
 	
@@ -1477,12 +1487,17 @@ body{
 		display: block;
 	}
 
- 	.header__mobile__dropdown,.header__mobile__dropdown__link,#header__mobile_dropdown__languages{
+ 	.header__mobile__dropdown,
+	.header__mobile__dropdown__link,
+	#header__mobile_dropdown__languages{
          display:none;
    }
 
 
-	.agenda__title, .course__title, .footer__title, .students__title{
+	.agenda__title,
+	.course__title,
+	.footer__title,
+	.students__title{
       font-size:2.25rem;
       line-height: 2.5rem;
 		
@@ -1490,7 +1505,10 @@ body{
    
 
 
-   #agenda__wrapper,#course__wrapper,#footer__wrapper,.student__wrapper{
+   #agenda__wrapper,
+   #course__wrapper,
+   #footer__wrapper,
+   .student__wrapper{
       width:1080px;
      justify-content: center;
       flex-direction: row;
@@ -1556,8 +1574,6 @@ body{
 	}
 
 
-
-
    #footer__blob__orange {
       bottom: 12%;
       width: 943px;
@@ -1580,6 +1596,12 @@ body{
       width: 150%;
    }
 }
+@media only screen and (max-width: 540px){
+	.desk__break{
+		display:none;
+	}
+}
+
 
 @media only screen and (min-width: 1580px) {
    #footer__blob__orange {
