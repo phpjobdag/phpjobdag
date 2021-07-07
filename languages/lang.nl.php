@@ -15,7 +15,7 @@ $lang['h1'] = 'English title';
 
 // Nav
 $lang['nav1'] = 'Studenten';
-$lang['nav2'] = 'Agenda';
+$lang['nav2'] = 'Programma';
 $lang['nav3'] = 'Cursus';
 
 // Intro
