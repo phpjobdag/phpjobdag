@@ -23,9 +23,15 @@
                  <input type="checkbox" id="namiddag"> Namiddag (13u00 - 17u00)
              </div>
 
-             <input class="footer__register__form__input" type="tel" id="link" placeholder="communicatie platform" required>
+             <div class="checkbox__wrapper">
+                 <input type="checkbox" id="Zoom"> Zoom
+                 <input type="checkbox" id="Teams"> Teams
+                 <input type="checkbox" id="Google Meet"> Google Meet
+                 <input type="checkbox" id="Ander"> Ander
+             </div>
+             <input class="footer__register__form__input" type="tel" id="link" placeholder="Link communicatie platform" required>
 
-             <input class="footer__register__form__input" type="tel" id="link" placeholder="communicatie platform" required>
+             <input class="footer__register__form__input" type="tel" id="link" placeholder="Opmerking" required>
 
 
             <input class="footer__register__form__submit" type="submit" value="Registreer">
