@@ -69,6 +69,19 @@ $lang['HardSkillJS'] = 'https://nl.wikipedia.org/wiki/JavaScript';
 $lang['HardSkillBS'] = 'https://nl.wikipedia.org/wiki/Bootstrap_(framework)';
 $lang['HardSkillANGULAR'] = 'https://nl.wikipedia.org/wiki/Angular';
 
+// Back-end Links
+$lang['HardSkillPHP'] = 'https://nl.wikipedia.org/wiki/PHP';
+$lang['HardSkillMYSQL'] = 'https://nl.wikipedia.org/wiki/MySQL';
+$lang['HardSkillLARAVEL'] = 'https://nl.wikipedia.org/wiki/Laravel';
+
+// Code Editors
+$lang['HardSkillVSC'] = 'https://nl.wikipedia.org/wiki/Visual_Studio_Code';
+$lang['HardSkillPHPS'] = 'https://fr.wikipedia.org/wiki/PhpStorm';
+
+// Version Control
+$lang['HardSkillGITHUB'] = 'https://nl.wikipedia.org/wiki/GitHub';
+$lang['HardSkillGITLAB'] = 'https://nl.wikipedia.org/wiki/GitLab';
+
 // Footer
 $lang['footerTitle'] = 'RESERVEER UW PLAATS!';
 $lang['footerSubtitle'] = 'Vul uw gegevens in en reserveer uw plaats!';

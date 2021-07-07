@@ -69,6 +69,19 @@ $lang['HardSkillJS'] = 'https://en.wikipedia.org/wiki/JavaScript';
 $lang['HardSkillBS'] = 'https://en.wikipedia.org/wiki/Bootstrap_(front-end_framework)';
 $lang['HardSkillANGULAR'] = 'https://en.wikipedia.org/wiki/Angular_(web_framework)';
 
+// Back-end Links
+$lang['HardSkillPHP'] = 'https://en.wikipedia.org/wiki/PHP';
+$lang['HardSkillMYSQL'] = 'https://en.wikipedia.org/wiki/MySQL';
+$lang['HardSkillLARAVEL'] = 'https://en.wikipedia.org/wiki/Laravel';
+
+// Code editors
+$lang['HardSkillVSC'] = 'https://en.wikipedia.org/wiki/Visual_Studio_Code';
+$lang['HardSkillPHPS'] = 'https://en.wikipedia.org/wiki/PhpStorm';
+
+// Version Control
+$lang['HardSkillGITHUB'] = 'https://en.wikipedia.org/wiki/GitHub';
+$lang['HardSkillGITLAB'] = 'https://en.wikipedia.org/wiki/GitLab';
+
 // Footer
 $lang['footerTitle'] = 'Save your spot!';
 $lang['footerSubtitle'] = 'Fill in your details and save your spot!';
