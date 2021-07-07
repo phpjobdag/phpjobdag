@@ -91,16 +91,9 @@
                     <img class="footer__info__tools__img" src="img/skills__js.svg" alt="js logo">
                     <img class="footer__info__tools__img" src="img/skills__vsc.svg" alt="vsc logo">
                     <img class="footer__info__tools__img" src="img/skills__phpstorm.svg" alt="PHP storm logo">
-                    <img class="footer__info__tools__img" src="img/skills__angular.svg" alt="">
-                    <img class="footer__info__tools__img" src="img/skills__bootstrap.svg" alt="">
-                    <img class="footer__info__tools__img" src="img/skills__discord.svg" alt="">
                     <img class="footer__info__tools__img" src="img/skills__github.svg" alt="">
-                    <img class="footer__info__tools__img" src="img/skills__laravel.svg" alt="">
-                    <img class="footer__info__tools__img" src="img/skills__mysql.svg" alt="">
                     <img class="footer__info__tools__img" src="img/skills__php.svg" alt="">
-                    <img class="footer__info__tools__img" src="img/skills__slack.svg" alt="">
                     <img class="footer__info__tools__img" src="img/skills__trello.svg" alt="">
-                    <img class="footer__info__tools__img" src="img/skills__zoom.svg" alt="">
                     <!--extra logo's zijn nodig om de ononderbroken beweging te garanderen-->
                     <img class="footer__info__tools__img" src="img/skills__css3.svg" alt="css3 logo">
                     <img class="footer__info__tools__img" src="img/skills__html5.svg" alt="html5 logo">

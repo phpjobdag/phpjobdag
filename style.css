@@ -1468,6 +1468,11 @@ body{
 	.header__section__subtitle{
 		width:200px;
 	}
+
+	.footer__info__tools__static {
+		height: 60px;
+		width: 400px;
+	}
 }
 
 
