@@ -57,7 +57,7 @@
         </section>
 
         <!-- desktopsite geen container -->
-        <article class="footer__info__team no__display">
+        <article class="footer__info__team no__display__mobile">
                 <h6 class="footer__info__team__title">Project Team</h6>
                 <ul class="footer__info__team__list">
                     <li class="footer__info__team__list__name">Alexander Decoz</li>
@@ -76,7 +76,7 @@
 
         
 
-            <article class="footer__info__partners no__display">
+            <article class="footer__info__partners no__display__mobile">
                 <h6 class="footer__info__partners__title">Partners</h6>
                 <img class="footer__info__partners__image" src="img/partners__multimedi.svg" alt="logo multimedi">
                 <img  class="footer__info__partners__image" src="img/partners__cevora.svg" alt="logo cevora">

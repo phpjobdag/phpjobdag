@@ -617,6 +617,10 @@ body{
 	flex-direction: column;
 }
 
+.no__display__mobile{
+	display:none;
+}
+
 .footer__info__team__title,
 .footer__info__partners__title {
 	font-weight: bold;
@@ -1319,6 +1323,7 @@ body{
       grid-row: 1/5;
       font-size:1rem;
       height:330px;
+		
    }
 
 	.footer__info__thx {
@@ -1341,6 +1346,11 @@ body{
       font-size:1rem;
       height:100px;
    }
+
+	.no__display__mobile{
+		display:block;
+	}
+	
 @media only screen and (min-width: 820px) {
    #agenda__blob__orange__bottom,
    #agenda__blob__yellow__bottom {
