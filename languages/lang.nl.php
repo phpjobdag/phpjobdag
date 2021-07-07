@@ -19,7 +19,7 @@ $lang['nav2'] = 'Agenda';
 $lang['nav3'] = 'Cursus';
 
 // Intro
-$lang['introDate'] = '';
+$lang['introDate'] = '26 augustus 2021';
 $lang['intro1'] = 'Webontwikkelaars maken kennis met werkgevers ';
 $lang['intro2'] = 'Meld je aan!';
 
@@ -49,7 +49,7 @@ $lang['agendaDes1'] = 'Allereerst krijgt u een kort en bondig overzicht van de v
 $lang['agendaDes2'] = 'Vervolgens het interview. Dit is het moment om vragen te stellen, en de vaardigheden en talenten van de kandidaten op te merken zodoende kunt u de geschikte kandidaat voor uw organisatie kiezen. U krijgt 15 minuten voor iedere kandidaat te ondervragen gedurende het interview. Houd uw vragen paraat.';
 $lang['agendaDes3'] = 'Ter afsluiting hebben we een moment van evaluatie en reflectie zowel voor de kandidaat als de interviewer.';
 
-$lang['agendap1'] = 'Introductie ';
+$lang['agendap1'] = 'Introductie';
 $lang['agendap2'] = 'Een kort en bondig overzicht van onze cursus';
 $lang['agendap3'] = 'Interview sessies';
 $lang['agendap4'] = 'U krijgt de mogelijkheid iedere student te interviewen voor 15 minuten.';
