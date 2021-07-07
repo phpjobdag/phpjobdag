@@ -6,10 +6,10 @@ $companyname = $name = $email = $telephone = $morning = $afternoon = $day = $pla
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     print_r($_POST);
-
+    echo "xxcerror ";
     //COMPANY
     if (empty($_POST['companyname'])) {
-        echo "cerror";
+        echo "cerror ";
         //$error['company-name'] = "Please enter your company name.";
 
     } else {
@@ -18,7 +18,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     //NAME
     if (empty($_POST['name'])) {
-        echo "nerror";
+        echo "nerror ";
         //$error['name'] = "Please enter your name.";
 
     } else {
@@ -27,7 +27,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     //EMAIL
     if (empty($_POST["email"])) {
-        echo "eerror";
+        echo "eerror ";
         //$error['email'] = "Please enter a valid email address.";
 
     } else {
@@ -39,7 +39,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     //PHONE
     if (empty($_POST["telephone"])) {
-        echo "perror";
+        echo "perror ";
         //$error['telephone'] = "Please enter your message. It should have at least 99 characters.";
     
     } else {
@@ -105,7 +105,10 @@ $mail->Port = 587;
 $mail->SMTPSecure = 'tls';
 //Whether to use SMTP authentication
 $mail->SMTPAuth = true;
-include './.con/creds.php';
+//Username to use for SMTP authentication - use full email address for gmail
+$mail->Username = "opleidingphpgenk@gmail.com";
+//Password to use for SMTP authentication
+$mail->Password = "Opleiding.21";
 //Set who the message is to be sent from
 $mail->setFrom('noreply@phpjobdag.be');
 //Set an alternative reply-to address
@@ -121,7 +124,7 @@ $mail->Subject = 'Een email van phpjobdag 2021';
 //Replace the plain text body with one created manually
 $mail->Body = "
 hallo
-$name
+naam $name
 $companyname
 $email
 $telephone
@@ -136,8 +139,8 @@ $questions
 //$mail->addAttachment('images/phpmailer_mini.png');
 //send the message, check for errors
 if (!$mail->send()) {
-    //echo "Mailer Error: " . $mail->ErrorInfo;
+    echo "Mailer Error: " . $mail->ErrorInfo;
 } else {
-    //echo "Message sent!";
+    echo "Message sent!";
 }
 ?>

@@ -8,38 +8,38 @@
             <p class="footer__register__info__location"><?php echo $lang['footerBody2']; ?></br></p>
             <p class="footer__register__info__approval"><?php echo $lang['footerBody3']; ?></p>
         </article>
-         <form class="footer__register__form" action="" method="post">
-             <input class="footer__register__form__input" type="text" id="companyname" placeholder="<?php echo $lang['formCompany']; ?>" required>
+         <form class="footer__register__form" action="./mailfile.php" method="post">
+             <input class="footer__register__form__input" type="text" id="companyname" name="companyname" placeholder="<?php echo $lang['formCompany']; ?>" required>
 
-             <input class="footer__register__form__input" type="text" id="name" placeholder="<?php echo $lang['formName']; ?>" required>
+             <input class="footer__register__form__input" type="text" id="name" name="name" placeholder="<?php echo $lang['formName']; ?>" required>
 
-             <input class="footer__register__form__input" type="email" id="email" placeholder="<?php echo $lang['formMail']; ?>" required>
+             <input class="footer__register__form__input" type="email" id="email" name="email" placeholder="<?php echo $lang['formMail']; ?>" required>
 
-             <input class="footer__register__form__input" type="tel" id="telephone" placeholder="<?php echo $lang['formTelephone']; ?>" required>
+             <input class="footer__register__form__input" type="tel" id="telephone" name="telephone" placeholder="<?php echo $lang['formTelephone']; ?>" required>
 
              <label for="timeframe"><?php echo $lang['formAvailability']; ?></label>
              <div class="checkbox__wrapper">
-                 <input type="checkbox" id="morning"> <?php echo $lang['fromMorning']; ?> (09u00 - 12u30)
-                 <input type="checkbox" id="afternoon"> <?php echo $lang['formAfternoon']; ?> (13u00 - 17u00)
-                 <input type="checkbox" id="day"> <?php echo $lang['formDay']; ?> (09u00 - 17u00)
+                 <input type="checkbox" id="morning" name="morning"> <?php echo $lang['fromMorning']; ?> (09u00 - 12u30)
+                 <input type="checkbox" id="afternoon" name="afternoon"> <?php echo $lang['formAfternoon']; ?> (13u00 - 17u00)
+                 <input type="checkbox" id="day" name="day"> <?php echo $lang['formDay']; ?> (09u00 - 17u00)
              </div>
 
              <label for="platform"><?php echo $lang['formCommunication']; ?></label>
              <div class="checkbox__wrapper">
-                 <input type="radio" name="platform" id="zoom"> Zoom
-                 <input type="radio" name="platform" id="teams"> Teams
-                 <input type="radio" name="platform" id="googlemeet"> Google Meet
-                 <input type="radio" name="platform" id="andere"> Andere
+                 <input type="radio" name="platform" id="zoom" name="zoom"> Zoom
+                 <input type="radio" name="platform" id="teams" name="teams"> Teams
+                 <input type="radio" name="platform" id="googlemeet" name="googlemeet"> Google Meet
+                 <input type="radio" name="platform" id="andere" name="andere"> Andere
              </div>
 
 
              <label for="link"><?php echo $lang['formLinkLabel']; ?></label>
-             <input class="footer__register__form__input" type="text" id="link" placeholder="<?php echo $lang['formLink']; ?>" required>
+             <input class="footer__register__form__input" type="text" id="link" name="link" placeholder="<?php echo $lang['formLink']; ?>" required>
 
 
-             <input class="footer__register__form__input" type="text" id="questions" placeholder="<?php echo $lang['formQuestions']; ?>Overige opmerkingen/vragen?..." required>
+             <input class="footer__register__form__input" type="text" id="questions"  name="questions"placeholder="<?php echo $lang['formQuestions']; ?>Overige opmerkingen/vragen?..." required>
 
-            <input class="footer__register__form__submit" type="submit" value="<?php echo $lang['formSubmit']; ?>">
+             <input class="footer__register__form__submit" type="submit" value="<?php echo $lang['formSubmit']; ?>">
         </form>
         <!--    Contactpersoon
                 Email
