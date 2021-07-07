@@ -15,7 +15,7 @@ $lang['h1'] = 'English title';
 
 // Nav
 $lang['nav1'] = 'Studenten';
-$lang['nav2'] = 'Agenda';
+$lang['nav2'] = 'Programma';
 $lang['nav3'] = 'Cursus';
 
 // Intro
@@ -44,7 +44,7 @@ $lang['Wouter'] = 'Wouter heeft na 12 jaar retail besloten om terug te keren naa
 $lang['Yves'] = 'A bachelor in communication management upscaling his webdeveloping skills… Ready to rumble!';
 
 // Agenda
-$lang['agendaTitle'] = 'BEKIJK DE AGENDA';
+$lang['agendaTitle'] = 'BEKIJK HET PROGRAMMA';
 $lang['agendaDes1'] = 'Allereerst krijgt u een kort en bondig overzicht van de vaardigheden en capaciteiten die wij verworven hebben gedurende de cursus.';
 $lang['agendaDes2'] = 'Vervolgens het interview. Dit is het moment om vragen te stellen, en de vaardigheden en talenten van de kandidaten op te merken zodoende kunt u de geschikte kandidaat voor uw organisatie kiezen. U krijgt 15 minuten voor iedere kandidaat te ondervragen gedurende het interview. Houd uw vragen paraat.';
 $lang['agendaDes3'] = 'Ter afsluiting hebben we een moment van evaluatie en reflectie zowel voor de kandidaat als de interviewer.';
@@ -61,6 +61,34 @@ $lang['courseTitle'] = 'BEKIJK DE CURSUS';
 $lang['courseBody1'] = 'Door toedoen van de pandemie vond onze cursus volledig online plaats. Samen op afstand werken is een van eerste vaardigheden die we hebben ontwikkeld.';
 $lang['courseBody2'] = 'De afgelopen maanden hebben wij veel kennis en vaardigheden opgedaan. In een relatief kort tijdsbestek hebben wij een sterk fundament op weten te bouwen voor ons toekomstig functioneren als webdevelopers.';
 $lang['courseBody3'] = 'Doorheen de cursus hebben wij <b>GitHub</b> en <b>GitLab</b> gebruikt voor versiebeheer, <b>Visual Studio Code</b> en <b>PHPStorm</b> als code editors en voor Agile Project Management hebben we <b>Trello</b> gebruikt. '; // Waarom staat deze informatie onder de kaders Hard-skills en softskills? //
+
+// Front-end Links
+$lang['HardSkillHTML'] = 'https://nl.wikipedia.org/wiki/HTML5';
+$lang['HardSkillCSS'] = 'https://nl.wikipedia.org/wiki/Cascading_Style_Sheets';
+$lang['HardSkillJS'] = 'https://nl.wikipedia.org/wiki/JavaScript';
+$lang['HardSkillBS'] = 'https://nl.wikipedia.org/wiki/Bootstrap_(framework)';
+$lang['HardSkillANGULAR'] = 'https://nl.wikipedia.org/wiki/Angular';
+
+// Back-end Links
+$lang['HardSkillPHP'] = 'https://nl.wikipedia.org/wiki/PHP';
+$lang['HardSkillPHPUNIT'] = 'https://translate.google.com/translate?js=n&sl=auto&tl=nl&u=https://en.wikipedia.org/wiki/PHPUnit';
+$lang['HardSkillMYSQL'] = 'https://nl.wikipedia.org/wiki/MySQL';
+$lang['HardSkillWAMP'] = 'https://nl.wikipedia.org/wiki/WAMP';
+$lang['HardSkillLARAVEL'] = 'https://nl.wikipedia.org/wiki/Laravel';
+
+// Code Editors
+$lang['HardSkillVSC'] = 'https://nl.wikipedia.org/wiki/Visual_Studio_Code';
+$lang['HardSkillPHPS'] = 'https://translate.google.com/translate?js=n&sl=auto&tl=nl&u=https://en.wikipedia.org/wiki/PhpStorm';
+
+// Version Control
+$lang['HardSkillGITHUB'] = 'https://nl.wikipedia.org/wiki/GitHub';
+$lang['HardSkillGITLAB'] = 'https://nl.wikipedia.org/wiki/GitLab';
+
+$lang['HardSkillTRELLO'] = 'https://www.atlassian.com/nl/software/trello';
+
+$lang['HardSkillZOOM'] = 'https://nl.wikipedia.org/wiki/Zoom_Video_Communications';
+$lang['HardSkillSLACK'] = 'https://nl.wikipedia.org/wiki/Slack_(software)';
+$lang['HardSkillDISCORD'] = 'https://nl.wikipedia.org/wiki/Discord_(software)';
 
 // Footer
 $lang['footerTitle'] = 'RESERVEER UW PLAATS!';
@@ -87,3 +115,6 @@ $lang['formSubmit'] = 'Register';
 $lang['footerThank1'] = 'Dankwoord';
 $lang['footerThank2'] = 'Wij zouden graag een woord van dank richten aan onze lesgevers. Zij hebben ons de afgelopen maanden de nodige kennis en vaardigheden bijgebracht. Zij zijn medeverantwoordelijk voor onze omvorming tot ontwikkelaars. Bij deze Tim, Sarah, Anke en Yannick. Dank jullie wel!';
 $lang['footerMade'] = 'Deze site werd gemaakt met:';
+
+$lang['FootPartnerMULTIMEDI'] = 'https://www.multimedi.be/';
+$lang['FootPartnerCEVORA'] = 'https://www.cevora.be/';
