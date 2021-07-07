@@ -79,6 +79,7 @@ $lang['fromMorning'] = 'Voormiddag';
 $lang['formAfternoon'] = 'Namiddag';
 $lang['formDay'] = 'Hele dag';
 $lang['formCommunication'] = 'Wat is je gewenste communicatie platform?';
+$lang['formLinkLabel'] = 'Deel hier de link voor je online (bedrijfs)communicatie platform';
 $lang['formLink'] = 'Deel hier de link voor je online (bedrijfs)communicatie platform';
 $lang['formQuestions'] = 'Overige opmerkingen/vragen?';
 $lang['formSubmit'] = 'Register';

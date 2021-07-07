@@ -80,6 +80,7 @@ $lang['fromMorning'] = 'Morning';
 $lang['formAfternoon'] = 'Afternoon';
 $lang['formDay'] = 'Whole day';
 $lang['formCommunication'] = 'Preferred communication platform';
+$lang['formLinkLabel'] = 'Paste your communication platform link';
 $lang['formLink'] = 'Paste your communication platform link';
 $lang['formQuestions'] = 'Any Questions?';
 $lang['formSubmit'] = 'Register';
