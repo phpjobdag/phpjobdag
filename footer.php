@@ -4,10 +4,11 @@
     <div id="footer__wrapper">
     <section id="signup" class="footer__register"> 
         <article class="footer__register__info">
-            <h3 class="footer__register__info__title"><?php echo $lang['footerBody1']; ?></h3>
-            <p class="footer__register__info__location"><?php echo $lang['footerBody2']; ?></br>
-            Date: 26 August 2021</p>
-            <p class="footer__register__info__approval"><?php echo $lang['footerBody3']; ?></p>
+            <h3 class="footer__register__info__title"><?php echo $lang['footerSubtitle']; ?></h3>
+            <p class="footer__register__info__location"><?php echo $lang['footerBody1']; ?></br>
+            <?php echo $lang['footerBody2']; ?></p>
+            <p class="footer__register__info__approval"><?php echo $lang['footerBody3']; ?></br>
+            <?php echo $lang['footerBody4']; ?></p>
         </article>
          <form class="footer__register__form" action="" method="post">
              <input class="footer__register__form__input" type="text" id="company-name" placeholder="Company name" required>
@@ -46,7 +47,7 @@
                 Overige opmerkingen/vragen
 
                 -->
-       
+
     </section>
 
     <section class="footer__info">
@@ -79,7 +80,6 @@
                 <h6 class="footer__info__partners__title">Partners</h6>
                 <img class="footer__info__partners__image" src="img/partners__multimedi.svg" alt="logo multimedi">
                 <img  class="footer__info__partners__image" src="img/partners__cevora.svg" alt="logo cevora">
-
             </article>
         </section>
 
