@@ -44,7 +44,7 @@ $lang['Wouter'] = 'Wouter heeft na 12 jaar retail besloten om terug te keren naa
 $lang['Yves'] = 'A bachelor in communication management upscaling his webdeveloping skills… Ready to rumble!';
 
 // Agenda
-$lang['agendaTitle'] = 'BEKIJK DE AGENDA';
+$lang['agendaTitle'] = 'BEKIJK HET PROGRAMMA';
 $lang['agendaDes1'] = 'Allereerst krijgt u een kort en bondig overzicht van de vaardigheden en capaciteiten die wij verworven hebben gedurende de cursus.';
 $lang['agendaDes2'] = 'Vervolgens het interview. Dit is het moment om vragen te stellen, en de vaardigheden en talenten van de kandidaten op te merken zodoende kunt u de geschikte kandidaat voor uw organisatie kiezen. U krijgt 15 minuten voor iedere kandidaat te ondervragen gedurende het interview. Houd uw vragen paraat.';
 $lang['agendaDes3'] = 'Ter afsluiting hebben we een moment van evaluatie en reflectie zowel voor de kandidaat als de interviewer.';
