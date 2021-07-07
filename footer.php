@@ -10,16 +10,38 @@
             <p class="footer__register__info__approval"><?php echo $lang['footerBody3']; ?></p>
         </article>
          <form class="footer__register__form" action="" method="post">
-            <!-- <label class="footer__register__form__label" for="name">Your Name</label> -->
             <input class="footer__register__form__input" type="text" id="name" placeholder="Your Name" required>
-            <!-- <label class="footer__register__form__label" for="company-name">Company name</label> -->
-            <input class="footer__register__form__input" type="text" id="company-name" placeholder="Company name" required>
-            <!-- <label class="footer__register__form__label" for="telephone">Your digits</label> -->
-            <input class="footer__register__form__input" type="tel" id="telephone" placeholder="Your digits" required>
-            <!-- <label class="footer__register__form__label" for="email">Email</label> -->
-            <input class="footer__register__form__input" type="email" id="email" placeholder="email" required>
+
+             <input class="footer__register__form__input" type="email" id="email" placeholder="email" required>
+
+             <input class="footer__register__form__input" type="tel" id="telephone" placeholder="Your digits" required>
+
+             <div class="checkbox__wrapper">
+                 <input class="footer__register__form__input" type="checkbox" id="timeframe"> Voormiddag (09u00 - 12u30)
+             </div>
+
+             <label for="timeframe">Wanneer</label>
+             <select name="cars" id="cars">
+                 <option value="voormiddag">Voormiddag (09u00 - 12u30)</option>
+                 <option value="namiddag">Namiddag (13u00 - 17u00)</option>
+                 <option value="heledag">Hele Dag (09u00 - 17u00)</option>
+             </select>
+
+             <input class="footer__register__form__input" type="text" id="company-name" placeholder="Company name" required>
+
+
             <input class="footer__register__form__submit" type="submit" value="Registreer">
         </form>
+
+        <!--    Contactpersoon
+                Email
+                Telnr
+                Wanneer beschikbaar -> checkboxes (09-12u30, 13u-17u, 09u-17u)
+                Gewenste communicatieplatform
+                Deel hier de link voor je online
+                Overige opmerkingen/vragen
+
+                -->
        
     </section>
 
@@ -53,6 +75,7 @@
                 <h6 class="footer__info__partners__title">Partners</h6>
                 <img class="footer__info__partners__image" src="img/partners__multimedi.svg" alt="logo multimedi">
                 <img  class="footer__info__partners__image" src="img/partners__cevora.svg" alt="logo cevora">
+
             </article>
         </section>
 
