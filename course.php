@@ -31,7 +31,7 @@
         </section>
         <section class="course__hard__edit__control">
             <article class="course__hard__edit">
-                <h6 class="course__hard__edit__title skill__title">Code editors</h6>
+                <h6 class="course__hard__edit__title skill__title">Code Editors</h6>
                 <img class="course__hard__edit__img" src="img/skills__vsc.svg" alt="vsc logo">
                 <img class="course__hard__edit__img" src="img/skills__phpstorm.svg" alt="php storm logo">
             </article>
@@ -45,14 +45,15 @@
     </section>
 
     <section class="course__soft margBot0">
-        <h3 class="course__soft__title">Soft-Skills</h3>
+        <h3 class="course__soft__title">Soft<br>Skills</h3>
+
         <section class="agile__remote">
             <article class="agile-method">
-                <h6 class="course__soft__agile__title">Agile Tools</h6>
+                <h6 class="course__soft__agile__title skill__title">Agile Tools</h6>
                 <img class="course__soft__agile__img" src="img/skills__trello.svg" alt="trello logo">
             </article>
             <article class="remote-working">
-                <h6 class="course__soft__remote__title">Remote Working</h6>
+                <h6 class="course__soft__remote__title skill__title">Remote Working</h6>
                 <img class="course__soft__remote__img" src="img/skills__zoom.svg" alt="zoom logo">
                 <img class="course__soft__remote__img slack" src="img/skills__slack.svg" alt="slack logo">
                 <img class="course__soft__remote__img" src="img/skills__discord.svg" alt="discord logo">

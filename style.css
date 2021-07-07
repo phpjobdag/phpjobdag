@@ -442,22 +442,40 @@ body{
 	align-items: center;
 }
 
-.course__hard__front__title,
-.course__hard__back__title,
-.course__hard__edit__title,
-.course__hard__control__title,
-.course__soft__agile__title,
-.course__soft__remote__title {
+/* blok mag weg, wordt vervangen door .skill__title*/
+
+/*.course__hard__front__title,*/
+/*.course__hard__back__title,*/
+/*.course__hard__edit__title,*/
+/*.course__hard__control__title,*/
+/*.course__soft__agile__title,*/
+/*.course__soft__remote__title {*/
+/*	font-style: normal;*/
+/*	font-weight: bold;*/
+/*	font-size: 1rem;*/
+/*	line-height: 140%;*/
+/*	text-align: center;*/
+/*	letter-spacing: 0.03em;*/
+/*	color: rgba(255, 255, 255, 0.8);*/
+/*	margin-top: 2rem;*/
+/*	margin-bottom: 1rem;*/
+/*}*/
+
+/* einde vervanging */
+
+.skill__title{
 	font-style: normal;
 	font-weight: bold;
-	font-size: 16px;
+	font-size: 1rem;
 	line-height: 140%;
 	text-align: center;
 	letter-spacing: 0.03em;
 	color: rgba(255, 255, 255, 0.8);
 	margin-top: 2rem;
 	margin-bottom: 1rem;
+	text-transform: uppercase;
 }
+
 
 .course__hard__front__img,
 .course__hard__back__img,
@@ -987,14 +1005,23 @@ body{
    margin-bottom: 1rem;
    margin-top: 0rem;
 } */
-.course__hard__front__title, 
-	.course__hard__back__title, 
-	.course__hard__edit__title,
-	.course__hard__control__title,
-	.course__soft__agile__title,
-	.course__soft__remote__title {
-		font-size: 1.25rem;
-	}
+
+
+
+/*	blok mag vervangen worden door skill__title*/
+
+/*.course__hard__front__title, */
+/*	.course__hard__back__title, */
+/*	.course__hard__edit__title,*/
+/*	.course__hard__control__title,*/
+/*	.course__soft__agile__title,*/
+/*	.course__soft__remote__title {*/
+/*		font-size: 1.25rem;*/
+/*	}*/
+
+/* einde vervanging*/
+
+
 
 .footer__info__thx__title{
    margin-top: 2rem;
@@ -1278,21 +1305,19 @@ body{
 
 
 
+	/* blok mag weg, duplicaat css regel */
 
-
-	.course__hard__front__title, 
-	.course__hard__back__title, 
-	.course__hard__edit__title,
-	.course__hard__control__title,
-	.course__soft__agile__title,
-	.course__soft__remote__title {
-		font-size: 1.25rem;
-	}
+	/*.course__hard__front__title, */
+	/*.course__hard__back__title, */
+	/*.course__hard__edit__title,*/
+	/*.course__hard__control__title,*/
+	/*.course__soft__agile__title,*/
+	/*.course__soft__remote__title {*/
+	/*	font-size: 1.25rem;*/
+	/*}*/
 
 
 	.skill__title{
-		text-transform: uppercase;
-		text-align: center;
 		font-size: 1.25rem;
 	}
 
