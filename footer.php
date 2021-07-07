@@ -19,9 +19,9 @@
 
              <label for="timeframe"><?php echo $lang['formAvailability']; ?></label>
              <div class="checkbox__wrapper">
-                 <input type="checkbox" id="morning" name="morning"> <?php echo $lang['fromMorning']; ?> (09u00 - 12u30)
-                 <input type="checkbox" id="afternoon" name="afternoon"> <?php echo $lang['formAfternoon']; ?> (13u00 - 17u00)
-                 <input type="checkbox" id="day" name="day"> <?php echo $lang['formDay']; ?> (09u00 - 17u00)
+                 <input type="checkbox" id="morning" name="morning"> <?php echo $lang['fromMorning']; ?>
+                 <input type="checkbox" id="afternoon" name="afternoon"> <?php echo $lang['formAfternoon']; ?>
+                 <input type="checkbox" id="day" name="day"> <?php echo $lang['formDay']; ?>
              </div>
 
 <!--             <label for="platform">--><?php //echo $lang['formCommunication']; ?><!--</label>-->
@@ -33,8 +33,8 @@
 <!--             </div>-->
 
 
-             <label for="link"><?php echo $lang['formLinkLabel']; ?></label>
-             <input class="footer__register__form__input" type="text" id="link" name="link" placeholder="<?php echo $lang['formLink']; ?>" required>
+<!--             <label for="link">--><?php //echo $lang['formLinkLabel']; ?><!--</label>-->
+<!--             <input class="footer__register__form__input" type="text" id="link" name="link" placeholder="--><?php //echo $lang['formLink']; ?><!--" required>-->
 
 
              <input class="footer__register__form__input" type="text" id="questions"  name="questions"placeholder="<?php echo $lang['formQuestions']; ?>Overige opmerkingen/vragen?..." required>
