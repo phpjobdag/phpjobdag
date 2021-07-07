@@ -9,6 +9,7 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
+
 /* landingpage */
 .landingpage {
 	background: #ba6ec6;
@@ -243,16 +244,20 @@
    text-align: center;
    opacity: 80%;
    margin-bottom: 3rem;
+   position: relative;
+   z-index: 10;
 }
 
 .agenda__description {
-   font-weight: 400;
+   font-weight: 300;
    font-size: 1rem;
    line-height: 140%;
    letter-spacing: 0.03em;
    margin-bottom: 1rem;
    margin-left: 1rem;
    margin-right: 1rem;
+   position: relative;
+   z-index: 10;
 }
 
 .agenda__block {
@@ -263,7 +268,8 @@
    flex-basis: 50%;
    flex: 1 1 0px;
    justify-content: space-evenly;
-	
+   position: relative;
+   z-index: 10;
 }
 
 .agenda__block__time {
@@ -340,26 +346,29 @@
 
 }
 
-/*blobs nog te bewerken*/
 #agenda__blob__orange__top {
-	position: absolute;
-	left: 0;
-	top: 0;
-	z-index: -1;
+   position: absolute;
+   left: 0;
+   top: 0;
+   z-index: 1;
 }
 
 #agenda__blob__orange__bottom {
-	position: absolute;
-	left: 0;
-	bottom: 0;
-	z-index: -1;
+   position: absolute;
+   left: 0;
+   bottom: 0;
+   z-index: 1;
+   width: 460px;
+   height: 350px;
 }
 
 #agenda__blob__yellow__bottom {
-	position: absolute;
-	left: 0;
-	bottom: 0;
-	z-index: -2;
+   position: absolute;
+   left: 0;
+   bottom: 0;
+   z-index: 2;
+   width: 390px;
+   height: 160px;
 }
 
 body{
@@ -379,15 +388,18 @@ body{
    line-height: 140%;
    letter-spacing: 0.03em;
    margin: 0px 16px 3rem 16px;
+   position: relative;
+   z-index: 10;
 }
 
 .course__hard,
 .course__soft {
-	background: linear-gradient(180deg, #001220 0%, rgba(0, 18, 32, 0.65) 100%);
-	margin: 0 1rem 2rem 1rem;
-	padding: 1rem;
-	border-radius: 20px;
-	
+   background: linear-gradient(180deg, #001220 0%, rgba(0, 18, 32, 0.65) 100%);
+   margin: 0 1rem 2rem 1rem;
+   padding: 1rem;
+   border-radius: 20px;
+   position: relative;
+   z-index: 10;
 }
 
 .course__hard__title,
@@ -467,22 +479,27 @@ body{
 	flex-direction: row;
 }
 
-/* nog te bewerken */
 #course__blob__yellow__bottom {
-	position: absolute;
-	left: 0;
-	bottom: 0;
-	z-index: -1;
+   position: absolute;
+   left: 0;
+   bottom: 0;
+   z-index: 1;
 }
 
 /* footer mobile */
 .footer {
-	background: #ba6ec6;
-	position: relative;
+   background: linear-gradient(180deg, 
+   #BA6EC6 0%, 
+   #BA6EC6 45%,
+   #001220 50%,
+   #001220 75%);
+   position: relative;
 }
 
 .footer__register {
-	margin: 0 16px 0 16px;
+   margin: 0 16px 0 16px;
+   position: relative;
+   z-index: 10;
 }
 
 .footer__register__form {
@@ -561,6 +578,8 @@ body{
 
 .footer__info {
 	margin: 1rem 16px 4rem 16px;
+   position: relative;
+   z-index: 10;
 }
 
 .footer__info__thx__title {
@@ -582,6 +601,7 @@ body{
    letter-spacing: 0.03em;
    color: #FFFFFF;
    margin-bottom: 4rem;
+   width: 95%;
 }
 
 .footer__info__team__partnerts__container {
@@ -637,9 +657,65 @@ body{
 	margin-bottom: 2rem;
 }
 
-.footer__info__tools__img {
-	height: 50px;
-	margin-right: 1rem;
+.footer__info__tools__static {
+   overflow: hidden;    /*om elementen die buiten de div zijn, te verbergen*/
+   height: 50px;
+   width: 250px;
+   position: relative;
+   margin-top: 10px;
+}
+
+.footer__info__tools__static:before,
+.footer__info__tools__static:after {
+   position: absolute;
+   top: 0;
+   width: 10%;
+   height: 100%;
+   content: "";
+   z-index: 1;
+}
+
+/*fade-out effect aan de linkerkant*/
+.footer__info__tools__static:before {
+   left: 0;
+   background: linear-gradient(to right, #111 0%, transparent 100%)
+}
+
+/*fade-out aan de rechterkant*/
+.footer__info__tools__static:after {
+   right: 0;
+   background: linear-gradient(to left, #111 0%, transparent 100%)
+}
+
+.footer__info__tools__moving {
+   height: 100%;
+   display: flex; /*om elementen horizontaal te plaatsen*/
+   animation: slider 17s linear infinite;
+}
+
+@keyframes slider {
+   0% {
+      transform: translateX(0);
+   }
+
+   100% {
+      transform: translateX(calc(-1*50px*15));
+   }
+}
+
+.footer__info__tools__moving img {
+   width: 40px;
+   height: 40px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 5px;
+   flex-shrink: 0; /*om elementen niet te laten shrinken om ze allemaal in container te laten passen --> we willen maar 5 logo's zien*/
+   flex-wrap: nowrap; /*om logo's niet naar de volgende lijn te laten verspringen*/
+}
+
+.footer__info__tools__moving:hover {
+   animation-play-state: paused;
 }
 
 .footer__lang__lang__switch {
@@ -659,8 +735,10 @@ body{
 }
 
 .footer__lang {
-	padding: 0px 16px 16px 16px;
-	border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+   padding: 0px 16px 16px 16px;
+   border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+   position: relative;
+   z-index: 10;
 }
 
 .footer__lang__lang {
@@ -687,10 +765,12 @@ body{
 }
 
 .footer__copyright {
-	display: flex;
-	flex-direction: row;
-	margin: 1rem 16px 0px 16px;
-	padding-bottom: 3rem;
+   display: flex;
+   flex-direction: row;
+   margin: 1rem 16px 0px 16px;
+   padding-bottom: 3rem;
+   position: relative;
+   z-index: 10;
 }
 
 .footer__copyright__text {
@@ -703,18 +783,18 @@ body{
 	color: white;
 }
 
-#footer__blob__black {
-	position: absolute;
-	left: 0;
-	bottom: 0;
-	z-index: -1;
+#footer__blob__orange {
+   position: absolute;
+   right: 0;
+   bottom: 50%;
+   z-index: 1;
 }
 
-#footer__blob__orange {
-	position: absolute;
-	right: 0;
-	bottom: 0;
-	z-index: -2;
+#footer__blob__black {
+   position: absolute;
+   left: 0;
+   bottom: 50%;
+   z-index: 2;
 }
 
 /* students */
@@ -726,20 +806,26 @@ body{
 }
 
 .students__quote {
+
 	color: white;
 	font-style: italic;
 	margin-left: 1rem;
 	margin-right: 1rem;
 	margin-bottom: 4rem;
+  position: relative;
+  z-index: 10;
+
 }
 
 .students__card {
-	width: 254px;
-	margin: 0 auto;
-	box-sizing: border-box;
-	height: 489px;
-	border: 7px solid #fbae3c;
-	display: none;
+   width: 254px;
+   margin: 0 auto;
+   box-sizing: border-box;
+   height: 489px;
+   border: 7px solid #FBAE3C;
+   display: none;
+   position: relative;
+   z-index: 10;
 }
 
 .students__card:nth-of-type(1) {
@@ -784,19 +870,20 @@ body{
    align-items: center;
 }
 
-/* Blob nog te bewerken: */
 #students__blob__orange__top {
-	position: absolute;
-	right: 0;
-	top: 0;
-	z-index: -1;
+   position: absolute;
+   right: 0;
+   top: 0;
+   z-index: 1;
+   width: 50%;
 }
 
 #students__blob__yellow__top {
-	position: absolute;
-	right: 0;
-	top: 0;
-	z-index: -2;
+   position: absolute;
+   right: 0;
+   top: 0;
+   z-index: 2;
+   width: 50%;
 }
 
 #students__blob__purple__bottom {
@@ -804,7 +891,6 @@ body{
 	left: 0;
 	bottom: 0;
 	z-index: 1;
-	display: none;
 }
 
 #students__blob__orange__bottom {
@@ -812,7 +898,6 @@ body{
 	left: 0;
 	bottom: 0;
 	z-index: 2;
-	display: none;
 }
 
 #students__blob__yellow__bottom {
@@ -820,11 +905,6 @@ body{
 	left: 0;
 	bottom: 0;
 	z-index: 3;
-	display: none;
-}
-
-.no__display {
-	display: none;
 }
 
 .margin2 {
@@ -1123,6 +1203,7 @@ body{
 	.agenda__description {
 		width: 100%;
 		font-size: 1.25rem;
+		font-weight:400;
 	}
 	
  
@@ -1263,12 +1344,29 @@ body{
       font-size:1rem;
       height:100px;
    }
+@media only screen and (min-width: 820px) {
+   #agenda__blob__orange__bottom,
+   #agenda__blob__yellow__bottom {
+      display: none;
+   }
+}
 
-	.footer__info__tools {
-		grid-column: 3/4;
-		grid-row: 4/5;
-		font-size: 1rem;
-	}
+@media only screen and (min-width: 1050px) {
+   #students__blob__orange__top {
+      width: 551px;
+      height: 541px;
+   }
+
+   #students__blob__yellow__top {
+      width: 296px;
+      height: 271px;
+   }
+  }
+.no__display{
+   display:none;
+}
+
+@media only screen and (min-width: 1080px) {
 
 	.footer__info__team__list__name {
 		font-size: 1rem;
@@ -1374,3 +1472,50 @@ body{
 		width:200px;
 	}
 }
+
+
+
+   #footer__blob__orange {
+      bottom: 12%;
+      width: 943px;
+      height: 746px;
+   }
+
+   #footer__blob__black {
+      bottom: 12%;
+   }
+
+   #agenda__blob__orange__top {
+      width: 1440px;
+      height: 845px;
+   }
+
+   #students__blob__yellow__bottom,
+   #students__blob__orange__bottom,
+   #students__blob__purple__bottom {
+      display: block;
+      width: 150%;
+   }
+}
+
+@media only screen and (min-width: 1580px) {
+   #footer__blob__orange {
+      bottom: 8%;
+   }
+   
+   #footer__blob__black {
+      bottom: 0%;
+   }
+
+   #course__blob__yellow__bottom {
+      width: 1389px;
+      height: 1310px;
+   }
+
+   #students__blob__yellow__bottom,
+   #students__blob__orange__bottom,
+   #students__blob__purple__bottom {
+   width: 100%;
+   }
+}
+
