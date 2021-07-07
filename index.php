@@ -21,6 +21,7 @@
 <body>
 
 <?php include 'header.php'; ?>
+<?php include 'landingpage.php'; ?>
 <?php include 'students.php'; ?>
 <?php include 'agenda.php'; ?>
 <?php include 'course.php'; ?>

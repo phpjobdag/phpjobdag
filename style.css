@@ -20,6 +20,11 @@
 	height: 78px;
 	width: 100%;
 	box-shadow: 0px 6px 6px rgba(0, 18, 32, 0.2);
+	position: fixed;
+	top:0px;
+	z-index: 10000000;
+	background-color: #ba6ec6;;
+	
 }
 
 .header__nav {
@@ -67,6 +72,10 @@
 	justify-content: center;
 	animation: growDown 500ms ease-in-out forwards;
 	transform-origin: top center;
+	z-index: 10000;
+	background-color: #ba6ec6;;
+	box-shadow: 0px 6px 6px rgba(0, 18, 32, 0.2);
+	
 }
 
 @keyframes growDown {
@@ -134,7 +143,7 @@
 }
 
 .header__section {
-	margin-top: 3rem;
+	padding-top: 3rem;
 }
 
 .header__section__info {
@@ -235,7 +244,7 @@
 .footer__title,
 .students__title {
    
-   padding: 4rem 0rem 4rem 0rem;
+   padding: 3.438rem 0rem 3.438rem 0rem;
    background: #001220CC;
    font-size: 1.25rem;
    line-height: 1.465rem;
@@ -243,7 +252,7 @@
    color: rgba(255, 255, 255, 0.8);
    font-weight: bold;
    text-align: center;
-   opacity: 80%;
+   opacity: 92%;
    margin-bottom: 3rem;
    position: relative;
    z-index: 10;
@@ -829,6 +838,8 @@ body{
    display: none;
    position: relative;
    z-index: 10;
+	background: #001220;
+	
 }
 
 .students__card:nth-of-type(1) {
@@ -1003,14 +1014,14 @@ body{
       flex-direction: column;
       align-items: center;
       padding-bottom: 12rem;
-      height: 100vh;
+		height: 95vh;
       justify-content: center;
       min-height:800px;
 	}
 
 	.header{
       max-height:85px;
-      position:absolute;
+      position:sticky;
       top:0px;
 		height:85px;
    }
@@ -1267,6 +1278,10 @@ body{
 		font-size: 1.25rem;
 	}
 
+	#course__wrapper{
+		margin-top: 4rem;
+	}
+
 
 	/* footer desktop */
 	
@@ -1378,6 +1393,9 @@ body{
 }
 
 @media only screen and (min-width: 1080px) {
+	#header__mobile__dropdown{
+		display: none !important;
+	}
 
 	.footer__info__team__list__name {
 		font-size: 1rem;
@@ -1406,6 +1424,7 @@ body{
 	.agenda__title, .course__title, .footer__title, .students__title{
       font-size:2.25rem;
       line-height: 2.5rem;
+		
    }
    
 
