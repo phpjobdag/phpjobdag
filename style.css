@@ -911,6 +911,56 @@ body{
 .margBot0 {
 	margin-bottom: 0rem !important;
 }
+
+/*kleuranimatie*/
+.purple {
+   animation: purple-to-orange 20s linear infinite;
+}
+
+.orange{
+   animation: orange-to-purple 20s linear 10s infinite;
+}
+
+.yellow{
+   animation: yellow-to-orange 20s linear 15s infinite;
+}
+
+@keyframes orange-to-purple {
+   0% {
+      fill: #3D3056;
+   }
+   50% {
+		fill: #E1685E;
+   }
+   100% {
+      fill: #3D3056;
+   }
+}
+
+@keyframes yellow-to-orange {
+	0% {
+      fill: #FBAE3C;
+	}
+   50% {
+      fill: #E1685E;
+   }
+	100% {
+      fill: #FBAE3C;
+   }
+}
+
+@keyframes orange-to-purple {
+	0% {
+      fill: #E1685E;
+	}
+   50% {
+      fill: #3D3056;
+   }
+	100% {
+      fill: #E1685E;
+   }
+}
+
 @media only screen and (min-width: 700px)and (max-width: 1079px)  {
 #agenda__wrapper{
    display: flex;
