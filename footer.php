@@ -10,22 +10,22 @@
             <p class="footer__register__info__approval"><?php echo $lang['footerBody3']; ?></p>
         </article>
          <form class="footer__register__form" action="" method="post">
-             <input class="footer__register__form__input" type="text" id="company-name" placeholder="Company name" required>
+             <input class="footer__register__form__input" type="text" id="company-name" placeholder="<?php echo $lang['formCompany']; ?>" required>
 
-             <input class="footer__register__form__input" type="text" id="name" placeholder="Your Name" required>
+             <input class="footer__register__form__input" type="text" id="name" placeholder="<?php echo $lang['formName']; ?>" required>
 
-             <input class="footer__register__form__input" type="email" id="email" placeholder="email" required>
+             <input class="footer__register__form__input" type="email" id="email" placeholder="<?php echo $lang['formMail']; ?>" required>
 
-             <input class="footer__register__form__input" type="tel" id="telephone" placeholder="Your digits" required>
+             <input class="footer__register__form__input" type="tel" id="telephone" placeholder="<?php echo $lang['formTelephone']; ?>" required>
 
-             <label for="timeframe">Wanneer bent u beschikbaar?</label>
+             <label for="timeframe"><?php echo $lang['formSubmit']; ?>Wanneer bent u beschikbaar?</label>
              <div class="checkbox__wrapper">
-                 <input type="checkbox" id="voormiddag"> Voormiddag (09u00 - 12u30)
-                 <input type="checkbox" id="namiddag"> Namiddag (13u00 - 17u00)
-                 <input type="checkbox" id="heledag"> Hele dag (09u00 - 17u00)
+                 <input type="checkbox" id="voormiddag"> <?php echo $lang['formSubmit']; ?>Voormiddag (09u00 - 12u30)
+                 <input type="checkbox" id="namiddag"> <?php echo $lang['formSubmit']; ?>Namiddag (13u00 - 17u00)
+                 <input type="checkbox" id="heledag"> <?php echo $lang['formSubmit']; ?>Hele dag (09u00 - 17u00)
              </div>
 
-             <label for="platform">Wat je gewenste communicatie platform?</label>
+             <label for="platform"><?php echo $lang['formSubmit']; ?>Wat je gewenste communicatie platform?</label>
              <div class="checkbox__wrapper">
                  <input type="checkbox" id="zoom"> Zoom
                  <input type="checkbox" id="teams"> Teams
@@ -35,12 +35,12 @@
 
 
              <label for="link">Deel hier de link voor je online (bedrijfs)communicatie platform</label>
-             <input class="footer__register__form__input" type="text" id="link" placeholder="Plak link hier..." required>
+             <input class="footer__register__form__input" type="text" id="link" placeholder="<?php echo $lang['formSubmit']; ?>Plak link hier..." required>
 
 
-             <input class="footer__register__form__input" type="text" id="comments" placeholder="Overige opmerkingen/vragen?..." required>
+             <input class="footer__register__form__input" type="text" id="comments" placeholder="<?php echo $lang['formSubmit']; ?>Overige opmerkingen/vragen?..." required>
 
-            <input class="footer__register__form__submit" type="submit" value="Registreer">
+            <input class="footer__register__form__submit" type="submit" value="<?php echo $lang['formSubmit']; ?>">
         </form>
         <!--    Contactpersoon
                 Email
