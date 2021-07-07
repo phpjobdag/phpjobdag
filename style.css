@@ -11,6 +11,7 @@
 
 
 /* landingpage */
+
 .landingpage {
 	background: #ba6ec6;
 	padding-bottom: 8rem;
@@ -24,6 +25,8 @@
 	top:0px;
 	z-index: 10000000;
 	background-color: #ba6ec6;;
+	margin:0;
+	padding:0;
 	
 }
 
@@ -104,7 +107,7 @@
 }
 
 #nl,
-#eng {
+#eng,#engMobile,#nlMobile {
 	box-sizing: border-box;
 	border: 3px solid white;
 	text-align: center;
@@ -113,11 +116,24 @@
 	height: 44px;
 	border-radius: 30px;
 	margin-right: 7px;
-	color: white !important;
 	font-weight: bold;
 	font-size: 20px;
 	font-variant: small-caps;
 	letter-spacing: 0.04em;
+}
+
+#nlMobile a{
+	color: white;
+	text-decoration: none;
+}
+
+#engMobile a {
+	text-decoration: none;
+	color: #ba6ec6;
+}
+
+#engMobile{
+	background: white;
 }
 
 #eng {
@@ -231,6 +247,14 @@
 	color: white;
 }
 
+.nav__color2{
+	background:  #001220;
+
+}
+
+#header .lang__icon{
+	color: #001220;
+}
 /* agenda deel */
 .agenda {
 	background: #fda677;
@@ -1108,7 +1132,7 @@ body{
      margin:0px;
    }
    #eng{
-      color: #ba6ec6 !important;
+      color: #ba6ec6 ;
     text-decoration: none;
     
    }
