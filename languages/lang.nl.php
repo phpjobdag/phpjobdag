@@ -71,13 +71,14 @@ $lang['HardSkillANGULAR'] = 'https://nl.wikipedia.org/wiki/Angular';
 
 // Back-end Links
 $lang['HardSkillPHP'] = 'https://nl.wikipedia.org/wiki/PHP';
+$lang['HardSkillPHPUNIT'] = 'https://translate.google.com/translate?js=n&sl=auto&tl=nl&u=https://en.wikipedia.org/wiki/PHPUnit';
 $lang['HardSkillMYSQL'] = 'https://nl.wikipedia.org/wiki/MySQL';
+$lang['HardSkillWAMP'] = 'https://nl.wikipedia.org/wiki/WAMP';
 $lang['HardSkillLARAVEL'] = 'https://nl.wikipedia.org/wiki/Laravel';
 
 // Code Editors
 $lang['HardSkillVSC'] = 'https://nl.wikipedia.org/wiki/Visual_Studio_Code';
-//$lang['HardSkillPHPS'] = 'https://translate.google.com/translate?js=n&sl=auto&tl=nl&u=https://en.wikipedia.org/wiki/PhpStorm';
-$lang['HardSkillPHPS'] = 'https://nl.wikipedia.org/wiki/PhpStorm';
+$lang['HardSkillPHPS'] = 'https://translate.google.com/translate?js=n&sl=auto&tl=nl&u=https://en.wikipedia.org/wiki/PhpStorm';
 
 // Version Control
 $lang['HardSkillGITHUB'] = 'https://nl.wikipedia.org/wiki/GitHub';

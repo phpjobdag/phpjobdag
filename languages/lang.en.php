@@ -74,7 +74,9 @@ $lang['HardSkillANGULAR'] = 'https://en.wikipedia.org/wiki/Angular_(web_framewor
 
 // Back-end Links
 $lang['HardSkillPHP'] = 'https://en.wikipedia.org/wiki/PHP';
+$lang['HardSkillPHPUNIT'] = 'https://en.wikipedia.org/wiki/PHPUnit';
 $lang['HardSkillMYSQL'] = 'https://en.wikipedia.org/wiki/MySQL';
+$lang['HardSkillWAMP'] = 'https://en.wikipedia.org/wiki/LAMP_(software_bundle)#Variants';
 $lang['HardSkillLARAVEL'] = 'https://en.wikipedia.org/wiki/Laravel';
 
 // Code editors
