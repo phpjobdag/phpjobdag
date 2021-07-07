@@ -62,11 +62,12 @@ $lang['courseBody1'] = 'Due to the pandemic this course was completely remote. M
 $lang['courseBody2'] = 'The past few months we have learned an awful lot and developed many new skills. In a relatively short amount of time we have managed to build a strong foundation from which we plan to launch our future careers.';
 $lang['courseBody3'] = 'During the course we used <b>Github</b> and <b>GitLab</b> for version control, <b>Visual Studio Code</b> and <b>PHPStorm</b> as code editors and for Agile Project Management we used <b>Trello</b>.';
 
-$lang['HardSkillHTML'] = '';
-$lang['HardSkillCSS'] = '';
-$lang['HardSkillJS'] = '';
-$lang['HardSkillBS'] = '';
-$lang['HardSkillANGULAR'] = '';
+// Front-end Links
+$lang['HardSkillHTML'] = 'https://en.wikipedia.org/wiki/HTML5';
+$lang['HardSkillCSS'] = 'https://en.wikipedia.org/wiki/CSS';
+$lang['HardSkillJS'] = 'https://en.wikipedia.org/wiki/JavaScript';
+$lang['HardSkillBS'] = 'https://en.wikipedia.org/wiki/Bootstrap_(front-end_framework)';
+$lang['HardSkillANGULAR'] = 'https://en.wikipedia.org/wiki/Angular_(web_framework)';
 
 // Footer
 $lang['footerTitle'] = 'Save your spot!';

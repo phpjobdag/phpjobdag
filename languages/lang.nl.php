@@ -62,6 +62,13 @@ $lang['courseBody1'] = 'Door toedoen van de pandemie vond onze cursus volledig o
 $lang['courseBody2'] = 'De afgelopen maanden hebben wij veel kennis en vaardigheden opgedaan. In een relatief kort tijdsbestek hebben wij een sterk fundament op weten te bouwen voor ons toekomstig functioneren als webdevelopers.';
 $lang['courseBody3'] = 'Doorheen de cursus hebben wij <b>GitHub</b> en <b>GitLab</b> gebruikt voor versiebeheer, <b>Visual Studio Code</b> en <b>PHPStorm</b> als code editors en voor Agile Project Management hebben we <b>Trello</b> gebruikt. '; // Waarom staat deze informatie onder de kaders Hard-skills en softskills? //
 
+// Front-end Links
+$lang['HardSkillHTML'] = 'https://nl.wikipedia.org/wiki/HTML5';
+$lang['HardSkillCSS'] = 'https://nl.wikipedia.org/wiki/Cascading_Style_Sheets';
+$lang['HardSkillJS'] = 'https://nl.wikipedia.org/wiki/JavaScript';
+$lang['HardSkillBS'] = 'https://nl.wikipedia.org/wiki/Bootstrap_(framework)';
+$lang['HardSkillANGULAR'] = 'https://nl.wikipedia.org/wiki/Angular';
+
 // Footer
 $lang['footerTitle'] = 'RESERVEER UW PLAATS!';
 $lang['footerSubtitle'] = 'Vul uw gegevens in en reserveer uw plaats!';
