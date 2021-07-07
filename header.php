@@ -1,4 +1,4 @@
-<section class="landingpage">
+
     <header id="header" class="header">
         <nav class="header__nav">
 
@@ -31,7 +31,7 @@
             <a href="#signup"><input type="button" value=<?php echo $lang['intro2']; ?> class="header__mobile__button "></a>
             <i class="fas fa-bars header__mobile__hamburger" id="navknop"></i>           
         </nav> 
-</header>
+
         <section id="header__mobile__dropdown">
             <a class="header__mobile__dropdown__link" href=""><?php echo $lang['nav1']; ?></a>
             <a class="header__mobile__dropdown__link" href=""><?php echo $lang['nav2']; ?></a>
@@ -54,6 +54,9 @@
                 }
             })
         </script>
+
+ </header>   
+
     
 
     <section class="header__section">
@@ -118,4 +121,5 @@
         
     </section>
 
-</section>
+
+   
