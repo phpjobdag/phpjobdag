@@ -8,11 +8,11 @@
 
     <section class="course__hard">
 
-        <h3 class="course__hard__title">Hard-Skills</h3>
+        <h3 class="course__hard__title">Hard<br>Skills</h3>
        
         <section class="course_hard_front_back">
             <article class="course__hard__front">
-                <h6 class="course__hard__front__title">Front-end Development</h6>
+                <h6 class="course__hard__front__title skill__title">Front-end<br> Development</h6>
                 <img class="course__hard__front__img" src="img/skills__html5.svg" alt="html5 logo">
                 <img class="course__hard__front__img" src="img/skills__css3.svg" alt="css3 logo">
                 <img class="course__hard__front__img" src="img/skills__js.svg" alt="js logo">
@@ -22,7 +22,7 @@
             </article>
 
             <article class="course__hard__back">
-                <h6 class="course__hard__back__title">Back-end Development</h6>
+                <h6 class="course__hard__back__title skill__title">Back-end<br> Development</h6>
                 <img class="course__hard__back__img" src="img/skills__php.svg" alt="">
                 <img class="course__hard__back__img" src="img/skills__mysql.svg" alt="">
                 <img class="course__hard__back__img" src="img/skills__laravel.svg" alt="">
@@ -31,13 +31,13 @@
         </section>
         <section class="course__hard__edit__control">
             <article class="course__hard__edit">
-                <h6 class="course__hard__edit__title">Code editors</h6>
+                <h6 class="course__hard__edit__title skill__title">Code editors</h6>
                 <img class="course__hard__edit__img" src="img/skills__vsc.svg" alt="vsc logo">
                 <img class="course__hard__edit__img" src="img/skills__phpstorm.svg" alt="php storm logo">
             </article>
 
             <article class="course__hard__control">
-                <h6 class="course__hard__control__title">Version Control</h6>
+                <h6 class="course__hard__control__title skill__title">Version Control</h6>
                 <img class="course__hard__control__img" src="img/skills__github.svg" alt="github logo">
                 <img class="course__hard__control__img" src="img/skills__gitlab.svg" alt="gitlab logo">
             </article>

@@ -63,7 +63,7 @@ $lang['courseBody2'] = 'De afgelopen maanden hebben wij veel kennis en vaardighe
 $lang['courseBody3'] = 'Doorheen de cursus hebben wij <b>GitHub</b> en <b>GitLab</b> gebruikt voor versiebeheer, <b>Visual Studio Code</b> en <b>PHPStorm</b> als code editors en voor Agile Project Management hebben we <b>Trello</b> gebruikt. '; // Waarom staat deze informatie onder de kaders Hard-skills en softskills? //
 
 // Footer
-$lang['footerTitle'] = 'RESERVEER UW PLAATS!';
+$lang['footerTitle'] = 'RESERVEER UW PLAATS';
 $lang['footerSubtitle'] = 'Vul uw gegevens in en reserveer uw plaats!';
 $lang['footerBody1'] = 'Het evenement zal volledig op afstand plaats vinden.';
 $lang['footerBody2'] = 'Datum: 26 augustus 2021';

@@ -1274,13 +1274,25 @@ body{
 	.course__body {
 		font-size: 1.25rem;
 	}
-	
+
+
+
+
+
+
 	.course__hard__front__title, 
 	.course__hard__back__title, 
 	.course__hard__edit__title,
 	.course__hard__control__title,
 	.course__soft__agile__title,
 	.course__soft__remote__title {
+		font-size: 1.25rem;
+	}
+
+
+	.skill__title{
+		text-transform: uppercase;
+		text-align: center;
 		font-size: 1.25rem;
 	}
 

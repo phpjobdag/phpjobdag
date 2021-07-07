@@ -1,5 +1,6 @@
 <footer id="footer" class="footer">
     <h2 class="footer__title"><?php echo $lang['footerTitle']; ?></h2>
+    <h2 class="footer__title"><?php echo $lang['footerTitle']; ?></h2>
 
     <div id="footer__wrapper">
     <section id="signup" class="footer__register"> 
@@ -104,8 +105,6 @@
                     <li class="footer__info__team__list__name">Yves Kerkhofs</li>
                 </ul>
             </article>
-
-        
 
             <article class="footer__info__partners no__display__mobile">
                 <h6 class="footer__info__partners__title">Partners</h6>
