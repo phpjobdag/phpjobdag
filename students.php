@@ -70,7 +70,7 @@
     </article>
 
     <article class="students__card">
-        <img class="students__card__img" src="erik.jpg" alt="profile picture Erik Hendriks">
+        <img class="students__card__img" src="img/students/erik.jpeg" alt="profile picture Erik Hendriks">
         <section class="student__card__name__container">
             <h5 class="student__card__name">Erik Hendriks</h5>
             <p class="student__card__pitch"><?php echo $lang['Erik']; ?></p>
