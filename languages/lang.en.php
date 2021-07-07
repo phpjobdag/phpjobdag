@@ -82,6 +82,13 @@ $lang['HardSkillPHPS'] = 'https://en.wikipedia.org/wiki/PhpStorm';
 $lang['HardSkillGITHUB'] = 'https://en.wikipedia.org/wiki/GitHub';
 $lang['HardSkillGITLAB'] = 'https://en.wikipedia.org/wiki/GitLab';
 
+$lang['HardSkillTRELLO'] = 'https://en.wikipedia.org/wiki/Trello';
+
+$lang['HardSkillZOOM'] = 'https://en.wikipedia.org/wiki/Zoom_Video_Communications';
+$lang['HardSkillSLACK'] = 'https://en.wikipedia.org/wiki/Slack_(software)';
+$lang['HardSkillDISCORD'] = '';
+
+
 // Footer
 $lang['footerTitle'] = 'Save your spot!';
 $lang['footerSubtitle'] = 'Fill in your details and save your spot!';

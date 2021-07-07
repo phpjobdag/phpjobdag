@@ -82,6 +82,12 @@ $lang['HardSkillPHPS'] = 'https://fr.wikipedia.org/wiki/PhpStorm';
 $lang['HardSkillGITHUB'] = 'https://nl.wikipedia.org/wiki/GitHub';
 $lang['HardSkillGITLAB'] = 'https://nl.wikipedia.org/wiki/GitLab';
 
+$lang['HardSkillTRELLO'] = 'https://www.atlassian.com/nl/software/trello';
+
+$lang['HardSkillZOOM'] = 'https://nl.wikipedia.org/wiki/Zoom_Video_Communications';
+$lang['HardSkillSLACK'] = 'https://nl.wikipedia.org/wiki/Slack_(software)';
+$lang['HardSkillDISCORD'] = 'https://nl.wikipedia.org/wiki/Discord_(software)';
+
 // Footer
 $lang['footerTitle'] = 'RESERVEER UW PLAATS!';
 $lang['footerSubtitle'] = 'Vul uw gegevens in en reserveer uw plaats!';
