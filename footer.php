@@ -18,14 +18,14 @@
 
              <input class="footer__register__form__input" type="tel" id="telephone" placeholder="<?php echo $lang['formTelephone']; ?>" required>
 
-             <label for="timeframe"><?php echo $lang['formSubmit']; ?>Wanneer bent u beschikbaar?</label>
+             <label for="timeframe"><?php echo $lang['formAvailability']; ?>Wanneer bent u beschikbaar?</label>
              <div class="checkbox__wrapper">
-                 <input type="checkbox" id="voormiddag"> <?php echo $lang['formSubmit']; ?>Voormiddag (09u00 - 12u30)
-                 <input type="checkbox" id="namiddag"> <?php echo $lang['formSubmit']; ?>Namiddag (13u00 - 17u00)
-                 <input type="checkbox" id="heledag"> <?php echo $lang['formSubmit']; ?>Hele dag (09u00 - 17u00)
+                 <input type="checkbox" id="voormiddag"> <?php echo $lang['formMorning']; ?>Voormiddag (09u00 - 12u30)
+                 <input type="checkbox" id="namiddag"> <?php echo $lang['formAfternoon']; ?>Namiddag (13u00 - 17u00)
+                 <input type="checkbox" id="heledag"> <?php echo $lang['formDay']; ?>Hele dag (09u00 - 17u00)
              </div>
 
-             <label for="platform"><?php echo $lang['formSubmit']; ?>Wat je gewenste communicatie platform?</label>
+             <label for="platform"><?php echo $lang['formCommunication']; ?>Wat je gewenste communicatie platform?</label>
              <div class="checkbox__wrapper">
                  <input type="checkbox" id="zoom"> Zoom
                  <input type="checkbox" id="teams"> Teams
@@ -35,10 +35,10 @@
 
 
              <label for="link">Deel hier de link voor je online (bedrijfs)communicatie platform</label>
-             <input class="footer__register__form__input" type="text" id="link" placeholder="<?php echo $lang['formSubmit']; ?>Plak link hier..." required>
+             <input class="footer__register__form__input" type="text" id="link" placeholder="<?php echo $lang['formLink']; ?>Plak link hier..." required>
 
 
-             <input class="footer__register__form__input" type="text" id="comments" placeholder="<?php echo $lang['formSubmit']; ?>Overige opmerkingen/vragen?..." required>
+             <input class="footer__register__form__input" type="text" id="comments" placeholder="<?php echo $lang['formQuestions']; ?>Overige opmerkingen/vragen?..." required>
 
             <input class="footer__register__form__submit" type="submit" value="<?php echo $lang['formSubmit']; ?>">
         </form>

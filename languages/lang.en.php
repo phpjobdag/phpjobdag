@@ -70,11 +70,20 @@ $lang['footerBody2'] = 'Date: 26 August 2021';
 $lang['footerBody3'] = 'After your registration is approved we will provide you with a meeting link and a password for the event.';
 $lang['footerBody4'] = 'We are looking forward to hearing from you.';
 $lang['footerDate'] = 'Date: 26 August 2021';
-$lang['formName'] = 'Your name';
+
 $lang['formCompany'] = 'Company name';
-$lang['formTelephone'] = 'Your digits';
+$lang['formName'] = 'Your name';
 $lang['formMail'] = 'E-mail';
+$lang['formTelephone'] = 'Your digits';
+$lang['formAvailability'] = 'Your digits';
+$lang['fromMorning'] = 'Your digits';
+$lang['formAfterneeo'] = 'Your digits';
+$lang['formDay'] = 'Your digits';
+$lang['formCommunication'] = 'Your digits';
+$lang['formLink'] = 'Your digits';
+$lang['formQuestions'] = 'Your digits';
 $lang['formSubmit'] = 'Register';
+
 $lang['footerThank1'] = 'Thank you';
 $lang['footerThank2'] = 'We would like to show our appreciation for our teachers. In these past few months they have provided us with the necessary knowledge and skills. They are partially responsible for our transformation into developers. Tim, Sarah, Anke and Yannick, thank you for all your support!';
 $lang['footerMade'] = 'This site was made with:';
