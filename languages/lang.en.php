@@ -44,7 +44,7 @@ $lang['Wouter'] = 'Wouter decided after 12 years of retail to go back to his pas
 $lang['Yves'] = 'A bachelor in communication management upscaling his webdeveloping skills… Ready to rumble!';
 
 // Agenda
-$lang['agendaTitle'] = 'CHECK OUT THE AGENDA';
+$lang['agendaTitle'] = 'CHECK OUT THE SCHEDULE';
 $lang['agendaDes1'] = 'First off you will receive an introductory presentation with an overview of the skills and abilities we have attained during our course.';
 $lang['agendaDes2'] = 'Next up is the Interview. This is the time to ask questions, to spot the skills and talents of each candidate and seek out the potential future fit for your company. During the speed interview session you will be given 15 minutes to get to know each student. So have your questions ready.';
 $lang['agendaDes3'] = 'Afterwards there will be time to evaluate the candidates and leave some feedback.';
