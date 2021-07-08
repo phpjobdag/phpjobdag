@@ -20,7 +20,7 @@
     <article class="students__card">
         <img class="students__card__img" src="img/students/anastasya.jpg" alt="profile picture Anastasya Ovchar">
         <section class="student__card__name__container">
-            <h5 class="student__card__name">Anastasya Ovchar</h5>
+            <h5 class="student__card__name">Anastasya<br>Ovchar</h5>
             <p class="student__card__pitch"><?php echo $lang['Anastasya']; ?></p>
             <section class="students__card__social">
                 <a class="students__card__social__item" href=""><img class="students__card__social__item__img" src="img/card__cv.svg" alt="cv icon"></a>
@@ -33,7 +33,7 @@
     <article class="students__card">
         <img class="students__card__img" src="arne.jpg" alt="profile picture Arne Sneyers">
         <section class="student__card__name__container">
-            <h5 class="student__card__name">Arne </br> Sneyers</h5>
+            <h5 class="student__card__name">Arne<br>Sneyers</h5>
             <p class="student__card__pitch"><?php echo $lang['Arne']; ?></p>
             <section class="students__card__social">
                 <a class="students__card__social__item" href=""><img class="students__card__social__item__img" src="img/card__cv.svg" alt="cv icon"></a>
@@ -46,7 +46,7 @@
     <article class="students__card">
         <img class="students__card__img" src="burcu.jpg" alt="profile picture Burcu Avci">
         <section class="student__card__name__container">
-            <h5 class="student__card__name">Burcu Avci</h5>
+            <h5 class="student__card__name">Burcu<br>Avci</h5>
             <p class="student__card__pitch"><?php echo $lang['Burcu']; ?></p>
             <section class="students__card__social">
                 <a class="students__card__social__item" href=""><img class="students__card__social__item__img" src="img/card__cv.svg" alt="cv icon"></a>
@@ -59,7 +59,7 @@
     <article class="students__card">
         <img class="students__card__img" src="daniel.jpg" alt="profile picture Daniel Paz">
         <section class="student__card__name__container">
-            <h5 class="student__card__name">Daniel Paz</h5>
+            <h5 class="student__card__name">Daniel<br>Paz</h5>
             <p class="student__card__pitch"><?php echo $lang['Daniel']; ?></p>
             <section class="students__card__social">
                 <a class="students__card__social__item" href=""><img class="students__card__social__item__img" src="img/card__cv.svg" alt="cv icon"></a>
@@ -72,7 +72,7 @@
     <article class="students__card">
         <img class="students__card__img" src="img/students/erik.jpeg" alt="profile picture Erik Hendriks">
         <section class="student__card__name__container">
-            <h5 class="student__card__name">Erik Hendriks</h5>
+            <h5 class="student__card__name">Erik<br>Hendriks</h5>
             <p class="student__card__pitch"><?php echo $lang['Erik']; ?></p>
             <section class="students__card__social">
                 <a class="students__card__social__item" href="https://erikhendriks.be/ErikHendriksResume.html" target="_blank"><img class="students__card__social__item__img" src="img/card__cv.svg" alt="cv icon"></a>
@@ -85,7 +85,7 @@
     <article class="students__card">
         <img class="students__card__img" src="geert.jpg" alt="profile picture Geert Rumen">
         <section class="student__card__name__container">
-            <h5 class="student__card__name">Geert Rumen</h5>
+            <h5 class="student__card__name">Geert<br>Rumen</h5>
             <p class="student__card__pitch"><?php echo $lang['Geert']; ?></p>
             <section class="students__card__social">
                 <a class="students__card__social__item" href=""><img class="students__card__social__item__img" src="img/card__cv.svg" alt="cv icon"></a>
@@ -98,7 +98,7 @@
     <article class="students__card">
         <img class="students__card__img" src="mathijs.jpg" alt="profile picture Mathijs Reykers">
         <section class="student__card__name__container">
-        <h5 class="student__card__name">Mathijs Reykers</h5>
+        <h5 class="student__card__name">Mathijs<br>Reykers</h5>
         <p class="student__card__pitch"><?php echo $lang['Mathijs']; ?></p>
             <section class="students__card__social">
                 <a class="students__card__social__item" href=""><img class="students__card__social__item__img" src="img/card__cv.svg" alt="cv icon"></a>
@@ -111,7 +111,7 @@
     <article class="students__card">
         <img class="students__card__img" src="miguel.jpg" alt="profile picture Miguel Duarte">
         <section class="student__card__name__container">
-        <h5 class="student__card__name">Miguel Duarte</h5>
+        <h5 class="student__card__name">Miguel<br>Duarte</h5>
         <p class="student__card__pitch"><?php echo $lang['Miguel']; ?>.</p>
             <section class="students__card__social">
                 <a class="students__card__social__item" href=""><img class="students__card__social__item__img" src="img/card__cv.svg" alt="cv icon"></a>
@@ -124,7 +124,7 @@
     <article class="students__card">
         <img class="students__card__img" src="wouter.jpg" alt="profile picture Wouter Swerts">
         <section class="student__card__name__container">
-        <h5 class="student__card__name">Wouter Swerts</h5>
+        <h5 class="student__card__name">Wouter<br>Swerts</h5>
         <p class="student__card__pitch"><?php echo $lang['Wouter']; ?></p>
             <section class="students__card__social">
                 <a class="students__card__social__item" href=""><img class="students__card__social__item__img" src="img/card__cv.svg" alt="cv icon"></a>
@@ -137,7 +137,7 @@
     <article class="students__card">
         <img class="students__card__img" src="yves.jpg" alt="profile picture Yves Kerkhofs">
         <section class="student__card__name__container">
-        <h5 class="student__card__name">Yves Kerkhofs</h5>
+        <h5 class="student__card__name">Yves<br>Kerkhofs</h5>
         <p class="student__card__pitch"><?php echo $lang['Yves']; ?></p>
             <section class="students__card__social">
                 <a class="students__card__social__item" href=""><img class="students__card__social__item__img" src="img/card__cv.svg" alt="cv icon"></a>

@@ -89,6 +89,7 @@ input:focus, textarea:focus, select:focus{
 	font-size: 1rem;
 	font-weight: bold;
 	letter-spacing: 0.03em;
+	text-transform: uppercase;
 }
 
 .header__mobile__hamburger {
@@ -225,16 +226,16 @@ input:focus, textarea:focus, select:focus{
 }
 
 .header__section__registerlink {
-	box-sizing: border-box;
-	width: 190px;
+	/*box-sizing: border-box;*/
+	width: 250px;
 	height: 70px;
 	background-color: white;
-	display: flex;
+	/*display: flex;*/
 	border-radius: 36px;
 	border: 3px solid #fbae3c;
-	align-items: center;
-	justify-content: center;
-	text-align: center;
+	/*align-items: center;*/
+	/*justify-content: center;*/
+	/*text-align: center;*/
 	font-size: 1.75rem;
 	line-height: 2.063rem;
 	font-weight: bold;

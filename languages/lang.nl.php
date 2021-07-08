@@ -22,7 +22,7 @@ $lang['nav4'] = 'Cursus';
 // Intro
 $lang['introDate'] = '26 augustus 2021, online';
 $lang['intro1'] = 'Webontwikkelaars maken kennis met werkgevers ';
-$lang['intro2'] = 'Meld je aan!';
+$lang['intro2'] = 'MELD JE AAN';
 
 // Counter
 $lang['counter1'] = 'Dagen';

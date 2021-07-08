@@ -56,12 +56,12 @@
                     <li class="header__nav__lang__switch"><a  id="eng" href="?lang=en">EN</a></li>
                     <li class="header__nav__lang__switch"><a id="nl" href="?lang=nl">NL</a></li>
                 </ul>
-                <a href="#signup"><input type="button" value=<?php echo $lang['intro2']; ?> class="header__mobile__button "></a>
+                <a href="#signup"><input type="button" value="<?php echo $lang['intro2']; ?>" class="header__mobile__button"></a>
             </ul>
         </nav>
 
         <nav class="header__mobile">
-            <a href="#signup"><input type="button" value=<?php echo $lang['intro2']; ?> class="header__mobile__button "></a>
+            <a href="#signup"><input type="button" value="<?php echo $lang['intro2']; ?>" class="header__mobile__button"></a>
             <i class="fas fa-bars header__mobile__hamburger" id="navknop"></i>           
         </nav> 
 
