@@ -14,7 +14,7 @@ $lang['lang'] = 'nl';
 $lang['h1'] = 'English title';
 
 // Nav
-$lang['nav1'] = 'Hoofpagina';
+$lang['nav1'] = 'Hoofdpagina';
 $lang['nav2'] = 'Studenten';
 $lang['nav3'] = 'Programma';
 $lang['nav4'] = 'Cursus';
@@ -22,7 +22,7 @@ $lang['nav4'] = 'Cursus';
 // Intro
 $lang['introDate'] = '26 augustus 2021, online';
 $lang['intro1'] = 'Webontwikkelaars maken kennis met werkgevers ';
-$lang['intro2'] = 'Meld je aan!';
+$lang['intro2'] = 'MELD JE AAN';
 
 // Counter
 $lang['counter1'] = 'Dagen';
@@ -92,11 +92,11 @@ $lang['HardSkillSLACK'] = 'https://nl.wikipedia.org/wiki/Slack_(software)';
 $lang['HardSkillDISCORD'] = 'https://nl.wikipedia.org/wiki/Discord_(software)';
 
 // Footer
-$lang['footerTitle'] = 'RESERVEER UW PLAATS!';
-$lang['footerSubtitle'] = 'Vul uw gegevens in en reserveer uw plaats!';
-$lang['footerBody1'] = 'Het evenement zal volledig op afstand plaats vinden.';
+$lang['footerTitle'] = 'RESERVEER UW PLAATS';
+$lang['footerSubtitle'] = 'Vul uw gegevens in<br> en reserveer uw plaats!';
+$lang['footerBody1'] = 'Het evenement zal volledig op afstand plaatsvinden.';
 $lang['footerBody2'] = 'Datum: 26 augustus 2021';
-$lang['footerBody3'] = 'Nadat uw registratie goedgekeurd is voorzien wij u van een link en een paswoord om deel te nemen aan het evenement.';
+$lang['footerBody3'] = 'Nadat uw registratie goedgekeurd is voorzien wij u van een link<br class="desk__break">  en een paswoord om deel te nemen aan het evenement.';
 $lang['footerBody4'] = 'Wij hopen u spoedig te mogen ontmoeten.';
 
 $lang['formCompany'] = 'Bedrijfsnaam';

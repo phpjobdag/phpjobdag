@@ -8,7 +8,7 @@
 
     <section class="course__hard">
 
-        <h3 class="course__hard__title">Hard-Skills</h3>
+        <h3 class="course__hard__title">Hard<br>Skills</h3>
        
         <section class="course_hard_front_back">
             <article class="course__hard__front">
@@ -39,7 +39,7 @@
             </article>
 
             <article class="course__hard__control">
-                <h6 class="course__hard__control__title">Version Control</h6>
+                <h6 class="course__hard__control__title skill__title">Version Control</h6>
                 <a href="<?php echo $lang['HardSkillGITHUB']; ?>" target="_blank"><img class="course__hard__control__img" src="img/skills__github.svg" alt="github logo"></a>
                 <a href="<?php echo $lang['HardSkillGITLAB']; ?>" target="_blank"><img class="course__hard__control__img" src="img/skills__gitlab.svg" alt="gitlab logo"></a>
             </article>
@@ -47,14 +47,15 @@
     </section>
 
     <section class="course__soft margBot0">
-        <h3 class="course__soft__title">Soft-Skills</h3>
+        <h3 class="course__soft__title">Soft<br>Skills</h3>
+
         <section class="agile__remote">
             <article class="agile-method">
-                <h6 class="course__soft__agile__title">Agile Tools</h6>
+                <h6 class="course__soft__agile__title skill__title">Agile Tools</h6>
                 <a href="<?php echo $lang['HardSkillTRELLO']; ?>" target="_blank"><img class="course__soft__agile__img" src="img/skills__trello.svg" alt="trello logo"></a>
             </article>
             <article class="remote-working">
-                <h6 class="course__soft__remote__title">Remote Working</h6>
+                <h6 class="course__soft__remote__title skill__title">Remote Working</h6>
                 <a href="<?php echo $lang['HardSkillZOOM']; ?>" target="_blank"><img class="course__soft__remote__img" src="img/skills__zoom.svg" alt="zoom logo"></a>
                 <a href="<?php echo $lang['HardSkillSLACK']; ?>" target="_blank"><img class="course__soft__remote__img slack" src="img/skills__slack.svg" alt="slack logo"></a>
                 <a href="<?php echo $lang['HardSkillDISCORD']; ?>" target="_blank"><img class="course__soft__remote__img" src="img/skills__discord.svg" alt="discord logo"></a>
