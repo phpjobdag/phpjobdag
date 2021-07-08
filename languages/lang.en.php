@@ -15,9 +15,10 @@ $lang['lang'] = 'en';
 $lang['h1'] = 'English title';
 
 // Nav
-$lang['nav1'] = 'Students';
-$lang['nav2'] = 'Event Schedule';
-$lang['nav3'] = 'Course Scope';
+$lang['nav1'] = 'Home';
+$lang['nav2'] = 'Students';
+$lang['nav3'] = 'Event Schedule';
+$lang['nav4'] = 'Course Scope';
 
 // Intro
 $lang['introDate'] = '26 August 2021, online';

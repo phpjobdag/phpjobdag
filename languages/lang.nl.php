@@ -14,12 +14,13 @@ $lang['lang'] = 'nl';
 $lang['h1'] = 'English title';
 
 // Nav
-$lang['nav1'] = 'Studenten';
-$lang['nav2'] = 'Programma';
-$lang['nav3'] = 'Cursus';
+$lang['nav1'] = 'Hoofpagina';
+$lang['nav2'] = 'Studenten';
+$lang['nav3'] = 'Programma';
+$lang['nav4'] = 'Cursus';
 
 // Intro
-$lang['introDate'] = '';
+$lang['introDate'] = '26 augustus 2021, online';
 $lang['intro1'] = 'Webontwikkelaars maken kennis met werkgevers ';
 $lang['intro2'] = 'Meld je aan!';
 
@@ -110,7 +111,7 @@ $lang['formCommunication'] = 'Wat is je gewenste communicatie platform?';
 $lang['formLinkLabel'] = 'Indien je graag gebruik wil maken van je eigen Teams, Zoom, Google Meet kanaal, ... Vul hieronder dan de link in naar je gewenst communicatie platform.';
 $lang['formLink'] = 'Plak hier je link...';
 $lang['formQuestions'] = 'Overige opmerkingen/vragen?';
-$lang['formSubmit'] = 'Register';
+$lang['formSubmit'] = 'Registreer';
 
 $lang['footerThank1'] = 'Dankwoord';
 $lang['footerThank2'] = 'Wij zouden graag een woord van dank richten aan onze lesgevers. Zij hebben ons de afgelopen maanden de nodige kennis en vaardigheden bijgebracht. Zij zijn medeverantwoordelijk voor onze omvorming tot ontwikkelaars. Bij deze Tim, Sarah, Anke en Yannick. Dank jullie wel!';

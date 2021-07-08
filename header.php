@@ -4,19 +4,19 @@
 
             <ul class="header__nav__list">
                 <li class="header__nav__list__item">
-                    <a href="#header">Home</a>
+                    <a href="#header"><?php echo $lang['nav1']; ?></a>
                 </li>
 
                 <li class="header__nav__list__item">
-                    <a href="#students"><?php echo $lang['nav1']; ?></a>
+                    <a href="#students"><?php echo $lang['nav2']; ?></a>
                 </li>
 
                 <li class="header__nav__list__item">
-                    <a href="#agenda"><?php echo $lang['nav2']; ?></a>
+                    <a href="#agenda"><?php echo $lang['nav3']; ?></a>
                 </li>
 
                 <li class="header__nav__list__item">
-                    <a href="#course"><?php echo $lang['nav3']; ?></a>
+                    <a href="#course"><?php echo $lang['nav4']; ?></a>
                 </li>
 
                 <ul class="header__nav__lang">
