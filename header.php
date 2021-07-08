@@ -15,10 +15,11 @@
         eng.classList.add("lang__icon");
         engMobile.childNodes[0].classList.add("lang__icon");
         drop.style.background="#001220";
+
         
     } 
     else { 
-        
+
         myNav.classList.remove("nav__color2");
         eng.classList.remove("lang__icon");
         engMobile.childNodes[0].classList.remove("lang__icon");
@@ -27,8 +28,8 @@
 };
 
              }
-       
 
+       
 
 
       
