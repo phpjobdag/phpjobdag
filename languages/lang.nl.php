@@ -14,7 +14,7 @@ $lang['lang'] = 'nl';
 $lang['h1'] = 'English title';
 
 // Nav
-$lang['nav1'] = 'Hoofpagina';
+$lang['nav1'] = 'Hoofdpagina';
 $lang['nav2'] = 'Studenten';
 $lang['nav3'] = 'Programma';
 $lang['nav4'] = 'Cursus';

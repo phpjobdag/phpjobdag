@@ -26,13 +26,15 @@
                     required>
 
              <input class="footer__register__form__input"
-                    type="email" id="email"
+                    type="email"
+                    id="email"
                     name="email"
                     placeholder="<?php echo $lang['formMail']; ?>"
                     required>
 
              <input class="footer__register__form__input"
-                    type="tel" id="telephone"
+                    type="tel"
+                    id="telephone"
                     name="telephone"
                     placeholder="<?php echo $lang['formTelephone']; ?>"
                     required>
@@ -94,7 +96,6 @@
                 </ul>
             </article>
 
-        
 
             <article class="footer__info__partners">
                 <h6 class="footer__info__partners__title">Partners</h6>
