@@ -41,9 +41,9 @@
 
              <label class="footer__register__form__label" for="timeframe"><?php echo $lang['formAvailability']; ?></label>
              <div class="checkbox__wrapper">
-                 <input type="checkbox" id="morning" name="morning"> <?php echo $lang['fromMorning']; ?>
-                 <input type="checkbox" id="afternoon" name="afternoon"> <?php echo $lang['formAfternoon']; ?>
-                 <input type="checkbox" id="day" name="day"> <?php echo $lang['formDay']; ?>
+                 <input type="radio" name="availability" value="morning"> <?php echo $lang['fromMorning']; ?>
+                 <input type="radio" name="availability" value="afternoon"> <?php echo $lang['formAfternoon']; ?>
+                 <input type="radio" name="availability" value="whole day"> <?php echo $lang['formDay']; ?>
              </div>
 
 <!--             <label for="platform">--><?php //echo $lang['formCommunication']; ?><!--</label>-->
