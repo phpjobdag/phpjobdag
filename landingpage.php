@@ -30,7 +30,7 @@
 
         <!-- Countdown Script -->
         <script>
-            let countDownDate = <?php echo strtotime('Aug 26, 2021 09:37:25') ?> * 1000;
+            let countDownDate = <?php echo strtotime('Aug 26, 2021 09:00:00') ?> * 1000;
             let now = <?php echo time() ?> * 1000;
 
             let x = setInterval(function() {
