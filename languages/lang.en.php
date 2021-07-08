@@ -1,4 +1,3 @@
-
 <?php
 /*
 ------------------
@@ -15,10 +14,9 @@ $lang['lang'] = 'en';
 $lang['h1'] = 'English title';
 
 // Nav
-$lang['nav1'] = 'Home';
-$lang['nav2'] = 'Students';
-$lang['nav3'] = 'Event Schedule';
-$lang['nav4'] = 'Course Scope';
+$lang['nav1'] = 'Students';
+$lang['nav2'] = 'Event Agenda';
+$lang['nav3'] = 'Course Scope';
 
 // Intro
 $lang['introDate'] = '26 August 2021, online';
@@ -31,13 +29,12 @@ $lang['counter2'] = 'Hours';
 $lang['counter3'] = 'Minutes';
 $lang['counter4'] = 'Seconds';
 
-
 // Students
 $lang['studentTitle'] = 'WHO ARE WE?';
 $lang['Alexander'] = 'Fast-learning, enthusiastic and driven Web Developer with a specialty in Philosophy of Technology';
 $lang['Anastasya'] = 'Small full stack developer with big ambition to become an expert in her field.';
 $lang['Arne'] = 'Developer looking for opportunities to develop myself.';
-$lang['Burcu'] = 'Seasoned designer. Apprentice developer. On my way towards full stack digital product designer.';
+$lang['Burcu'] = 'Seasoned designer. Apprentice developer. On my way towards becoming full stack digital designer.';
 $lang['Daniel'] = 'Not a copywriter.';
 $lang['Erik'] = 'Good knowledge of numerous programming languages PHP, Python, Javascript, SQL, Java, CSS, HTML';
 $lang['Geert'] = 'New in this fascinating world of development. But every expert was once a beginner.';
@@ -46,9 +43,8 @@ $lang['Miguel'] = 'Young, ambitious and passionate about web development';
 $lang['Wouter'] = 'Wouter decided after 12 years of retail to go back to his passion as a webdeveloper.';
 $lang['Yves'] = 'A bachelor in communication management upscaling his webdeveloping skills… Ready to rumble!';
 
-
 // Agenda
-$lang['agendaTitle'] = 'CHECK OUT THE SCHEDULE';
+$lang['agendaTitle'] = 'CHECK OUT THE AGENDA';
 $lang['agendaDes1'] = 'First off you will receive an introductory presentation with an overview of the skills and abilities we have attained during our course.';
 $lang['agendaDes2'] = 'Next up is the Interview. This is the time to ask questions, to spot the skills and talents of each candidate and seek out the potential future fit for your company. During the speed interview session you will be given 15 minutes to get to know each student. So have your questions ready.';
 $lang['agendaDes3'] = 'Afterwards there will be time to evaluate the candidates and leave some feedback.';
@@ -60,12 +56,12 @@ $lang['agendap4'] = 'You will be given 15 minutes to get to know each student';
 $lang['agendap5'] = 'Feedback Moment';
 $lang['agendap6'] = 'Time for evaluation and Feedback';
 
-
 // Course
 $lang['courseTitle'] = 'SEE THE COURSE SCOPE';
 $lang['courseBody1'] = 'Due to the pandemic this course was completely remote. Managing to work together from a distance was the first thing we learned.';
 $lang['courseBody2'] = 'The past few months we have learned an awful lot and developed many new skills. In a relatively short amount of time we have managed to build a strong foundation from which we plan to launch our future careers.';
 $lang['courseBody3'] = 'During the course we used <b>Github</b> and <b>GitLab</b> for version control, <b>Visual Studio Code</b> and <b>PHPStorm</b> as code editors and for Agile Project Management we used <b>Trello</b>.';
+
 
 // Front-end Links
 $lang['HardSkillHTML'] = 'https://en.wikipedia.org/wiki/HTML5';
@@ -95,24 +91,30 @@ $lang['HardSkillZOOM'] = 'https://en.wikipedia.org/wiki/Zoom_Video_Communication
 $lang['HardSkillSLACK'] = 'https://en.wikipedia.org/wiki/Slack_(software)';
 $lang['HardSkillDISCORD'] = 'https://en.wikipedia.org/wiki/Discord_(software)';
 
-
 // Footer
-$lang['footerTitle'] = 'Save your spot!';
-$lang['footerSubtitle'] = 'Fill in your details and save your spot!';
-$lang['footerBody1'] = 'This event is fully remote.';
+$lang['footerTitle'] = 'Save your spot';
+$lang['footerSubtitle'] = 'Fill in your details<br> and save your spot!';
+$lang['footerBody1'] = 'This event is fully remote.<br>';
 $lang['footerBody2'] = 'Date: 26 August 2021';
-$lang['footerBody3'] = 'After your registration is approved we will provide you with a meeting link and a password for the event.';
+$lang['footerBody3'] = 'After your registration is approved we will<br> provide you with a meeting link and a password for the event.';
 $lang['footerBody4'] = 'We are looking forward to hearing from you.';
 $lang['footerDate'] = 'Date: 26 August 2021';
-$lang['formName'] = 'Your name';
+
 $lang['formCompany'] = 'Company name';
+$lang['formName'] = 'Your name';
+$lang['formMail'] = 'Email';
 $lang['formTelephone'] = 'Your digits';
-$lang['formMail'] = 'E-mail';
+$lang['formAvailability'] = 'Availability';
+$lang['fromMorning'] = 'Morning';
+$lang['formAfternoon'] = 'Afternoon';
+$lang['formDay'] = 'Whole day';
+$lang['formCommunication'] = 'Preferred communication platform';
+$lang['formLinkLabel'] = 'In case you want to make use of your owm Teams, Zoom or Google Meet channel, please fill in the link to the room below.';
+$lang['formLink'] = 'Paste your link...';
+$lang['formQuestions'] = 'Any Questions?';
 $lang['formSubmit'] = 'Register';
+
 $lang['footerThank1'] = 'Thank you';
 $lang['footerThank2'] = 'We would like to show our appreciation for our teachers. In these past few months they have provided us with the necessary knowledge and skills. They are partially responsible for our transformation into developers. Tim, Sarah, Anke and Yannick, thank you for all your support!';
 $lang['footerMade'] = 'This site was made with:';
-
-$lang['FootPartnerMULTIMEDI'] = 'https://translate.google.com/translate?js=n&sl=auto&tl=en&u=http://multimedi.be';
-$lang['FootPartnerCEVORA'] = 'https://www.cevora.be/';
 
