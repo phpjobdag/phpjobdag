@@ -63,6 +63,7 @@ input:focus, textarea:focus, select:focus{
 	margin:0;
 	padding:0;
 
+
 }
 
 .header__nav {
@@ -1455,6 +1456,8 @@ body{
 		width:820px;
 		margin-left:0rem ;
 
+		
+
 	
    }
 
@@ -1595,6 +1598,7 @@ body{
 		width:100%;
 		justify-content: center;
 		margin-top: 4rem;
+
 
 	}
 

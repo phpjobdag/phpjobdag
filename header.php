@@ -1,14 +1,14 @@
 
-    <header id="header" class="header">
+    <header id="header" class="header">      
          <script>
-             window.onload = function(){
-    var myNav = document.getElementById("header");
-    var eng = document.getElementById("eng");
+             window.onload = function(){         
+    var myNav = document.getElementById("header");  
+    var eng = document.getElementById("eng"); 
      var engMobile = document.getElementById("engMobile");
-     var drop = document.getElementById("header__mobile__dropdown");
-
-    window.onscroll = function () {
-
+     var drop = document.getElementById("header__mobile__dropdown");   
+     
+    window.onscroll = function () { 
+     
     var scrollTop = window.pageYOffset || (document.documentElement || document.body.parentNode || document.body).scrollTop;
     if (scrollTop >= window.innerHeight ) {
         myNav.classList.add("nav__color2");
@@ -16,8 +16,9 @@
         engMobile.childNodes[0].classList.add("lang__icon");
         drop.style.background="#001220";
 
-    }
-    else {
+        
+    } 
+    else { 
 
         myNav.classList.remove("nav__color2");
         eng.classList.remove("lang__icon");
@@ -28,13 +29,13 @@
 
              }
 
+       
 
 
-
-
+      
 </script>
         <nav class="header__nav">
-
+     
             <ul class="header__nav__list">
                 <li class="header__nav__list__item">
                     <a href="#header"><?php echo $lang['nav1']; ?></a>
