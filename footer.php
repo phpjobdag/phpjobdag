@@ -5,7 +5,7 @@
     <section id="signup" class="footer__register"> 
         <article class="footer__register__info">
             <h3 class="footer__register__info__title"><?php echo $lang['footerSubtitle']; ?></h3>
-            <p class="footer__register__info__location"><?php echo $lang['footerBody1']; ?></h3>
+            <p class="footer__register__info__location"><?php echo $lang['footerBody1']; ?></p>
             <p class="footer__register__info__location"><?php echo $lang['footerBody2']; ?></br></p>
             <p class="footer__register__info__approval"><?php echo $lang['footerBody3']; ?></p>
         </article>
@@ -100,8 +100,8 @@
             <article class="footer__info__partners">
                 <h6 class="footer__info__partners__title">Partners</h6>
 
-                <a href="<?php echo $lang['FootPartnerMULTIMEDI']; ?>"><img class="footer__info__partners__image" src="img/partners__multimedi.svg" alt="logo multimedi"></a>
-                <a href="<?php echo $lang['FootPartnerCEVORA']; ?>"><img  class="footer__info__partners__image" src="img/partners__cevora.svg" alt="logo cevora"></a>
+                <a href="<?php echo $lang['FootPartnerMULTIMEDI']; ?>" target="_blank"><img class="footer__info__partners__image" src="img/partners__multimedi.svg" alt="logo multimedi"></a>
+                <a href="<?php echo $lang['FootPartnerCEVORA']; ?>" target="_blank"><img  class="footer__info__partners__image" src="img/partners__cevora.svg" alt="logo cevora"></a>
 
             </article>
         </section>
@@ -126,8 +126,8 @@
 
             <article class="footer__info__partners no__display__mobile">
                 <h6 class="footer__info__partners__title">Partners</h6>
-                <img class="footer__info__partners__image" src="img/partners__multimedi.svg" alt="logo multimedi">
-                <img  class="footer__info__partners__image" src="img/partners__cevora.svg" alt="logo cevora">
+                <a href="<?php echo $lang['FootPartnerMULTIMEDI']; ?>" target="_blank"><img class="footer__info__partners__image" src="img/partners__multimedi.svg" alt="logo multimedi"></a>
+                <a href="<?php echo $lang['FootPartnerCEVORA']; ?>" target="_blank"><img  class="footer__info__partners__image" src="img/partners__cevora.svg" alt="logo cevora"></a>
             </article>
 
         <article class="footer__info__tools">
