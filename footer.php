@@ -22,8 +22,7 @@
                     type="text"
                     id="name"
                     name="name"
-                    placeholder="
-                    <?php echo $lang['formName']; ?>"
+                    placeholder="<?php echo $lang['formName']; ?>"
                     required>
 
              <input class="footer__register__form__input"
@@ -38,7 +37,7 @@
                     placeholder="<?php echo $lang['formTelephone']; ?>"
                     required>
 
-             <label for="timeframe"><?php echo $lang['formAvailability']; ?></label>
+             <label class="footer__register__form__label" for="timeframe"><?php echo $lang['formAvailability']; ?></label>
              <div class="checkbox__wrapper">
                  <input type="checkbox" id="morning" name="morning"> <?php echo $lang['fromMorning']; ?>
                  <input type="checkbox" id="afternoon" name="afternoon"> <?php echo $lang['formAfternoon']; ?>
@@ -62,20 +61,12 @@
                     type="text"
                     id="questions"
                     name="questions"
-                    placeholder="<?php echo $lang['formQuestions']; ?>Overige opmerkingen/vragen?..."
+                    placeholder="<?php echo $lang['formQuestions']; ?>"
                     required>
 
-             <input class="footer__register__form__submit" type="submit" value="<?php echo $lang['formSubmit']; ?>">
+             <input class="footer__register__form__submit form__submit"
+                    type="submit" value="<?php echo $lang['formSubmit']; ?>">
         </form>
-        <!--    Contactpersoon
-                Email
-                Telnr
-                Wanneer beschikbaar -> checkboxes (09-12u30, 13u-17u, 09u-17u)
-                Gewenste communicatieplatform
-                Deel hier de link voor je online
-                Overige opmerkingen/vragen
-
-                -->
        
     </section>
 
