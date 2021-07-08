@@ -67,9 +67,9 @@
         </nav> 
 
         <section id="header__mobile__dropdown">
-            <a class="header__mobile__dropdown__link" href=""><?php echo $lang['nav1']; ?></a>
-            <a class="header__mobile__dropdown__link" href=""><?php echo $lang['nav2']; ?></a>
-            <a class="header__mobile__dropdown__link" href=""><?php echo $lang['nav3']; ?></a>
+            <a class="header__mobile__dropdown__link" href="#header"><?php echo $lang['nav1']; ?></a>
+            <a class="header__mobile__dropdown__link" href="#students"><?php echo $lang['nav2']; ?></a>
+            <a class="header__mobile__dropdown__link" href="#agenda"><?php echo $lang['nav3']; ?></a>
             <section id="header__mobile_dropdown__languages">
                 <p id="nlMobile"><a href="?lang=nl">NL</a></p>
                 <p id="engMobile"><a href="?lang=en">EN</a></p>
