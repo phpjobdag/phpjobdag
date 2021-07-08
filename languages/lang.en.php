@@ -62,6 +62,35 @@ $lang['courseBody1'] = 'Due to the pandemic this course was completely remote. M
 $lang['courseBody2'] = 'The past few months we have learned an awful lot and developed many new skills. In a relatively short amount of time we have managed to build a strong foundation from which we plan to launch our future careers.';
 $lang['courseBody3'] = 'During the course we used <b>Github</b> and <b>GitLab</b> for version control, <b>Visual Studio Code</b> and <b>PHPStorm</b> as code editors and for Agile Project Management we used <b>Trello</b>.';
 
+
+// Front-end Links
+$lang['HardSkillHTML'] = 'https://en.wikipedia.org/wiki/HTML5';
+$lang['HardSkillCSS'] = 'https://en.wikipedia.org/wiki/CSS';
+$lang['HardSkillJS'] = 'https://en.wikipedia.org/wiki/JavaScript';
+$lang['HardSkillBS'] = 'https://en.wikipedia.org/wiki/Bootstrap_(front-end_framework)';
+$lang['HardSkillANGULAR'] = 'https://en.wikipedia.org/wiki/Angular_(web_framework)';
+
+// Back-end Links
+$lang['HardSkillPHP'] = 'https://en.wikipedia.org/wiki/PHP';
+$lang['HardSkillPHPUNIT'] = 'https://en.wikipedia.org/wiki/PHPUnit';
+$lang['HardSkillMYSQL'] = 'https://en.wikipedia.org/wiki/MySQL';
+$lang['HardSkillWAMP'] = 'https://en.wikipedia.org/wiki/LAMP_(software_bundle)#Variants';
+$lang['HardSkillLARAVEL'] = 'https://en.wikipedia.org/wiki/Laravel';
+
+// Code editors
+$lang['HardSkillVSC'] = 'https://en.wikipedia.org/wiki/Visual_Studio_Code';
+$lang['HardSkillPHPS'] = 'https://en.wikipedia.org/wiki/PhpStorm';
+
+// Version Control
+$lang['HardSkillGITHUB'] = 'https://en.wikipedia.org/wiki/GitHub';
+$lang['HardSkillGITLAB'] = 'https://en.wikipedia.org/wiki/GitLab';
+
+$lang['HardSkillTRELLO'] = 'https://en.wikipedia.org/wiki/Trello';
+
+$lang['HardSkillZOOM'] = 'https://en.wikipedia.org/wiki/Zoom_Video_Communications';
+$lang['HardSkillSLACK'] = 'https://en.wikipedia.org/wiki/Slack_(software)';
+$lang['HardSkillDISCORD'] = 'https://en.wikipedia.org/wiki/Discord_(software)';
+
 // Footer
 $lang['footerTitle'] = 'Save your spot';
 $lang['footerSubtitle'] = 'Fill in your details<br> and save your spot!';
@@ -88,3 +117,4 @@ $lang['formSubmit'] = 'Register';
 $lang['footerThank1'] = 'Thank you';
 $lang['footerThank2'] = 'We would like to show our appreciation for our teachers. In these past few months they have provided us with the necessary knowledge and skills. They are partially responsible for our transformation into developers. Tim, Sarah, Anke and Yannick, thank you for all your support!';
 $lang['footerMade'] = 'This site was made with:';
+
