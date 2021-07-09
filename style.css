@@ -658,7 +658,7 @@ body{
 }
 
 .footer__info__tools__static {
-   overflow: hidden;    /*om elementen die buiten de div zijn, te verbergen*/
+   overflow: hidden;
    height: 50px;
    width: 250px;
    position: relative;
@@ -675,13 +675,11 @@ body{
    z-index: 1;
 }
 
-/*fade-out effect aan de linkerkant*/
 .footer__info__tools__static:before {
    left: 0;
    background: linear-gradient(to right, #111 0%, transparent 100%)
 }
 
-/*fade-out aan de rechterkant*/
 .footer__info__tools__static:after {
    right: 0;
    background: linear-gradient(to left, #111 0%, transparent 100%)
@@ -689,7 +687,7 @@ body{
 
 .footer__info__tools__moving {
    height: 100%;
-   display: flex; /*om elementen horizontaal te plaatsen*/
+   display: flex;
    animation: slider 17s linear infinite;
 }
 
@@ -699,7 +697,7 @@ body{
    }
 
    100% {
-      transform: translateX(calc(-1*50px*15));
+      transform: translateX(calc(-1*50px*8));
    }
 }
 
