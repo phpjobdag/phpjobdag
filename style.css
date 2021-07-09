@@ -242,12 +242,12 @@ input:focus, textarea:focus, select:focus{
 	width: 250px;
 	height: 70px;
 	background-color: white;
-	/*display: flex;*/
+	display: flex;
 	border-radius: 36px;
 	border: 3px solid #fbae3c;
-	/*align-items: center;*/
-	/*justify-content: center;*/
-	/*text-align: center;*/
+	align-items: center;
+	justify-content: center;
+	text-align: center;
 	font-size: 1.75rem;
 	line-height: 2.063rem;
 	font-weight: bold;
@@ -335,14 +335,15 @@ input:focus, textarea:focus, select:focus{
 
 .agenda__description {
    font-weight: 300;
-   font-size: 1rem;
+	font-size: calc(16px + (20 - 16) * ((100vw - 320px) / (2240 - 320)));
    line-height: 140%;
    letter-spacing: 0.03em;
-   margin-bottom: 1rem;
-   margin-left: 1rem;
-   margin-right: 1rem;
+   margin-bottom: 3rem;
+   /*margin-left: 1rem;*/
+   /*margin-right: 1rem;*/
    position: relative;
    z-index: 10;
+	text-align: left;
 }
 
 .agenda__block {
@@ -468,7 +469,7 @@ body{
 
 .course__body {
    /*font-style: normal;*/
-   font-weight: 200;
+   font-weight: 300;
    font-size: 1rem;
    line-height: 140%;
    letter-spacing: 0.03em;
@@ -608,11 +609,12 @@ body{
 
 /* footer mobile */
 .footer {
-   background: linear-gradient(180deg, 
-   #BA6EC6 0%, 
-   #BA6EC6 45%,
-   #001220 50%,
-   #001220 75%);
+   /*background: linear-gradient(180deg, */
+   /*#BA6EC6 0%, */
+   /*#BA6EC6 45%,*/
+   /*#001220 50%,*/
+   /*#001220 75%);*/
+	background: var(--gradient-bg);
    position: relative;
 }
 
@@ -717,19 +719,21 @@ body{
 	/*margin-top: 5vw;*/
    position: relative;
    z-index: 10;
+	margin-top: 5rem;
+	background-color: var(--prim-dark);
 }
 
-.footer__info__thx__title {
-	font-weight: bold;
-	font-size: 16px;
-	line-height: 19px;
-	display: flex;
-	align-items: center;
-	letter-spacing: 0.08em;
-	font-variant: small-caps;
-	color: #ffffff;
-	margin-bottom: 1rem;
-}
+/*.footer__info__thx__title {*/
+/*	font-weight: bold;*/
+/*	font-size: 16px;*/
+/*	line-height: 19px;*/
+/*	display: flex;*/
+/*	align-items: center;*/
+/*	letter-spacing: 0.08em;*/
+/*	font-variant: small-caps;*/
+/*	color: #ffffff;*/
+/*	margin-bottom: 1rem;*/
+/*}*/
 
 .footer__info__thx__body {
    font-weight: 400;
@@ -966,7 +970,7 @@ body{
 #footer__blob__black {
    position: absolute;
    left: 0;
-   /*bottom: 50%;*/
+   bottom: 20%;
    z-index: 2;
 	display: none;
 }
@@ -1458,11 +1462,10 @@ body{
 	.middleBlock {
 		width: 500px;
 	}
-	.agenda__description {
-		width: 100%;
-		font-size: 1.25rem;
-		font-weight:400;
-	}
+	/*.agenda__description {*/
+	/*	width: 100%;*/
+	/*	font-size: 1.25rem;*/
+	/*}*/
 	
  
    .agenda__block__info,.agenda__block__info__middle{
@@ -1489,19 +1492,21 @@ body{
 		width: 100%;
 	}
 
-	.course__soft {
-		box-sizing: border-box;
-		width: 500px;
-		height: 664px;
-		margin: 0;
-	}
-	.course__hard {
-		box-sizing: border-box;
-		width: 500px;
-		height: 1140px;
-		margin: 0;
-		margin-right: 2rem;
-	}
+	/*.course__soft {*/
+	/*	box-sizing: border-box;*/
+	/*	width: 500px;*/
+	/*	height: 664px;*/
+	/*	margin: 0;*/
+	/*}*/
+
+
+	/*.course__hard {*/
+	/*	box-sizing: border-box;*/
+	/*	width: 500px;*/
+	/*	height: 1140px;*/
+	/*	margin: 0;*/
+	/*	margin-right: 2rem;*/
+	/*}*/
 
 	.course__hard__front__img,
 	.course__hard__back__img,
@@ -1631,6 +1636,10 @@ body{
 		margin-top: 0rem; /* -> op 0 vanaf breakpoint landscape */
 	}
 
+	.footer__info__partners__tools__flex{
+		/*justify-content: space-between;*/
+	}
+
 	/* END OF FOOTER CHANGES DANIEL */
 
    /*.footer__info__team {*/
@@ -1686,7 +1695,7 @@ body{
 
 	.footer__info__tools {
 		/*margin: 0 0 8rem 0;*/
-		padding-right: 50px;
+		/*padding-right: 50px;*/
 	}
 }
 
@@ -1846,11 +1855,12 @@ body{
       bottom: 12%;
       width: 943px;
       height: 746px;
+
    }
 
-   #footer__blob__black {
-      bottom: 12%;
-   }
+   /*#footer__blob__black {*/
+   /*   bottom: 12%;*/
+   /*}*/
 
    #agenda__blob__orange__top {
       width: 1440px;
@@ -1959,3 +1969,11 @@ body{
 
 
 
+/* EXTRA FOOTER SECTIE */
+
+.blob__footer{
+	position: relative;
+	margin: 0 auto;
+	background: var(--prim-dark);
+	/*z-index: 99;*/
+}

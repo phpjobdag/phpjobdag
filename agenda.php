@@ -1,10 +1,13 @@
 <section id="agenda" class="agenda">
     <h2 class="agenda__title"><?php echo $lang['agendaTitle']; ?></h2>
-     <div id ="agenda__wrapper">
-   
+
     <p class="agenda__description"><?php echo $lang['agendaDes1']; ?></p>
     <p class="agenda__description"><?php echo $lang['agendaDes2']; ?></p>
     <p class="agenda__description"><?php echo $lang['agendaDes3']; ?></p>
+
+     <div id ="agenda__wrapper">
+   
+
 
     <section class="agenda__block margin2">
         <p class="agenda__block__time" >9.00-9.30</p>

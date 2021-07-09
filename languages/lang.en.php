@@ -59,9 +59,9 @@ $lang['agendap6'] = 'Time for evaluation and Feedback';
 
 // Course
 $lang['courseTitle'] = 'SEE THE COURSE SCOPE';
-$lang['courseBody1'] = 'Due to the pandemic this course was completely remote. Managing to work together from a distance was the first thing we learned.';
-$lang['courseBody2'] = 'The past few months we have learned an awful lot and developed many new skills. In a relatively short amount of time we have managed to build a strong foundation from which we plan to launch our future careers.';
-$lang['courseBody3'] = 'During the course we used <b>Github</b> and <b>GitLab</b> for version control, <b>Visual Studio Code</b> and <b>PHPStorm</b> as code editors and for Agile Project Management we used <b>Trello</b>.';
+$lang['courseBody1'] = 'Due to the pandemic this course was completely remote. <br>Managing to work together from a distance was the first thing we learned.';
+$lang['courseBody2'] = 'The past few months we have learned an awful lot and developed many new skills.<br> In a relatively short amount of time we have managed to build a strong foundation from which we plan to launch our future careers.';
+$lang['courseBody3'] = 'During the course we used <b>Github</b> and <b>GitLab</b> for version control,<br> <b>Visual Studio Code</b> and <b>PHPStorm</b> as code editors and for Agile Project Management we used <b>Trello</b>.';
 
 // Front-end Links
 $lang['HardSkillHTML'] = 'https://en.wikipedia.org/wiki/HTML5';
