@@ -1,45 +1,78 @@
-<section class="landingpage">
-    <header id="header" class="header">
-        <nav class="header__nav">
 
+    <header id="header" class="header">      
+         <script>
+             window.onload = function(){         
+    var myNav = document.getElementById("header");  
+    var eng = document.getElementById("eng"); 
+     var engMobile = document.getElementById("engMobile");
+     var drop = document.getElementById("header__mobile__dropdown");   
+     
+    window.onscroll = function () { 
+     
+    var scrollTop = window.pageYOffset || (document.documentElement || document.body.parentNode || document.body).scrollTop;
+    if (scrollTop >= window.innerHeight ) {
+        myNav.classList.add("nav__color2");
+        eng.classList.add("lang__icon");
+        engMobile.childNodes[0].classList.add("lang__icon");
+        drop.style.background="#001220";
+
+        
+    } 
+    else { 
+
+        myNav.classList.remove("nav__color2");
+        eng.classList.remove("lang__icon");
+        engMobile.childNodes[0].classList.remove("lang__icon");
+        drop.style.background="#ba6ec6"; console.log(myNav,eng,engMobile,drop);
+    }
+};
+
+             }
+
+       
+
+
+      
+</script>
+        <nav class="header__nav">
+     
             <ul class="header__nav__list">
                 <li class="header__nav__list__item">
-                    <a href="#header">Home</a>
+                    <a href="#header"><?php echo $lang['nav1']; ?></a>
                 </li>
 
                 <li class="header__nav__list__item">
-                    <a href="#students"><?php echo $lang['nav1']; ?></a>
+                    <a href="#students"><?php echo $lang['nav2']; ?></a>
                 </li>
 
                 <li class="header__nav__list__item">
-                    <a href="#agenda"><?php echo $lang['nav2']; ?></a>
+                    <a href="#agenda"><?php echo $lang['nav3']; ?></a>
                 </li>
 
                 <li class="header__nav__list__item">
-                    <a href="#course"><?php echo $lang['nav3']; ?></a>
+                    <a href="#course"><?php echo $lang['nav4']; ?></a>
                 </li>
 
                 <ul class="header__nav__lang">
                     <li class="header__nav__lang__switch"><a  id="eng" href="?lang=en">EN</a></li>
                     <li class="header__nav__lang__switch"><a id="nl" href="?lang=nl">NL</a></li>
                 </ul>
-                <a href="#signup"><input type="button" value=<?php echo $lang['intro2']; ?> class="header__mobile__button "></a>
+                <a href="#footer"><input type="button" value="<?php echo $lang['intro2']; ?>" class="header__mobile__button"></a>
             </ul>
         </nav>
 
         <nav class="header__mobile">
-            <a href="#signup"><input type="button" value=<?php echo $lang['intro2']; ?> class="header__mobile__button "></a>
+            <a href="#footer"><input type="button" value="<?php echo $lang['intro2']; ?>" class="header__mobile__button"></a>
             <i class="fas fa-bars header__mobile__hamburger" id="navknop"></i>           
         </nav> 
-</header>
+
         <section id="header__mobile__dropdown">
-            <a class="header__mobile__dropdown__link" href="">MEET THE STUDENTS &nbsp; </a>
-            <a class="header__mobile__dropdown__link" href=""> CHECK OUT AGENDA &nbsp; </a>
-            <a class="header__mobile__dropdown__link" href=""> SEE THE COURSE SCOPE &nbsp; </a>
-            <a class="header__mobile__dropdown__link" href=""> SIGN UP &nbsp;   </a>
+            <a class="header__mobile__dropdown__link" href="#students"><?php echo $lang['nav2']; ?></a>
+            <a class="header__mobile__dropdown__link" href="#agenda"><?php echo $lang['nav3']; ?></a>
+            <a class="header__mobile__dropdown__link" href="#course"><?php echo $lang['nav4']; ?></a>
             <section id="header__mobile_dropdown__languages">
-                <p id="nl"><a href="?lang=nl">NL</a></p>
-                <p id="eng"><a href="?lang=en">EN</a></p>
+                <p id="nlMobile"><a href="?lang=nl">NL</a></p>
+                <p id="engMobile"><a href="?lang=en">EN</a></p>
             </section>
         </section>
 
@@ -55,68 +88,7 @@
                 }
             })
         </script>
-    
 
-    <section class="header__section">
-        <h3 class="header__section__info">26 August 2021, online</h3>
-        <h1 class="header__section__title">PHP JOBDAG</h1>
-        <h4 class="header__section__subtitle"><?php echo $lang['intro1']; ?></h4>
-        <a href="#signup" class="header__section__registerlink"><?php echo $lang['intro2']; ?></a>
-    </section>
 
-    <section class="header__counter">
+ </header>   
 
-        <article class="header__counter__box">
-            <h3 class="header__counter__box__time" id="days"></h3>
-            <h3 class="header__counter__box__unit"><?php echo $lang['counter1']; ?></h3>
-        </article>
-
-        <article class="header__counter__box">
-            <h3 class="header__counter__box__time" id="hours"></h3>
-            <h3 class="header__counter__box__unit"><?php echo $lang['counter2']; ?></h3>
-        </article>
-
-        <article class="header__counter__box">
-            <h3 class="header__counter__box__time" id="minutes"></h3>
-            <h3 class="header__counter__box__unit"><?php echo $lang['counter3']; ?></h3>
-        </article>
-
-        <article class="header__counter__box">
-            <h3 class="header__counter__box__time" id="seconds"></h3>
-            <h3 class="header__counter__box__unit"><?php echo $lang['counter4']; ?></h3>
-        </article>
-
-        <!-- Countdown Script -->
-        <script>
-            let countDownDate = <?php echo strtotime('Aug 26, 2021 09:37:25') ?> * 1000;
-            let now = <?php echo time() ?> * 1000;
-
-            let x = setInterval(function() {
-
-                now = now + 1000;
-
-                let distance = countDownDate - now;
-
-                let days = Math.floor(distance / (1000 * 60 * 60 * 24));
-                let hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-                let minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-                let seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
-                document.getElementById("days").innerHTML = days;
-
-                document.getElementById("hours").innerHTML = hours;
-
-                document.getElementById("minutes").innerHTML = minutes;
-
-                document.getElementById("seconds").innerHTML = seconds;
-                
-                if (distance < 0) {
-                    clearInterval(x);
-                    document.getElementById("demo").innerHTML = "EXPIRED";
-                }
-            }, 1000);
-        </script>
-        
-    </section>
-
-</section>
