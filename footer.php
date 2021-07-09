@@ -153,12 +153,12 @@
         </article>
     </section>
 
-    <section class="footer__lang">
-        <ul class="footer__lang__lang">
-            <li class="footer__lang__lang__switch"><a id="footer__en" href="?lang=en">EN</a></li>
-            <li class="footer__lang__lang__switch bg__white"><a id="footer__nl"href="?lang=nl">NL</a></li>
-        </ul>
-    </section>
+<!--    <section class="footer__lang">-->
+<!--        <ul class="footer__lang__lang">-->
+<!--            <li class="footer__lang__lang__switch"><a id="footer__en" href="?lang=en">EN</a></li>-->
+<!--            <li class="footer__lang__lang__switch bg__white"><a id="footer__nl"href="?lang=nl">NL</a></li>-->
+<!--        </ul>-->
+<!--    </section>-->
 
     <section class="footer__copyright">
         <p class="footer__copyright__text">&copy; <?php echo date("Y");?> PHP</p>
