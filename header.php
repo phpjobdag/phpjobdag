@@ -1,38 +1,16 @@
 
-    <header id="header" class="header">      
-         <script>
-             window.onload = function(){         
-    var myNav = document.getElementById("header");  
-    var eng = document.getElementById("eng"); 
-     var engMobile = document.getElementById("engMobile");
-     var drop = document.getElementById("header__mobile__dropdown");   
-     
-    window.onscroll = function () { 
-     
-    var scrollTop = window.pageYOffset || (document.documentElement || document.body.parentNode || document.body).scrollTop;
-    if (scrollTop >= window.innerHeight ) {
-        myNav.classList.add("nav__color2");
-        eng.classList.add("lang__icon");
-        engMobile.childNodes[0].classList.add("lang__icon");
-        drop.style.background="#001220";
+    <header id="header" class="header">  
         
-    } 
-    else { 
-        
-        myNav.classList.remove("nav__color2");
-        eng.classList.remove("lang__icon");
-        engMobile.childNodes[0].classList.remove("lang__icon");
-        drop.style.background="#ba6ec6"; console.log(myNav,eng,engMobile,drop);
-    }
-};
+<?php
 
-             }
-       
+if($lang["lang"]=="en"){
+       echo ' <script type="text/javascript" src="jsFiles/eng.js"></script>  ';
+   
+}else{
+    echo ' <script type="text/javascript" src="jsFiles/nl.js"></script>  ';
+}
 
-
-
-      
-</script>
+?>
         <nav class="header__nav">
      
             <ul class="header__nav__list">
@@ -56,22 +34,23 @@
                     <li class="header__nav__lang__switch"><a  id="eng" href="?lang=en">EN</a></li>
                     <li class="header__nav__lang__switch"><a id="nl" href="?lang=nl">NL</a></li>
                 </ul>
-                <a href="#signup"><input type="button" value=<?php echo $lang['intro2']; ?> class="header__mobile__button "></a>
+                <a href="#footer"><input type="button" value="<?php echo $lang['intro2']; ?>" class="header__mobile__button"></a>
             </ul>
         </nav>
 
         <nav class="header__mobile">
-            <a href="#signup"><input type="button" value=<?php echo $lang['intro2']; ?> class="header__mobile__button "></a>
+            <a href="#footer"><input type="button" value="<?php echo $lang['intro2']; ?>" class="header__mobile__button"></a>
             <i class="fas fa-bars header__mobile__hamburger" id="navknop"></i>           
         </nav> 
 
         <section id="header__mobile__dropdown">
-            <a class="header__mobile__dropdown__link" href=""><?php echo $lang['nav1']; ?></a>
-            <a class="header__mobile__dropdown__link" href=""><?php echo $lang['nav2']; ?></a>
-            <a class="header__mobile__dropdown__link" href=""><?php echo $lang['nav3']; ?></a>
+            <a class="header__mobile__dropdown__link" href="#students"><?php echo $lang['nav2']; ?></a>
+            <a class="header__mobile__dropdown__link" href="#agenda"><?php echo $lang['nav3']; ?></a>
+            <a class="header__mobile__dropdown__link" href="#course"><?php echo $lang['nav4']; ?></a>
             <section id="header__mobile_dropdown__languages">
-                <p id="nlMobile"><a href="?lang=nl">NL</a></p>
                 <p id="engMobile"><a href="?lang=en">EN</a></p>
+                <p id="nlMobile"><a href="?lang=nl">NL</a></p>
+                
             </section>
         </section>
 

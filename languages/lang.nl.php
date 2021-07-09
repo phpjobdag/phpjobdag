@@ -22,7 +22,7 @@ $lang['nav4'] = 'Cursus';
 // Intro
 $lang['introDate'] = '26 augustus 2021, online';
 $lang['intro1'] = 'Webontwikkelaars maken kennis met werkgevers ';
-$lang['intro2'] = 'Meld je aan!';
+$lang['intro2'] = 'MELD JE AAN';
 
 // Counter
 $lang['counter1'] = 'Dagen';
@@ -85,7 +85,7 @@ $lang['HardSkillPHPS'] = 'https://translate.google.com/translate?js=n&sl=auto&tl
 $lang['HardSkillGITHUB'] = 'https://nl.wikipedia.org/wiki/GitHub';
 $lang['HardSkillGITLAB'] = 'https://nl.wikipedia.org/wiki/GitLab';
 
-$lang['HardSkillTRELLO'] = 'https://www.atlassian.com/nl/software/trello';
+$lang['HardSkillTRELLO'] = 'https://translate.google.com/translate?js=n&sl=auto&tl=nl&u=https://en.wikipedia.org/wiki/Trello';
 
 $lang['HardSkillZOOM'] = 'https://nl.wikipedia.org/wiki/Zoom_Video_Communications';
 $lang['HardSkillSLACK'] = 'https://nl.wikipedia.org/wiki/Slack_(software)';

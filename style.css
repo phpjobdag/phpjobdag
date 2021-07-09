@@ -73,7 +73,8 @@ input:focus, textarea:focus, select:focus{
 	background-color: #ba6ec6;;
 	margin:0;
 	padding:0;
-	
+
+
 }
 
 .header__nav {
@@ -100,6 +101,7 @@ input:focus, textarea:focus, select:focus{
 	font-size: 1rem;
 	font-weight: bold;
 	letter-spacing: 0.03em;
+	text-transform: uppercase;
 }
 
 .header__mobile__hamburger {
@@ -236,16 +238,16 @@ input:focus, textarea:focus, select:focus{
 }
 
 .header__section__registerlink {
-	box-sizing: border-box;
-	width: 190px;
+	/*box-sizing: border-box;*/
+	width: 250px;
 	height: 70px;
 	background-color: white;
-	display: flex;
+	/*display: flex;*/
 	border-radius: 36px;
 	border: 3px solid #fbae3c;
-	align-items: center;
-	justify-content: center;
-	text-align: center;
+	/*align-items: center;*/
+	/*justify-content: center;*/
+	/*text-align: center;*/
 	font-size: 1.75rem;
 	line-height: 2.063rem;
 	font-weight: bold;
@@ -457,18 +459,12 @@ input:focus, textarea:focus, select:focus{
 body{
 	min-width:320px;
 }
-
-
 /* coursescope */
-
-
 .course {
 	background: linear-gradient(180deg, #fda677 0%, #ba6ec6 100%);
 	padding-bottom: 3rem;
 	position: relative;
 }
-
-
 
 .course__body {
    /*font-style: normal;*/
@@ -561,6 +557,7 @@ body{
 	margin-bottom: 1rem;
 	text-transform: uppercase;
 }
+
 
 .course__hard__front__img,
 .course__hard__back__img,
@@ -825,7 +822,7 @@ body{
 /*}*/
 
 .footer__info__tools__static {
-   overflow: hidden;    /*om elementen die buiten de div zijn, te verbergen*/
+   overflow: hidden;
    height: 50px;
    width: 250px;
    position: relative;
@@ -842,13 +839,11 @@ body{
    z-index: 1;
 }
 
-/*fade-out effect aan de linkerkant*/
 .footer__info__tools__static:before {
    left: 0;
    background: linear-gradient(to right, #111 0%, transparent 100%)
 }
 
-/*fade-out aan de rechterkant*/
 .footer__info__tools__static:after {
    right: 0;
    background: linear-gradient(to left, #111 0%, transparent 100%)
@@ -856,7 +851,7 @@ body{
 
 .footer__info__tools__moving {
    height: 100%;
-   display: flex; /*om elementen horizontaal te plaatsen*/
+   display: flex;
    animation: slider 17s linear infinite;
 }
 
@@ -866,7 +861,7 @@ body{
    }
 
    100% {
-      transform: translateX(calc(-1*50px*15));
+      transform: translateX(calc(-1*50px*8));
    }
 }
 
@@ -877,8 +872,8 @@ body{
    justify-content: center;
    align-items: center;
    padding: 5px;
-   flex-shrink: 0; /*om elementen niet te laten shrinken om ze allemaal in container te laten passen --> we willen maar 5 logo's zien*/
-   flex-wrap: nowrap; /*om logo's niet naar de volgende lijn te laten verspringen*/
+   flex-shrink: 0;
+   flex-wrap: nowrap;
 }
 
 .footer__info__tools__moving:hover {
@@ -929,12 +924,12 @@ body{
 
 #footer__nl {
 	text-decoration: none !important;
-	color: black;
-	background-color: white;
+	color: white;
+
 }
 
 .bg__white {
-	background-color: white !important;
+
 }
 
 .footer__copyright {
@@ -1093,6 +1088,65 @@ body{
 	margin-top: 2rem;
 }
 
+.margBot0 {
+	/*margin-bottom: 0rem !important;*/
+}
+
+/*kleuranimatie*/
+.purple {
+   animation: purple-to-orange 25s linear infinite;
+}
+
+.orange{
+   animation: orange-to-purple 25s linear infinite;
+}
+
+.yellow{
+   animation: yellow-to-orange 25s linear infinite;
+}
+
+@keyframes purple-to-orange {
+   0% {
+      fill: #3D3056;
+   }
+   25% {
+		fill: #E1685E;
+   }
+	50% {
+      fill: #FBAE3C;
+	}
+	75% {
+		fill: #E1685E;
+   }
+   100% {
+      fill: #3D3056;
+   }
+}
+
+@keyframes yellow-to-orange {
+	0% {
+      fill: #FBAE3C;
+	}
+   50% {
+      fill: #E1685E;
+   }
+	100% {
+      fill: #FBAE3C;
+   }
+}
+
+@keyframes orange-to-purple {
+	0% {
+      fill: #E1685E;
+	}
+   50% {
+      fill: #3D3056;
+   }
+	100% {
+      fill: #E1685E;
+   }
+}
+
 /*.margBot0 {*/
 /*	margin-bottom: 0rem !important;*/
 /*}*/
@@ -1153,6 +1207,8 @@ body{
    margin-bottom: 1rem;
    margin-top: 0rem;
 } */
+
+
 
 /*	blok mag vervangen worden door skill__title*/
 
@@ -1246,7 +1302,7 @@ body{
    align-items: center;
       height:100%;
    list-style: none;
-   /*margin-right: 12%;*/ --> /* zorgt voor overloop */
+   margin-right: 12%; /* zorgt voor overloop*/
    }
 
    .header__nav__list a{
@@ -1292,6 +1348,7 @@ body{
    #eng{
       color: #ba6ec6 ;
     text-decoration: none;
+    
    }
 
 	/* student desktop */ 
@@ -1635,9 +1692,6 @@ body{
 
 
 
-
-
-
 @media only screen and (min-width: 820px) {
    #agenda__blob__orange__bottom,
    #agenda__blob__yellow__bottom {
@@ -1742,7 +1796,7 @@ body{
 	/*	padding:0px;*/
 	/*}*/
 
-   
+
 
 	::-webkit-scrollbar {
       width: 10px;
@@ -1801,13 +1855,6 @@ body{
    #agenda__blob__orange__top {
       width: 1440px;
       height: 845px;
-   }
-
-   #students__blob__yellow__bottom,
-   #students__blob__orange__bottom,
-   #students__blob__purple__bottom {
-      display: block;
-      width: 150%;
    }
 }
 @media only screen and (max-width: 540px){

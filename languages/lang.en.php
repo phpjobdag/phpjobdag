@@ -18,6 +18,7 @@ $lang['nav1'] = 'Home';
 $lang['nav2'] = 'Students';
 $lang['nav3'] = 'Event Schedule';
 $lang['nav4'] = 'Course Scope';
+
 // Intro
 $lang['introDate'] = '26 August 2021, online';
 $lang['intro1'] = 'Web developers meet with employers';
@@ -44,7 +45,7 @@ $lang['Wouter'] = 'Wouter decided after 12 years of retail to go back to his pas
 $lang['Yves'] = 'A bachelor in communication management upscaling his webdeveloping skills… Ready to rumble!';
 
 // Agenda
-$lang['agendaTitle'] = 'CHECK OUT THE AGENDA';
+$lang['agendaTitle'] = 'CHECK OUT THE SCHEDULE';
 $lang['agendaDes1'] = 'First off you will receive an introductory presentation with an overview of the skills and abilities we have attained during our course.';
 $lang['agendaDes2'] = 'Next up is the Interview. This is the time to ask questions, to spot the skills and talents of each candidate and seek out the potential future fit for your company. During the speed interview session you will be given 15 minutes to get to know each student. So have your questions ready.';
 $lang['agendaDes3'] = 'Afterwards there will be time to evaluate the candidates and leave some feedback.';
@@ -61,7 +62,6 @@ $lang['courseTitle'] = 'SEE THE COURSE SCOPE';
 $lang['courseBody1'] = 'Due to the pandemic this course was completely remote. Managing to work together from a distance was the first thing we learned.';
 $lang['courseBody2'] = 'The past few months we have learned an awful lot and developed many new skills. In a relatively short amount of time we have managed to build a strong foundation from which we plan to launch our future careers.';
 $lang['courseBody3'] = 'During the course we used <b>Github</b> and <b>GitLab</b> for version control, <b>Visual Studio Code</b> and <b>PHPStorm</b> as code editors and for Agile Project Management we used <b>Trello</b>.';
-
 
 // Front-end Links
 $lang['HardSkillHTML'] = 'https://en.wikipedia.org/wiki/HTML5';
@@ -117,4 +117,8 @@ $lang['formSubmit'] = 'Register';
 $lang['footerThank1'] = 'Thank you';
 $lang['footerThank2'] = 'We would like to show our appreciation for our teachers. In these past few months they have provided us with the necessary knowledge and skills. They are partially responsible for our transformation into developers. Tim, Sarah, Anke and Yannick, thank you for all your support!';
 $lang['footerMade'] = 'This site was made with';
+
+$lang['FootPartnerMULTIMEDI'] = 'http://multimedi.be';
+$lang['FootPartnerCEVORA'] = 'https://www.cevora.be/';
+
 
