@@ -15,8 +15,8 @@
 .header__section,
 #agenda__wrapper,
 #course__wrapper,
-#footer_wrapper,
-.student-wrapper{
+#footer__wrapper,
+.student__wrapper{
 	margin: auto;!important;
 	max-width: 1080px;!important;
 }
@@ -502,7 +502,7 @@ body{
 	line-height: 33px;
 	letter-spacing: 0.125em;
 	text-transform: uppercase;
-	color: white;
+	color: #FAFAFA;
 }
 
 .course_hard_front_back,
@@ -1332,9 +1332,8 @@ body{
 	}
 
    .header__section__subtitle{
-       line-height: 33px;
-       font-style: normal;
-       font-weight: 400;
+       /*line-height: 33px;*/
+       font-weight: 300;
 		 font-size: 1.75rem;
 		 width: 680px;
    }
@@ -1534,7 +1533,8 @@ body{
 
 
 	.skill__title{
-		font-size: 1.25rem;
+		/*font-size: 1.25rem;*/
+		font-size: calc(16px + (20 - 16) * ((100vw - 320px) / (2240 - 320)));
 	}
 
 	#course__wrapper{
