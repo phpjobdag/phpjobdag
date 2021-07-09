@@ -13,29 +13,29 @@ if($lang["lang"]=="en"){
 ?>
         <nav class="header__nav">
      
-            <ul class="header__nav__list">
-                <li class="header__nav__list__item">
-                    <a href="#header"><?php echo $lang['nav1']; ?></a>
-                </li>
+            <div class="header__nav__list">
+                <a class="header__nav__list__item" href="#header">
+                    <?php echo $lang['nav1']; ?>
+                </a>
 
-                <li class="header__nav__list__item">
-                    <a href="#students"><?php echo $lang['nav2']; ?></a>
-                </li>
+                <a class="header__nav__list__item" href="#students">
+                   <?php echo $lang['nav2']; ?>
+                </a>
 
-                <li class="header__nav__list__item">
-                    <a href="#agenda"><?php echo $lang['nav3']; ?></a>
-                </li>
+                <a class="header__nav__list__item" href="#agenda">
+                    <?php echo $lang['nav3']; ?>
+                </a>
 
-                <li class="header__nav__list__item">
-                    <a href="#course"><?php echo $lang['nav4']; ?></a>
-                </li>
+                <a class="header__nav__list__item" href="#course">
+                   <?php echo $lang['nav4']; ?>
+                </a>
 
                 <ul class="header__nav__lang">
-                    <li class="header__nav__lang__switch"><a  id="eng" href="?lang=en">EN</a></li>
-                    <li class="header__nav__lang__switch"><a id="nl" href="?lang=nl">NL</a></li>
+                    <li class="header__nav__lang__switch"><a id="eng" href="?lang=en">EN</a></li>
+                    <li class="header__nav__lang__switch"><a  id="nl" href="?lang=nl">NL</a></li>
                 </ul>
                 <a href="#footer"><input type="button" value="<?php echo $lang['intro2']; ?>" class="header__mobile__button"></a>
-            </ul>
+            </div>
         </nav>
 
         <nav class="header__mobile">
