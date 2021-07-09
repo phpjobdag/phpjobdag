@@ -166,15 +166,16 @@ input:focus, textarea:focus, select:focus{
 
 #engMobile a {
 	text-decoration: none;
-	color: #ba6ec6;
+	color:white;
+
 }
 
 #engMobile{
-	background: white;
+	
 }
 
 #eng {
-	background-color: white;
+	
 }
 
 #eng a {
@@ -865,12 +866,12 @@ body{
 
 #footer__nl {
 	text-decoration: none !important;
-	color: black;
-	background-color: white;
+	color: white;
+	
 }
 
 .bg__white {
-	background-color: white !important;
+	
 }
 
 .footer__copyright {
@@ -1265,7 +1266,7 @@ body{
      margin:0px;
    }
    #eng{
-      color: #ba6ec6 ;
+      color: #ba6ec6;
     text-decoration: none;
     
    }
