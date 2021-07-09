@@ -21,8 +21,8 @@ window.onload = function(){
     if (scrollTop >= window.innerHeight ) {
       button[0].classList.add("hoverBlack");
       button[0].classList.remove("hoverPink");
-      myNav.classList.add("nav__color2");
-      eng.style.color=" black";
+      myNav.classList.add("nav__color2") ;
+      eng.style.color="black";
       engMobile.childNodes[0].style.color="black";
       drop.style.background="#001220";
       
