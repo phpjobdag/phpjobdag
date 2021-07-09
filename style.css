@@ -708,8 +708,8 @@ body{
    justify-content: center;
    align-items: center;
    padding: 5px;
-   flex-shrink: 0; /*om elementen niet te laten shrinken om ze allemaal in container te laten passen --> we willen maar 5 logo's zien*/
-   flex-wrap: nowrap; /*om logo's niet naar de volgende lijn te laten verspringen*/
+   flex-shrink: 0;
+   flex-wrap: nowrap;
 }
 
 .footer__info__tools__moving:hover {
@@ -912,22 +912,28 @@ body{
 
 /*kleuranimatie*/
 .purple {
-   animation: purple-to-orange 20s linear infinite;
+   animation: purple-to-orange 25s linear infinite;
 }
 
 .orange{
-   animation: orange-to-purple 20s linear 10s infinite;
+   animation: orange-to-purple 25s linear infinite;
 }
 
 .yellow{
-   animation: yellow-to-orange 20s linear 15s infinite;
+   animation: yellow-to-orange 25s linear infinite;
 }
 
-@keyframes orange-to-purple {
+@keyframes purple-to-orange {
    0% {
       fill: #3D3056;
    }
-   50% {
+   25% {
+		fill: #E1685E;
+   }
+	50% {
+      fill: #FBAE3C;
+	}
+	75% {
 		fill: #E1685E;
    }
    100% {
@@ -1538,13 +1544,6 @@ body{
    #agenda__blob__orange__top {
       width: 1440px;
       height: 845px;
-   }
-
-   #students__blob__yellow__bottom,
-   #students__blob__orange__bottom,
-   #students__blob__purple__bottom {
-      display: block;
-      width: 150%;
    }
 }
 
