@@ -2,7 +2,7 @@
     <h2 class="footer__title"><?php echo $lang['footerTitle']; ?></h2>
 
     <div id="footer__wrapper">
-    <section id="signup" class="footer__register">
+    <section id="signup" class="footer__register"> 
         <article class="footer__register__info">
             <h3 class="footer__register__info__title"><?php echo $lang['footerSubtitle']; ?></h3>
             <p class="footer__register__info__location"><?php echo $lang['footerBody1']; ?></p>
@@ -41,9 +41,9 @@
 
              <label class="footer__register__form__label" for="timeframe"><?php echo $lang['formAvailability']; ?></label>
              <div class="checkbox__wrapper">
-                 <input type="checkbox" id="morning" name="morning"> <?php echo $lang['fromMorning']; ?>
-                 <input type="checkbox" id="afternoon" name="afternoon"> <?php echo $lang['formAfternoon']; ?>
-                 <input type="checkbox" id="day" name="day"> <?php echo $lang['formDay']; ?>
+                 <input type="radio" name="availability" value="morning"> <?php echo $lang['fromMorning']; ?>
+                 <input type="radio" name="availability" value="afternoon"> <?php echo $lang['formAfternoon']; ?>
+                 <input type="radio" name="availability" value="whole day"> <?php echo $lang['formDay']; ?>
              </div>
 
 <!--             <label for="platform">--><?php //echo $lang['formCommunication']; ?><!--</label>-->
@@ -69,51 +69,60 @@
              <input class="footer__register__form__submit form__submit"
                     type="submit" value="<?php echo $lang['formSubmit']; ?>">
         </form>
-
+       
     </section>
 
+    <section class="footer__info">
+        <article class="footer__info__thx">
+            <h6 class="footer__info__thx__title"><?php echo $lang['footerThank1']; ?></h6>
+            <p class="footer__info__thx__body"><?php echo $lang['footerThank2']; ?></p>
+        </article>
 
-</footer>
-
-
-
-
-
-<!-- SECOND FOOTER TEST -->
-
-
-
-
-
-
-
-<div class="blob__footer">
-   <div id="footer__wrapper">
-       <section class="footer__info">
-           <!--        <section class="footer__info__team__partners__container">-->
-           <article class="footer__info__team">
-               <h6 class="footer__subtitle">Project Team</h6>
-               <ul class="footer__info__team__list">
-                   <li class="footer__info__team__list__name">Alexander Decoz</li>
-                   <li class="footer__info__team__list__name">Anastasya Ovchar</li>
-                   <li class="footer__info__team__list__name">Arne Sneyers</li>
-                   <li class="footer__info__team__list__name">Burcu Avci</li>
-                   <li class="footer__info__team__list__name">Daniel Paz</li>
-                   <li class="footer__info__team__list__name">Erik Hendriks</li>
-                   <li class="footer__info__team__list__name">Geert Rumen</li>
-                   <li class="footer__info__team__list__name">Mathijs Reykers</li>
-                   <li class="footer__info__team__list__name">Miguel Duarte</li>
-                   <li class="footer__info__team__list__name">Wouter Swerts</li>
-                   <li class="footer__info__team__list__name">Yves Kerkhofs</li>
-               </ul>
-           </article>
+        <section class="footer__info__team__partnerts__container">
+            <article class="footer__info__team">
+                <h6 class="footer__info__team__title">Project Team</h6>
+                <ul class="footer__info__team__list">
+                    <li class="footer__info__team__list__name">Alexander Decoz</li>
+                    <li class="footer__info__team__list__name">Anastasya Ovchar</li>
+                    <li class="footer__info__team__list__name">Arne Sneyers</li>
+                    <li class="footer__info__team__list__name">Burcu Avci</li>
+                    <li class="footer__info__team__list__name">Daniel Paz</li>
+                    <li class="footer__info__team__list__name">Erik Hendriks</li>
+                    <li class="footer__info__team__list__name">Geert Rumen</li>
+                    <li class="footer__info__team__list__name">Mathijs Reykers</li>
+                    <li class="footer__info__team__list__name">Miguel Duarte</li>
+                    <li class="footer__info__team__list__name">Wouter Swerts</li>
+                    <li class="footer__info__team__list__name">Yves Kerkhofs</li>
+                </ul>
+            </article>
 
 
-           <div class="footer__info__second__column__flex">
-               <article class="footer__info__thx">
-                   <h6 class="footer__subtitle"><?php echo $lang['footerThank1']; ?></h6>
-                   <p class="footer__info__thx__body"><?php echo $lang['footerThank2']; ?></p>
-               </article>
+            <article class="footer__info__partners">
+                <h6 class="footer__info__partners__title">Partners</h6>
+
+                <a href="<?php echo $lang['FootPartnerMULTIMEDI']; ?>" target="_blank"><img class="footer__info__partners__image" src="img/partners__multimedi.svg" alt="logo multimedi"></a>
+                <a href="<?php echo $lang['FootPartnerCEVORA']; ?>" target="_blank"><img  class="footer__info__partners__image" src="img/partners__cevora.svg" alt="logo cevora"></a>
+
+            </article>
+        </section>
+
+        <!-- desktopsite geen container -->
+        <article class="footer__info__team no__display__mobile">
+                <h6 class="footer__info__team__title">Project Team</h6>
+                <ul class="footer__info__team__list">
+                    <li class="footer__info__team__list__name">Alexander Decoz</li>
+                    <li class="footer__info__team__list__name">Anastasya Ovchar</li>
+                    <li class="footer__info__team__list__name">Arne Sneyers</li>
+                    <li class="footer__info__team__list__name">Burcu Avci</li>
+                    <li class="footer__info__team__list__name">Daniel Paz</li>
+                    <li class="footer__info__team__list__name">Erik Hendriks</li>
+                    <li class="footer__info__team__list__name">Geert Rumen</li>
+                    <li class="footer__info__team__list__name">Mathijs Reykers</li>
+                    <li class="footer__info__team__list__name">Miguel Duarte</li>
+                    <li class="footer__info__team__list__name">Wouter Swerts</li>
+                    <li class="footer__info__team__list__name">Yves Kerkhofs</li>
+                </ul>
+            </article>
 
 
                <div class="footer__info__partners__tools__flex">

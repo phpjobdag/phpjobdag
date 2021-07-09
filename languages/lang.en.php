@@ -30,6 +30,7 @@ $lang['counter2'] = 'Hours';
 $lang['counter3'] = 'Minutes';
 $lang['counter4'] = 'Seconds';
 
+
 // Students
 $lang['studentTitle'] = 'WHO ARE WE?';
 $lang['Alexander'] = 'Fast-learning, enthusiastic and driven Web Developer with a specialty in Philosophy of Technology';
@@ -37,12 +38,13 @@ $lang['Anastasya'] = 'Small full stack developer with big ambition to become an 
 $lang['Arne'] = 'Developer looking for opportunities to develop myself.';
 $lang['Burcu'] = 'Seasoned designer. Apprentice developer. On my way towards becoming full stack digital designer.';
 $lang['Daniel'] = 'Not a copywriter.';
-$lang['Erik'] = 'Good knowledge of numerous programming languages PHP, Python, Javascript, SQL, Java, CSS, HTML';
+$lang['Erik'] = 'Good knowledge of numerous programming languages PHP, Python, JS, SQL, Java, CSS, HTML, Spark';
 $lang['Geert'] = 'New in this fascinating world of development. But every expert was once a beginner.';
 $lang['Mathijs'] = 'Aspiring full stack developer open for any challenge you throw at him.';
 $lang['Miguel'] = 'Young, ambitious and passionate about web development';
 $lang['Wouter'] = 'Wouter decided after 12 years of retail to go back to his passion as a webdeveloper.';
 $lang['Yves'] = 'A bachelor in communication management upscaling his webdeveloping skills… Ready to rumble!';
+
 
 // Agenda
 $lang['agendaTitle'] = 'CHECK OUT THE SCHEDULE';
@@ -56,6 +58,7 @@ $lang['agendap3'] = 'Interview Session';
 $lang['agendap4'] = 'You will be given 15 minutes to get to know each student';
 $lang['agendap5'] = 'Feedback Moment';
 $lang['agendap6'] = 'Time for evaluation and Feedback';
+
 
 // Course
 $lang['courseTitle'] = 'SEE THE COURSE SCOPE';
@@ -90,6 +93,7 @@ $lang['HardSkillTRELLO'] = 'https://en.wikipedia.org/wiki/Trello';
 $lang['HardSkillZOOM'] = 'https://en.wikipedia.org/wiki/Zoom_Video_Communications';
 $lang['HardSkillSLACK'] = 'https://en.wikipedia.org/wiki/Slack_(software)';
 $lang['HardSkillDISCORD'] = 'https://en.wikipedia.org/wiki/Discord_(software)';
+
 
 // Footer
 $lang['footerTitle'] = 'Save your spot';

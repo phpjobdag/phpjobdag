@@ -1,6 +1,6 @@
 <section class="landingpage">
     <section class="header__section">
-        <h3 class="header__section__info">26 August 2021, online</h3>
+        <h3 class="header__section__info"><?php echo $lang['introDate']; ?></h3>
         <h1 class="header__section__title">PHP JOBDAG</h1>
         <h4 class="header__section__subtitle"><?php echo $lang['intro1']; ?></h4>
         <a href="#signup" class="header__section__registerlink"><?php echo $lang['intro2']; ?></a>
