@@ -8,52 +8,68 @@
 
     <section class="course__hard">
 
-        <h3 class="course__hard__title">Hard-Skills</h3>
+        <h3 class="course__hard__title">Hard<br>Skills</h3>
        
         <section class="course_hard_front_back">
             <article class="course__hard__front">
+
                 <h6 class="course__hard__front__title">Front-end Development</h6>
-                <img class="course__hard__front__img" src="img/skills__html5.svg" alt="html5 logo">
-                <img class="course__hard__front__img" src="img/skills__css3.svg" alt="css3 logo">
-                <img class="course__hard__front__img" src="img/skills__js.svg" alt="js logo">
-                <img class="course__hard__front__img" src="img/skills__bootstrap.svg" alt="bootstrap logo">
+                <a href="<?php echo $lang['HardSkillHTML']; ?>" target="_blank"><img class="course__hard__front__img" src="img/skills__html5.svg" alt="html5 logo"></a>
+                <a href="<?php echo $lang['HardSkillCSS']; ?>" target="_blank"><img class="course__hard__front__img" src="img/skills__css3.svg" alt="css3 logo"></a>
+                <a href="<?php echo $lang['HardSkillJS']; ?>" target="_blank"><img class="course__hard__front__img" src="img/skills__js.svg" alt="js logo"></a>
+                <a href="<?php echo $lang['HardSkillBS']; ?>" target="_blank"><img class="course__hard__front__img" src="img/skills__bootstrap.svg" alt="bootstrap logo"></a>
+                <a href="<?php echo $lang['HardSkillANGULAR'];  ?>" target="_blank"><img class="course__hard__front__img" src="img/skills__angular.svg" alt="angular logo"></a>
+
                 
             </article>
 
             <article class="course__hard__back">
+
                 <h6 class="course__hard__back__title">Back-end Development</h6>
-                <img class="course__hard__back__img" src="img/skills__php.svg" alt="">
-                <img class="course__hard__back__img" src="img/skills__mysql.svg" alt="">
-                <img class="course__hard__back__img" src="img/skills__laravel.svg" alt="">
-                <img class="course__hard__front__img" src="img/skills__angular.svg" alt="angular logo">
+                <a href="<?php echo $lang['HardSkillPHP']; ?>" target="_blank"><img class="course__hard__back__img" src="img/skills__php.svg" alt=""></a>
+                <a href="<?php echo $lang['HardSkillPHPUNIT']; ?>" target="_blank"><img class="course__hard__back__img" src="img/skills__phpunit.svg" alt=""></a>
+                <a href="<?php echo $lang['HardSkillMYSQL']; ?>" target="_blank"><img class="course__hard__back__img" src="img/skills__mysql.svg" alt=""></a>
+                <a href="<?php echo $lang['HardSkillWAMP']; ?>" target="_blank"><img class="course__hard__back__img" src="img/skills__wamp.svg" alt=""></a>
+                <a href="<?php echo $lang['HardSkillLARAVEL']; ?>" target="_blank"><img class="course__hard__back__img" src="img/skills__laravel.svg" alt=""></a>
+
+
+
             </article>
         </section>
         <section class="course__hard__edit__control">
             <article class="course__hard__edit">
+
                 <h6 class="course__hard__edit__title">Code editors</h6>
-                <img class="course__hard__edit__img" src="img/skills__vsc.svg" alt="vsc logo">
-                <img class="course__hard__edit__img" src="img/skills__phpstorm.svg" alt="php storm logo">
+                <a href="<?php echo $lang['HardSkillVSC']; ?>" target="_blank"><img class="course__hard__edit__img" src="img/skills__vsc.svg" alt="vsc logo"></a>
+                <a href="<?php echo $lang['HardSkillPHPS']; ?>" target="_blank"><img class="course__hard__edit__img" src="img/skills__phpstorm.svg" alt="php storm logo"></a>
+
             </article>
 
             <article class="course__hard__control">
-                <h6 class="course__hard__control__title">Version Control</h6>
-                <img class="course__hard__control__img" src="img/skills__github.svg" alt="github logo">
+                <h6 class="course__hard__control__title skill__title">Version Control</h6>
+
+                <a href="<?php echo $lang['HardSkillGITHUB']; ?>" target="_blank"><img class="course__hard__control__img" src="img/skills__github.svg" alt="github logo"></a>
+                <a href="<?php echo $lang['HardSkillGITLAB']; ?>" target="_blank"><img class="course__hard__control__img" src="img/skills__gitlab.svg" alt="gitlab logo"></a>
+
             </article>
         </section>
     </section>
 
     <section class="course__soft margBot0">
-        <h3 class="course__soft__title">Soft-Skills</h3>
+        <h3 class="course__soft__title">Soft<br>Skills</h3>
+
         <section class="agile__remote">
             <article class="agile-method">
-                <h6 class="course__soft__agile__title">Agile Tools</h6>
-                <img class="course__soft__agile__img" src="img/skills__trello.svg" alt="trello logo">
+
+                <h6 class="course__soft__agile__title skill__title">Agile Tools</h6>
+                <a href="<?php echo $lang['HardSkillTRELLO']; ?>" target="_blank"><img class="course__soft__agile__img" src="img/skills__trello.svg" alt="trello logo"></a>
             </article>
             <article class="remote-working">
-                <h6 class="course__soft__remote__title">Remote Working</h6>
-                <img class="course__soft__remote__img" src="img/skills__zoom.svg" alt="zoom logo">
-                <img class="course__soft__remote__img slack" src="img/skills__slack.svg" alt="slack logo">
-                <img class="course__soft__remote__img" src="img/skills__discord.svg" alt="discord logo">
+                <h6 class="course__soft__remote__title skill__title">Remote Working</h6>
+                <a href="<?php echo $lang['HardSkillZOOM']; ?>" target="_blank"><img class="course__soft__remote__img" src="img/skills__zoom.svg" alt="zoom logo"></a>
+                <a href="<?php echo $lang['HardSkillSLACK']; ?>" target="_blank"><img class="course__soft__remote__img slack" src="img/skills__slack.svg" alt="slack logo"></a>
+                <a href="<?php echo $lang['HardSkillDISCORD']; ?>" target="_blank"><img class="course__soft__remote__img" src="img/skills__discord.svg" alt="discord logo"></a>
+
             </article>
         </section>
     </section>
