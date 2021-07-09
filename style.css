@@ -769,7 +769,7 @@ body{
 }
 
 .footer__info__tools__static {
-   overflow: hidden;    /*om elementen die buiten de div zijn, te verbergen*/
+   overflow: hidden;
    height: 50px;
    width: 250px;
    position: relative;
@@ -786,13 +786,11 @@ body{
    z-index: 1;
 }
 
-/*fade-out effect aan de linkerkant*/
 .footer__info__tools__static:before {
    left: 0;
    background: linear-gradient(to right, #111 0%, transparent 100%)
 }
 
-/*fade-out aan de rechterkant*/
 .footer__info__tools__static:after {
    right: 0;
    background: linear-gradient(to left, #111 0%, transparent 100%)
@@ -800,7 +798,7 @@ body{
 
 .footer__info__tools__moving {
    height: 100%;
-   display: flex; /*om elementen horizontaal te plaatsen*/
+   display: flex;
    animation: slider 17s linear infinite;
 }
 
@@ -810,7 +808,7 @@ body{
    }
 
    100% {
-      transform: translateX(calc(-1*50px*15));
+      transform: translateX(calc(-1*50px*8));
    }
 }
 
@@ -821,8 +819,8 @@ body{
    justify-content: center;
    align-items: center;
    padding: 5px;
-   flex-shrink: 0; /*om elementen niet te laten shrinken om ze allemaal in container te laten passen --> we willen maar 5 logo's zien*/
-   flex-wrap: nowrap; /*om logo's niet naar de volgende lijn te laten verspringen*/
+   flex-shrink: 0;
+   flex-wrap: nowrap;
 }
 
 .footer__info__tools__moving:hover {
@@ -1028,6 +1026,62 @@ body{
 .margBot0 {
 	margin-bottom: 0rem !important;
 }
+
+/*kleuranimatie*/
+.purple {
+   animation: purple-to-orange 25s linear infinite;
+}
+
+.orange{
+   animation: orange-to-purple 25s linear infinite;
+}
+
+.yellow{
+   animation: yellow-to-orange 25s linear infinite;
+}
+
+@keyframes purple-to-orange {
+   0% {
+      fill: #3D3056;
+   }
+   25% {
+		fill: #E1685E;
+   }
+	50% {
+      fill: #FBAE3C;
+	}
+	75% {
+		fill: #E1685E;
+   }
+   100% {
+      fill: #3D3056;
+   }
+}
+
+@keyframes yellow-to-orange {
+	0% {
+      fill: #FBAE3C;
+	}
+   50% {
+      fill: #E1685E;
+   }
+	100% {
+      fill: #FBAE3C;
+   }
+}
+
+@keyframes orange-to-purple {
+	0% {
+      fill: #E1685E;
+	}
+   50% {
+      fill: #3D3056;
+   }
+	100% {
+      fill: #E1685E;
+   }
+}
+
 @media only screen and (min-width: 700px)and (max-width: 1079px)  {
 #agenda__wrapper{
    display: flex;
@@ -1647,7 +1701,6 @@ body{
 		width:200px;
 	}
 
-
    #footer__blob__orange {
       bottom: 12%;
       width: 943px;
@@ -1661,13 +1714,6 @@ body{
    #agenda__blob__orange__top {
       width: 1440px;
       height: 845px;
-   }
-
-   #students__blob__yellow__bottom,
-   #students__blob__orange__bottom,
-   #students__blob__purple__bottom {
-      display: block;
-      width: 150%;
    }
 }
 @media only screen and (max-width: 540px){
