@@ -1377,18 +1377,20 @@ margin-bottom: 1rem;
 	
    .header__nav__list{
    display: flex;
-   justify-content: flex-end;
-   gap: 40px;
+   justify-content: space-evenly;
    align-items: center;
    height:100%;
    list-style: none;
-   margin-right: 12%; /* zorgt voor overloop*/
+	margin: auto!important;
+	max-width: 1080px;
+	padding :0 16px;
+
    }
 
 
 
 	.header__nav__list__item{
-		padding:0 40px;
+		
 		height:100%;
 		display: flex;
 		align-items: center;
@@ -1410,9 +1412,6 @@ margin-bottom: 1rem;
 		display:flex;
 		align-items: center;
 		justify-content: center;
-	}
-	.header__nav__lang{
-		margin:0 50px;
 	}
 
    .header__nav__list a{
@@ -1810,16 +1809,6 @@ margin-bottom: 1rem;
 		/*margin: 0 0 8rem 0;*/
 		/*padding-right: 50px;*/
 	}
-}
-@media only screen and (max-width: 1377px) {
-	.header__nav__list{
-		gap:19px;
-
-	}
-	.header__nav__list__item{
-		padding:19px;
-	}
-
 }
 
 
