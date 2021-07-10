@@ -12,30 +12,31 @@ if($lang["lang"]=="en"){
 
 ?>
         <nav class="header__nav">
-     
-            <div class="header__nav__list">
-                <a class="header__nav__list__item" href="#header">
-                    <?php echo $lang['nav1']; ?>
-                </a>
+            <div class="margin__wrapper">
+                <div class="header__nav__list">
+                    <a class="header__nav__list__item" href="#header">
+                        <?php echo $lang['nav1']; ?>
+                    </a>
 
-                <a class="header__nav__list__item" href="#students">
-                   <?php echo $lang['nav2']; ?>
-                </a>
+                    <a class="header__nav__list__item" href="#students">
+                    <?php echo $lang['nav2']; ?>
+                    </a>
 
-                <a class="header__nav__list__item" href="#agenda">
-                    <?php echo $lang['nav3']; ?>
-                </a>
+                    <a class="header__nav__list__item" href="#agenda">
+                        <?php echo $lang['nav3']; ?>
+                    </a>
 
-                <a class="header__nav__list__item" href="#course">
-                   <?php echo $lang['nav4']; ?>
-                </a>
+                    <a class="header__nav__list__item" href="#course">
+                    <?php echo $lang['nav4']; ?>
+                    </a>
 
-                <ul class="header__nav__lang">
-                    <li class="header__nav__lang__switch"><a id="eng" href="?lang=en">EN</a></li>
-                    <li class="header__nav__lang__switch"><a  id="nl" href="?lang=nl">NL</a></li>
-                </ul>
-                <a href="#footer"><input type="button" value="<?php echo $lang['intro2']; ?>" class="header__mobile__button"></a>
-            </div>
+                    <ul class="header__nav__lang">
+                        <li class="header__nav__lang__switch"><a id="eng" href="?lang=en">EN</a></li>
+                        <li class="header__nav__lang__switch"><a  id="nl" href="?lang=nl">NL</a></li>
+                    </ul>
+                    <a href="#footer"><input type="button" value="<?php echo $lang['intro2']; ?>" class="header__mobile__button"></a>
+                </div>
+        </div>
         </nav>
 
         <nav class="header__mobile">
