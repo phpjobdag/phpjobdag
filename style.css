@@ -182,8 +182,8 @@ input:focus, textarea:focus, select:focus{
 }
 
 .buttonHoverPink{
-background: white;
-color: var(--gradient-sec);
+font-weight:600;
+
 }
 
 #nlMobile a{
@@ -1388,8 +1388,8 @@ margin-bottom: 1rem;
 
 	}
 	.header__nav__list__item:hover {
-		background-color: white;
-		font-size: 1.3rem;
+
+		font-weight: 600;
 
 
 	}
