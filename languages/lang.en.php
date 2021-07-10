@@ -25,6 +25,7 @@ $lang['intro1'] = 'Web developers meet with employers';
 $lang['intro2'] = 'SIGN-UP';
 
 // Counter
+$lang['counterText'] = 'Count every second untill the event';        
 $lang['counter1'] = 'Days';
 $lang['counter2'] = 'Hours';
 $lang['counter3'] = 'Minutes';

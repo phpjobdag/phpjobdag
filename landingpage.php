@@ -9,7 +9,7 @@
     <section class="header__counter">
 
         <h3 class="header__counter__text">
-            Count every second untill the event
+         <?php echo $lang['counterText']; ?>    
         </h3>
         <section class="header__counter__wrapper">
         <article class="header__counter__box">

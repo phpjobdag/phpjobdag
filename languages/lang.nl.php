@@ -25,6 +25,7 @@ $lang['intro1'] = 'Webontwikkelaars maken kennis met werkgevers ';
 $lang['intro2'] = 'MELD JE AAN';
 
 // Counter
+$lang['counterText'] = 'Tel elke seconde tot het event';  
 $lang['counter1'] = 'Dagen';
 $lang['counter2'] = 'Uren';
 $lang['counter3'] = 'Minuten';
