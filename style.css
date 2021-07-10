@@ -10,6 +10,28 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
+/* TIJDELIJKE MARGIN FIX */
+
+.header__section,
+#agenda__wrapper,
+#course__wrapper,
+#footer__wrapper,
+.student__wrapper,
+#agenda__intro__wrapper{
+	margin: auto!important;
+	max-width: 1080px!important;
+}
+
+
+.agenda__title,
+.course__title,
+.footer__title,
+.form__title{
+	margin-bottom: calc(48px + (128 - 48)
+					* ((100vw - 320px)
+					/ (2240 - 320)))!important;
+	background-color:hotpink;
+}
 
 /* KLEUR VARIABELEN */
 
@@ -171,14 +193,16 @@ color: var(--gradient-sec);
 
 #engMobile a {
 	text-decoration: none;
-	color:white;
-
+	color: #ba6ec6;
 }
 
 #engMobile{
-	
+	background: white;
 }
 
+#eng {
+	background-color: white;
+}
 
 
 .header__mobile__dropdown__link {
@@ -225,12 +249,12 @@ color: var(--gradient-sec);
 	width: 250px;
 	height: 70px;
 	background-color: white;
-	/*display: flex;*/
+	display: flex;
 	border-radius: 36px;
 	border: 3px solid #fbae3c;
-	/*align-items: center;*/
-	/*justify-content: center;*/
-	/*text-align: center;*/
+	align-items: center;
+	justify-content: center;
+	text-align: center;
 	font-size: 1.75rem;
 	line-height: 2.063rem;
 	font-weight: bold;
@@ -297,12 +321,14 @@ color: var(--gradient-sec);
 .agenda__title,
 .course__title,
 .footer__title,
-.students__title {
-   
-   padding: 3.438rem 0rem 3.438rem 0rem;
-   background: #001220CC;
-   font-size: 1.25rem;
-   line-height: 1.465rem;
+.students__title,
+.form__title{
+	padding-top: calc(32px + (64 - 32) * ((100vw - 320px) / (2240 - 320)));
+	padding-bottom: calc(32px + (64 - 32) * ((100vw - 320px) / (2240 - 320)));
+	background: #001220CC;
+    font-size: 1.25rem;
+	font-size: calc(20px + (36 - 20) * ((100vw - 320px) / (2240 - 320)));
+   /*line-height: 1.465rem;*/
    letter-spacing: 0.125em;
    color: rgba(255, 255, 255, 0.8);
    font-weight: bold;
@@ -316,15 +342,22 @@ color: var(--gradient-sec);
 
 .agenda__description {
    font-weight: 300;
-   font-size: 1rem;
+	font-size: calc(16px + (20 - 16) * ((100vw - 320px) / (2240 - 320)));
    line-height: 140%;
    letter-spacing: 0.03em;
-   margin-bottom: 1rem;
-   margin-left: 1rem;
-   margin-right: 1rem;
+   margin-bottom: 3rem;
+   /*margin-left: 1rem;*/
+   /*margin-right: 1rem;*/
    position: relative;
    z-index: 10;
+	/*text-align: left;*/
+	/*max-width: 70ch;*/
 }
+
+.agenda__description p{
+	max-width: 70ch;
+}
+
 
 .agenda__block {
    margin: 1rem 1rem 0rem 1rem;
@@ -366,10 +399,6 @@ color: var(--gradient-sec);
    box-sizing: border-box;
    padding: 0px 10px 0px 10px;
 	text-align: center;
-  
-
-
-
 }
 
 .agenda__block__info::after,.agenda__block__info__middle::after {
@@ -412,6 +441,12 @@ color: var(--gradient-sec);
 
 }
 
+
+agenda__intro__wrapper{
+	width: 100%;
+}
+
+
 #agenda__blob__orange__top {
    position: absolute;
    left: 0;
@@ -448,35 +483,44 @@ body{
 }
 
 .course__body {
-   font-style: normal;
-   font-weight: 400;
+   /*font-style: normal;*/
+   font-weight: 300;
    font-size: 1rem;
    line-height: 140%;
    letter-spacing: 0.03em;
-   margin: 0px 16px 3rem 16px;
+   /*margin: 0px 16px 3rem 16px;*/
+	margin-bottom: 3rem;
    position: relative;
    z-index: 10;
+}
+
+.skills__wrapper__flex{
+	display: flex;
+	gap: 1rem;
 }
 
 .course__hard,
 .course__soft {
    background: linear-gradient(180deg, #001220 0%, rgba(0, 18, 32, 0.65) 100%);
-   margin: 0 1rem 2rem 1rem;
-   padding: 1rem;
+   /*margin: 0 1rem 2rem 1rem;*/
+   /*padding: 1rem;*/
    border-radius: 20px;
    position: relative;
    z-index: 10;
+	width: 50%;
 }
 
 .course__hard__title,
 .course__soft__title {
-	font-style: normal;
-	font-weight: bold;
+	/*font-style: normal;*/
+	font-weight: 500;
 	font-size: 28px;
 	line-height: 33px;
 	letter-spacing: 0.125em;
 	text-transform: uppercase;
-	color: white;
+	color: #FAFAFA;
+	margin-top: calc(16px + (48 - 16) * ((100vw - 320px) / (2240 - 320)));
+	margin-left: calc(16px + (48 - 16) * ((100vw - 320px) / (2240 - 320)));
 }
 
 .course_hard_front_back,
@@ -495,7 +539,7 @@ body{
 	display: flex;
 	flex-direction: column;
 	width: 50%;
-	align-items: center;
+	/*align-items: center;*/
 }
 
 /* blok mag weg, wordt vervangen door .skill__title*/
@@ -539,17 +583,66 @@ body{
 .course__hard__control__img,
 .course__soft__agile__img {
 	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-	max-height: 57px;
-	max-width: 100px;
+	/*max-height: 57px;*/
+	width: 75px;
+	height: auto;
+	margin-top: 1rem;
+	/*padding-left: 30%;*/
+}
+
+.course__hard__back__img{
+	margin-top: 2rem;
+}
+
+
+
+
+/*.course__hard__back__img,*/
+/*.course__hard__control__img,*/
+/*.course__soft__agile__img {*/
+/*	padding-left: 31%;*/
+/*}*/
+
+
+/*.course__hard__front__img,*/
+/*.course__hard__edit__img,*/
+/*.course__soft__remote__img {*/
+/*	padding-left: 35%;*/
+/*}*/
+
+#course__wrapper a{
+	align-self: center;
+}
+
+.logo__zoom {
+	/*padding-left: 32%;*/
+	/*align-self: center;*/
+	width: 150px;
+	height: auto;
+}
+
+.logo__mysql,
+.logo__trello{
+	width: 115px;
 	margin-top: 1rem;
 }
 
-.course__soft__remote__img {
-	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-	max-height: 57px;
-	max-width: 100px;
-	margin-bottom: 1rem;
+.logo__phpunit
+{
+	width: 150px;
 }
+
+
+.course__soft__remote__img {
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+max-height: 57px;
+max-width: 100px;
+margin-bottom: 1rem;
+}
+
+/*.skills__wrapper__flex img{*/
+/*	height: 500%;*/
+/*}*/
 
 .slack{
 	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
@@ -570,13 +663,24 @@ body{
    z-index: 1;
 }
 
+/*#course__skills__wrapper{*/
+/*	display: flex;*/
+/*	!*flex-direction: row;*!*/
+
+/*}*/
+
+
+
+
+
 /* footer mobile */
 .footer {
-   background: linear-gradient(180deg, 
-   #BA6EC6 0%, 
-   #BA6EC6 45%,
-   #001220 50%,
-   #001220 75%);
+   /*background: linear-gradient(180deg, */
+   /*#BA6EC6 0%, */
+   /*#BA6EC6 45%,*/
+   /*#001220 50%,*/
+   /*#001220 75%);*/
+	background: var(--gradient-bg);
    position: relative;
 }
 
@@ -601,11 +705,14 @@ body{
    color: black;
    display: flex;
    line-height: 48px;
+	font-size: 1.25rem;
+	padding-left: 10px;
 }
 
 .footer__register__form__label{
 	font-size: 1.25rem;
 	margin-bottom: 1rem;
+	padding-left: 10px;
 
 }
 
@@ -674,23 +781,25 @@ body{
 }
 
 .footer__info {
-	margin: 1rem 16px 4rem 16px;
+	/*margin: 1rem 16px 4rem 16px;*/
 	/*margin-top: 5vw;*/
    position: relative;
    z-index: 10;
+	margin-top: 5rem;
+	background-color: var(--prim-dark);
 }
 
-.footer__info__thx__title {
-	font-weight: bold;
-	font-size: 16px;
-	line-height: 19px;
-	display: flex;
-	align-items: center;
-	letter-spacing: 0.08em;
-	font-variant: small-caps;
-	color: #ffffff;
-	margin-bottom: 1rem;
-}
+/*.footer__info__thx__title {*/
+/*	font-weight: bold;*/
+/*	font-size: 16px;*/
+/*	line-height: 19px;*/
+/*	display: flex;*/
+/*	align-items: center;*/
+/*	letter-spacing: 0.08em;*/
+/*	font-variant: small-caps;*/
+/*	color: #ffffff;*/
+/*	margin-bottom: 1rem;*/
+/*}*/
 
 .footer__info__thx__body {
    font-weight: 400;
@@ -698,7 +807,7 @@ body{
    line-height: 28px;
    letter-spacing: 0.03em;
    color: #FFFFFF;
-   margin-bottom: 4rem;
+   /*margin-bottom: 4rem;*/
    width: 95%;
 }
 
@@ -715,23 +824,43 @@ body{
 	flex-direction: column;
 }
 
+.footer__info__partners{
+	width: 50%;
+	justify-content: space-between;
+	padding-bottom: 15px;
+}
+
+
+
+
+
 .no__display__mobile{
 	display:none;
 }
 
-.footer__info__team__title,
-.footer__info__partners__title {
+.footer__subtitle{
+	font-size: 0.90rem;
 	font-weight: bold;
-	font-size: 16px;
-	line-height: 19px;
-	letter-spacing: 0.08rem;
-	font-variant: small-caps;
 	color: #ffffff;
-	margin-bottom: 2rem;
+	text-transform: uppercase;
+	letter-spacing: 0.08rem;
+	padding-bottom: 1rem;
+	margin-top: 2rem; /* -> op 0 vanaf breakpoint landscape */
 }
 
+/*.footer__info__team__title,*/
+/*.footer__info__partners__title {*/
+/*	font-weight: bold;*/
+/*	font-size: 16px;*/
+/*	!*line-height: 19px;*!*/
+/*	letter-spacing: 0.08rem;*/
+/*	!*font-variant: small-caps;*!*/
+/*	color: #ffffff;*/
+/*	margin-bottom: 2rem;*/
+/*}*/
+
 .footer__info__partners__image {
-	margin-bottom: 2rem;
+	/*margin-bottom: 2rem;*/
 	width: 100px;
 }
 
@@ -743,24 +872,24 @@ body{
    list-style: none;
 }
 
-.footer__info__tools {
-	margin: 0 0 8rem 0;
-	
-}
-.footer__info__tools__static{
-	margin-bottom: 150px;
-}
-.footer__info__tools__title {
-	font-weight: bold;
-	font-size: 16px;
-	line-height: 19px;
-	display: flex;
-	align-items: center;
-	letter-spacing: 0.08em;
-	font-variant: small-caps;
-	color: white;
-	margin-bottom: 2rem;
-}
+
+
+
+/*.footer__info__tools__static{*/
+/*	margin-bottom: 150px;*/
+/*}*/
+
+/*.footer__info__tools__title {*/
+/*	font-weight: bold;*/
+/*	font-size: 16px;*/
+/*	line-height: 19px;*/
+/*	display: flex;*/
+/*	align-items: center;*/
+/*	letter-spacing: 0.08em;*/
+/*	font-variant: small-caps;*/
+/*	color: white;*/
+/*	margin-bottom: 2rem;*/
+/*}*/
 
 .footer__info__tools__static {
    overflow: hidden;
@@ -821,6 +950,13 @@ body{
    animation-play-state: paused;
 }
 
+
+.footer__lang__lang__switch:first-of-type{
+	margin-right: 7px;
+	margin-left: 1rem;
+}
+
+
 .footer__lang__lang__switch {
 	box-sizing: border-box;
 	border: 3px solid white;
@@ -829,7 +965,6 @@ body{
 	width: 44px;
 	height: 44px;
 	border-radius: 30px;
-	margin-right: 7px;
 	color: white;
 	font-weight: bold;
 	font-size: 20px;
@@ -838,8 +973,8 @@ body{
 }
 
 .footer__lang {
-   padding: 0px 16px 16px 16px;
-   border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+   /*padding: 0px 16px 16px 16px;*/
+   /*border-bottom: 1px solid rgba(255, 255, 255, 0.4);*/
    position: relative;
    z-index: 10;
 }
@@ -860,20 +995,30 @@ body{
 #footer__nl {
 	text-decoration: none !important;
 	color: white;
-	
+
 }
 
 .bg__white {
-	
+
 }
 
 .footer__copyright {
    display: flex;
-   flex-direction: row;
-   margin: 1rem 16px 0px 16px;
-   padding-bottom: 3rem;
-   position: relative;
-   z-index: 10;
+	justify-content: space-between;
+   /*flex-direction: row;*/
+   /*margin: 1rem 16px 0px 16px;*/
+   /*padding-bottom: 3rem;*/
+   /*position: relative;*/
+   /*z-index: 10;*/
+	width: 100%;
+	align-items: center;
+	border-top: 1px solid gray;
+	margin: 1rem;
+	padding-top: 1rem;
+}
+
+.footer__copyright_vdablogo{
+	align-self: baseline;
 }
 
 .footer__copyright__text {
@@ -889,15 +1034,21 @@ body{
 #footer__blob__orange {
    position: absolute;
    right: 0;
-   bottom: 50%;
+   bottom: 0;
+	/*height: 40vw;*/
+	/*margin-bottom: -350px;*/
+	width: calc(600px + (900 - 600) * ((100vw - 800px) / (2240 - 800)));
+	margin-bottom: calc(-100px + (-300 - -100) * ((100vw - 320px) / (2240 - 320)));
    z-index: 1;
+	/*overflow: hidden;*/
 }
 
 #footer__blob__black {
    position: absolute;
    left: 0;
-   bottom: 50%;
+   bottom: 20%;
    z-index: 2;
+	/*display: none;*/
 }
 
 /* students */
@@ -1018,7 +1169,7 @@ body{
 }
 
 .margBot0 {
-	margin-bottom: 0rem !important;
+	/*margin-bottom: 0rem !important;*/
 }
 
 /*kleuranimatie*/
@@ -1076,6 +1227,10 @@ body{
    }
 }
 
+/*.margBot0 {*/
+/*	margin-bottom: 0rem !important;*/
+/*}*/
+
 @media only screen and (min-width: 700px)and (max-width: 1079px)  {
 #agenda__wrapper{
    display: flex;
@@ -1083,7 +1238,7 @@ body{
    flex-wrap: wrap;
    flex-direction: column;
    gap: 25px;;
-  
+
 }
 
 .agenda__block{
@@ -1118,13 +1273,16 @@ body{
 .agenda__block__time{
    width: 400px;
 }
-.course__hard {
-   
-   margin-right: 1rem;
-}
-.course__hard, .course__soft{
-   margin: 2rem;
-}
+
+
+/*.course__hard {*/
+/*   margin-right: 1rem;*/
+/*}*/
+
+/*.course__hard, .course__soft{*/
+/*   margin: 2rem;*/
+/*}*/
+
 /* .course__soft__remote__img{
    margin-bottom: 1rem;
    margin-top: 0rem;
@@ -1145,19 +1303,24 @@ body{
 
 /* einde vervanging*/
 
+/*.footer__info__thx__title{*/
+/*   margin-top: 2rem;*/
+/*}*/
+
+/*.footer__info__thx__title,*/
+/*.footer__info__team__title,*/
+/*.footer__info__partners__title{*/
+/*   font-size: 1.25rem;*/
+/*}*/
 
 
-.footer__info__thx__title{
-   margin-top: 2rem;
 }
 
-.footer__info__thx__title,
-.footer__info__team__title,
-.footer__info__partners__title{
-   font-size: 1.25rem;
-}
-}
- 
+/*.footer__info__team__list__name {*/
+/*	font-size: 1rem;*/
+/*}*/
+
+
 
 /* mediaquery */
 @media only screen and (min-width: 1080px) {
@@ -1215,30 +1378,31 @@ body{
    .header__nav__list{
    display: flex;
    justify-content: flex-end;
+   gap: 40px;
    align-items: center;
       height:100%;
    list-style: none;
-   margin-right: 50px;
-
+   margin-right: 12%; /* zorgt voor overloop*/
    }
 
-	
+
+
 	.header__nav__list__item{
 		padding:0 40px;
 		height:100%;
 		display: flex;
 		align-items: center;
 		justify-content: center;
-		
+
 	}
 	.header__nav__list__item:hover {
 		background-color: white;
 		font-size: 1.3rem;
-		
-		
+
+
 	}
 
-	
+
 
 	.link{
 		width:100%;
@@ -1250,12 +1414,13 @@ body{
 	.header__nav__lang{
 		margin:0 50px;
 	}
-	
+
    .header__nav__list a{
       text-decoration: none; 
       font-size:1.25rem;
       color: white;
    }
+
 		.hoverPink:hover{
 			color: var(--gradient-sec);
 			background-color: white;
@@ -1271,22 +1436,22 @@ body{
 
    }
 
-  .header__section{
+  	.header__section{
      width:1080px;
      margin-top: 8rem;
-  }
+  	}
 
-  .header__section__info{
+  	.header__section__info{
 		font-size: 2.25rem;
 	}
+
 	.header__section__title {
 		font-size: 5.75rem;
 	}
 
    .header__section__subtitle{
-       line-height: 33px;
-       font-style: normal;
-       font-weight: 400;
+       /*line-height: 33px;*/
+       font-weight: 300;
 		 font-size: 1.75rem;
 		 width: 680px;
    }
@@ -1295,7 +1460,10 @@ body{
       display:block;
      margin:0px;
    }
+
+
    #eng{
+      color: #ba6ec6 ;
     text-decoration: none;
     
    }
@@ -1366,7 +1534,7 @@ body{
 
 	.agenda__title {
 		width: 100%;
-		margin-bottom: 8rem;
+		/*margin-bottom: 8rem;*/
 	}
 
 	.agenda__block {
@@ -1378,8 +1546,8 @@ body{
 		gap: 2rem;
 		height: 301px;
 		margin: 0;
-		margin-top:4rem;
-		margin-bottom: 12rem;
+		/*margin-top:4rem;*/
+		/*margin-bottom: 12rem;*/
 	}
 
 	.agenda__block__info {
@@ -1408,11 +1576,10 @@ body{
 	.middleBlock {
 		width: 500px;
 	}
-	.agenda__description {
-		width: 100%;
-		font-size: 1.25rem;
-		font-weight:400;
-	}
+	/*.agenda__description {*/
+	/*	width: 100%;*/
+	/*	font-size: 1.25rem;*/
+	/*}*/
 	
  
    .agenda__block__info,.agenda__block__info__middle{
@@ -1439,24 +1606,31 @@ body{
 		width: 100%;
 	}
 
-	.course__soft {
-		box-sizing: border-box;
-		width: 500px;
-		height: 664px;
-		margin: 0;
-	}
-	.course__hard {
-		box-sizing: border-box;
-		width: 500px;
-		height: 1140px;
-		margin: 0;
-		margin-right: 2rem;
-	}
+	/*.course__soft {*/
+	/*	box-sizing: border-box;*/
+	/*	width: 500px;*/
+	/*	height: 664px;*/
+	/*	margin: 0;*/
+	/*}*/
 
-	.course__hard__front__img, .course__hard__back__img, .course__hard__edit__img, .course__hard__control__img, .course__soft__agile__img, .course__soft__remote__img {
-		max-width: 80px;
-		max-height: 80px;
-	}
+
+	/*.course__hard {*/
+	/*	box-sizing: border-box;*/
+	/*	width: 500px;*/
+	/*	height: 1140px;*/
+	/*	margin: 0;*/
+	/*	margin-right: 2rem;*/
+	/*}*/
+
+	/*.course__hard__front__img,*/
+	/*.course__hard__back__img,*/
+	/*.course__hard__edit__img,*/
+	/*.course__hard__control__img,*/
+	/*.course__soft__agile__img,*/
+	/*.course__soft__remote__img {*/
+	/*	max-width: 80px;*/
+	/*	max-height: 80px;*/
+	/*}*/
 
 	.course__body {
 		font-size: 1.25rem;
@@ -1478,12 +1652,13 @@ body{
 
 
 	.skill__title{
-		font-size: 1.25rem;
+		/*font-size: 1.25rem;*/
+		font-size: calc(16px + (20 - 16) * ((100vw - 320px) / (2240 - 320)));
 	}
 
-	#course__wrapper{
-		margin-top: 4rem;
-	}
+	/*#course__wrapper{*/
+	/*	margin-top: 4rem;*/
+	/*}*/
 
 
 	/* footer desktop */
@@ -1498,7 +1673,11 @@ body{
 
 	#footer__wrapper {
 		justify-content: space-between;
+		max-width: 1080px;
+		margin: 0 1rem;
 	}
+
+
 
 	.footer__title{
       width:100%;
@@ -1518,7 +1697,7 @@ body{
 
 
 	.footer__register__form__input {
-      width:100%;
+      width:90%;
    }
 
 	
@@ -1526,72 +1705,110 @@ body{
       width:100%;
       display: flex;
       flex-direction: row-reverse;
-      gap:2rem;
+      gap:1vw;
       margin-bottom: 4rem;
-      
    }
 
-	  .footer__info{
-      margin-right:2rem;
-      display:grid;
-      grid-template-columns: 1fr 1fr 1fr;
-      height:330px;
-      font-size:1rem;
-		width:820px;
-		margin-left:0rem ;
+	/*.footer__info{*/
+   /*   margin-right:2rem;*/
+   /*   display:grid;*/
+   /*   grid-template-columns: 1fr 1fr 1fr;*/
+   /*   height:330px;*/
+   /*   font-size:1rem;*/
+	/*	width:820px;*/
+	/*	*/
+   /*}*/
 
-		
+	/* FOOTER CHANGES DANIEL */
 
-	
-   }
-
-   .footer__info__team {
-      grid-column: 1 / 2 ;
-      grid-row: 1/5;
-      font-size:1rem;
-      height:330px;
-		
-   }
-	.footer__info__partners {
-		width:100%;
+	.footer__info__partners__tools__flex,
+	.footer__info__partners__logos__flex,
+	.footer__info
+	{
+		display: flex;
 	}
+
+	.footer__info{
+		justify-content: flex-end;
+		margin-bottom: 2rem;
+	}
+
+	.footer__info__second__column__flex{
+		display:flex;
+		flex-direction: column;
+		justify-content: space-between;
+	}
+
+	.footer__info__third__column__flex{
+		display:flex;
+		align-self: flex-end;
+	}
+
+
+	.footer__subtitle{
+		margin-top: 0rem; /* -> op 0 vanaf breakpoint landscape */
+	}
+
+	.footer__info__partners__tools__flex{
+		/*justify-content: space-between;*/
+	}
+
+	/* END OF FOOTER CHANGES DANIEL */
+
+   /*.footer__info__team {*/
+   /*   grid-column: 1 / 2 ;*/
+   /*   grid-row: 1/5;*/
+   /*   font-size:1rem;*/
+   /*   height:330px;*/
+	/*   }*/
+
+	/*.footer__info__partners {*/
+	/*	width:100%;*/
+	/*}*/
 
 	.footer__info__partners__image{
 		margin-right:20px;
 		height:31px;
 	}
-	.footer__info__partners__title{
-		margin-bottom: 2.5rem;;
-	}
+	/*.footer__info__partners__title{*/
+	/*	margin-bottom: 2.5rem;;*/
+	/*}*/
 	
-	.footer__info__thx {
-		grid-column: 2/4;
-		grid-row: 1/4;
-		font-size: 1rem;
-		height: 230px;
-	}
-   .footer__info__thx__title{
-      margin-top: 0rem;
-		margin-bottom: 2rem;
-   }
+	/*.footer__info__thx {*/
+	/*	grid-column: 2/4;*/
+	/*	grid-row: 1/4;*/
+	/*	font-size: 1rem;*/
+	/*	height: 230px;*/
+	/*}*/
 
-	.footer__info__team__partnerts__container {
-		display: none;
-	}
+   /*.footer__info__thx__title{*/
+   /*   margin-top: 0rem;*/
+	/*	margin-bottom: 2rem;*/
+   /*}*/
+
+	/*.footer__info__team__partners__container {*/
+	/*	display: none;*/
+	/*}*/
 	
-	.footer__info__partners{
-      grid-column:2/3;
-      grid-row: 4/5;
-      font-size:1rem;
-      height:100px;
-   }
+	/*.footer__info__partners{*/
+   /*   grid-column:2/3;*/
+   /*   grid-row: 4/5;*/
+   /*   font-size:1rem;*/
+   /*   height:100px;*/
+   /*}*/
 
 	.no__display__mobile{
 		display:block;
 	}
 
-	.footer__info__thx{
-		margin-bottom: 3.2rem;
+	/*.footer__info__thx{*/
+	/*	margin-bottom: 3.2rem;*/
+	/*}*/
+
+
+	.footer__info__tools {
+		/*margin: 0 0 8rem 0;*/
+		/*padding-right: 50px;*/
 	}
 }
 
@@ -1614,10 +1831,12 @@ body{
       width: 296px;
       height: 271px;
    }
-  }
-.no__display{
-   display:none;
+
 }
+
+	/*.no__display{*/
+	/*   display:none;*/
+	/*}*/
 
 @media only screen and (min-width: 1080px) {
 	#header__mobile__dropdown{
@@ -1627,9 +1846,10 @@ body{
 	.footer__info__team__list__name {
 		font-size: 1rem;
 	}
+
 	.footer__lang {
 		display: flex;
-		align-items: flex-end;
+		/*align-items: flex-end;*/
 		border-bottom: none;
 	}
 
@@ -1651,42 +1871,54 @@ body{
    }
 
 
-	.agenda__title,
-	.course__title,
-	.footer__title,
-	.students__title{
-      font-size:2.25rem;
-      line-height: 2.5rem;
-		
-   }
+	/*.agenda__title,*/
+	/*.course__title,*/
+	/*.footer__title,*/
+	/*.students__title{*/
+
+   /*   font-size:2.25rem;*/
+   /*   line-height: 2.5rem;*/
+	/*	*/
+   /*}*/
    
 
 
    #agenda__wrapper,
-   #course__wrapper,
+   /*#course__wrapper,*/
    #footer__wrapper,
    .student__wrapper{
-      width:1080px;
+      /*width:1080px;*/
      justify-content: center;
       flex-direction: row;
       flex-wrap: wrap;
       display: flex;
    }
 
-	#footer__wrapper{
-		justify-content: flex-start;
-	}
-
-	.footer__copyright{
-		
-		width:100%;
-		justify-content: center;
-		margin-top: 4rem;
+	/*#course__wrapper{*/
+	/*	display: flex;*/
+	/*	flex-direction: row;*/
+	/*}*/
 
 
-	}
 
-   
+
+
+
+
+
+
+	/*#footer__wrapper{*/
+	/*	justify-content: flex-start;*/
+	/*}*/
+
+	/*.footer__copyright{*/
+	/*	width:100%;*/
+	/*	justify-content: center;*/
+	/*	margin-top: 4rem;*/
+	/*	padding:0px;*/
+	/*}*/
+
+
 
 	::-webkit-scrollbar {
       width: 10px;
@@ -1731,15 +1963,17 @@ body{
 		width:200px;
 	}
 
-   #footer__blob__orange {
-      bottom: 12%;
-      width: 943px;
-      height: 746px;
-   }
 
-   #footer__blob__black {
-      bottom: 12%;
-   }
+   /*#footer__blob__orange {*/
+   /*   bottom: 12%;*/
+   /*   width: 943px;*/
+   /*   height: 746px;*/
+
+   /*}*/
+
+   /*#footer__blob__black {*/
+   /*   bottom: 12%;*/
+   /*}*/
 
    #agenda__blob__orange__top {
       width: 1440px;
@@ -1754,13 +1988,13 @@ body{
 
 
 @media only screen and (min-width: 1580px) {
-   #footer__blob__orange {
-      bottom: 8%;
-   }
+   /*#footer__blob__orange {*/
+   /*   bottom: 8%;*/
+   /*}*/
    
-   #footer__blob__black {
-      bottom: 0%;
-   }
+   /*#footer__blob__black {*/
+   /*   bottom: 0%;*/
+   /*}*/
 
    #course__blob__yellow__bottom {
       width: 1389px;
@@ -1773,4 +2007,151 @@ body{
    width: 100%;
    }
 }
+
+/* RESPONSIVE FOOTER MEDIA QUERIES */
+
+@media only screen and (max-width: 1080px){
+
+	#signup{
+		margin: 0 1rem;
+	}
+
+	#footer__wrapper{
+		margin: 0 1.25rem;
+		/*max-width: 1080px;*/
+	}
+
+	.footer__copyright{
+		margin-top: 2rem;
+	}
+
+}
+
+
+@media only screen and (max-width: 690px) {
+
+
+
+
+	#footer__wrapper{
+		margin: 0 1.25rem;
+		/*max-width: 1080px;*/
+	}
+
+
+	.footer__info__tools {
+		width: 100%;
+	}
+
+	.footer__info__tools__static{
+		width: 100%;
+	}
+
+	.course__hard,
+	.course__soft{
+		width: 100%;
+	}
+
+	.skills__wrapper__flex{
+		flex-direction: column;
+	}
+
+
+	/* Bijhouden voor later */
+
+	/*.footer__info__partners__tools__flex,*/
+	/*.footer__info__partners__logos__flex,*/
+	/*.footer__info*/
+	/*{*/
+	/*	display: flex;*/
+	/*}*/
+
+	/*.footer__info{*/
+	/*	justify-content: flex-end;*/
+	/*	margin-bottom: 2rem;*/
+	/*}*/
+
+	/*.footer__info__second__column__flex{*/
+	/*	display:flex;*/
+	/*	flex-direction: column;*/
+	/*	justify-content: space-between;*/
+	/*}*/
+
+	/*.footer__info__third__column__flex{*/
+	/*	display:flex;*/
+	/*	align-self: flex-end;*/
+	/*}*/
+
+	/*.footer{*/
+	/*	justify-content: center;*/
+	/*	align-items: center;*/
+	/*	display: flex;*/
+	/*	flex-direction: column;*/
+	/*}*/
+
+	/* Bijhouden voor later	*/
+
+}
+
+
+
+
+/* EXTRA FOOTER SECTIE */
+
+.blob__footer{
+	position: relative;
+	margin: 0 auto;
+	background: var(--prim-dark);
+	z-index: 99;
+	overflow:hidden;
+}
+
+#footer__wrapper{
+	width: 100%;
+	margin: auto;
+	/*position: relative;*/
+}
+
+
+.footer__info__partners__image{
+	margin-right: 35px;
+}
+
+/*#footer__blob__orange {*/
+/*	!*bottom: 50%;*!*/
+/*	!*bottom: 0%;*!*/
+/*	width: auto;*/
+/*	height: 500px;*/
+/*}*/
+
+#agenda__wrapper{
+	width: 100%;
+}
+
+.margin__wrapper{
+	margin: 0 calc(16px + (32 - 16) * ((100vw - 320px) / (2240 - 320)));
+}
+
+.course__soft{
+	height: auto;
+}
+
+/*#footer__wrapper{*/
+/*	margin: 0 1rem!important;*/
+/*}*/
+
+
+
+
+
+/*FLEX FORM v2 -> Nog aan bezig */
+
+/*#signup{*/
+/*	display:flex;*/
+/*   width:50%*/
+/*   display: flex;*/
+/*   flex-direction: row-reverse;*/
+/*   gap:1vw;*/
+/*   margin-bottom: 8rem;*/
+/*}*/
 

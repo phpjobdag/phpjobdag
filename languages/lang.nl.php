@@ -115,7 +115,7 @@ $lang['formSubmit'] = 'Registreer';
 
 $lang['footerThank1'] = 'Dankwoord';
 $lang['footerThank2'] = 'Wij zouden graag een woord van dank richten aan onze lesgevers. Zij hebben ons de afgelopen maanden de nodige kennis en vaardigheden bijgebracht. Zij zijn medeverantwoordelijk voor onze omvorming tot ontwikkelaars. Bij deze Tim, Sarah, Anke en Yannick. Dank jullie wel!';
-$lang['footerMade'] = 'Deze site werd gemaakt met:';
+$lang['footerMade'] = 'Deze site werd gemaakt met';
 
 $lang['FootPartnerMULTIMEDI'] = 'https://www.multimedi.be/';
 $lang['FootPartnerCEVORA'] = 'https://www.cevora.be/';
