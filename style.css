@@ -161,6 +161,18 @@ input:focus, textarea:focus, select:focus{
 	color: white;
 }
 
+.header__counter__wrapper{
+	margin: 0 auto 0 auto;
+	display:flex;
+	flex-direction: row;
+	gap:22px;
+
+}
+
+.header__counter__text{
+	display:none;
+}
+
 #header__mobile_dropdown__languages {
 	display: flex;
 }
@@ -193,16 +205,10 @@ color: var(--gradient-sec);
 
 #engMobile a {
 	text-decoration: none;
-	color: #ba6ec6;
+	color:white;
 }
 
-#engMobile{
-	background: white;
-}
 
-#eng {
-	background-color: white;
-}
 
 
 .header__mobile__dropdown__link {
@@ -1351,9 +1357,23 @@ margin-bottom: 1rem;
 		width: 67.5%;
       align-self: flex-end;
       height:131px;
-      justify-content: center;
-       gap:45px;
+      justify-content: flex-start;
        min-height: 131px;
+		 display: flex;
+		 align-items: center;
+		
+	}
+
+	.header__counter__wrapper{
+		margin: 0 auto 0 auto;
+		display:flex;
+		flex-direction: row;
+		gap:45px;
+
+	}
+	.header__counter__text{
+		width:239px;
+		margin:0 32px 0 32px;
 	}
 
 	.header__counter__box {
@@ -1463,7 +1483,6 @@ margin-bottom: 1rem;
 
 
    #eng{
-      color: #ba6ec6 ;
     text-decoration: none;
     
    }
@@ -1944,9 +1963,13 @@ margin-bottom: 1rem;
 /* mobile klein scherm */
 @media only screen and  (max-width: 400px)  {
 
-	.header__counter {
+	.header__counter{
+		padding-right:2px;
+	}
+	.header__counter__wrapper {
 		gap:4px;
 		padding-right: 0px;
+		margin:0 2px 0 2px;
 		justify-content: center;
 	}
 

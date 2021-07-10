@@ -8,6 +8,10 @@
 
     <section class="header__counter">
 
+        <h3 class="header__counter__text">
+            Count every second untill the event
+        </h3>
+        <section class="header__counter__wrapper">
         <article class="header__counter__box">
             <h3 class="header__counter__box__time" id="days"></h3>
             <h3 class="header__counter__box__unit"><?php echo $lang['counter1']; ?></h3>
@@ -27,7 +31,8 @@
             <h3 class="header__counter__box__time" id="seconds"></h3>
             <h3 class="header__counter__box__unit"><?php echo $lang['counter4']; ?></h3>
         </article>
-
+    </section>
+</section>
         <!-- Countdown Script -->
         <script>
             let countDownDate = <?php echo strtotime('Aug 26, 2021 07:00:00') ?> * 1000;
