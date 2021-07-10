@@ -162,10 +162,10 @@ input:focus, textarea:focus, select:focus{
 }
 
 .header__counter__wrapper{
-	margin: 0 auto 0 auto;
 	display:flex;
 	flex-direction: row;
 	gap:22px;
+	justify-content: flex-end;
 
 }
 
