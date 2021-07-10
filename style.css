@@ -1372,8 +1372,13 @@ margin-bottom: 1rem;
 
 	}
 	.header__counter__text{
+		display:block;
 		width:239px;
 		margin:0 32px 0 32px;
+		color:white;
+		font-size: 20px;
+		line-height: 23px;
+		font-weight: bold;
 	}
 
 	.header__counter__box {
