@@ -193,15 +193,7 @@ color: var(--gradient-sec);
 
 #engMobile a {
 	text-decoration: none;
-	color: #ba6ec6;
-}
-
-#engMobile{
-	background: white;
-}
-
-#eng {
-	background-color: white;
+	color: white;
 }
 
 
@@ -1463,7 +1455,7 @@ margin-bottom: 1rem;
 
 
    #eng{
-      color: #ba6ec6 ;
+
     text-decoration: none;
     
    }
