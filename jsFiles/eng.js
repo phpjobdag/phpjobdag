@@ -25,12 +25,7 @@ window.onload = function(){
       eng.style.color="black";
       engMobile.childNodes[0].style.color="black";
       drop.style.background="#001220";
-      
-     for(var c=0;c<hover.length;c++){
-      
-      hover[c].classList.add("hoverBlack");
-      hover[c].classList.remove("hoverPink");
-  }
+   
        
       
  
@@ -45,11 +40,7 @@ window.onload = function(){
    engMobile.childNodes[0].style.color="#BA6EC6";
       engMobile.childNodes[0].classList.remove("lang__icon");
       drop.style.background="#ba6ec6";  
-      for(var d=0;d<hover.length;d++){
-        hover[d].classList.remove("hoverBlack");
-        hover[d].classList.add("hoverPink");
-
-    }
+    
     
     }
 
