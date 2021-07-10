@@ -16,11 +16,22 @@
 #agenda__wrapper,
 #course__wrapper,
 #footer__wrapper,
-.student__wrapper{
-	margin: auto;!important;
-	max-width: 1080px;!important;
+.student__wrapper,
+#agenda__intro__wrapper{
+	margin: auto!important;
+	max-width: 1080px!important;
 }
 
+
+.agenda__title,
+.course__title,
+.footer__title,
+.form__title{
+	margin-bottom: calc(48px + (128 - 48)
+					* ((100vw - 320px)
+					/ (2240 - 320)))!important;
+	background-color:hotpink;
+}
 
 /* KLEUR VARIABELEN */
 
@@ -343,8 +354,14 @@ input:focus, textarea:focus, select:focus{
    /*margin-right: 1rem;*/
    position: relative;
    z-index: 10;
-	text-align: left;
+	/*text-align: left;*/
+	/*max-width: 70ch;*/
 }
+
+.agenda__description p{
+	max-width: 70ch;
+}
+
 
 .agenda__block {
    margin: 1rem 1rem 0rem 1rem;
@@ -386,10 +403,6 @@ input:focus, textarea:focus, select:focus{
    box-sizing: border-box;
    padding: 0px 10px 0px 10px;
 	text-align: center;
-  
-
-
-
 }
 
 .agenda__block__info::after,.agenda__block__info__middle::after {
@@ -431,6 +444,12 @@ input:focus, textarea:focus, select:focus{
    font-size: 0.9rem;
 
 }
+
+
+agenda__intro__wrapper{
+	width: 100%;
+}
+
 
 #agenda__blob__orange__top {
    position: absolute;
@@ -488,7 +507,7 @@ body{
 .course__soft {
    background: linear-gradient(180deg, #001220 0%, rgba(0, 18, 32, 0.65) 100%);
    /*margin: 0 1rem 2rem 1rem;*/
-   padding: 1rem;
+   /*padding: 1rem;*/
    border-radius: 20px;
    position: relative;
    z-index: 10;
@@ -497,13 +516,15 @@ body{
 
 .course__hard__title,
 .course__soft__title {
-	font-style: normal;
-	font-weight: bold;
+	/*font-style: normal;*/
+	font-weight: 500;
 	font-size: 28px;
 	line-height: 33px;
 	letter-spacing: 0.125em;
 	text-transform: uppercase;
 	color: #FAFAFA;
+	margin-top: calc(16px + (48 - 16) * ((100vw - 320px) / (2240 - 320)));
+	margin-left: calc(16px + (48 - 16) * ((100vw - 320px) / (2240 - 320)));
 }
 
 .course_hard_front_back,
@@ -522,7 +543,7 @@ body{
 	display: flex;
 	flex-direction: column;
 	width: 50%;
-	align-items: center;
+	/*align-items: center;*/
 }
 
 /* blok mag weg, wordt vervangen door .skill__title*/
@@ -566,17 +587,66 @@ body{
 .course__hard__control__img,
 .course__soft__agile__img {
 	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-	max-height: 57px;
-	max-width: 100px;
+	/*max-height: 57px;*/
+	width: 75px;
+	height: auto;
+	margin-top: 1rem;
+	/*padding-left: 30%;*/
+}
+
+.course__hard__back__img{
+	margin-top: 2rem;
+}
+
+
+
+
+/*.course__hard__back__img,*/
+/*.course__hard__control__img,*/
+/*.course__soft__agile__img {*/
+/*	padding-left: 31%;*/
+/*}*/
+
+
+/*.course__hard__front__img,*/
+/*.course__hard__edit__img,*/
+/*.course__soft__remote__img {*/
+/*	padding-left: 35%;*/
+/*}*/
+
+#course__wrapper a{
+	align-self: center;
+}
+
+.logo__zoom {
+	/*padding-left: 32%;*/
+	/*align-self: center;*/
+	width: 150px;
+	height: auto;
+}
+
+.logo__mysql,
+.logo__trello{
+	width: 115px;
 	margin-top: 1rem;
 }
 
-.course__soft__remote__img {
-	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-	max-height: 57px;
-	max-width: 100px;
-	margin-bottom: 1rem;
+.logo__phpunit
+{
+	width: 150px;
 }
+
+
+.course__soft__remote__img {
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+max-height: 57px;
+max-width: 100px;
+margin-bottom: 1rem;
+}
+
+/*.skills__wrapper__flex img{*/
+/*	height: 500%;*/
+/*}*/
 
 .slack{
 	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
@@ -945,9 +1015,14 @@ body{
    /*position: relative;*/
    /*z-index: 10;*/
 	width: 100%;
-	align-items: baseline;
+	align-items: center;
 	border-top: 1px solid gray;
+	margin: 1rem;
+	padding-top: 1rem;
+}
 
+.footer__copyright_vdablogo{
+	align-self: baseline;
 }
 
 .footer__copyright__text {
@@ -963,8 +1038,13 @@ body{
 #footer__blob__orange {
    position: absolute;
    right: 0;
-   bottom: 50%;
+   bottom: 0;
+	/*height: 40vw;*/
+	/*margin-bottom: -350px;*/
+	width: calc(600px + (900 - 600) * ((100vw - 800px) / (2240 - 800)));
+	margin-bottom: calc(-100px + (-300 - -100) * ((100vw - 320px) / (2240 - 320)));
    z-index: 1;
+	/*overflow: hidden;*/
 }
 
 #footer__blob__black {
@@ -972,7 +1052,7 @@ body{
    left: 0;
    bottom: 20%;
    z-index: 2;
-	display: none;
+	/*display: none;*/
 }
 
 /* students */
@@ -1162,7 +1242,7 @@ body{
    flex-wrap: wrap;
    flex-direction: column;
    gap: 25px;;
-  
+
 }
 
 .agenda__block{
@@ -1420,7 +1500,7 @@ body{
 
 	.agenda__title {
 		width: 100%;
-		margin-bottom: 8rem;
+		/*margin-bottom: 8rem;*/
 	}
 
 	.agenda__block {
@@ -1432,8 +1512,8 @@ body{
 		gap: 2rem;
 		height: 301px;
 		margin: 0;
-		margin-top:4rem;
-		margin-bottom: 12rem;
+		/*margin-top:4rem;*/
+		/*margin-bottom: 12rem;*/
 	}
 
 	.agenda__block__info {
@@ -1508,15 +1588,15 @@ body{
 	/*	margin-right: 2rem;*/
 	/*}*/
 
-	.course__hard__front__img,
-	.course__hard__back__img,
-	.course__hard__edit__img,
-	.course__hard__control__img,
-	.course__soft__agile__img,
-	.course__soft__remote__img {
-		max-width: 80px;
-		max-height: 80px;
-	}
+	/*.course__hard__front__img,*/
+	/*.course__hard__back__img,*/
+	/*.course__hard__edit__img,*/
+	/*.course__hard__control__img,*/
+	/*.course__soft__agile__img,*/
+	/*.course__soft__remote__img {*/
+	/*	max-width: 80px;*/
+	/*	max-height: 80px;*/
+	/*}*/
 
 	.course__body {
 		font-size: 1.25rem;
@@ -1542,9 +1622,9 @@ body{
 		font-size: calc(16px + (20 - 16) * ((100vw - 320px) / (2240 - 320)));
 	}
 
-	#course__wrapper{
-		margin-top: 4rem;
-	}
+	/*#course__wrapper{*/
+	/*	margin-top: 4rem;*/
+	/*}*/
 
 
 	/* footer desktop */
@@ -1593,7 +1673,6 @@ body{
       flex-direction: row-reverse;
       gap:1vw;
       margin-bottom: 4rem;
-      
    }
 
 	/*.footer__info{*/
@@ -1851,12 +1930,12 @@ body{
 	}
 
 
-   #footer__blob__orange {
-      bottom: 12%;
-      width: 943px;
-      height: 746px;
+   /*#footer__blob__orange {*/
+   /*   bottom: 12%;*/
+   /*   width: 943px;*/
+   /*   height: 746px;*/
 
-   }
+   /*}*/
 
    /*#footer__blob__black {*/
    /*   bottom: 12%;*/
@@ -1875,13 +1954,13 @@ body{
 
 
 @media only screen and (min-width: 1580px) {
-   #footer__blob__orange {
-      bottom: 8%;
-   }
+   /*#footer__blob__orange {*/
+   /*   bottom: 8%;*/
+   /*}*/
    
-   #footer__blob__black {
-      bottom: 0%;
-   }
+   /*#footer__blob__black {*/
+   /*   bottom: 0%;*/
+   /*}*/
 
    #course__blob__yellow__bottom {
       width: 1389px;
@@ -1899,7 +1978,9 @@ body{
 
 @media only screen and (max-width: 1080px){
 
-
+	#signup{
+		margin: 0 1rem;
+	}
 
 	#footer__wrapper{
 		margin: 0 1.25rem;
@@ -1915,6 +1996,9 @@ body{
 
 @media only screen and (max-width: 690px) {
 
+
+
+
 	#footer__wrapper{
 		margin: 0 1.25rem;
 		/*max-width: 1080px;*/
@@ -1927,6 +2011,15 @@ body{
 
 	.footer__info__tools__static{
 		width: 100%;
+	}
+
+	.course__hard,
+	.course__soft{
+		width: 100%;
+	}
+
+	.skills__wrapper__flex{
+		flex-direction: column;
 	}
 
 
@@ -1975,5 +2068,84 @@ body{
 	position: relative;
 	margin: 0 auto;
 	background: var(--prim-dark);
-	/*z-index: 99;*/
+	z-index: 99;
+	overflow:hidden;
 }
+
+#footer__wrapper{
+	width: 100%;
+	margin: auto;
+	/*position: relative;*/
+}
+
+
+.footer__info__partners__image{
+	margin-right: 35px;
+}
+
+/*#footer__blob__orange {*/
+/*	!*bottom: 50%;*!*/
+/*	!*bottom: 0%;*!*/
+/*	width: auto;*/
+/*	height: 500px;*/
+/*}*/
+
+#agenda__wrapper{
+	width: 100%;
+}
+
+.margin__wrapper{
+	margin: 0 calc(16px + (32 - 16) * ((100vw - 320px) / (2240 - 320)));
+}
+
+.course__soft{
+	height: auto;
+}
+
+/*#footer__wrapper{*/
+/*	margin: 0 1rem!important;*/
+/*}*/
+
+
+
+
+
+/*FLEX FORM v2 -> Nog aan bezig */
+
+/*#signup{*/
+/*	display:flex;*/
+/*   width:50%*/
+/*   display: flex;*/
+/*   flex-direction: row-reverse;*/
+/*   gap:1vw;*/
+/*   margin-bottom: 8rem;*/
+/*}*/
+
+
+/*.footer__register__form {*/
+/*	!*display: flex;*!*/
+/*	width: 50%;*/
+/*	flex-direction: column;*/
+/*	opacity: 100%;*/
+/*}*/
+
+/*.footer__register__form__input{*/
+/*	width: 90%;*/
+/*}*/
+
+
+
+
+
+#footer__blob__black {
+	position: absolute;
+	left: 0;
+	/*bottom: 20%;*/
+	z-index: -10;
+	width: calc(600px + (2000 - 600) * ((100vw - 320px) / (2240 - 800)));
+	margin-bottom: calc(100px + (-300 - 100) * ((100vw - 320px) / (2240 - 320)));
+	display: none;
+}
+
+/* Bijna blob */
+/*margin-bottom: calc(-100px + (-300 - -100) * ((100vw - 320px) / (2240 - 320)));*/

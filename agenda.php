@@ -1,37 +1,41 @@
 <section id="agenda" class="agenda">
     <h2 class="agenda__title"><?php echo $lang['agendaTitle']; ?></h2>
 
-    <p class="agenda__description"><?php echo $lang['agendaDes1']; ?></p>
-    <p class="agenda__description"><?php echo $lang['agendaDes2']; ?></p>
-    <p class="agenda__description"><?php echo $lang['agendaDes3']; ?></p>
-
-     <div id ="agenda__wrapper">
-   
-
-
-    <section class="agenda__block margin2">
-        <p class="agenda__block__time" >9.00-9.30</p>
-        <div class="agenda__block__info">
-            <p><?php echo $lang['agendap1']; ?></p>
-            <p class="agenda__block__info__lower"><?php echo $lang['agendap2']; ?></p>
+    <div class="margin__wrapper">
+        <div id="agenda__intro__wrapper">
+            <p class="agenda__description course__body"><?php echo $lang['agendaDes1']; ?></p>
+            <p class="agenda__description course__body"><?php echo $lang['agendaDes2']; ?></p>
+            <p class="agenda__description course__body"><?php echo $lang['agendaDes3']; ?></p>
         </div>
-    </section>
+    </div>
 
-    <section class="agenda__block middleBlock" > 
-        <p class="agenda__block__time middleBlock">9.30-12.00</p>
-        <div class="agenda__block__info__middle middleBlock" >
-            <p><?php echo $lang['agendap3']; ?></p>
-            <p class="agenda__block__info__lower " id="middleArrow"><?php echo $lang['agendap4']; ?></p>
-       </div>      
-    </section>
 
-    <section class="agenda__block">
-        <p class="agenda__block__time">12.00-12.30</p>
-        <div class="agenda__block__info">
-            <p><?php echo $lang['agendap5']; ?></p>
-            <p class="agenda__block__info__lower"><?php echo $lang['agendap6']; ?></p>
-        </div>
-    </section>
+     <div id="agenda__wrapper">
+<!-- AGENDA BLOCKS -->
+            <section class="agenda__block margin2">
+                <p class="agenda__block__time" >9.00-9.30</p>
+                <div class="agenda__block__info">
+                    <p><?php echo $lang['agendap1']; ?></p>
+                    <p class="agenda__block__info__lower"><?php echo $lang['agendap2']; ?></p>
+                </div>
+            </section>
+
+            <section class="agenda__block middleBlock" >
+                <p class="agenda__block__time middleBlock">9.30-12.00</p>
+                <div class="agenda__block__info__middle middleBlock" >
+                    <p><?php echo $lang['agendap3']; ?></p>
+                    <p class="agenda__block__info__lower " id="middleArrow"><?php echo $lang['agendap4']; ?></p>
+               </div>
+            </section>
+
+            <section class="agenda__block">
+                <p class="agenda__block__time">12.00-12.30</p>
+                <div class="agenda__block__info">
+                    <p><?php echo $lang['agendap5']; ?></p>
+                    <p class="agenda__block__info__lower"><?php echo $lang['agendap6']; ?></p>
+                </div>
+            </section>
+ <!-- END OF AGENDA BLOCKS -->
 
     <svg id="agenda__blob__orange__top" viewBox="0 110 1440 845">
     <path d="M0 845C106.409 755 213.95 665 387.148 658.125C560.345 650.625 801.464 725.625 899.949 683.75C997.302 641.25 953.153 481.875 961.077 385.625C970.133 289.375 1030.13 256.875 1134.27 203.125C1237.29 150 1384.45 75 1530.48 0H0V845Z" fill="#E1685E"/>
