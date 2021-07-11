@@ -23,9 +23,9 @@
             <h5 class="student__card__name">Anastasya<br>Ovchar</h5>
             <p class="student__card__pitch"><?php echo $lang['Anastasya']; ?></p>
             <section class="students__card__social">
-                <a class="students__card__social__item" href=""><img class="students__card__social__item__img" src="img/card__cv.svg" alt="cv icon"></a>
-                <a class="students__card__social__item" href=""><img class="students__card__social__item__img" src="img/card__website.svg" alt="website icon"></a>
-                <a class="students__card__social__item" href="www.linkedin.com/in/anovchar"><img class="students__card__social__item__img" src="img/card__linkedin.svg" alt="linkedin icon"></a>
+                <!-- <a class="students__card__social__item" href=""><img class="students__card__social__item__img" src="img/card__cv.svg" alt="cv icon"></a>
+                <a class="students__card__social__item" href=""><img class="students__card__social__item__img" src="img/card__website.svg" alt="website icon"></a> -->
+                <a class="students__card__social__item" href="https://www.linkedin.com/in/anovchar" target="_blank"><img class="students__card__social__item__img" src="img/card__linkedin.svg" alt="linkedin icon"></a>
             </section>
         <section class="student__card__name__container">
     </article>
