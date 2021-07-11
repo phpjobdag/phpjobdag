@@ -20,21 +20,30 @@
                 </div>
             </section>
 
-            <section class="agenda__block middleBlock" >
-                <p class="agenda__block__time middleBlock">9.30-12.00</p>
-                <div class="agenda__block__info__middle middleBlock" >
+            <section class="agenda__block margin2" >
+                <p class="agenda__block__time">9.30-12.30</p>
+                <div class="agenda__block__info" >
                     <p><?php echo $lang['agendap3']; ?></p>
                     <p class="agenda__block__info__lower " id="middleArrow"><?php echo $lang['agendap4']; ?></p>
                </div>
             </section>
 
-            <section class="agenda__block">
-                <p class="agenda__block__time">12.00-12.30</p>
-                <div class="agenda__block__info">
-                    <p><?php echo $lang['agendap5']; ?></p>
-                    <p class="agenda__block__info__lower"><?php echo $lang['agendap6']; ?></p>
-                </div>
-            </section>
+             <section class="agenda__block margin2">
+                 <p class="agenda__block__time" >13.00-13.30</p>
+                 <div class="agenda__block__info">
+                     <p><?php echo $lang['agendap1']; ?></p>
+                     <p class="agenda__block__info__lower"><?php echo $lang['agendap2']; ?></p>
+                 </div>
+             </section>
+
+             <section class="agenda__block margin2" >
+                 <p class="agenda__block__time">13.30-17.00</p>
+                 <div class="agenda__block__info" >
+                     <p><?php echo $lang['agendap3']; ?></p>
+                     <p class="agenda__block__info__lower " id="middleArrow"><?php echo $lang['agendap4']; ?></p>
+                 </div>
+             </section>
+
  <!-- END OF AGENDA BLOCKS -->
 
     <svg id="agenda__blob__orange__top" viewBox="0 110 1440 845">
