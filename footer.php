@@ -148,7 +148,7 @@
                                    <img class="footer__info__tools__img" src="img/skills__js.svg" alt="js logo">
                                    <img class="footer__info__tools__img" src="img/skills__vsc.svg" alt="vsc logo">
                                    <img class="footer__info__tools__img" src="img/skills__phpstorm.svg" alt="PHP storm logo">
-                                   <img class="footer__info__tools__img" src="img/skills__github.svg" alt="">
+                                   <img class="footer__info__tools__img" src="img/skills__github__footer.svg" alt="">
                                    <img class="footer__info__tools__img" src="img/skills__php.svg" alt="">
                                    <img class="footer__info__tools__img" src="img/skills__trello.svg" alt="">
                                    <!--extra logo's zijn nodig om de ononderbroken beweging te garanderen-->
