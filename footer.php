@@ -2,7 +2,6 @@
     <h2 class="footer__title"><?php echo $lang['footerTitle']; ?></h2>
 
     <section id="footer__wrapper">
-<!--            <div class="margin__wrapper">-->
         <div id="signup" class="footer__register">
             <article class="footer__register__info">
                 <h3 class="footer__register__info__title"><?php echo $lang['footerSubtitle']; ?></h3>
@@ -48,20 +47,6 @@
                      <input type="radio" name="availability" value="whole day"> <?php echo $lang['formDay']; ?>
                 </div>
 
-
-                <!--             <label for="platform">--><?php //echo $lang['formCommunication']; ?><!--</label>-->
-                <!--             <div class="checkbox__wrapper">-->
-                <!--                 <input type="radio" name="platform" id="zoom" name="zoom"> Zoom-->
-                <!--                 <input type="radio" name="platform" id="teams" name="teams"> Teams-->
-                <!--                 <input type="radio" name="platform" id="googlemeet" name="googlemeet"> Google Meet-->
-                <!--                 <input type="radio" name="platform" id="andere" name="andere"> Andere-->
-                <!--             </div>-->
-
-
-                <!--             <label for="link">--><?php //echo $lang['formLinkLabel']; ?><!--</label>-->
-                <!--             <input class="footer__register__form__input" type="text" id="link" name="link" placeholder="--><?php //echo $lang['formLink']; ?><!--" required>-->
-
-
                 <input class="footer__register__form__input"
                        type="text"
                        id="questions"
@@ -74,7 +59,6 @@
             </form>
 
         </div>
-<!--            </div>-->
     </section>
 
     <!-- ORANGE BLOB -->
@@ -87,17 +71,12 @@
 
 </footer>
 
-
-
 <!-- SECOND FOOTER TEST -->
-
-
 
 <div class="blob__footer">
    <div class="margin__wrapper">
        <div id="footer__wrapper">
            <section class="footer__info">
-               <!--        <section class="footer__info__team__partners__container">-->
                <article class="footer__info__team">
                    <h6 class="footer__subtitle">Project Team</h6>
                    <ul class="footer__info__team__list">
@@ -115,18 +94,15 @@
                    </ul>
                </article>
 
-
                <div class="footer__info__second__column__flex">
                    <article class="footer__info__thx">
                        <h6 class="footer__subtitle"><?php echo $lang['footerThank1']; ?></h6>
                        <p class="footer__info__thx__body"><?php echo $lang['footerThank2']; ?></p>
                    </article>
 
-
                    <div class="footer__info__partners__tools__flex">
                        <article class="footer__info__partners">
                            <h6 class="footer__subtitle">Partners</h6>
-
 
                            <div class="footer__info__partners__logos__flex">
                                <img class="footer__info__partners__image"
@@ -162,7 +138,6 @@
                                </div>
                            </div>
                        </article>
-
                    </div>
                </div>
            </section>
@@ -176,20 +151,13 @@
 
                <img class="footer__copyright__vdablogo" src="img/partners__vdab.svg" alt="VDAB logo">
            </section>
+        </div>
    </div>
 
+   <!--  BLOBS   -->
+   <div class="fluid2">
+       <svg id="footer__blob__black" viewBox="0 0 1440 687">
+           <path d="M-16 0C136.549 61.7737 289.408 123.547 474.138 150.393C659.178 177.239 876.089 169.012 1038.54 210.579C1201.3 252.002 1309.29 343.364 1375.51 433.57C1441.73 523.922 1465.86 613.118 1490 702.459H-16V0Z" fill="#001220"/>
+       </svg>
+   </div>
 </div>
-
-
-
-
-       <!--  BLOBS   -->
-
-       <div class="fluid2">
-           <svg id="footer__blob__black" viewBox="0 0 1440 687">
-               <path d="M-16 0C136.549 61.7737 289.408 123.547 474.138 150.393C659.178 177.239 876.089 169.012 1038.54 210.579C1201.3 252.002 1309.29 343.364 1375.51 433.57C1441.73 523.922 1465.86 613.118 1490 702.459H-16V0Z" fill="#001220"/>
-           </svg>
-       </div>
-
-
-   </div>
