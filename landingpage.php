@@ -1,4 +1,4 @@
-<section class="landingpage">
+<section id="top" class="landingpage">
     <section class="header__section">
         <h3 class="header__section__info"><?php echo $lang['introDate']; ?></h3>
         <h1 class="header__section__title">PHP JOBDAG</h1>
