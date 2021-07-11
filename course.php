@@ -31,11 +31,12 @@
 
                      <article class="course__hard__back">
                          <h6 class="course__hard__back__title skill__title">Back-end<br> Development</h6>
-                         <a href="<?php echo $lang['HardSkillPHP']; ?>" target="_blank"><img class="course__hard__back__img " src="img/skills__php.svg" alt="php logo"></a>
-                         <a href="<?php echo $lang['HardSkillPHPUNIT']; ?>" target="_blank"><img class="course__hard__back__img logo__phpunit" src="img/skills__phpunit.svg" alt="phpunit logo"></a>
-                         <a href="<?php echo $lang['HardSkillMYSQL']; ?>" target="_blank"><img class="course__hard__back__img logo__mysql" src="img/skills__mysql.svg" alt="mysql logo"></a>
-                         <a href="<?php echo $lang['HardSkillWAMP']; ?>" target="_blank"><img class="course__hard__back__img" src="img/skills__wamp.svg" alt="wamp logo"></a>
-                         <a href="<?php echo $lang['HardSkillLARAVEL']; ?>" target="_blank"><img class="course__hard__back__img" src="img/skills__laravel.svg" alt="laravel logo"></a>
+                         <a href="<?php echo $lang['HardSkillPHP']; ?>" target="_blank"><img class="course__hard__back__img " src="img/skills__php.svg" alt="PHP logo"></a>
+                         <a href="<?php echo $lang['HardSkillPHPUNIT']; ?>" target="_blank"><img class="course__hard__back__img logo__phpunit" src="img/skills__phpunit.svg" alt="PHPunit logo"></a>
+                         <a href="<?php echo $lang['HardSkillMYSQL']; ?>" target="_blank"><img class="course__hard__back__img logo__mysql" src="img/skills__mysql.svg" alt="MySQL logo"></a>
+                         <a href="<?php echo $lang['HardSkillWAMP']; ?>" target="_blank"><img class="course__hard__back__img" src="img/skills__wamp.svg" alt="WAMP logo"></a>
+                         <a href="<?php echo $lang['HardSkillLARAVEL']; ?>" target="_blank"><img class="course__hard__back__img" src="img/skills__laravel.svg" alt="Laravel logo"></a>
+
 
 
 
