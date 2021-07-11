@@ -147,16 +147,16 @@
                                    <img class="footer__info__tools__img" src="img/skills__html5.svg" alt="html5 logo">
                                    <img class="footer__info__tools__img" src="img/skills__js.svg" alt="js logo">
                                    <img class="footer__info__tools__img" src="img/skills__vsc.svg" alt="vsc logo">
-                                   <img class="footer__info__tools__img" src="img/skills__phpstorm.svg" alt="PHP storm logo">
-                                   <img class="footer__info__tools__img" src="img/skills__github.svg" alt="">
-                                   <img class="footer__info__tools__img" src="img/skills__php.svg" alt="">
-                                   <img class="footer__info__tools__img" src="img/skills__trello.svg" alt="">
+                                   <img class="footer__info__tools__img" src="img/skills__phpstorm.svg" alt="php storm logo">
+                                   <img class="footer__info__tools__img" src="img/skills__github.svg" alt="github logo">
+                                   <img class="footer__info__tools__img" src="img/skills__php.svg" alt="php logo">
+                                   <img class="footer__info__tools__img" src="img/skills__trello.svg" alt="trello">
                                    <!--extra logo's zijn nodig om de ononderbroken beweging te garanderen-->
                                    <img class="footer__info__tools__img" src="img/skills__css3.svg" alt="css3 logo">
                                    <img class="footer__info__tools__img" src="img/skills__html5.svg" alt="html5 logo">
                                    <img class="footer__info__tools__img" src="img/skills__js.svg" alt="js logo">
                                    <img class="footer__info__tools__img" src="img/skills__vsc.svg" alt="vsc logo">
-                                   <img class="footer__info__tools__img" src="img/skills__phpstorm.svg" alt="PHP storm logo">
+                                   <img class="footer__info__tools__img" src="img/skills__phpstorm.svg" alt="php storm logo">
                                </div>
                            </div>
                        </article>
@@ -171,7 +171,7 @@
                    <p class="footer__copyright__text">&copy; <?php echo date("Y");?> PHP</p>
                    <p class="footer__copyright__corporation"></p>
                </div>
-               <img class="footer__copyright__vdablogo" src="img/partners__vdab.svg" alt="">
+               <img class="footer__copyright__vdablogo" src="img/partners__vdab.svg" alt="vdab logo">
            </section>
    </div>
 
