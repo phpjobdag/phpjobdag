@@ -48,7 +48,7 @@ $lang['Yves'] = 'A bachelor in communication management upscaling his webdevelop
 // Agenda
 $lang['agendaTitle'] = 'BEKIJK HET PROGRAMMA';
 $lang['agendaDes1'] = 'Allereerst krijgt u een kort en bondig overzicht van de vaardigheden en capaciteiten die wij verworven hebben gedurende de cursus.';
-$lang['agendaDes2'] = 'Vervolgens het interview. Dit is het moment om vragen te stellen, en de vaardigheden en talenten van de kandidaten op te merken zodoende kunt u de geschikte kandidaat voor uw organisatie kiezen. U krijgt 15 minuten voor iedere kandidaat te ondervragen gedurende het interview. Houd uw vragen paraat.';
+$lang['agendaDes2'] = 'Vervolgens het interview. Dit is het moment om vragen te stellen, en de vaardigheden en talenten van de kandidaten op te merken zodoende kunt u de geschikte kandidaat voor uw organisatie kiezen. U krijgt 15 minuten voor iedere kandidaat te ondervragen gedurende het interview. Houd uw vragen alvast klaar.';
 $lang['agendaDes3'] = 'Ter afsluiting hebben we een moment van evaluatie en reflectie zowel voor de kandidaat als de interviewer.';
 
 $lang['agendap1'] = 'Introductie ';
@@ -61,7 +61,7 @@ $lang['agendap6'] = 'Tijd voor evaluatie en feedback';
 // Course
 $lang['courseTitle'] = 'BEKIJK DE CURSUS';
 $lang['courseBody1'] = 'Door toedoen van de pandemie vond onze cursus volledig online plaats. Samen op afstand werken is een van eerste vaardigheden die we hebben ontwikkeld.';
-$lang['courseBody2'] = 'De afgelopen maanden hebben wij veel kennis en vaardigheden opgedaan. In een relatief kort tijdsbestek hebben wij een sterk fundament op weten te bouwen voor ons toekomstig functioneren als webdevelopers.';
+$lang['courseBody2'] = 'De afgelopen maanden hebben wij veel kennis en vaardigheden opgedaan. In een relatief kort tijdsbestek hebben wij een sterk fundament weten op te bouwen voor ons toekomstig functioneren als webdevelopers.';
 $lang['courseBody3'] = 'Doorheen de cursus hebben wij <b>GitHub</b> en <b>GitLab</b> gebruikt voor versiebeheer, <b>Visual Studio Code</b> en <b>PHPStorm</b> als code editors en voor Agile Project Management hebben we <b>Trello</b> gebruikt. '; // Waarom staat deze informatie onder de kaders Hard-skills en softskills? //
 
 // Front-end Links
