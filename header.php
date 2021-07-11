@@ -72,9 +72,9 @@ if($lang["lang"]=="en"){
             let linkEvent = document.getElementById("linkEvent");
             let linkCourse = document.getElementById("linkCourse");
             
-            var arr = [linkStudents,linkEvent,linkCourse];
+            let arr = [linkStudents,linkEvent,linkCourse];
             let menu = document.getElementById("header__mobile__dropdown");
-            for(var b=0;b<3;b++){
+            for(let b=0;b<3;b++){
             arr[b].addEventListener("click",function(){
                 menu.style.display="none";
             });
