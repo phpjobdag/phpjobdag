@@ -1,13 +1,13 @@
 <section id="students" class="students">
 
     <h2 class="students__title"><?php echo $lang['studentTitle']; ?></h2>
-    <div class="student__wrapper">
+    <section class="student__wrapper">
     <h3 class="students__quote">“Measuring programming progress by lines of code is like measuring aircraft building progress by weight.” - Bill Gates</h3>
-
-    <article class="students__card">
+    <section class="student__wrapper responsive slider">
+        <article class="students__card">
         <img class="students__card__img" src="img/students/alexander.jpg" alt="profile picture Alexander Decoz">
         <section class="student__card__name__container">
-            <h5 class="student__card__name"> Alexander Decoz</h5>
+            <h5 class="student__card__name"> Alexander</br>Decoz</h5>
             <p class="student__card__pitch"><?php echo $lang['Alexander']; ?></p>
             <section class="students__card__social">
                 <a class="students__card__social__item" href=""><img class="students__card__social__item__img" src="img/card__cv.svg" alt="cv icon"></a>
@@ -16,19 +16,18 @@
             </section>
         </section>
     </article>
-
-    <article class="students__card">
-        <img class="students__card__img" src="img/students/anastasya.jpg" alt="profile picture Anastasya Ovchar">
-        <section class="student__card__name__container">
-            <h5 class="student__card__name">Anastasya<br>Ovchar</h5>
-            <p class="student__card__pitch"><?php echo $lang['Anastasya']; ?></p>
-            <section class="students__card__social">
-                <a class="students__card__social__item" href=""><img class="students__card__social__item__img" src="img/card__cv.svg" alt="cv icon"></a>
-                <a class="students__card__social__item" href=""><img class="students__card__social__item__img" src="img/card__website.svg" alt="website icon"></a>
-                <a class="students__card__social__item" href="www.linkedin.com/in/anovchar"><img class="students__card__social__item__img" src="img/card__linkedin.svg" alt="linkedin icon"></a>
+        <article class="students__card">
+            <img class="students__card__img" src="img/students/anastasya.jpg" alt="profile picture Alexander Decoz">
+            <section class="student__card__name__container">
+                <h5 class="student__card__name">Anastasya<br>Ovchar</h5>
+                <p class="student__card__pitch"><?php echo $lang['Anastasya']; ?></p>
+                <section class="students__card__social">
+                    <a class="students__card__social__item" href=""><img class="students__card__social__item__img" src="img/card__cv.svg" alt="cv icon"></a>
+                    <a class="students__card__social__item" href=""><img class="students__card__social__item__img" src="img/card__website.svg" alt="website icon"></a>
+                    <a class="students__card__social__item" href="https://www.linkedin.com/in/anovchar"><img class="students__card__social__item__img" src="img/card__linkedin.svg" alt="linkedin icon"></a>
+                </section>
             </section>
-        <section class="student__card__name__container">
-    </article>
+        </article>
 
     <article class="students__card">
         <img class="students__card__img" src="arne.jpg" alt="profile picture Arne Sneyers">
@@ -137,8 +136,8 @@
     <article class="students__card">
         <img class="students__card__img" src="yves.jpg" alt="profile picture Yves Kerkhofs">
         <section class="student__card__name__container">
-        <h5 class="student__card__name">Yves<br>Kerkhofs</h5>
-        <p class="student__card__pitch"><?php echo $lang['Yves']; ?></p>
+            <h5 class="student__card__name">Yves<br>Kerkhofs</h5>
+            <p class="student__card__pitch"><?php echo $lang['Yves']; ?></p>
             <section class="students__card__social">
                 <a class="students__card__social__item" href=""><img class="students__card__social__item__img" src="img/card__cv.svg" alt="cv icon"></a>
                 <a class="students__card__social__item" href=""><img class="students__card__social__item__img" src="img/card__website.svg" alt="website icon"></a>
@@ -146,7 +145,8 @@
             </section>
         </section>
     </article>
-
+    </section>
+    </section>
     <svg id="students__blob__orange__top" viewBox="-10 10 551 541">
     <path class="orange" d="M550.859 540.322C490.212 538.727 429.769 537.131 380.723 513.994C331.88 490.658 294.637 445.78 245.387 413.069C196.137 380.159 134.676 359.615 107.406 316.732C80.1352 273.848 86.8511 209.025 74.6404 152.579C62.6332 96.3322 31.4958 48.6622 0.562012 0.992065H550.859V540.322Z" fill="#E1685E"/>
     </svg>
@@ -165,6 +165,49 @@
 
     <svg id="students__blob__yellow__bottom" viewBox="0 0 1252 349">
     <path class="yellow" d="M-12.2946 0.653809C23.3937 48.3357 59.4617 96.0175 117.55 99.6599C175.638 103.633 256.507 63.8985 289.537 86.0838C322.188 108.6 307.381 193.037 310.039 244.03C313.076 295.023 333.198 312.242 368.127 340.718C402.677 368.864 452.033 408.599 501.009 448.334H-12.2946V0.653809Z" fill="#FBAE3C"/>
-    </svg>
-    </div>
+    </svg><script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+    <script src="./slick/slick.js" type="text/javascript" charset="utf-8"></script>
+    <script type="text/javascript">
+
+        function slickify(){
+            $('.responsive').slick({
+                dots: true,
+                infinite: true,
+                centerMode: true,
+                slidesToShow: 4,
+                slidesToScroll: 4,
+                responsive: [
+                    {
+                        breakpoint: 625,
+                        settings: {
+                            slidesToShow: 1,
+                            slidesToScroll: 1,
+                        }
+
+                    },
+                    {
+                        breakpoint: 1081,
+                        settings: {
+                            slidesToShow: 2,
+                            slidesToScroll: 1,
+                        }
+                    },
+                    {
+                        breakpoint: 5000,
+                        settings: "unslick"
+                    }
+                ]
+            });
+        }
+
+        slickify();
+        $(window).resize(function(){
+            var $windowWidth = $(window).width();
+            if ($windowWidth < 1081) {
+                slickify();
+            }
+        });
+
+        var slicknumbers = document.getElementbyClassName("slide");
+    </script>
 </section>
