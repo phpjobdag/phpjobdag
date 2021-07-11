@@ -2159,7 +2159,7 @@ margin-bottom: 1rem;
 }
 
 .course__soft{
-	height: auto;
+	height: fit-content;
 }
 
 /*#footer__wrapper{*/
