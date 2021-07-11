@@ -123,7 +123,7 @@ $lang['footerThank1'] = 'Thank you';
 $lang['footerThank2'] = 'We would like to show our appreciation for our teachers. In these past few months they have provided us with the necessary knowledge and skills. They are partially responsible for our transformation into developers. Tim, Sarah, Anke and Yannick, thank you for all your support!';
 $lang['footerMade'] = 'This site was made with';
 
-$lang['FootPartnerMULTIMEDI'] = 'http://multimedi.be';
+$lang['FootPartnerMULTIMEDI'] = 'https://multimedi.be';
 $lang['FootPartnerCEVORA'] = 'https://www.cevora.be/';
 
 
