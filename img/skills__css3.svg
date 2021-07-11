@@ -1,17 +1,1 @@
-<svg width="79" height="89" viewBox="0 0 79 89" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g filter="url(#filter0_d)">
-<path d="M4 0L10.4267 72.5841L39.284 80.649L68.1311 72.5892L74.5679 0H4Z" fill="#2196F3"/>
-<path d="M60.8276 23.7355L60.0161 32.8539L57.5664 60.1888L39.2842 65.2445L39.2691 65.2496L20.9971 60.1888L19.7218 45.8938H28.6739L29.3392 53.3085L39.2742 55.9901L39.2792 55.985L49.2293 53.3034L50.5852 40.949L19.2934 41.0347L18.4062 32.5867L51.3362 32.1986L52.0016 23.1558L17.5241 23.2516L16.9445 14.8389H39.2842H61.624L60.8276 23.7355Z" fill="#FAFAFA"/>
-</g>
-<defs>
-<filter id="filter0_d" x="0" y="0" width="78.5679" height="88.649" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-<feFlood flood-opacity="0" result="BackgroundImageFix"/>
-<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
-<feOffset dy="4"/>
-<feGaussianBlur stdDeviation="2"/>
-<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
-<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
-<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
-</filter>
-</defs>
-</svg>
+<svg id="Laag_1" data-name="Laag 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 109.68 125"><defs><style>.cls-1{fill:#484747;}.cls-2{fill:#0075bd;}.cls-2,.cls-3{fill-rule:evenodd;}.cls-3{fill:#0085cb;}.cls-4{fill:#0084bf;}.cls-5{fill:#f0f0f0;}.cls-6{fill:#fff;}</style></defs><polyline class="cls-1" points="0 0 109.68 0 99.88 112.13 55.15 125 9.19 112.13"/><polyline class="cls-1" points="55.18 10.85 55.18 114.14 92.13 103.51 100.23 10.85"/><polyline class="cls-1" points="71.7 64.34 55.18 64.34 55.18 85.48 69.86 82.72"/><polyline class="cls-1" points="19.61 23.9 21.45 37.4 54.54 37.38 22.06 51.47 23.9 64.34 55.18 64.34 55.18 23.9"/><polyline class="cls-1" points="39.22 82.12 37.99 71.7 24.52 71.7 26.35 93.14 55.15 101.11 55.18 101.09 55.18 85.48"/><polyline class="cls-1" points="86.41 50.33 56.89 50.33 88.93 37.22 88.93 23.9 55.18 23.9 55.18 64.34 71.7 64.34 69.85 82.72 55.18 85.48 55.18 101.09 82.72 92.53"/><polyline class="cls-2" points="0 0 109.68 0 99.88 112.13 55.15 125 9.19 112.13"/><polyline class="cls-3" points="55.18 10.85 55.18 114.14 92.13 103.51 100.23 10.85"/><polyline class="cls-4" points="71.7 64.34 55.18 64.34 55.18 85.48 69.86 82.72"/><polyline class="cls-5" points="19.61 23.9 21.45 37.4 54.54 37.38 22.06 51.47 23.9 64.34 55.18 64.34 55.18 23.9"/><polyline class="cls-5" points="39.22 82.12 37.99 71.7 24.52 71.7 26.35 93.14 55.15 101.11 55.18 101.09 55.18 85.48"/><polyline class="cls-6" points="86.41 50.33 56.89 50.33 88.93 37.22 88.93 23.9 55.18 23.9 55.18 64.34 71.7 64.34 69.85 82.72 55.18 85.48 55.18 101.09 82.72 92.53"/></svg>
