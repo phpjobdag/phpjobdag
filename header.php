@@ -45,7 +45,7 @@ if($lang["lang"]=="en"){
         </nav> 
 
         <section id="header__mobile__dropdown">
-            <a class="header__mobile__dropdown__link" href="#top"><?php echo $lang['nav1']; ?></a>
+            <a id="linkStudents" class="header__mobile__dropdown__link" href="#top"><?php echo $lang['nav1']; ?></a>
             <a id="linkStudents" class="header__mobile__dropdown__link" href="#students"><?php echo $lang['nav2']; ?></a>
             <a id="linkEvent" class="header__mobile__dropdown__link" href="#agenda"><?php echo $lang['nav3']; ?></a>
             <a id="linkCourse" class="header__mobile__dropdown__link" href="#course"><?php echo $lang['nav4']; ?></a>
