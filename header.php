@@ -14,7 +14,7 @@ if($lang["lang"]=="en"){
         <nav class="header__nav">
             <div class="margin__wrapper">
                 <div class="header__nav__list">
-                    <a class="header__nav__list__item" href="#header">
+                    <a class="header__nav__list__item" href="#top">
                         <?php echo $lang['nav1']; ?>
                     </a>
 
@@ -45,6 +45,7 @@ if($lang["lang"]=="en"){
         </nav> 
 
         <section id="header__mobile__dropdown">
+            <a class="header__mobile__dropdown__link" href="#top"><?php echo $lang['nav1']; ?></a>
             <a id="linkStudents" class="header__mobile__dropdown__link" href="#students"><?php echo $lang['nav2']; ?></a>
             <a id="linkEvent" class="header__mobile__dropdown__link" href="#agenda"><?php echo $lang['nav3']; ?></a>
             <a id="linkCourse" class="header__mobile__dropdown__link" href="#course"><?php echo $lang['nav4']; ?></a>
@@ -71,9 +72,9 @@ if($lang["lang"]=="en"){
             let linkEvent = document.getElementById("linkEvent");
             let linkCourse = document.getElementById("linkCourse");
             
-            var arr = [linkStudents,linkEvent,linkCourse];
+            let arr = [linkStudents,linkEvent,linkCourse];
             let menu = document.getElementById("header__mobile__dropdown");
-            for(var b=0;b<3;b++){
+            for(let b=0;b<3;b++){
             arr[b].addEventListener("click",function(){
                 menu.style.display="none";
             });
