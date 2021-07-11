@@ -13,7 +13,7 @@
      <div id="agenda__wrapper">
 <!-- AGENDA BLOCKS -->
             <section class="agenda__block margin2">
-                <p class="agenda__block__time" >9.00-9.30</p>
+                <p class="agenda__block__time" >9.00 - 9.30</p>
                 <div class="agenda__block__info">
                     <p><?php echo $lang['agendap1']; ?></p>
                     <p class="agenda__block__info__lower"><?php echo $lang['agendap2']; ?></p>
@@ -21,7 +21,7 @@
             </section>
 
             <section class="agenda__block margin2" >
-                <p class="agenda__block__time">9.30-12.30</p>
+                <p class="agenda__block__time">9.30 - 12.30</p>
                 <div class="agenda__block__info" >
                     <p><?php echo $lang['agendap3']; ?></p>
                     <p class="agenda__block__info__lower " id="middleArrow"><?php echo $lang['agendap4']; ?></p>
@@ -29,7 +29,7 @@
             </section>
 
              <section class="agenda__block margin2">
-                 <p class="agenda__block__time" >13.00-13.30</p>
+                 <p class="agenda__block__time" >13.00 - 13.30</p>
                  <div class="agenda__block__info">
                      <p><?php echo $lang['agendap1']; ?></p>
                      <p class="agenda__block__info__lower"><?php echo $lang['agendap2']; ?></p>
@@ -37,7 +37,7 @@
              </section>
 
              <section class="agenda__block margin2" >
-                 <p class="agenda__block__time">13.30-17.00</p>
+                 <p class="agenda__block__time">13.30 - 17.00</p>
                  <div class="agenda__block__info" >
                      <p><?php echo $lang['agendap3']; ?></p>
                      <p class="agenda__block__info__lower " id="middleArrow"><?php echo $lang['agendap4']; ?></p>
