@@ -938,12 +938,12 @@ margin-bottom: 1rem;
 
 .footer__info__tools__static:before {
    left: 0;
-   background: linear-gradient(to right, #111 0%, transparent 100%)
+   background: linear-gradient(to right, #111220 0%, transparent 100%)
 }
 
 .footer__info__tools__static:after {
    right: 0;
-   background: linear-gradient(to left, #111 0%, transparent 100%)
+   background: linear-gradient(to left, #111220 0%, transparent 100%)
 }
 
 .footer__info__tools__moving {

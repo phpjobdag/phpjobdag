@@ -152,7 +152,6 @@
                                    <img class="footer__info__tools__img" src="img/skills__github.svg" alt="Github logo">
                                    <img class="footer__info__tools__img" src="img/skills__php.svg" alt="PHP logo">
                                    <img class="footer__info__tools__img" src="img/skills__trello.svg" alt="Trello logo">
-
                                    <!--extra logo's zijn nodig om de ononderbroken beweging te garanderen-->
                                    <img class="footer__info__tools__img" src="img/skills__css3.svg" alt="css3 logo">
                                    <img class="footer__info__tools__img" src="img/skills__html5.svg" alt="html5 logo">
