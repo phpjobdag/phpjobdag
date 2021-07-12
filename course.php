@@ -12,8 +12,9 @@
 
          <div class="skills__wrapper__flex">
              <!--  HARD SKILLS SECTION   -->
+<!--             <h3 class="course__soft__title">Skills</h3>-->
              <section class="course__hard">
-                 <h3 class="course__hard__title">Hard<br>Skills</h3>
+<!--                 <h3 class="course__hard__title">Hard<br>Skills</h3>-->
 
                  <!--  FRONT AND BACK END DEVELOPMENT SECTION  -->
                  <section class="course_hard_front_back">
@@ -45,6 +46,32 @@
                  <!--  END OF FRONT AND BACK END SECTION  -->
 
                  <!--  FRONT AND BACK END SECTION  -->
+<!--                 <section class="course__hard__edit__control">-->
+<!--                     <article class="course__hard__edit">-->
+<!--                         <h6 class="course__hard__edit__title skill__title">Code<br> editors</h6>-->
+<!--                         <a href="--><?php //echo $lang['HardSkillVSC']; ?><!--" target="_blank"><img class="course__hard__edit__img" src="img/skills__vsc.svg" alt="vsc logo"></a>-->
+<!--                         <a href="--><?php //echo $lang['HardSkillPHPS']; ?><!--" target="_blank"><img class="course__hard__edit__img" src="img/skills__phpstorm.svg" alt="php storm logo"></a>-->
+<!---->
+<!--                     </article>-->
+<!---->
+<!--                     <article class="course__hard__control">-->
+<!--                         <h6 class="course__hard__control__title skill__title">Version<br> Control</h6>-->
+<!---->
+<!--                         <a href="--><?php //echo $lang['HardSkillGITHUB']; ?><!--" target="_blank"><img class="course__hard__control__img" src="img/skills__github.svg" alt="github logo"></a>-->
+<!--                         <a href="--><?php //echo $lang['HardSkillGITLAB']; ?><!--" target="_blank"><img class="course__hard__control__img" src="img/skills__gitlab.svg" alt="gitlab logo"></a>-->
+<!---->
+<!--                     </article>-->
+<!--                 </section>-->
+
+             </section>
+             <!--    END OF HARD SKILLS SECTION   -->
+
+
+             <!--    SOFT SKILLS SECTION     -->
+             <section class="course__soft margBot0">
+<!--                 <h3 class="course__soft__title">Soft<br>Skills</h3>-->
+
+                 <!--  FRONT AND BACK END SECTION  -->
                  <section class="course__hard__edit__control">
                      <article class="course__hard__edit">
                          <h6 class="course__hard__edit__title skill__title">Code<br> editors</h6>
@@ -62,13 +89,6 @@
                      </article>
                  </section>
 
-             </section>
-             <!--    END OF HARD SKILLS SECTION   -->
-
-
-             <!--    SOFT SKILLS SECTION     -->
-             <section class="course__soft margBot0">
-                 <h3 class="course__soft__title">Soft<br>Skills</h3>
 
                  <section class="agile__remote">
                      <article class="agile-method">

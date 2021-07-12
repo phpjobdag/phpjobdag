@@ -166,7 +166,8 @@
 
     <svg id="students__blob__yellow__bottom" viewBox="0 0 1252 349">
     <path class="yellow" d="M-12.2946 0.653809C23.3937 48.3357 59.4617 96.0175 117.55 99.6599C175.638 103.633 256.507 63.8985 289.537 86.0838C322.188 108.6 307.381 193.037 310.039 244.03C313.076 295.023 333.198 312.242 368.127 340.718C402.677 368.864 452.033 408.599 501.009 448.334H-12.2946V0.653809Z" fill="#FBAE3C"/>
-    </svg><script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+    </svg>
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
     <script src="./slick/slick.js" type="text/javascript" charset="utf-8"></script>
     <script type="text/javascript">
 
@@ -175,27 +176,26 @@
                 dots: true,
                 infinite: true,
                 centerMode: true,
-                slidesToShow: 4,
-                slidesToScroll: 4,
+                slidesToShow: 1,
+                slidesToScroll: 1,
                 responsive: [
                     {
-                        breakpoint: 625,
-                        settings: {
-                            slidesToShow: 1,
-                            slidesToScroll: 1,
-                        }
-
+                        breakpoint: 9999,
+                        settings: "unslick"
                     },
                     {
-                        breakpoint: 1081,
+                        breakpoint: 1080,
                         settings: {
                             slidesToShow: 2,
                             slidesToScroll: 1,
                         }
                     },
                     {
-                        breakpoint: 5000,
-                        settings: "unslick"
+                        breakpoint: 600,
+                        settings: {
+                            slidesToShow: 1,
+                            slidesToScroll: 1,
+                        }
                     }
                 ]
             });
@@ -203,12 +203,12 @@
 
         slickify();
         $(window).resize(function(){
-            var $windowWidth = $(window).width();
-            if ($windowWidth < 1081) {
+            let $windowWidth = $(window).width();
+            if ($windowWidth < 1080) {
                 slickify();
             }
         });
 
-        var slicknumbers = document.getElementbyClassName("slide");
+        let slicknumbers = document.getElementbyClassName("slide");
     </script>
 </section>

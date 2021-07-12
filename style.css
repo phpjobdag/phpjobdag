@@ -5,7 +5,6 @@
 	color: #001220;
 	margin: 0px;
 	padding: 0px;
-
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
@@ -21,7 +20,6 @@
 	margin: auto!important;
 	max-width: 1080px!important;
 }
-
 
 .agenda__title,
 .course__title,
@@ -53,8 +51,7 @@
 
 	--blob-prim: #FBAE3C;
 	--blob-sec: #E1685E;
-	--blob-third: #3D3056;
-
+	--blob-third: #3D3056
 }
 
 /* REMOVE STANDARD STYLING*/
@@ -84,8 +81,6 @@ input:focus, textarea:focus, select:focus{
 	background-color: #ba6ec6;;
 	margin:0;
 	padding:0;
-
-
 }
 
 .header__nav {
@@ -137,7 +132,6 @@ input:focus, textarea:focus, select:focus{
 	z-index: 10000;
 	background-color: #ba6ec6;;
 	box-shadow: 0px 6px 6px rgba(0, 18, 32, 0.2);
-	
 }
 
 @keyframes growDown {
@@ -208,9 +202,6 @@ font-weight:600;
 	color:white;
 }
 
-
-
-
 .header__mobile__dropdown__link {
 	line-height: 1.1875rem;
 	text-align: right;
@@ -223,9 +214,6 @@ font-weight:600;
 	padding-top: 3rem;
 	position: relative;
 	z-index:1;
-
-
-
 }
 
 .header__section__info {
@@ -271,23 +259,16 @@ font-weight:600;
 	text-decoration: none;
 	margin-left: 1rem;
 	margin-bottom: 3rem;
-
-	
-	
 }
 
 .header__section__registerlink:before {
 	content:"";
-width:256px;
-height:76px;
-background: linear-gradient(90deg, #FBAE3C -1.61%, #F65277 100%);
-border-radius:36px; 
-position:absolute;
-z-index:-1;
-
-
-
-;
+	width:256px;
+	height:76px;
+	background: linear-gradient(90deg, #FBAE3C -1.61%, #F65277 100%);
+	border-radius:36px;
+	position:absolute;
+	z-index:-1;
 }
 
 .header__counter {
@@ -331,12 +312,12 @@ z-index:-1;
 
 .nav__color2{
 	background:  #001220;
-
 }
 
 #header .lang__icon{
 	color: #001220;
 }
+
 /* agenda deel */
 .agenda {
 	background: #fda677;
@@ -385,7 +366,6 @@ z-index:-1;
 	max-width: 70ch;
 }
 
-
 .agenda__block {
    margin: 1rem 1rem 0rem 1rem;
    display: flex;
@@ -429,7 +409,6 @@ z-index:-1;
 }
 
 .agenda__block__info::after,.agenda__block__info__middle::after {
-
    position: absolute;
    content: "";
    color: turquoise;
@@ -441,7 +420,6 @@ z-index:-1;
    overflow: hidden;
    background: white;
    transform: matrix(-0.71, -0.53, -0.94, 0.71, 0, 0);
-
 }
 
 .agenda__block__info__middle::after{
@@ -465,14 +443,11 @@ z-index:-1;
    margin-top: 1rem;
    line-height: 140%;
    font-size: 0.9rem;
-
 }
-
 
 agenda__intro__wrapper{
 	width: 100%;
 }
-
 
 #agenda__blob__orange__top {
    position: absolute;
@@ -502,6 +477,7 @@ agenda__intro__wrapper{
 body{
 	min-width:320px;
 }
+
 /* coursescope */
 .course {
 	background: linear-gradient(180deg, #fda677 0%, #ba6ec6 100%);
@@ -566,27 +542,7 @@ body{
 	display: flex;
 	flex-direction: column;
 	width: 50%;
-	/*align-items: center;*/
 }
-
-/* blok mag weg, wordt vervangen door .skill__title*/
-
-/*.course__hard__front__title,*/
-/*.course__hard__back__title,*/
-/*.course__hard__edit__title,*/
-/*.course__hard__control__title,*/
-/*.course__soft__agile__title,*/
-/*.course__soft__remote__title {*/
-/*	font-style: normal;*/
-/*	font-weight: bold;*/
-/*	font-size: 1rem;*/
-/*	line-height: 140%;*/
-/*	text-align: center;*/
-/*	letter-spacing: 0.03em;*/
-/*	color: rgba(255, 255, 255, 0.8);*/
-/*	margin-top: 2rem;*/
-/*	margin-bottom: 1rem;*/
-/*}*/
 
 /* einde vervanging */
 
@@ -602,7 +558,6 @@ body{
 	margin-bottom: 1rem;
 	text-transform: uppercase;
 }
-
 
 .course__hard__front__img,
 .course__hard__back__img,
@@ -620,22 +575,6 @@ body{
 .course__hard__back__img{
 	margin-top: 2rem;
 }
-
-
-
-
-/*.course__hard__back__img,*/
-/*.course__hard__control__img,*/
-/*.course__soft__agile__img {*/
-/*	padding-left: 31%;*/
-/*}*/
-
-
-/*.course__hard__front__img,*/
-/*.course__hard__edit__img,*/
-/*.course__soft__remote__img {*/
-/*	padding-left: 35%;*/
-/*}*/
 
 #course__wrapper a{
 	align-self: center;
@@ -667,10 +606,6 @@ max-width: 100px;
 margin-bottom: 1rem;
 }
 
-/*.skills__wrapper__flex img{*/
-/*	height: 500%;*/
-/*}*/
-
 .slack{
 	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 	max-height: 57px;
@@ -689,16 +624,6 @@ margin-bottom: 1rem;
    bottom: 0;
    z-index: 1;
 }
-
-/*#course__skills__wrapper{*/
-/*	display: flex;*/
-/*	!*flex-direction: row;*!*/
-
-/*}*/
-
-
-
-
 
 /* footer mobile */
 .footer {
@@ -1127,7 +1052,7 @@ margin-bottom: 1rem;
    color: white;
    margin: 0.8rem 1rem 0 1rem;
    height:60px;
-  
+
 
 }
 
@@ -1282,7 +1207,7 @@ margin-bottom: 1rem;
 .agenda__block__info,.agenda__block__info__middle{
    height:200px;
    width: 400px;
-   
+
 
 }
 
@@ -1351,7 +1276,7 @@ margin-bottom: 1rem;
 /* mediaquery */
 @media only screen and (min-width: 1080px) {
 
-  
+
 
 	/* header desktop */
 .landingpage {
@@ -1381,7 +1306,7 @@ margin-bottom: 1rem;
        min-height: 131px;
 		 display: flex;
 		 align-items: center;
-		
+
 	}
 
 	.header__counter__wrapper{
@@ -1419,7 +1344,7 @@ margin-bottom: 1rem;
    height:100%;
 
    }
-	
+
    .header__nav__list{
    display: flex;
    justify-content: flex-end;
@@ -1436,7 +1361,7 @@ margin-bottom: 1rem;
 
 
 	.header__nav__list__item{
-		
+
 		height:100%;
 		display: flex;
 		align-items: center;
@@ -1461,7 +1386,7 @@ margin-bottom: 1rem;
 	}
 
    .header__nav__list a{
-      text-decoration: none; 
+      text-decoration: none;
       font-size:1.25rem;
       color: white;
 	font-weight: 200;
@@ -1523,10 +1448,10 @@ margin-bottom: 1rem;
 
    #eng{
     text-decoration: none;
-    
+
    }
 
-	/* student desktop */ 
+	/* student desktop */
 	  .students {
       display: flex;
       flex-direction: row;
@@ -1547,7 +1472,7 @@ margin-bottom: 1rem;
 		margin: 0;
 		flex-direction: row;
 	}
-	
+
 	.students__card__img {
 		width: 50%;
 		height: 100%;
@@ -1562,7 +1487,7 @@ margin-bottom: 1rem;
 		width: 100%;
 	}
 
-	
+
 	.students__quote {
 		width: 100%;
 		text-align: center;
@@ -1573,7 +1498,7 @@ margin-bottom: 1rem;
       width:50%;
       height:100%;
    }
- 
+
 
    .student__card__name__container{
       width:50%;
@@ -1638,18 +1563,18 @@ margin-bottom: 1rem;
 	/*	width: 100%;*/
 	/*	font-size: 1.25rem;*/
 	/*}*/
-	
- 
+
+
    .agenda__block__info,.agenda__block__info__middle{
       height: 200px;
-       
+
    }
 
-	
-   
 
-	
-	
+
+
+
+
 	/* course desktop */
 
 
@@ -1720,7 +1645,7 @@ margin-bottom: 1rem;
 
 
 	/* footer desktop */
-	
+
 
 	.footer {
 		justify-content: center;
@@ -1743,7 +1668,7 @@ margin-bottom: 1rem;
       margin-right: 15%;
 		margin-bottom: 8rem;
 
-   } 
+   }
 
 	.footer__register__info {
 		width: 50%;
@@ -1751,14 +1676,14 @@ margin-bottom: 1rem;
 
 	.footer__register__form {
 		width: 50%;
-	} 
+	}
 
 
 	.footer__register__form__input {
       width:90%;
    }
 
-	
+
 	#signup{
       width:100%;
       display: flex;
@@ -1831,7 +1756,7 @@ margin-bottom: 1rem;
 	/*.footer__info__partners__title{*/
 	/*	margin-bottom: 2.5rem;;*/
 	/*}*/
-	
+
 	/*.footer__info__thx {*/
 	/*	grid-column: 2/4;*/
 	/*	grid-row: 1/4;*/
@@ -1847,7 +1772,7 @@ margin-bottom: 1rem;
 	/*.footer__info__team__partners__container {*/
 	/*	display: none;*/
 	/*}*/
-	
+
 	/*.footer__info__partners{*/
    /*   grid-column:2/3;*/
    /*   grid-row: 4/5;*/
@@ -1914,7 +1839,7 @@ margin-bottom: 1rem;
    .footer__register__info__approval{
       font-size: 20px;
    }
-	
+
 /* algemene styling */
 
   .no__display {
@@ -1937,7 +1862,7 @@ margin-bottom: 1rem;
    /*   line-height: 2.5rem;*/
 	/*	*/
    /*}*/
-   
+
 
 
    #agenda__wrapper,
@@ -1979,23 +1904,23 @@ margin-bottom: 1rem;
 
 	::-webkit-scrollbar {
       width: 10px;
-      
+
     }
-    
+
     ::-webkit-scrollbar-thumb {
       background: rgba(90, 90, 90);
     }
-    
+
     ::-webkit-scrollbar-track {
       background: rgba(0, 0, 0, 0);
     }
-    
+
     /* Handle on hover */
     ::-webkit-scrollbar-thumb:hover {
       background: #555;
-     
+
     }
-	
+
 }
 
 /* mobile klein scherm */
@@ -2052,7 +1977,7 @@ margin-bottom: 1rem;
    /*#footer__blob__orange {*/
    /*   bottom: 8%;*/
    /*}*/
-   
+
    /*#footer__blob__black {*/
    /*   bottom: 0%;*/
    /*}*/
