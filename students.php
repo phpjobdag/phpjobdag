@@ -31,7 +31,7 @@
         </article>
 
     <article class="students__card">
-        <img class="students__card__img" src="arne.jpg" alt="profile picture Arne Sneyers">
+        <img class="students__card__img" src="img/students/arne.jpg" alt="profile picture Arne Sneyers">
         <section class="student__card__name__container">
             <h5 class="student__card__name">Arne<br>Sneyers</h5>
             <p class="student__card__pitch"><?php echo $lang['Arne']; ?></p>
@@ -44,7 +44,7 @@
     </article>
 
     <article class="students__card">
-        <img class="students__card__img" src="burcu.jpg" alt="profile picture Burcu Avci">
+        <img class="students__card__img" src="img/students/burcu.jpg" alt="profile picture Burcu Avci">
         <section class="student__card__name__container">
             <h5 class="student__card__name">Burcu<br>Avci</h5>
             <p class="student__card__pitch"><?php echo $lang['Burcu']; ?></p>
@@ -57,7 +57,7 @@
     </article>
 
     <article class="students__card">
-        <img class="students__card__img" src="daniel.jpg" alt="profile picture Daniel Paz">
+        <img class="students__card__img" src="img/students/daniel.jpg" alt="profile picture Daniel Paz">
         <section class="student__card__name__container">
             <h5 class="student__card__name">Daniel<br>Paz</h5>
             <p class="student__card__pitch"><?php echo $lang['Daniel']; ?></p>
@@ -70,7 +70,7 @@
     </article>
 
     <article class="students__card">
-        <img class="students__card__img" src="img/students/erik.jpeg" alt="profile picture Erik Hendriks">
+        <img class="students__card__img" src="img/students/erik.jpg" alt="profile picture Erik Hendriks">
         <section class="student__card__name__container">
             <h5 class="student__card__name">Erik<br>Hendriks</h5>
             <p class="student__card__pitch"><?php echo $lang['Erik']; ?></p>
@@ -83,7 +83,7 @@
     </article>
 
     <article class="students__card">
-        <img class="students__card__img" src="geert.jpg" alt="profile picture Geert Rumen">
+        <img class="students__card__img" src="img/students/geert.jpg" alt="profile picture Geert Rumen">
         <section class="student__card__name__container">
             <h5 class="student__card__name">Geert<br>Rumen</h5>
             <p class="student__card__pitch"><?php echo $lang['Geert']; ?></p>
@@ -96,7 +96,7 @@
     </article>
 
     <article class="students__card">
-        <img class="students__card__img" src="mathijs.jpg" alt="profile picture Mathijs Reykers">
+        <img class="students__card__img" src="img/students/mathijs.jpg" alt="profile picture Mathijs Reykers">
         <section class="student__card__name__container">
         <h5 class="student__card__name">Mathijs<br>Reykers</h5>
         <p class="student__card__pitch"><?php echo $lang['Mathijs']; ?></p>
@@ -109,7 +109,7 @@
     </article>
 
     <article class="students__card">
-        <img class="students__card__img" src="miguel.jpg" alt="profile picture Miguel Duarte">
+        <img class="students__card__img" src="img/students/miguel.jpg" alt="profile picture Miguel Duarte">
         <section class="student__card__name__container">
         <h5 class="student__card__name">Miguel<br>Duarte</h5>
         <p class="student__card__pitch"><?php echo $lang['Miguel']; ?>.</p>
@@ -122,7 +122,7 @@
     </article>
 
     <article class="students__card">
-        <img class="students__card__img" src="wouter.jpg" alt="profile picture Wouter Swerts">
+        <img class="students__card__img" src="img/students/wouter.jpg" alt="profile picture Wouter Swerts">
         <section class="student__card__name__container">
         <h5 class="student__card__name">Wouter<br>Swerts</h5>
         <p class="student__card__pitch"><?php echo $lang['Wouter']; ?></p>
@@ -135,7 +135,7 @@
     </article>
 
     <article class="students__card">
-        <img class="students__card__img" src="yves.jpg" alt="profile picture Yves Kerkhofs">
+        <img class="students__card__img" src="img/students/yves.jpg" alt="profile picture Yves Kerkhofs">
         <section class="student__card__name__container">
             <h5 class="student__card__name">Yves<br>Kerkhofs</h5>
             <p class="student__card__pitch"><?php echo $lang['Yves']; ?></p>
