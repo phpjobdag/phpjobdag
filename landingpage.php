@@ -1,11 +1,12 @@
 <section id="top" class="landingpage">
-    <section class="header__section">
-        <h3 class="header__section__info"><?php echo $lang['introDate']; ?></h3>
-        <h1 class="header__section__title">PHP JOBDAG</h1>
-        <h4 class="header__section__subtitle"><?php echo $lang['intro1']; ?></h4>
-        <a href="#signup" class="header__section__registerlink"><?php echo $lang['intro2']; ?></a>
-        
-    </section>
+    <div class="margin__wrapper">
+        <section class="header__section">
+            <h3 class="header__section__info"><?php echo $lang['introDate']; ?></h3>
+            <h1 class="header__section__title">PHP JOBDAG</h1>
+            <h4 class="header__section__subtitle"><?php echo $lang['intro1']; ?></h4>
+            <a href="#signup" class="header__section__registerlink"><?php echo $lang['intro2']; ?></a>
+        </section>
+    </div>
 
     <section class="header__counter">
 
