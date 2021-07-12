@@ -54,9 +54,9 @@ $lang['agendaDes2'] = 'Next up is the Interview. This is the time to ask questio
 $lang['agendaDes3'] = 'Afterwards there will be time to evaluate the candidates and leave some feedback.';
 
 $lang['agendap1'] = 'Introductory presentation ';
-$lang['agendap2'] = 'A brief overview of the course';
+$lang['agendap2'] = 'A BRIEF OVERVIEW OF THE COURSE';
 $lang['agendap3'] = 'Interview Session';
-$lang['agendap4'] = 'You will be given 15 minutes to get to know each student';
+$lang['agendap4'] = 'YOU WILL BE GIVEN 15 MINUTES TO GET TO KNOW EACH STUDENT';
 $lang['agendap5'] = 'Feedback Moment';
 $lang['agendap6'] = 'Time for evaluation and Feedback';
 

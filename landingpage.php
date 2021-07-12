@@ -4,6 +4,7 @@
         <h1 class="header__section__title">PHP JOBDAG</h1>
         <h4 class="header__section__subtitle"><?php echo $lang['intro1']; ?></h4>
         <a href="#signup" class="header__section__registerlink"><?php echo $lang['intro2']; ?></a>
+        
     </section>
 
     <section class="header__counter">
