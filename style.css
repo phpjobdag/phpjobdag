@@ -535,6 +535,7 @@ body{
    position: relative;
    z-index: 10;
 	width: 50%;
+	align-self: flex-start;
 }
 
 .course__hard__title,
@@ -567,6 +568,11 @@ body{
 	flex-direction: column;
 	width: 50%;
 	/*align-items: center;*/
+}
+
+.remote-working,
+.course__hard__control{
+	margin-bottom: 3rem;
 }
 
 /* blok mag weg, wordt vervangen door .skill__title*/
