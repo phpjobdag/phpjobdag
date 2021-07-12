@@ -221,6 +221,11 @@ font-weight:600;
 
 .header__section {
 	padding-top: 3rem;
+	position: relative;
+	z-index:1;
+
+
+
 }
 
 .header__section__info {
@@ -257,7 +262,6 @@ font-weight:600;
 	background-color: white;
 	display: flex;
 	border-radius: 36px;
-	border: 3px solid #fbae3c;
 	align-items: center;
 	justify-content: center;
 	text-align: center;
@@ -267,6 +271,23 @@ font-weight:600;
 	text-decoration: none;
 	margin-left: 1rem;
 	margin-bottom: 3rem;
+
+	
+	
+}
+
+.header__section__registerlink:before {
+	content:"";
+width:256px;
+height:76px;
+background: linear-gradient(90deg, #FBAE3C -1.61%, #F65277 100%);
+border-radius:36px; 
+position:absolute;
+z-index:-1;
+
+
+
+;
 }
 
 .header__counter {
@@ -1478,6 +1499,16 @@ margin-bottom: 1rem;
 		 font-size: 1.75rem;
 		 width: 680px;
    }
+
+	.header__section__registerlink:hover {
+		background:linear-gradient(90deg, #FBAE3C -1.61%, #F65277 100%);
+		color: white;
+	}
+
+	.footer__register__form__submit:hover {
+		background:var(--prim-dark);
+
+	}
 
 	#nl, #eng{
       display:block;
