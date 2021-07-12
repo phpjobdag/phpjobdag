@@ -54,7 +54,7 @@ $lang['agendaDes3'] = 'Ter afsluiting hebben we een moment van evaluatie en refl
 $lang['agendap1'] = 'Introductie ';
 $lang['agendap2'] = 'EEN KORT EN BONDIG OVERZICHT VAN ONZE CURSUS';
 $lang['agendap3'] = 'Interview sessies';
-$lang['agendap4'] = 'U KRIJGT DE MOGELIJKHEID IEDERE STUDENT 15 MINUTEN TE INTERVIEWEN';
+$lang['agendap4'] = 'U KRIJGT 15 MINUTEN DE TIJD OM IEDERE STUDENT TE INTERVIEWEN ';
 $lang['agendap5'] = 'Feedback';
 $lang['agendap6'] = 'Tijd voor evaluatie en feedback';
 
