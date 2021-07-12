@@ -486,6 +486,7 @@ body{
 }
 
 .course__body {
+	text-align: center;
    /*font-style: normal;*/
    font-weight: 300;
    font-size: 1rem;
