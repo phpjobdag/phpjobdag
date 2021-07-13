@@ -84,7 +84,7 @@
 
     <article class="students__card">
 
-        <img class="students__card__img" src="img/students/Geert.jpg" alt="profile picture Geert Rumen">
+        <img class="students__card__img" src="img/students/geert.jpg" alt="profile picture Geert Rumen">
 
 
         <section class="student__card__name__container">
