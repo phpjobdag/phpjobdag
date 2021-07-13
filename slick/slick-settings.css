@@ -1,18 +1,30 @@
-@media(max-width: 1081px) {
+.nav-slider{
+    display: none;
+}
+
+@media(max-width: 1080px) {
     .slider {
         width: 100%;
         margin: 100px auto;
         z-index: 100;
     }
+    .nav-slider{
+        display: block;
+        margin: 30px auto;
+    }
 
     .slick-slide {
         margin: 0px 20px;
+        color: #FAFAFA;
+        font-weight: 200;
     }
 
     .slick-slide img {
         width: 100%;
     }
-
+    .students__card__social {
+        margin: 1.8rem 16px .5rem 16px;
+    }
     .slick-prev,
     .slick-next {
         z-index: 100;
@@ -23,16 +35,29 @@
         opacity: 1;
     }
 
-    .slick-slide {
+    .nav-slider .slick-slide {
         transition: all ease-in-out .3s;
         opacity: 1;
+        padding: 0;
+        margin: 0;
     }
 
     .slick-active {
         opacity: 1;
     }
+    .nav-slider .slick-current {
+        padding: 0;
+    }
 
     .slick-current {
         opacity: 1;
+    }
+    .nav-slider .slick-current article{
+        padding: 15px;
+        height: 20px;
+        width: 20px !important;
+        text-align: center;
+        background: #FBAE3C;
+        border-radius: 50%;
     }
 }

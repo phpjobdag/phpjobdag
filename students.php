@@ -150,7 +150,7 @@
             </section>
         </article>
         </section>
-        <section>
+        <section class="slider nav-slider">
             <article data-slick-index="0" class="slick-slide">1</article>
             <article data-slick-index="1" class="slick-slide">2</article>
             <article data-slick-index="2" class="slick-slide">3</article>
@@ -189,36 +189,30 @@
 
         function slickify(){
             $('.responsive').slick({
-                dots: true,
+                dots: false,
                 infinite: true,
                 centerMode: true,
+                arrows: false,
                 slidesToShow: 1,
                 slidesToScroll: 1,
+                asNavFor: '.nav-slider',
                 responsive: [
                     {
-                        breakpoint: 700,
+                        breakpoint: 650,
                         settings: {
                             slidesToShow: 1,
                             slidesToScroll: 1,
                         }
-
                     },
                     {
-                        breakpoint: 800,
+                        breakpoint: 950,
                         settings: {
                             slidesToShow: 2,
                             slidesToScroll: 1,
                         }
                     },
                     {
-                        breakpoint: 900,
-                        settings: {
-                            slidesToShow: 3,
-                            slidesToScroll: 1,
-                        }
-                    },
-                    {
-                        breakpoint: 1081,
+                        breakpoint: 1080,
                         settings: {
                             slidesToShow: 3,
                             slidesToScroll: 1,
@@ -230,39 +224,33 @@
                     }
                 ]
             });
-            $('.responsive').slick({
-                dots: true,
+            $('.nav-slider').slick({
                 infinite: true,
-                centerMode: true,
-                slidesToShow: 1,
+                slidesToShow: 5,
                 slidesToScroll: 1,
+                asNavFor: '.responsive',
+                focusOnSelect: true,
+                centerMode: true,
                 responsive: [
                     {
-                        breakpoint: 700,
+                        breakpoint: 650,
                         settings: {
-                            slidesToShow: 1,
+                            slidesToShow: 5,
                             slidesToScroll: 1,
                         }
 
                     },
                     {
-                        breakpoint: 800,
+                        breakpoint: 950,
                         settings: {
-                            slidesToShow: 2,
+                            slidesToShow: 5,
                             slidesToScroll: 1,
                         }
                     },
                     {
-                        breakpoint: 900,
+                        breakpoint: 1080,
                         settings: {
-                            slidesToShow: 3,
-                            slidesToScroll: 1,
-                        }
-                    },
-                    {
-                        breakpoint: 1081,
-                        settings: {
-                            slidesToShow: 3,
+                            slidesToShow: 7,
                             slidesToScroll: 1,
                         }
                     },
