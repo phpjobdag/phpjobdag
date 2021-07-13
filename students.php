@@ -175,27 +175,34 @@
                 dots: true,
                 infinite: true,
                 centerMode: true,
-                slidesToShow: 4,
-                slidesToScroll: 4,
+                slidesToShow: 1,
+                slidesToScroll: 1,
                 responsive: [
                     {
-                        breakpoint: 625,
-                        settings: {
-                            slidesToShow: 1,
-                            slidesToScroll: 1,
-                        }
-
+                        breakpoint: 9999,
+                        settings: "unslick"
                     },
                     {
                         breakpoint: 1081,
+                        settings: {
+                            slidesToShow: 3,
+                            slidesToScroll: 1,
+                        }
+                    },
+                    {
+                        breakpoint: 880,
                         settings: {
                             slidesToShow: 2,
                             slidesToScroll: 1,
                         }
                     },
                     {
-                        breakpoint: 5000,
-                        settings: "unslick"
+                        breakpoint: 600,
+                        settings: {
+                            slidesToShow: 1,
+                            slidesToScroll: 1,
+                        }
+
                     }
                 ]
             });

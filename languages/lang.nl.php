@@ -43,7 +43,7 @@ $lang['Geert'] = 'Nieuw in deze fascinerende wereld van development. Maar elke e
 $lang['Mathijs'] = 'Aspirerend full stack developer die voor eender welke uitdaging openstaat.';
 $lang['Miguel'] = 'Jong, ambitieus en gepassioneerd door het programmeren';
 $lang['Wouter'] = 'Wouter heeft na 12 jaar retail besloten om terug te keren naar zijn passie als webontwikkelaar. ';
-$lang['Yves'] = 'A bachelor in communication management upscaling his webdeveloping skills… Ready to rumble!';
+$lang['Yves'] = 'A bachelor in communication management upscaling his webdeveloping skills. Ready to rumble!';
 
 // Agenda
 $lang['agendaTitle'] = 'BEKIJK HET PROGRAMMA';
