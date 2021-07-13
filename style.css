@@ -15,10 +15,14 @@
 #agenda__wrapper,
 #course__wrapper,
 #footer__wrapper,
-.student__wrapper,
 #agenda__intro__wrapper{
 	margin: auto!important;
 	max-width: 1080px!important;
+}
+
+.student__wrapper{
+	margin: auto!important;
+	min-width: 600px!important;
 }
 
 .agenda__title,
@@ -1038,9 +1042,9 @@ margin-bottom: 1rem;
 	
 }
 
-.students__card:nth-of-type(1) {
-	display: block;
-}
+/*.students__card:nth-of-type(1) {*/
+/*	display: block;*/
+/*}*/
 
 .students__card__img {
 	width: 100%;
@@ -1271,8 +1275,67 @@ margin-bottom: 1rem;
 /*.footer__info__team__list__name {*/
 /*	font-size: 1rem;*/
 /*}*/
+@media only screen and (min-width: 600px) {
+	/* student desktop */
+	  .students {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: flex-end;
+      gap:2rem;
+		padding-bottom: 12rem;
+   }
+	.student__wrapper{
+      gap:2rem;
+	}
+
+	.students__card {
+		display: flex !important;
+		width: 499px;
+		height: 250px;
+		margin: 0;
+		flex-direction: row;
+	}
+
+	.students__card__img {
+		width: 50%;
+		height: 100%;
+	}
 
 
+	.student__card__name__container {
+		width: 50%;
+	}
+
+	.students__title {
+		width: 100%;
+	}
+
+
+	.students__quote {
+		width: 100%;
+		text-align: center;
+		font-size: 1.75rem;
+	}
+
+   .students__card__img{
+      width:50%;
+      height:100%;
+   }
+
+
+   .student__card__name__container{
+      width:50%;
+   }
+	 .student__wrapper{
+	   /*width:1080px;*/
+	  justify-content: center;
+	   flex-direction: row;
+	   flex-wrap: wrap;
+	   display: flex;
+	}
+}
 
 /* mediaquery */
 @media only screen and (min-width: 1080px) {
@@ -1452,58 +1515,58 @@ margin-bottom: 1rem;
 
    }
 
-	/* student desktop */
-	  .students {
-      display: flex;
-      flex-direction: row;
-      flex-wrap: wrap;
-      justify-content: center;
-      align-items: flex-end;
-      gap:2rem;
-		padding-bottom: 12rem;
-   }
-	.student__wrapper{
-      gap:2rem;
-	}
+	/*!* student desktop *!*/
+	/*  .students {*/
+   /*   display: flex;*/
+   /*   flex-direction: row;*/
+   /*   flex-wrap: wrap;*/
+   /*   justify-content: center;*/
+   /*   align-items: flex-end;*/
+   /*   gap:2rem;*/
+	/*	padding-bottom: 12rem;*/
+   /*}*/
+	/*.student__wrapper{*/
+   /*   gap:2rem;*/
+	/*}*/
 
-	.students__card {
-		display: flex !important;
-		width: 499px;
-		height: 250px;
-		margin: 0;
-		flex-direction: row;
-	}
+	/*.students__card {*/
+	/*	display: flex !important;*/
+	/*	width: 499px;*/
+	/*	height: 250px;*/
+	/*	margin: 0;*/
+	/*	flex-direction: row;*/
+	/*}*/
 
-	.students__card__img {
-		width: 50%;
-		height: 100%;
-	}
-
-
-	.student__card__name__container {
-		width: 50%;
-	}
-
-	.students__title {
-		width: 100%;
-	}
+	/*.students__card__img {*/
+	/*	width: 50%;*/
+	/*	height: 100%;*/
+	/*}*/
 
 
-	.students__quote {
-		width: 100%;
-		text-align: center;
-		font-size: 1.75rem;
-	}
+	/*.student__card__name__container {*/
+	/*	width: 50%;*/
+	/*}*/
 
-   .students__card__img{
-      width:50%;
-      height:100%;
-   }
+	/*.students__title {*/
+	/*	width: 100%;*/
+	/*}*/
 
 
-   .student__card__name__container{
-      width:50%;
-   }
+	/*.students__quote {*/
+	/*	width: 100%;*/
+	/*	text-align: center;*/
+	/*	font-size: 1.75rem;*/
+	/*}*/
+
+   /*.students__card__img{*/
+   /*   width:50%;*/
+   /*   height:100%;*/
+   /*}*/
+
+
+   /*.student__card__name__container{*/
+   /*   width:50%;*/
+   /*}*/
 
 
 
@@ -1868,14 +1931,20 @@ margin-bottom: 1rem;
 
    #agenda__wrapper,
    /*#course__wrapper,*/
-   #footer__wrapper,
-   .student__wrapper{
+   #footer__wrapper{
       /*width:1080px;*/
      justify-content: center;
       flex-direction: row;
       flex-wrap: wrap;
       display: flex;
    }
+   /* .student__wrapper{*/
+   /*   !*width:1080px;*!*/
+   /*  justify-content: center;*/
+   /*   flex-direction: row;*/
+   /*   flex-wrap: wrap;*/
+   /*   display: flex;*/
+   /*}*/
 
 	/*#course__wrapper{*/
 	/*	display: flex;*/
@@ -1967,6 +2036,7 @@ margin-bottom: 1rem;
       height: 845px;
    }
 }
+
 @media only screen and (max-width: 540px){
 	.desk__break{
 		display:none;

@@ -183,13 +183,13 @@
                         breakpoint: 9999,
                         settings: "unslick"
                     },
-                    {
-                        breakpoint: 1080,
-                        settings: {
-                            slidesToShow: 2,
-                            slidesToScroll: 1,
-                        }
-                    },
+                    // {
+                    //     breakpoint: 1080,
+                    //     settings: {
+                    //         slidesToShow: 2,
+                    //         slidesToScroll: 1,
+                    //     }
+                    // },
                     {
                         breakpoint: 600,
                         settings: {
@@ -204,7 +204,7 @@
         slickify();
         $(window).resize(function(){
             let $windowWidth = $(window).width();
-            if ($windowWidth < 1080) {
+            if ($windowWidth < 601) {
                 slickify();
             }
         });
