@@ -13,7 +13,7 @@
          <div class="skills__wrapper__flex">
              <!--  HARD SKILLS SECTION   -->
              <section class="course__hard">
-                 <h3 class="course__hard__title">Hard<br>Skills</h3>
+<!--                 <h3 class="course__hard__title">Hard<br>Skills</h3>-->
 
                  <!--  FRONT AND BACK END DEVELOPMENT SECTION  -->
                  <section class="course_hard_front_back">
@@ -44,7 +44,14 @@
                  </section>
                  <!--  END OF FRONT AND BACK END SECTION  -->
 
-                 <!--  FRONT AND BACK END SECTION  -->
+
+             </section>
+             <!--    END OF HARD SKILLS SECTION   -->
+
+
+             <!--    SOFT SKILLS SECTION     -->
+             <section class="course__soft margBot0">
+<!--                 <h3 class="course__soft__title">Soft<br>Skills</h3>-->
                  <section class="course__hard__edit__control">
                      <article class="course__hard__edit">
                          <h6 class="course__hard__edit__title skill__title">Code<br> editors</h6>
@@ -61,15 +68,6 @@
 
                      </article>
                  </section>
-
-             </section>
-             <!--    END OF HARD SKILLS SECTION   -->
-
-
-             <!--    SOFT SKILLS SECTION     -->
-             <section class="course__soft margBot0">
-                 <h3 class="course__soft__title">Soft<br>Skills</h3>
-
                  <section class="agile__remote">
                      <article class="agile-method">
 
@@ -81,10 +79,13 @@
                          <h6 class="course__soft__remote__title skill__title">Remote<br> Working</h6>
                          <a href="<?php echo $lang['HardSkillZOOM']; ?>" target="_blank"><img class="course__soft__remote__img logo__zoom" src="img/skills__zoom.svg" alt="zoom logo"></a>
                          <a href="<?php echo $lang['HardSkillSLACK']; ?>" target="_blank"><img class="course__soft__remote__img slack" src="img/skills__slack.svg" alt="slack logo"></a>
-                         <a href="<?php echo $lang['HardSkillDISCORD']; ?>" target="_blank"><img class="course__soft__remote__img" src="img/skills__discord.svg" alt="discord logo"></a>
+<!--                         <a href="--><?php //echo $lang['HardSkillDISCORD']; ?><!--" target="_blank"><img class="course__soft__remote__img" src="img/skills__discord.svg" alt="discord logo"></a>-->
 
                      </article>
                  </section>
+                 <!--  FRONT AND BACK END SECTION  -->
+
+
              </section>
              <!--  END OF SOFT SKILLS SECTION -->
 

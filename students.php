@@ -179,8 +179,26 @@
                 slidesToScroll: 1,
                 responsive: [
                     {
-                        breakpoint: 9999,
-                        settings: "unslick"
+                        breakpoint: 700,
+                        settings: {
+                            slidesToShow: 1,
+                            slidesToScroll: 1,
+                        }
+
+                    },
+                    {
+                        breakpoint: 800,
+                        settings: {
+                            slidesToShow: 2,
+                            slidesToScroll: 1,
+                        }
+                    },
+                    {
+                        breakpoint: 900,
+                        settings: {
+                            slidesToShow: 3,
+                            slidesToScroll: 1,
+                        }
                     },
                     {
                         breakpoint: 1081,
@@ -190,19 +208,8 @@
                         }
                     },
                     {
-                        breakpoint: 880,
-                        settings: {
-                            slidesToShow: 2,
-                            slidesToScroll: 1,
-                        }
-                    },
-                    {
-                        breakpoint: 600,
-                        settings: {
-                            slidesToShow: 1,
-                            slidesToScroll: 1,
-                        }
-
+                        breakpoint: 9999,
+                        settings: "unslick"
                     }
                 ]
             });
