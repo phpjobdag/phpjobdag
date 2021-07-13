@@ -12,7 +12,7 @@
             <section class="students__card__social">
                 <a class="students__card__social__item" href=""><img class="students__card__social__item__img" src="img/card__cv.svg" alt="cv icon"></a>
                 <a class="students__card__social__item" href=""><img class="students__card__social__item__img" src="img/card__website.svg" alt="website icon"></a>
-                <a class="students__card__social__item" href="https://www.linkedin.com/in/aa-decoz/"><img class="students__card__social__item__img" src="img/card__linkedin.svg" alt="linkedin icon"></a>
+                <a class="students__card__social__item" href="https://www.linkedin.com/in/aa-decoz/" target="_blank"><img class="students__card__social__item__img" src="img/card__linkedin.svg" alt="linkedin icon"></a>
             </section>
         </section>
     </article>
@@ -101,9 +101,9 @@
         <h5 class="student__card__name">Mathijs Reykers</h5>
         <p class="student__card__pitch"><?php echo $lang['Mathijs']; ?></p>
             <section class="students__card__social">
-                <a class="students__card__social__item" href="http://users.telenet.be/mReykersCv/cv/"><img class="students__card__social__item__img" src="img/card__cv.svg" alt="cv icon"></a>
+                <a class="students__card__social__item" href="http://users.telenet.be/mReykersCv/cv/" target="_blank"><img class="students__card__social__item__img" src="img/card__cv.svg" alt="cv icon"></a>
                 <!-- <a class="students__card__social__item" href=""><img class="students__card__social__item__img" src="img/card__website.svg" alt="website icon"></a> -->
-                <a class="students__card__social__item" href="https://www.linkedin.com/in/mathijs-reykers"><img class="students__card__social__item__img" src="img/card__linkedin.svg" alt="linkedin icon"></a>
+                <a class="students__card__social__item" href="https://www.linkedin.com/in/mathijs-reykers" target="_blank"><img class="students__card__social__item__img" src="img/card__linkedin.svg" alt="linkedin icon"></a>
             </section>
         </section>
     </article>
@@ -127,9 +127,9 @@
         <h5 class="student__card__name">Wouter Swerts</h5>
         <p class="student__card__pitch"><?php echo $lang['Wouter']; ?></p>
             <section class="students__card__social">
-                <a class="students__card__social__item" href="http://users.telenet.be/wouterswerts/cv/cv.php"><img class="students__card__social__item__img" src="img/card__cv.svg" alt="cv icon"></a>
-                <a class="students__card__social__item" href="http://users.telenet.be/wouterswerts/index.php"><img class="students__card__social__item__img" src="img/card__website.svg" alt="website icon"></a>
-                <a class="students__card__social__item" href="https://www.linkedin.com/in/wouter-swerts"><img class="students__card__social__item__img" src="img/card__linkedin.svg" alt="linkedin icon"></a>
+                <a class="students__card__social__item" href="http://users.telenet.be/wouterswerts/cv/cv.php" target="_blank"><img class="students__card__social__item__img" src="img/card__cv.svg" alt="cv icon"></a>
+                <a class="students__card__social__item" href="http://users.telenet.be/wouterswerts/index.php" target="_blank"><img class="students__card__social__item__img" src="img/card__website.svg" alt="website icon"></a>
+                <a class="students__card__social__item" href="https://www.linkedin.com/in/wouter-swerts" target="_blank"><img class="students__card__social__item__img" src="img/card__linkedin.svg" alt="linkedin icon"></a>
             </section>
         </section>
     </article>
