@@ -39,6 +39,8 @@ if($lang["lang"]=="en"){
         </div>
         </nav>
 
+<!--    NAVIGATIE MOBIEL     -->
+
         <nav class="header__mobile">
             <a href="#footer"><input type="button" value="<?php echo $lang['intro2']; ?>" class="header__mobile__button"></a>
             <i class="fas fa-bars header__mobile__hamburger" id="navknop"></i>           
@@ -55,6 +57,9 @@ if($lang["lang"]=="en"){
                 
             </section>
         </section>
+
+
+<!--    EINDE NAVIGATIE MOBIEL     -->
 
         <script>
             // open,close menu
