@@ -1,13 +1,19 @@
-<section class="landingpage">
-    <section class="header__section">
-        <h3 class="header__section__info">26 August 2021, online</h3>
-        <h1 class="header__section__title">PHP JOBDAG</h1>
-        <h4 class="header__section__subtitle"><?php echo $lang['intro1']; ?></h4>
-        <a href="#signup" class="header__section__registerlink"><?php echo $lang['intro2']; ?></a>
-    </section>
+<section id="top" class="landingpage">
+    <div class="margin__wrapper">
+        <section class="header__section">
+            <h3 class="header__section__info"><?php echo $lang['introDate']; ?></h3>
+            <h1 class="header__section__title">PHP JOBDAG</h1>
+            <h4 class="header__section__subtitle"><?php echo $lang['intro1']; ?></h4>
+            <a href="#signup" class="header__section__registerlink"><?php echo $lang['intro2']; ?></a>
+        </section>
+    </div>
 
     <section class="header__counter">
 
+        <h3 class="header__counter__text">
+         <?php echo $lang['counterText']; ?>    
+        </h3>
+        <section class="header__counter__wrapper">
         <article class="header__counter__box">
             <h3 class="header__counter__box__time" id="days"></h3>
             <h3 class="header__counter__box__unit"><?php echo $lang['counter1']; ?></h3>
@@ -27,10 +33,11 @@
             <h3 class="header__counter__box__time" id="seconds"></h3>
             <h3 class="header__counter__box__unit"><?php echo $lang['counter4']; ?></h3>
         </article>
-
+    </section>
+</section>
         <!-- Countdown Script -->
         <script>
-            let countDownDate = <?php echo strtotime('Aug 26, 2021 09:37:25') ?> * 1000;
+            let countDownDate = <?php echo strtotime('Aug 26, 2021 07:00:00') ?> * 1000;
             let now = <?php echo time() ?> * 1000;
 
             let x = setInterval(function() {

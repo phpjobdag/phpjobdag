@@ -14,7 +14,7 @@ $lang['lang'] = 'nl';
 $lang['h1'] = 'English title';
 
 // Nav
-$lang['nav1'] = 'Hoofpagina';
+$lang['nav1'] = 'Hoofdpagina';
 $lang['nav2'] = 'Studenten';
 $lang['nav3'] = 'Programma';
 $lang['nav4'] = 'Cursus';
@@ -22,9 +22,10 @@ $lang['nav4'] = 'Cursus';
 // Intro
 $lang['introDate'] = '26 augustus 2021, online';
 $lang['intro1'] = 'Webontwikkelaars maken kennis met werkgevers ';
-$lang['intro2'] = 'Meld je aan!';
+$lang['intro2'] = 'MELD JE AAN';
 
 // Counter
+$lang['counterText'] = 'Tel elke seconde tot het event';  
 $lang['counter1'] = 'Dagen';
 $lang['counter2'] = 'Uren';
 $lang['counter3'] = 'Minuten';
@@ -37,7 +38,7 @@ $lang['Anastasya'] = 'Kleine full stack developer met grote ambitie om één van
 $lang['Arne'] = 'Ontwikkelaar op zoek naar mogelijkheden om mezelf te ontwikkelen.';
 $lang['Burcu'] = 'Doorgewinterde ontwerper. Aspirant ontwikkelaar. Op weg naar full-stack digital designer.';
 $lang['Daniel'] = 'Géén copywriter.';
-$lang['Erik'] = 'Goede kennis van programmeer talen, zoals PHP, Python, Javascript, SQL, Java, CSS, HTML';
+$lang['Erik'] = 'Goede kennis van programmeer talen zoals PHP, Python, Javascript, SQL, Java, CSS, HTML, Spark';
 $lang['Geert'] = 'Nieuw in deze fascinerende wereld van development. Maar elke expert was ooit een beginner.';
 $lang['Mathijs'] = 'Aspirerend full stack developer die voor eender welke uitdaging openstaat.';
 $lang['Miguel'] = 'Jong, ambitieus en gepassioneerd door het programmeren';
@@ -47,20 +48,20 @@ $lang['Yves'] = 'A bachelor in communication management upscaling his webdevelop
 // Agenda
 $lang['agendaTitle'] = 'BEKIJK HET PROGRAMMA';
 $lang['agendaDes1'] = 'Allereerst krijgt u een kort en bondig overzicht van de vaardigheden en capaciteiten die wij verworven hebben gedurende de cursus.';
-$lang['agendaDes2'] = 'Vervolgens het interview. Dit is het moment om vragen te stellen, en de vaardigheden en talenten van de kandidaten op te merken zodoende kunt u de geschikte kandidaat voor uw organisatie kiezen. U krijgt 15 minuten voor iedere kandidaat te ondervragen gedurende het interview. Houd uw vragen paraat.';
+$lang['agendaDes2'] = 'Vervolgens het interview. Dit is het moment om vragen te stellen, en de vaardigheden en talenten van de kandidaten op te merken zodoende kunt u de geschikte kandidaat voor uw organisatie kiezen. U krijgt 15 minuten voor iedere kandidaat te ondervragen gedurende het interview. Houd uw vragen alvast klaar.';
 $lang['agendaDes3'] = 'Ter afsluiting hebben we een moment van evaluatie en reflectie zowel voor de kandidaat als de interviewer.';
 
 $lang['agendap1'] = 'Introductie ';
-$lang['agendap2'] = 'Een kort en bondig overzicht van onze cursus';
+$lang['agendap2'] = 'EEN KORT EN BONDIG OVERZICHT VAN ONZE CURSUS';
 $lang['agendap3'] = 'Interview sessies';
-$lang['agendap4'] = 'U krijgt de mogelijkheid iedere student te interviewen voor 15 minuten.';
+$lang['agendap4'] = 'U KRIJGT 15 MINUTEN DE TIJD OM IEDERE STUDENT TE INTERVIEWEN ';
 $lang['agendap5'] = 'Feedback';
 $lang['agendap6'] = 'Tijd voor evaluatie en feedback';
 
 // Course
 $lang['courseTitle'] = 'BEKIJK DE CURSUS';
 $lang['courseBody1'] = 'Door toedoen van de pandemie vond onze cursus volledig online plaats. Samen op afstand werken is een van eerste vaardigheden die we hebben ontwikkeld.';
-$lang['courseBody2'] = 'De afgelopen maanden hebben wij veel kennis en vaardigheden opgedaan. In een relatief kort tijdsbestek hebben wij een sterk fundament op weten te bouwen voor ons toekomstig functioneren als webdevelopers.';
+$lang['courseBody2'] = 'De afgelopen maanden hebben wij veel kennis en vaardigheden opgedaan. In een relatief kort tijdsbestek hebben wij een sterk fundament weten op te bouwen voor ons toekomstig functioneren als webdevelopers.';
 $lang['courseBody3'] = 'Doorheen de cursus hebben wij <b>GitHub</b> en <b>GitLab</b> gebruikt voor versiebeheer, <b>Visual Studio Code</b> en <b>PHPStorm</b> als code editors en voor Agile Project Management hebben we <b>Trello</b> gebruikt. '; // Waarom staat deze informatie onder de kaders Hard-skills en softskills? //
 
 // Front-end Links
@@ -85,7 +86,7 @@ $lang['HardSkillPHPS'] = 'https://translate.google.com/translate?js=n&sl=auto&tl
 $lang['HardSkillGITHUB'] = 'https://nl.wikipedia.org/wiki/GitHub';
 $lang['HardSkillGITLAB'] = 'https://nl.wikipedia.org/wiki/GitLab';
 
-$lang['HardSkillTRELLO'] = 'https://www.atlassian.com/nl/software/trello';
+$lang['HardSkillTRELLO'] = 'https://translate.google.com/translate?js=n&sl=auto&tl=nl&u=https://en.wikipedia.org/wiki/Trello';
 
 $lang['HardSkillZOOM'] = 'https://nl.wikipedia.org/wiki/Zoom_Video_Communications';
 $lang['HardSkillSLACK'] = 'https://nl.wikipedia.org/wiki/Slack_(software)';
@@ -94,7 +95,7 @@ $lang['HardSkillDISCORD'] = 'https://nl.wikipedia.org/wiki/Discord_(software)';
 // Footer
 $lang['footerTitle'] = 'RESERVEER UW PLAATS';
 $lang['footerSubtitle'] = 'Vul uw gegevens in<br> en reserveer uw plaats!';
-$lang['footerBody1'] = 'Het evenement zal volledig op afstand plaatsvinden.';
+$lang['footerBody1'] = 'Het evenement zal volledig online plaatsvinden.';
 $lang['footerBody2'] = 'Datum: 26 augustus 2021';
 $lang['footerBody3'] = 'Nadat uw registratie goedgekeurd is voorzien wij u van een link<br class="desk__break">  en een paswoord om deel te nemen aan het evenement.';
 $lang['footerBody4'] = 'Wij hopen u spoedig te mogen ontmoeten.';
@@ -115,7 +116,7 @@ $lang['formSubmit'] = 'Registreer';
 
 $lang['footerThank1'] = 'Dankwoord';
 $lang['footerThank2'] = 'Wij zouden graag een woord van dank richten aan onze lesgevers. Zij hebben ons de afgelopen maanden de nodige kennis en vaardigheden bijgebracht. Zij zijn medeverantwoordelijk voor onze omvorming tot ontwikkelaars. Bij deze Tim, Sarah, Anke en Yannick. Dank jullie wel!';
-$lang['footerMade'] = 'Deze site werd gemaakt met:';
+$lang['footerMade'] = 'Deze site werd gemaakt met';
 
 $lang['FootPartnerMULTIMEDI'] = 'https://www.multimedi.be/';
 $lang['FootPartnerCEVORA'] = 'https://www.cevora.be/';

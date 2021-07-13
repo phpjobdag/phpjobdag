@@ -1,0 +1,38 @@
+@media(max-width: 1081px) {
+    .slider {
+        width: 100%;
+        margin: 100px auto;
+        z-index: 100;
+    }
+
+    .slick-slide {
+        margin: 0px 20px;
+    }
+
+    .slick-slide img {
+        width: 100%;
+    }
+
+    .slick-prev,
+    .slick-next {
+        z-index: 100;
+    }
+    .slick-prev:before,
+    .slick-next:before {
+        color: #FBAE3C;
+        opacity: 1;
+    }
+
+    .slick-slide {
+        transition: all ease-in-out .3s;
+        opacity: 1;
+    }
+
+    .slick-active {
+        opacity: 1;
+    }
+
+    .slick-current {
+        opacity: 1;
+    }
+}

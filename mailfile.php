@@ -1,15 +1,15 @@
 <?php
 
-error_reporting(E_ALL); ini_set('display_errors', 1);
+//error_reporting(E_ALL); ini_set('display_errors', 1);
 $error = "";
-$companyname = $name = $email = $telephone = $morning = $afternoon = $day = $platform = $link = $questions = "";
+$companyname = $name = $email = $telephone = $availability = $questions = "";
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    print_r($_POST);
-    echo "xxcerror ";
+    //print_r($_POST);
+//    echo "xxcerror ";
     //COMPANY
     if (empty($_POST['companyname'])) {
-        echo "cerror ";
+//        echo "cerror ";
         //$error['company-name'] = "Please enter your company name.";
 
     } else {
@@ -18,7 +18,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     //NAME
     if (empty($_POST['name'])) {
-        echo "nerror ";
+//        echo "nerror ";
         //$error['name'] = "Please enter your name.";
 
     } else {
@@ -27,7 +27,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     //EMAIL
     if (empty($_POST["email"])) {
-        echo "eerror ";
+//        echo "eerror ";
         //$error['email'] = "Please enter a valid email address.";
 
     } else {
@@ -39,7 +39,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     //PHONE
     if (empty($_POST["telephone"])) {
-        echo "perror ";
+//        echo "perror ";
         //$error['telephone'] = "Please enter your message. It should have at least 99 characters.";
     
     } else {
@@ -47,24 +47,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 
     //Availability
-    if (!empty($_POST["morning"])) {
-        $morning = $_POST["morning"];
-    }
-
-    if (!empty($_POST["afternoon"])) {
-        $afternoon = $_POST["afternoon"];
-    }
-
-    if (!empty($_POST["day"])) {
-        $day = $_POST["day"];
-    }
-
-    if (!empty($_POST["platform"])) {
-        $platform = $_POST["platform"];
-    }
-
-    if (!empty($_POST["link"])) {
-        $link = $_POST["link"];
+    if (!empty($_POST["availability"])) {
+        $availability = $_POST["availability"];
     }
 
     if (!empty($_POST["questions"])) {
@@ -124,23 +108,51 @@ $mail->Subject = 'Een email van phpjobdag 2021';
 //Replace the plain text body with one created manually
 $mail->Body = "
 hallo
-naam $name
-$companyname
-$email
-$telephone
-$morning
-$afternoon
-$day
-$platform
-$link
-$questions
+naam:               $name
+bedrijf:            $companyname
+email:              $email
+telefoon:           $telephone
+beschikbaarheid:    $availability
+vragen:             $questions
+
+$name, $companyname, $email, $telephone, $availability, $questions
 ";
 //Attach an image file
 //$mail->addAttachment('images/phpmailer_mini.png');
 //send the message, check for errors
 if (!$mail->send()) {
-    echo "Mailer Error: " . $mail->ErrorInfo;
+    //echo "Mailer Error: " . $mail->ErrorInfo;
 } else {
-    echo "Message sent!";
+    //echo "Message sent!";
 }
 ?>
+
+<?php include_once "./common.php"; ?>
+<!DOCTYPE html>
+<html lang=<?php echo $lang['lang']; ?>>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="refresh" content="5; url=https://www.phpjobdag.be">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="PHP Jobdag development">
+    <title>Jobdag</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous" />
+</head>
+
+<body style="background-color: #BA6EC6;">
+
+<h1 style="text-align: center;margin-top:5%;">
+    Bedankt, we laten zo snel mogelijk iets weten<br>
+    Thank you, You will hear from us asap.
+</h1>
+
+</body>
+</html>
