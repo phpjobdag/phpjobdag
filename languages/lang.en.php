@@ -25,7 +25,7 @@ $lang['intro1'] = 'Web developers meet with employers';
 $lang['intro2'] = 'SIGN-UP';
 
 // Counter
-$lang['counterText'] = 'Count every second<br> until the event';
+$lang['counterText'] = 'Count every second until the event';
 $lang['counter1'] = 'Days';
 $lang['counter2'] = 'Hours';
 $lang['counter3'] = 'Minutes';
@@ -101,7 +101,7 @@ $lang['footerTitle'] = 'Save your spot';
 $lang['footerSubtitle'] = 'Fill in your details<br> and save your spot!';
 $lang['footerBody1'] = 'This event is fully remote.<br>';
 $lang['footerBody2'] = 'Date: 26 August 2021';
-$lang['footerBody3'] = 'After your registration is approved we will<br> provide you with a meeting link and a password for the event.';
+$lang['footerBody3'] = 'After your registration is approved we will provide you with a meeting link and a password for the event.';
 $lang['footerBody4'] = 'We are looking forward to hearing from you.';
 $lang['footerDate'] = 'Date: 26 August 2021';
 
