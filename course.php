@@ -26,7 +26,6 @@
                          <a href="<?php echo $lang['HardSkillBS']; ?>" target="_blank"><img class="course__hard__front__img" src="img/skills__bootstrap.svg" alt="bootstrap logo"></a>
                          <a href="<?php echo $lang['HardSkillANGULAR'];  ?>" target="_blank"><img class="course__hard__front__img" src="img/skills__angular.svg" alt="angular logo"></a>
 
-
                      </article>
 
                      <article class="course__hard__back">
@@ -37,17 +36,12 @@
                          <a href="<?php echo $lang['HardSkillWAMP']; ?>" target="_blank"><img class="course__hard__back__img" src="img/skills__wamp.svg" alt="WAMP logo"></a>
                          <a href="<?php echo $lang['HardSkillLARAVEL']; ?>" target="_blank"><img class="course__hard__back__img" src="img/skills__laravel.svg" alt="Laravel logo"></a>
 
-
-
-
                      </article>
                  </section>
                  <!--  END OF FRONT AND BACK END SECTION  -->
 
-
              </section>
              <!--    END OF HARD SKILLS SECTION   -->
-
 
              <!--    SOFT SKILLS SECTION     -->
              <section class="course__soft margBot0">
@@ -68,6 +62,7 @@
 
                      </article>
                  </section>
+
                  <section class="agile__remote">
                      <article class="agile-method">
 
@@ -84,8 +79,6 @@
                      </article>
                  </section>
                  <!--  FRONT AND BACK END SECTION  -->
-
-
              </section>
              <!--  END OF SOFT SKILLS SECTION -->
 
@@ -94,7 +87,7 @@
 
 
     <svg id="course__blob__yellow__bottom" viewBox="0 -7 1389 1310">
-    <path class="yellow" d="M0 0C150.092 79.1279 300.183 158.525 484.801 205.894C669.705 253.263 889.135 268.604 982.158 383.528C1075.18 498.721 1042.08 713.497 1088.88 884.671C1135.39 1055.58 1262.08 1182.61 1388.77 1309.92H0V0Z" fill="#FBAE3C"/>
+        <path class="yellow" d="M0 0C150.092 79.1279 300.183 158.525 484.801 205.894C669.705 253.263 889.135 268.604 982.158 383.528C1075.18 498.721 1042.08 713.497 1088.88 884.671C1135.39 1055.58 1262.08 1182.61 1388.77 1309.92H0V0Z" fill="#FBAE3C"/>
     </svg>
 
 </section>
