@@ -220,13 +220,13 @@
 
         slickify();
         $(window).resize(function(){
-            var $windowWidth = $(window).width();
+            let $windowWidth = $(window).width();
             if ($windowWidth < 1081) {
                 slickify();
             }
         });
 
-        var slicknumbers = document.getElementbyClassName("slide");
+        // var slicknumbers = document.getElementbyClassName("slide");
     </script>
 
 </section>
