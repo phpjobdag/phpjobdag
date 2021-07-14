@@ -10,8 +10,8 @@
             <h5 class="student__card__name"> Alexander</br>Decoz</h5>
             <p class="student__card__pitch"><?php echo $lang['Alexander']; ?></p>
             <section class="students__card__social">
-                <a class="students__card__social__item" href=""><img class="students__card__social__item__img" src="img/card__cv.svg" alt="cv icon"></a>
-                <a class="students__card__social__item" href=""><img class="students__card__social__item__img" src="img/card__website.svg" alt="website icon"></a>
+<!--                <a class="students__card__social__item" href="" target="_blank"><img class="students__card__social__item__img" src="img/card__cv.svg" alt="cv icon"></a>-->
+<!--                <a class="students__card__social__item" href="" target="_blank"><img class="students__card__social__item__img" src="img/card__website.svg" alt="website icon"></a>-->
                 <a class="students__card__social__item" href="https://www.linkedin.com/in/aa-decoz/" target="_blank"><img class="students__card__social__item__img" src="img/card__linkedin.svg" alt="linkedin icon"></a>
             </section>
         </section>
@@ -23,8 +23,8 @@
             <h5 class="student__card__name">Anastasya<br>Ovchar</h5>
             <p class="student__card__pitch"><?php echo $lang['Anastasya']; ?></p>
             <section class="students__card__social">
-                <!-- <a class="students__card__social__item" href=""><img class="students__card__social__item__img" src="img/card__cv.svg" alt="cv icon"></a>
-                <a class="students__card__social__item" href=""><img class="students__card__social__item__img" src="img/card__website.svg" alt="website icon"></a> -->
+                <!-- <a class="students__card__social__item" href="" target="_blank"><img class="students__card__social__item__img" src="img/card__cv.svg" alt="cv icon"></a>
+                <a class="students__card__social__item" href="" target="_blank"><img class="students__card__social__item__img" src="img/card__website.svg" alt="website icon"></a> -->
                 <a class="students__card__social__item" href="https://www.linkedin.com/in/anovchar" target="_blank"><img class="students__card__social__item__img" src="img/card__linkedin.svg" alt="linkedin icon"></a>
                 </section>
             </section>
@@ -36,9 +36,9 @@
             <h5 class="student__card__name">Arne<br>Sneyers</h5>
             <p class="student__card__pitch"><?php echo $lang['Arne']; ?></p>
             <section class="students__card__social">
-                <!--a class="students__card__social__item" href=""><img class="students__card__social__item__img" src="img/card__cv.svg" alt="cv icon"></a>
-                <a class="students__card__social__item" href=""><img class="students__card__social__item__img" src="img/card__website.svg" alt="website icon"></a-->
-                <a class="students__card__social__item" href="https://www.linkedin.com/in/arne-sneyers-45a3a449/"><img class="students__card__social__item__img" src="img/card__linkedin.svg" alt="linkedin icon"></a>
+                <!--a class="students__card__social__item" href="" target="_blank"><img class="students__card__social__item__img" src="img/card__cv.svg" alt="cv icon"></a>
+                <a class="students__card__social__item" href="" target="_blank"><img class="students__card__social__item__img" src="img/card__website.svg" alt="website icon"></a-->
+                <a class="students__card__social__item" href="https://www.linkedin.com/in/arne-sneyers-45a3a449/" target="_blank"><img class="students__card__social__item__img" src="img/card__linkedin.svg" alt="linkedin icon"></a>
             </section>
         </section>
     </article>
@@ -49,9 +49,9 @@
             <h5 class="student__card__name">Burcu<br>Avci</h5>
             <p class="student__card__pitch"><?php echo $lang['Burcu']; ?></p>
             <section class="students__card__social">
-                <a class="students__card__social__item" href="https://burcuavci.com/resume"><img class="students__card__social__item__img" src="img/card__cv.svg" alt="cv icon"></a>
-                <a class="students__card__social__item" href="https://burcuavci.com/"><img class="students__card__social__item__img" src="img/card__website.svg" alt="website icon"></a>
-                <a class="students__card__social__item" href="https://www.linkedin.com/in/burcuavci/"><img class="students__card__social__item__img" src="img/card__linkedin.svg" alt="linkedin icon"></a>
+                <a class="students__card__social__item" href="https://burcuavci.com/resume" target="_blank"><img class="students__card__social__item__img" src="img/card__cv.svg" alt="cv icon"></a>
+                <a class="students__card__social__item" href="https://burcuavci.com/" target="_blank"><img class="students__card__social__item__img" src="img/card__website.svg" alt="website icon"></a>
+                <a class="students__card__social__item" href="https://www.linkedin.com/in/burcuavci/" target="_blank"><img class="students__card__social__item__img" src="img/card__linkedin.svg" alt="linkedin icon"></a>
             </section>
         </section>
     </article>
@@ -62,9 +62,9 @@
             <h5 class="student__card__name">Daniel<br>Paz</h5>
             <p class="student__card__pitch"><?php echo $lang['Daniel']; ?></p>
             <section class="students__card__social">
-                <a class="students__card__social__item" href=""><img class="students__card__social__item__img" src="img/card__cv.svg" alt="cv icon"></a>
-                <a class="students__card__social__item" href=""><img class="students__card__social__item__img" src="img/card__website.svg" alt="website icon"></a>
-                <a class="students__card__social__item" href=""><img class="students__card__social__item__img" src="img/card__linkedin.svg" alt="linkedin icon"></a>
+<!--                <a class="students__card__social__item" href="" target="_blank"><img class="students__card__social__item__img" src="img/card__cv.svg" alt="cv icon"></a>-->
+<!--                <a class="students__card__social__item" href="" target="_blank"><img class="students__card__social__item__img" src="img/card__website.svg" alt="website icon"></a>-->
+                <a class="students__card__social__item" href="https://www.linkedin.com/in/danielpazbe/" target="_blank"><img class="students__card__social__item__img" src="img/card__linkedin.svg" alt="linkedin icon"></a>
             </section>
         </section>
     </article>
@@ -91,8 +91,8 @@
             <h5 class="student__card__name">Geert<br>Rumen</h5>
             <p class="student__card__pitch"><?php echo $lang['Geert']; ?></p>
             <section class="students__card__social">
-                <!-- <a class="students__card__social__item" href=""><img class="students__card__social__item__img" src="img/card__cv.svg" alt="cv icon"></a>
-                <a class="students__card__social__item" href=""><img class="students__card__social__item__img" src="img/card__website.svg" alt="website icon"></a> -->
+                <!-- <a class="students__card__social__item" href="" target="_blank"><img class="students__card__social__item__img" src="img/card__cv.svg" alt="cv icon"></a>
+                <a class="students__card__social__item" href="" target="_blank"><img class="students__card__social__item__img" src="img/card__website.svg" alt="website icon"></a> -->
                 <a class="students__card__social__item" href="https://www.linkedin.com/in/geertrumen" target="_blank"><img class="students__card__social__item__img" src="img/card__linkedin.svg" alt="linkedin icon"></a>
             </section>
         </section>
@@ -105,7 +105,7 @@
         <p class="student__card__pitch"><?php echo $lang['Mathijs']; ?></p>
             <section class="students__card__social">
                 <a class="students__card__social__item" href="http://users.telenet.be/mReykersCv/cv/" target="_blank"><img class="students__card__social__item__img" src="img/card__cv.svg" alt="cv icon"></a>
-                <!-- <a class="students__card__social__item" href=""><img class="students__card__social__item__img" src="img/card__website.svg" alt="website icon"></a> -->
+                <!-- <a class="students__card__social__item" href="" target="_blank"><img class="students__card__social__item__img" src="img/card__website.svg" alt="website icon"></a> -->
                 <a class="students__card__social__item" href="https://www.linkedin.com/in/mathijs-reykers" target="_blank"><img class="students__card__social__item__img" src="img/card__linkedin.svg" alt="linkedin icon"></a>
             </section>
         </section>
@@ -117,9 +117,9 @@
         <h5 class="student__card__name">Miguel<br>Duarte</h5>
         <p class="student__card__pitch"><?php echo $lang['Miguel']; ?>.</p>
             <section class="students__card__social">
-                <a class="students__card__social__item" href=""><img class="students__card__social__item__img" src="img/card__cv.svg" alt="cv icon"></a>
-                <a class="students__card__social__item" href=""><img class="students__card__social__item__img" src="img/card__website.svg" alt="website icon"></a>
-                <a class="students__card__social__item" href=""><img class="students__card__social__item__img" src="img/card__linkedin.svg" alt="linkedin icon"></a>
+<!--                <a class="students__card__social__item" href="" target="_blank"><img class="students__card__social__item__img" src="img/card__cv.svg" alt="cv icon"></a>-->
+<!--                <a class="students__card__social__item" href="" target="_blank"><img class="students__card__social__item__img" src="img/card__website.svg" alt="website icon"></a>-->
+<!--                <a class="students__card__social__item" href="" target="_blank"><img class="students__card__social__item__img" src="img/card__linkedin.svg" alt="linkedin icon"></a>-->
             </section>
         </section>
     </article>
@@ -143,9 +143,9 @@
             <h5 class="student__card__name">Yves<br>Kerkhofs</h5>
             <p class="student__card__pitch"><?php echo $lang['Yves']; ?></p>
             <section class="students__card__social">
-                <a class="students__card__social__item" href=""><img class="students__card__social__item__img" src="img/card__cv.svg" alt="cv icon"></a>
-                <a class="students__card__social__item" href=""><img class="students__card__social__item__img" src="img/card__website.svg" alt="website icon"></a>
-                <a class="students__card__social__item" href=""><img class="students__card__social__item__img" src="img/card__linkedin.svg" alt="linkedin icon"></a>
+<!--                <a class="students__card__social__item" href="" target="_blank"><img class="students__card__social__item__img" src="img/card__cv.svg" alt="cv icon"></a>-->
+<!--                <a class="students__card__social__item" href="" target="_blank"><img class="students__card__social__item__img" src="img/card__website.svg" alt="website icon"></a>-->
+                <a class="students__card__social__item" href="https://www.linkedin.com/in/yvesks/" target="_blank"><img class="students__card__social__item__img" src="img/card__linkedin.svg" alt="linkedin icon"></a>
             </section>
         </section>
     </article>
