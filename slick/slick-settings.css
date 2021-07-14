@@ -35,31 +35,24 @@
         opacity: 1;
     }
 
-    .nav-slider .slick-slide {
-        transition: all ease-in-out .3s;
-        opacity: 1;
-        padding: 0;
-        margin: 0;
-        height: 50px;
-        width: 50px;
-        box-sizing: border-box;
-    }
-
     .slick-active {
         opacity: 1;
-    }
-    .nav-slider .slick-current {
-        padding: 0;
     }
 
     .slick-current {
         opacity: 1;
     }
-    .nav-slider .slick-current article{
-        padding: 25px;
-        height: 20px;
-        width: 20px !important;
+    .nav-slider .slick-slide p{
+        display: inline-block;
+        color: #FAFAFA;
+        width: 30px;
+        height: 30px;
+        padding: 10px;
+        line-height: 30px;
         text-align: center;
+    }
+    .nav-slider .slick-current p{
+        color: #001220;
         background: #FBAE3C;
         border-radius: 50%;
     }

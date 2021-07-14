@@ -151,17 +151,17 @@
         </article>
         </section>
         <section class="slider nav-slider">
-            <article data-slick-index="0" class="slick-slide">1</article>
-            <article data-slick-index="1" class="slick-slide">2</article>
-            <article data-slick-index="2" class="slick-slide">3</article>
-            <article data-slick-index="3" class="slick-slide">4</article>
-            <article data-slick-index="4" class="slick-slide">5</article>
-            <article data-slick-index="5" class="slick-slide">6</article>
-            <article data-slick-index="6" class="slick-slide">7</article>
-            <article data-slick-index="7" class="slick-slide">8</article>
-            <article data-slick-index="8" class="slick-slide">9</article>
-            <article data-slick-index="9" class="slick-slide">10</article>
-            <article data-slick-index="10" class="slick-slide">11</article>
+            <article data-slick-index="0" class="slick-slide"><p>1</p></article>
+            <article data-slick-index="1" class="slick-slide"><p>2</p></article>
+            <article data-slick-index="2" class="slick-slide"><p>3</p></article>
+            <article data-slick-index="3" class="slick-slide"><p>4</p></article>
+            <article data-slick-index="4" class="slick-slide"><p>5</p></article>
+            <article data-slick-index="5" class="slick-slide"><p>6</p></article>
+            <article data-slick-index="6" class="slick-slide"><p>7</p></article>
+            <article data-slick-index="7" class="slick-slide"><p>8</p></article>
+            <article data-slick-index="8" class="slick-slide"><p>9</p></article>
+            <article data-slick-index="9" class="slick-slide"><p>10</p></article>
+            <article data-slick-index="10" class="slick-slide"><p>11</p></article>
         </section>
     </section>
     hallo
@@ -191,7 +191,7 @@
             $('.responsive').slick({
                 dots: false,
                 infinite: true,
-                centerMode: true,
+                centerMode: false,
                 arrows: false,
                 slidesToShow: 1,
                 slidesToScroll: 1,
@@ -207,6 +207,7 @@
                     {
                         breakpoint: 950,
                         settings: {
+                            centerMode: true,
                             slidesToShow: 2,
                             slidesToScroll: 1,
                         }
@@ -226,7 +227,7 @@
             });
             $('.nav-slider').slick({
                 infinite: true,
-                slidesToShow: 5,
+                slidesToShow: 3,
                 slidesToScroll: 1,
                 asNavFor: '.responsive',
                 focusOnSelect: true,
@@ -235,7 +236,7 @@
                     {
                         breakpoint: 650,
                         settings: {
-                            slidesToShow: 5,
+                            slidesToShow: 3,
                             slidesToScroll: 1,
                         }
 
