@@ -69,6 +69,7 @@
                 </section>
             </article>
 
+
             <article data-slick-index="5" class="students__card">
                 <img class="students__card__img" src="img/students/erik.jpeg" alt="profile picture Erik Hendriks">
                 <section class="student__card__name__container">
@@ -147,7 +148,6 @@
                     <a class="students__card__social__item" href=""><img class="students__card__social__item__img" src="img/card__website.svg" alt="website icon"></a>
                     <a class="students__card__social__item" href=""><img class="students__card__social__item__img" src="img/card__linkedin.svg" alt="linkedin icon"></a>
                 </section>
-            </section>
         </article>
         </section>
         <section class="slider nav-slider">
