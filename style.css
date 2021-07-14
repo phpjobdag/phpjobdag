@@ -2045,7 +2045,7 @@ margin-bottom: 1rem;
     }
 
     ::-webkit-scrollbar-thumb {
-      background: rgba(90, 90, 90);
+      background: rgba(90, 90, 90, 0);
     }
 
     ::-webkit-scrollbar-track {
@@ -2177,6 +2177,11 @@ margin-bottom: 1rem;
 
 	.margin__wrapper{
 		/*display: none;*/
+	}
+
+	.course__body {
+		/*font-style: normal;*/
+		text-align: left;
 	}
 }
 
