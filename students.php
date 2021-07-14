@@ -191,17 +191,21 @@
             $('.responsive').slick({
                 dots: false,
                 infinite: true,
-                centerMode: false,
-                arrows: false,
                 slidesToShow: 1,
                 slidesToScroll: 1,
                 asNavFor: '.nav-slider',
                 responsive: [
                     {
-                        breakpoint: 650,
+                        breakpoint: 600,
                         settings: {
                             slidesToShow: 1,
                             slidesToScroll: 1,
+                        }
+                    },
+                    {
+                        breakpoint: 700,
+                        settings: {
+                            centerMode: true,
                         }
                     },
                     {
@@ -215,6 +219,7 @@
                     {
                         breakpoint: 1080,
                         settings: {
+                            centerMode: true,
                             slidesToShow: 3,
                             slidesToScroll: 1,
                         }
@@ -226,15 +231,16 @@
                 ]
             });
             $('.nav-slider').slick({
+                arrows: false,
                 infinite: true,
-                slidesToShow: 3,
-                slidesToScroll: 1,
                 asNavFor: '.responsive',
                 focusOnSelect: true,
                 centerMode: true,
+                slidesToShow: 3,
+                slidesToScroll: 1,
                 responsive: [
                     {
-                        breakpoint: 650,
+                        breakpoint: 600,
                         settings: {
                             slidesToShow: 3,
                             slidesToScroll: 1,
