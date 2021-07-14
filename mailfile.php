@@ -5,32 +5,18 @@ $error = "";
 $companyname = $name = $email = $telephone = $availability = $questions = "";
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    //print_r($_POST);
-//    echo "xxcerror ";
-    //COMPANY
-    if (empty($_POST['companyname'])) {
-//        echo "cerror ";
-        //$error['company-name'] = "Please enter your company name.";
-
-    } else {
+    //COMPANYNAME
+    if (!empty($_POST['companyname'])) {
         $companyname = cleandata($_POST['companyname']);
     }
 
     //NAME
-    if (empty($_POST['name'])) {
-//        echo "nerror ";
-        //$error['name'] = "Please enter your name.";
-
-    } else {
+    if (!empty($_POST['name'])) {
         $name = cleandata($_POST['name']);
     }
 
     //EMAIL
     if (empty($_POST["email"])) {
-//        echo "eerror ";
-        //$error['email'] = "Please enter a valid email address.";
-
-    } else {
         $email = cleandata($_POST["email"]);
         if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
             $error["email"] = "Please enter a valid email address.";
@@ -38,11 +24,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 
     //PHONE
-    if (empty($_POST["telephone"])) {
-//        echo "perror ";
-        //$error['telephone'] = "Please enter your message. It should have at least 99 characters.";
-    
-    } else {
+    if (!empty($_POST["telephone"])) {
         $telephone = cleandata($_POST["telephone"]);
     }
 
@@ -65,7 +47,7 @@ function cleandata($data) {
 
 date_default_timezone_set('Etc/UTC');
 require './PHPMailer/PHPMailerAutoload.php';
-//$email1 = 'hello@erikhendriks.be';
+$email1 = 'sarah.vandermaesen@obelisk.be';
 $email2 = 'erhen3000@gmx.com';
 //Create a new PHPMailer instance
 $mail = new PHPMailer;
@@ -99,7 +81,7 @@ $mail->setFrom('noreply@phpjobdag.be');
 $mail->addReplyTo('noreply@phpjobdag.be');
 //Set who the message is to be sent to
 $mail->addAddress(
-$email2);
+$email1,$email2);
 //Set the subject line
 $mail->Subject = 'Een email van phpjobdag 2021';
 //Read an HTML message body from an external file, convert referenced images to embedded,
