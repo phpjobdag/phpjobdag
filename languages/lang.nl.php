@@ -43,7 +43,7 @@ $lang['Geert'] = 'Nieuw in deze fascinerende wereld van development. Maar elke e
 $lang['Mathijs'] = 'Aspirerend full stack developer die voor eender welke uitdaging openstaat.';
 $lang['Miguel'] = 'Jong, ambitieus en gepassioneerd door het programmeren';
 $lang['Wouter'] = 'Wouter heeft na 12 jaar retail besloten om terug te keren naar zijn passie als webontwikkelaar. ';
-$lang['Yves'] = 'A bachelor in communication management upscaling his webdeveloping skills… Ready to rumble!';
+$lang['Yves'] = 'A bachelor in communication management upscaling his webdeveloping skills. Ready to rumble!';
 
 // Agenda
 $lang['agendaTitle'] = 'BEKIJK HET PROGRAMMA';
@@ -97,7 +97,7 @@ $lang['footerTitle'] = 'RESERVEER UW PLAATS';
 $lang['footerSubtitle'] = 'Vul uw gegevens in<br> en reserveer uw plaats!';
 $lang['footerBody1'] = 'Het evenement zal volledig online plaatsvinden.';
 $lang['footerBody2'] = 'Datum: 26 augustus 2021';
-$lang['footerBody3'] = 'Nadat uw registratie goedgekeurd is voorzien wij u van een link<br class="desk__break">  en een paswoord om deel te nemen aan het evenement.';
+$lang['footerBody3'] = 'Nadat uw registratie goedgekeurd is voorzien wij u van een link en een paswoord om deel te nemen aan het evenement.';
 $lang['footerBody4'] = 'Wij hopen u spoedig te mogen ontmoeten.';
 
 $lang['formCompany'] = 'Bedrijfsnaam';

@@ -178,11 +178,11 @@
                 dots: true,
                 infinite: true,
                 centerMode: true,
-                slidesToShow: 4,
-                slidesToScroll: 4,
+                slidesToShow: 1,
+                slidesToScroll: 1,
                 responsive: [
                     {
-                        breakpoint: 625,
+                        breakpoint: 700,
                         settings: {
                             slidesToShow: 1,
                             slidesToScroll: 1,
@@ -190,14 +190,28 @@
 
                     },
                     {
-                        breakpoint: 1081,
+                        breakpoint: 800,
                         settings: {
                             slidesToShow: 2,
                             slidesToScroll: 1,
                         }
                     },
                     {
-                        breakpoint: 5000,
+                        breakpoint: 900,
+                        settings: {
+                            slidesToShow: 3,
+                            slidesToScroll: 1,
+                        }
+                    },
+                    {
+                        breakpoint: 1081,
+                        settings: {
+                            slidesToShow: 3,
+                            slidesToScroll: 1,
+                        }
+                    },
+                    {
+                        breakpoint: 9999,
                         settings: "unslick"
                     }
                 ]
@@ -206,13 +220,13 @@
 
         slickify();
         $(window).resize(function(){
-            var $windowWidth = $(window).width();
+            let $windowWidth = $(window).width();
             if ($windowWidth < 1081) {
                 slickify();
             }
         });
 
-        var slicknumbers = document.getElementbyClassName("slide");
+        // var slicknumbers = document.getElementbyClassName("slide");
     </script>
 
 </section>
