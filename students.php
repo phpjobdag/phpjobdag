@@ -2,155 +2,170 @@
 
     <h2 class="students__title"><?php echo $lang['studentTitle']; ?></h2>
     <section class="student__wrapper">
-    <h3 class="students__quote">“Measuring programming progress by lines of code is like measuring aircraft building progress by weight.” - Bill Gates</h3>
-    <section class="student__wrapper responsive slider">
-        <article class="students__card">
-        <img class="students__card__img" src="img/students/alexander.jpg" alt="profile picture Alexander Decoz">
-        <section class="student__card__name__container">
-            <h5 class="student__card__name"> Alexander</br>Decoz</h5>
-            <p class="student__card__pitch"><?php echo $lang['Alexander']; ?></p>
-            <section class="students__card__social">
-<!--                <a class="students__card__social__item" href="" target="_blank"><img class="students__card__social__item__img" src="img/card__cv.svg" alt="cv icon"></a>-->
-<!--                <a class="students__card__social__item" href="" target="_blank"><img class="students__card__social__item__img" src="img/card__website.svg" alt="website icon"></a>-->
-                <a class="students__card__social__item" href="https://www.linkedin.com/in/aa-decoz/" target="_blank"><img class="students__card__social__item__img" src="img/card__linkedin.svg" alt="linkedin icon"></a>
-            </section>
-        </section>
-    </article>
-
-    <article class="students__card">
-        <img class="students__card__img" src="img/students/anastasya.jpg" alt="profile picture Anastasya Ovchar">
-        <section class="student__card__name__container">
-            <h5 class="student__card__name">Anastasya<br>Ovchar</h5>
-            <p class="student__card__pitch"><?php echo $lang['Anastasya']; ?></p>
-            <section class="students__card__social">
-                <!-- <a class="students__card__social__item" href="" target="_blank"><img class="students__card__social__item__img" src="img/card__cv.svg" alt="cv icon"></a>
-                <a class="students__card__social__item" href="" target="_blank"><img class="students__card__social__item__img" src="img/card__website.svg" alt="website icon"></a> -->
-                <a class="students__card__social__item" href="https://www.linkedin.com/in/anovchar" target="_blank"><img class="students__card__social__item__img" src="img/card__linkedin.svg" alt="linkedin icon"></a>
+        <h3 class="students__quote">“Measuring programming progress by lines of code is like measuring aircraft building progress by weight.” - Bill Gates</h3>
+        <section class="student__wrapper responsive slider">
+            <article data-slick-index="0" class="students__card">
+            <img class="students__card__img" src="img/students/alexander.jpg" alt="profile picture Alexander Decoz">
+            <section class="student__card__name__container">
+                <h5 class="student__card__name"> Alexander</br>Decoz</h5>
+                <p class="student__card__pitch"><?php echo $lang['Alexander']; ?></p>
+                <section class="students__card__social">
+                    <a class="students__card__social__item" href=""><img class="students__card__social__item__img" src="img/card__cv.svg" alt="cv icon"></a>
+                    <a class="students__card__social__item" href=""><img class="students__card__social__item__img" src="img/card__website.svg" alt="website icon"></a>
+                    <a class="students__card__social__item" href="https://www.linkedin.com/in/aa-decoz/" target="_blank"><img class="students__card__social__item__img" src="img/card__linkedin.svg" alt="linkedin icon"></a>
                 </section>
             </section>
         </article>
 
-    <article class="students__card">
-        <img class="students__card__img" src="img/students/arne.jpg" alt="profile picture Arne Sneyers">
-        <section class="student__card__name__container">
-            <h5 class="student__card__name">Arne<br>Sneyers</h5>
-            <p class="student__card__pitch"><?php echo $lang['Arne']; ?></p>
-            <section class="students__card__social">
-                <!--a class="students__card__social__item" href="" target="_blank"><img class="students__card__social__item__img" src="img/card__cv.svg" alt="cv icon"></a>
-                <a class="students__card__social__item" href="" target="_blank"><img class="students__card__social__item__img" src="img/card__website.svg" alt="website icon"></a-->
-                <a class="students__card__social__item" href="https://www.linkedin.com/in/arne-sneyers-45a3a449/" target="_blank"><img class="students__card__social__item__img" src="img/card__linkedin.svg" alt="linkedin icon"></a>
+            <article data-slick-index="1" class="students__card">
+                <img class="students__card__img" src="img/students/anastasya.jpg" alt="profile picture Anastasya Ovchar">
+                <section class="student__card__name__container">
+                    <h5 class="student__card__name">Anastasya<br>Ovchar</h5>
+                    <p class="student__card__pitch"><?php echo $lang['Anastasya']; ?></p>
+                    <section class="students__card__social">
+                        <!-- <a class="students__card__social__item" href=""><img class="students__card__social__item__img" src="img/card__cv.svg" alt="cv icon"></a>
+                        <a class="students__card__social__item" href=""><img class="students__card__social__item__img" src="img/card__website.svg" alt="website icon"></a> -->
+                        <a class="students__card__social__item" href="https://www.linkedin.com/in/anovchar" target="_blank"><img class="students__card__social__item__img" src="img/card__linkedin.svg" alt="linkedin icon"></a>
+                        </section>
+                    </section>
+                </article>
+
+            <article data-slick-index="2" class="students__card">
+                <img class="students__card__img" src="img/students/arne.jpg" alt="profile picture Arne Sneyers">
+                <section class="student__card__name__container">
+                    <h5 class="student__card__name">Arne<br>Sneyers</h5>
+                    <p class="student__card__pitch"><?php echo $lang['Arne']; ?></p>
+                    <section class="students__card__social">
+                        <!--a class="students__card__social__item" href=""><img class="students__card__social__item__img" src="img/card__cv.svg" alt="cv icon"></a>
+                        <a class="students__card__social__item" href=""><img class="students__card__social__item__img" src="img/card__website.svg" alt="website icon"></a-->
+                        <a class="students__card__social__item" href="https://www.linkedin.com/in/arne-sneyers-45a3a449/"><img class="students__card__social__item__img" src="img/card__linkedin.svg" alt="linkedin icon"></a>
+                    </section>
+                </section>
+            </article>
+
+            <article data-slick-index="3" class="students__card">
+                <img class="students__card__img" src="img/students/burcu.jpg" alt="profile picture Burcu Avci">
+                <section class="student__card__name__container">
+                    <h5 class="student__card__name">Burcu<br>Avci</h5>
+                    <p class="student__card__pitch"><?php echo $lang['Burcu']; ?></p>
+                    <section class="students__card__social">
+                        <a class="students__card__social__item" href="https://burcuavci.com/resume"><img class="students__card__social__item__img" src="img/card__cv.svg" alt="cv icon"></a>
+                        <a class="students__card__social__item" href="https://burcuavci.com/"><img class="students__card__social__item__img" src="img/card__website.svg" alt="website icon"></a>
+                        <a class="students__card__social__item" href="https://www.linkedin.com/in/burcuavci/"><img class="students__card__social__item__img" src="img/card__linkedin.svg" alt="linkedin icon"></a>
+                    </section>
+                </section>
+            </article>
+
+            <article data-slick-index="4" class="students__card">
+                <img class="students__card__img" src="img/students/daniel.jpg" alt="profile picture Daniel Paz">
+                <section class="student__card__name__container">
+                    <h5 class="student__card__name">Daniel<br>Paz</h5>
+                    <p class="student__card__pitch"><?php echo $lang['Daniel']; ?></p>
+                    <section class="students__card__social">
+                        <a class="students__card__social__item" href=""><img class="students__card__social__item__img" src="img/card__cv.svg" alt="cv icon"></a>
+                        <a class="students__card__social__item" href=""><img class="students__card__social__item__img" src="img/card__website.svg" alt="website icon"></a>
+                        <a class="students__card__social__item" href=""><img class="students__card__social__item__img" src="img/card__linkedin.svg" alt="linkedin icon"></a>
+                    </section>
+                </section>
+            </article>
+
+
+            <article data-slick-index="5" class="students__card">
+                <img class="students__card__img" src="img/students/erik.jpeg" alt="profile picture Erik Hendriks">
+                <section class="student__card__name__container">
+                    <h5 class="student__card__name">Erik<br>Hendriks</h5>
+                    <p class="student__card__pitch"><?php echo $lang['Erik']; ?></p>
+                    <section class="students__card__social">
+                        <a class="students__card__social__item" href="https://erikhendriks.be/ErikHendriksResume.html" target="_blank"><img class="students__card__social__item__img" src="img/card__cv.svg" alt="cv icon"></a>
+                        <a class="students__card__social__item" href="https://github.com/ErikHendriks" target="_blank"><img class="students__card__social__item__img" src="img/card__website.svg" alt="website icon"></a>
+                        <a class="students__card__social__item" href="https://www.linkedin.com/in/erik-hendriks-371086121/" target="_blank"><img class="students__card__social__item__img" src="img/card__linkedin.svg" alt="linkedin icon"></a>
+                    </section>
+                </section>
+            </article>
+
+            <article data-slick-index="6" class="students__card">
+
+                <img class="students__card__img" src="img/students/geert.jpg" alt="profile picture Geert Rumen">
+
+
+                <section class="student__card__name__container">
+                    <h5 class="student__card__name">Geert<br>Rumen</h5>
+                    <p class="student__card__pitch"><?php echo $lang['Geert']; ?></p>
+                    <section class="students__card__social">
+                        <a class="students__card__social__item" href=""><img class="students__card__social__item__img" src="img/card__cv.svg" alt="cv icon"></a>
+                        <a class="students__card__social__item" href=""><img class="students__card__social__item__img" src="img/card__website.svg" alt="website icon"></a>
+                        <a class="students__card__social__item" href="www.linkedin.com/in/geertrumen"><img class="students__card__social__item__img" src="img/card__linkedin.svg" alt="linkedin icon"></a>
+                    </section>
+                </section>
+            </article>
+
+            <article data-slick-index="7" class="students__card">
+                <img class="students__card__img" src="img/students/mathijs.jpg" alt="profile picture Mathijs Reykers">
+                <section class="student__card__name__container">
+                <h5 class="student__card__name">Mathijs<br>Reykers</h5>
+                <p class="student__card__pitch"><?php echo $lang['Mathijs']; ?></p>
+                    <section class="students__card__social">
+                        <a class="students__card__social__item" href="http://users.telenet.be/mReykersCv/cv/" target="_blank"><img class="students__card__social__item__img" src="img/card__cv.svg" alt="cv icon"></a>
+                        <!-- <a class="students__card__social__item" href=""><img class="students__card__social__item__img" src="img/card__website.svg" alt="website icon"></a> -->
+                        <a class="students__card__social__item" href="https://www.linkedin.com/in/mathijs-reykers" target="_blank"><img class="students__card__social__item__img" src="img/card__linkedin.svg" alt="linkedin icon"></a>
+                    </section>
+                </section>
+            </article>
+
+            <article data-slick-index="8" class="students__card">
+                <img class="students__card__img" src="img/students/miguel.jpg" alt="profile picture Miguel Duarte">
+                <section class="student__card__name__container">
+                <h5 class="student__card__name">Miguel<br>Duarte</h5>
+                <p class="student__card__pitch"><?php echo $lang['Miguel']; ?>.</p>
+                    <section class="students__card__social">
+                        <a class="students__card__social__item" href=""><img class="students__card__social__item__img" src="img/card__cv.svg" alt="cv icon"></a>
+                        <a class="students__card__social__item" href=""><img class="students__card__social__item__img" src="img/card__website.svg" alt="website icon"></a>
+                        <a class="students__card__social__item" href=""><img class="students__card__social__item__img" src="img/card__linkedin.svg" alt="linkedin icon"></a>
+                    </section>
+                </section>
+            </article>
+
+            <article data-slick-index="9" class="students__card">
+                <img class="students__card__img" src="img/students/wouter.jpg" alt="profile picture Wouter Swerts">
+                <section class="student__card__name__container">
+                <h5 class="student__card__name">Wouter<br>Swerts</h5>
+                <p class="student__card__pitch"><?php echo $lang['Wouter']; ?></p>
+                    <section class="students__card__social">
+                        <a class="students__card__social__item" href="http://users.telenet.be/wouterswerts/cv/cv.php" target="_blank"><img class="students__card__social__item__img" src="img/card__cv.svg" alt="cv icon"></a>
+                        <a class="students__card__social__item" href="http://users.telenet.be/wouterswerts/index.php" target="_blank"><img class="students__card__social__item__img" src="img/card__website.svg" alt="website icon"></a>
+                        <a class="students__card__social__item" href="https://www.linkedin.com/in/wouter-swerts" target="_blank"><img class="students__card__social__item__img" src="img/card__linkedin.svg" alt="linkedin icon"></a>
+                    </section>
+                </section>
+            </article>
+
+            <article data-slick-index="10" class="students__card">
+            <img class="students__card__img" src="img/students/yves.jpg" alt="profile picture Yves Kerkhofs">
+            <section class="student__card__name__container">
+                <h5 class="student__card__name">Yves<br>Kerkhofs</h5>
+                <p class="student__card__pitch"><?php echo $lang['Yves']; ?></p>
+                <section class="students__card__social">
+                    <a class="students__card__social__item" href=""><img class="students__card__social__item__img" src="img/card__cv.svg" alt="cv icon"></a>
+                    <a class="students__card__social__item" href=""><img class="students__card__social__item__img" src="img/card__website.svg" alt="website icon"></a>
+                    <a class="students__card__social__item" href=""><img class="students__card__social__item__img" src="img/card__linkedin.svg" alt="linkedin icon"></a>
+                </section>
             </section>
+        </article>
         </section>
-    </article>
-
-    <article class="students__card">
-        <img class="students__card__img" src="img/students/burcu.jpg" alt="profile picture Burcu Avci">
-        <section class="student__card__name__container">
-            <h5 class="student__card__name">Burcu<br>Avci</h5>
-            <p class="student__card__pitch"><?php echo $lang['Burcu']; ?></p>
-            <section class="students__card__social">
-                <a class="students__card__social__item" href="https://burcuavci.com/resume" target="_blank"><img class="students__card__social__item__img" src="img/card__cv.svg" alt="cv icon"></a>
-                <a class="students__card__social__item" href="https://burcuavci.com/" target="_blank"><img class="students__card__social__item__img" src="img/card__website.svg" alt="website icon"></a>
-                <a class="students__card__social__item" href="https://www.linkedin.com/in/burcuavci/" target="_blank"><img class="students__card__social__item__img" src="img/card__linkedin.svg" alt="linkedin icon"></a>
-            </section>
+        <section class="slider nav-slider">
+            <article data-slick-index="0" class="slick-slide"><p>1</p></article>
+            <article data-slick-index="1" class="slick-slide"><p>2</p></article>
+            <article data-slick-index="2" class="slick-slide"><p>3</p></article>
+            <article data-slick-index="3" class="slick-slide"><p>4</p></article>
+            <article data-slick-index="4" class="slick-slide"><p>5</p></article>
+            <article data-slick-index="5" class="slick-slide"><p>6</p></article>
+            <article data-slick-index="6" class="slick-slide"><p>7</p></article>
+            <article data-slick-index="7" class="slick-slide"><p>8</p></article>
+            <article data-slick-index="8" class="slick-slide"><p>9</p></article>
+            <article data-slick-index="9" class="slick-slide"><p>10</p></article>
+            <article data-slick-index="10" class="slick-slide"><p>11</p></article>
         </section>
-    </article>
-
-    <article class="students__card">
-        <img class="students__card__img" src="img/students/daniel.jpg" alt="profile picture Daniel Paz">
-        <section class="student__card__name__container">
-            <h5 class="student__card__name">Daniel<br>Paz</h5>
-            <p class="student__card__pitch"><?php echo $lang['Daniel']; ?></p>
-            <section class="students__card__social">
-<!--                <a class="students__card__social__item" href="" target="_blank"><img class="students__card__social__item__img" src="img/card__cv.svg" alt="cv icon"></a>-->
-<!--                <a class="students__card__social__item" href="" target="_blank"><img class="students__card__social__item__img" src="img/card__website.svg" alt="website icon"></a>-->
-                <a class="students__card__social__item" href="https://www.linkedin.com/in/danielpazbe/" target="_blank"><img class="students__card__social__item__img" src="img/card__linkedin.svg" alt="linkedin icon"></a>
-            </section>
-        </section>
-    </article>
-
-    <article class="students__card">
-        <img class="students__card__img" src="img/students/erik.jpeg" alt="profile picture Erik Hendriks">
-        <section class="student__card__name__container">
-            <h5 class="student__card__name">Erik<br>Hendriks</h5>
-            <p class="student__card__pitch"><?php echo $lang['Erik']; ?></p>
-            <section class="students__card__social">
-                <a class="students__card__social__item" href="https://erikhendriks.be/ErikHendriksResume.html" target="_blank"><img class="students__card__social__item__img" src="img/card__cv.svg" alt="cv icon"></a>
-                <a class="students__card__social__item" href="https://github.com/ErikHendriks" target="_blank"><img class="students__card__social__item__img" src="img/card__website.svg" alt="website icon"></a>
-                <a class="students__card__social__item" href="https://www.linkedin.com/in/erik-hendriks-371086121/" target="_blank"><img class="students__card__social__item__img" src="img/card__linkedin.svg" alt="linkedin icon"></a>
-            </section>
-        </section>
-    </article>
-
-    <article class="students__card">
-
-        <img class="students__card__img" src="img/students/geert.jpg" alt="profile picture Geert Rumen">
-
-
-        <section class="student__card__name__container">
-            <h5 class="student__card__name">Geert<br>Rumen</h5>
-            <p class="student__card__pitch"><?php echo $lang['Geert']; ?></p>
-            <section class="students__card__social">
-                <!-- <a class="students__card__social__item" href="" target="_blank"><img class="students__card__social__item__img" src="img/card__cv.svg" alt="cv icon"></a>
-                <a class="students__card__social__item" href="" target="_blank"><img class="students__card__social__item__img" src="img/card__website.svg" alt="website icon"></a> -->
-                <a class="students__card__social__item" href="https://www.linkedin.com/in/geertrumen" target="_blank"><img class="students__card__social__item__img" src="img/card__linkedin.svg" alt="linkedin icon"></a>
-            </section>
-        </section>
-    </article>
-
-    <article class="students__card">
-        <img class="students__card__img" src="img/students/mathijs.jpg" alt="profile picture Mathijs Reykers">
-        <section class="student__card__name__container">
-        <h5 class="student__card__name">Mathijs<br>Reykers</h5>
-        <p class="student__card__pitch"><?php echo $lang['Mathijs']; ?></p>
-            <section class="students__card__social">
-                <a class="students__card__social__item" href="http://users.telenet.be/mReykersCv/cv/" target="_blank"><img class="students__card__social__item__img" src="img/card__cv.svg" alt="cv icon"></a>
-                <!-- <a class="students__card__social__item" href="" target="_blank"><img class="students__card__social__item__img" src="img/card__website.svg" alt="website icon"></a> -->
-                <a class="students__card__social__item" href="https://www.linkedin.com/in/mathijs-reykers" target="_blank"><img class="students__card__social__item__img" src="img/card__linkedin.svg" alt="linkedin icon"></a>
-            </section>
-        </section>
-    </article>
-
-    <article class="students__card">
-        <img class="students__card__img" src="img/students/miguel.jpg" alt="profile picture Miguel Duarte">
-        <section class="student__card__name__container">
-        <h5 class="student__card__name">Miguel<br>Duarte</h5>
-        <p class="student__card__pitch"><?php echo $lang['Miguel']; ?>.</p>
-            <section class="students__card__social">
-<!--                <a class="students__card__social__item" href="" target="_blank"><img class="students__card__social__item__img" src="img/card__cv.svg" alt="cv icon"></a>-->
-<!--                <a class="students__card__social__item" href="" target="_blank"><img class="students__card__social__item__img" src="img/card__website.svg" alt="website icon"></a>-->
-<!--                <a class="students__card__social__item" href="" target="_blank"><img class="students__card__social__item__img" src="img/card__linkedin.svg" alt="linkedin icon"></a>-->
-            </section>
-        </section>
-    </article>
-
-    <article class="students__card">
-        <img class="students__card__img" src="img/students/wouter.jpg" alt="profile picture Wouter Swerts">
-        <section class="student__card__name__container">
-        <h5 class="student__card__name">Wouter<br>Swerts</h5>
-        <p class="student__card__pitch"><?php echo $lang['Wouter']; ?></p>
-            <section class="students__card__social">
-                <a class="students__card__social__item" href="http://users.telenet.be/wouterswerts/cv/cv.php" target="_blank"><img class="students__card__social__item__img" src="img/card__cv.svg" alt="cv icon"></a>
-                <a class="students__card__social__item" href="http://users.telenet.be/wouterswerts/index.php" target="_blank"><img class="students__card__social__item__img" src="img/card__website.svg" alt="website icon"></a>
-                <a class="students__card__social__item" href="https://www.linkedin.com/in/wouter-swerts" target="_blank"><img class="students__card__social__item__img" src="img/card__linkedin.svg" alt="linkedin icon"></a>
-            </section>
-        </section>
-    </article>
-
-    <article class="students__card">
-        <img class="students__card__img" src="img/students/yves.jpg" alt="profile picture Yves Kerkhofs">
-        <section class="student__card__name__container">
-            <h5 class="student__card__name">Yves<br>Kerkhofs</h5>
-            <p class="student__card__pitch"><?php echo $lang['Yves']; ?></p>
-            <section class="students__card__social">
-<!--                <a class="students__card__social__item" href="" target="_blank"><img class="students__card__social__item__img" src="img/card__cv.svg" alt="cv icon"></a>-->
-<!--                <a class="students__card__social__item" href="" target="_blank"><img class="students__card__social__item__img" src="img/card__website.svg" alt="website icon"></a>-->
-                <a class="students__card__social__item" href="https://www.linkedin.com/in/yvesks/" target="_blank"><img class="students__card__social__item__img" src="img/card__linkedin.svg" alt="linkedin icon"></a>
-            </section>
-        </section>
-    </article>
     </section>
-    </section>
+    hallo
     <svg id="students__blob__orange__top" viewBox="-10 10 551 541">
     <path class="orange" d="M550.859 540.322C490.212 538.727 429.769 537.131 380.723 513.994C331.88 490.658 294.637 445.78 245.387 413.069C196.137 380.159 134.676 359.615 107.406 316.732C80.1352 273.848 86.8511 209.025 74.6404 152.579C62.6332 96.3322 31.4958 48.6622 0.562012 0.992065H550.859V540.322Z" fill="#E1685E"/>
     </svg>
@@ -175,16 +190,67 @@
 
         function slickify(){
             $('.responsive').slick({
-                dots: true,
+                dots: false,
                 infinite: true,
-                centerMode: true,
                 slidesToShow: 1,
                 slidesToScroll: 1,
+                asNavFor: '.nav-slider',
                 responsive: [
+                    {
+                        breakpoint: 100,
+                        settings: {
+                            centerMode: false,
+                            slidesToShow: 1,
+                            slidesToScroll: 1,
+                        }
+                    },
+                    {
+                        breakpoint: 600,
+                        settings: {
+                            centerMode: true,
+                            slidesToShow: 1,
+                            slidesToScroll: 1,
+                        }
+                    },
                     {
                         breakpoint: 700,
                         settings: {
-                            slidesToShow: 1,
+                            centerMode: true,
+                        }
+                    },
+                    {
+                        breakpoint: 950,
+                        settings: {
+                            centerMode: true,
+                            slidesToShow: 2,
+                            slidesToScroll: 1,
+                        }
+                    },
+                    {
+                        breakpoint: 1080,
+                        settings: {
+                            centerMode: true,
+                            slidesToShow: 3,
+                            slidesToScroll: 1,
+                        }
+                    },
+                    {
+                        breakpoint: 9999,
+                        settings: "unslick"
+                    }
+                ]
+            });
+            $('.nav-slider').slick({
+                arrows: false,
+                infinite: true,
+                asNavFor: '.responsive',
+                focusOnSelect: true,
+                centerMode: true,
+                responsive: [
+                    {
+                        breakpoint: 600,
+                        settings: {
+                            slidesToShow: 3,
                             slidesToScroll: 1,
                         }
 
@@ -192,21 +258,21 @@
                     {
                         breakpoint: 800,
                         settings: {
-                            slidesToShow: 2,
+                            slidesToShow: 5,
                             slidesToScroll: 1,
                         }
                     },
                     {
-                        breakpoint: 900,
+                        breakpoint: 950,
                         settings: {
-                            slidesToShow: 3,
+                            slidesToShow: 7,
                             slidesToScroll: 1,
                         }
                     },
                     {
-                        breakpoint: 1081,
+                        breakpoint: 1080,
                         settings: {
-                            slidesToShow: 3,
+                            slidesToShow: 9,
                             slidesToScroll: 1,
                         }
                     },
