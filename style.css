@@ -572,8 +572,8 @@ body{
    position: relative;
    z-index: 10;
 	width: 50%;
-	align-self: flex-start;
-
+	/*align-self: flex-start;*/
+	height: 100%;
 }
 
 .course__hard__title,
@@ -608,9 +608,9 @@ body{
 	/*align-items: center;*/
 }
 
-.remote-working,
+/*.remote-working,*/
 .course__hard__control{
-	margin-bottom: 1.7rem;
+	/*margin-bottom: 1.7rem;*/
 }
 
 /* blok mag weg, wordt vervangen door .skill__title*/
@@ -2164,6 +2164,7 @@ margin-bottom: 1rem;
 	.course__hard,
 	.course__soft{
 		width: 100%;
+
 	}
 
 	.skills__wrapper__flex{
