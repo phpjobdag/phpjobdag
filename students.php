@@ -196,8 +196,17 @@
                 asNavFor: '.nav-slider',
                 responsive: [
                     {
+                        breakpoint: 100,
+                        settings: {
+                            centerMode: false,
+                            slidesToShow: 1,
+                            slidesToScroll: 1,
+                        }
+                    },
+                    {
                         breakpoint: 600,
                         settings: {
+                            centerMode: true,
                             slidesToShow: 1,
                             slidesToScroll: 1,
                         }
@@ -236,8 +245,6 @@
                 asNavFor: '.responsive',
                 focusOnSelect: true,
                 centerMode: true,
-                slidesToShow: 3,
-                slidesToScroll: 1,
                 responsive: [
                     {
                         breakpoint: 600,
@@ -248,16 +255,23 @@
 
                     },
                     {
-                        breakpoint: 950,
+                        breakpoint: 800,
                         settings: {
                             slidesToShow: 5,
                             slidesToScroll: 1,
                         }
                     },
                     {
-                        breakpoint: 1080,
+                        breakpoint: 950,
                         settings: {
                             slidesToShow: 7,
+                            slidesToScroll: 1,
+                        }
+                    },
+                    {
+                        breakpoint: 1080,
+                        settings: {
+                            slidesToShow: 9,
                             slidesToScroll: 1,
                         }
                     },

@@ -14,8 +14,13 @@
     .nav-slider{
         display: block;
         margin: 30px auto;
-        width: calc(100vw - 172px);
+        width: calc(100vw - 20vw);
+        max-width: calc(100vw - 168px);
         box-sizing: border-box;
+        overflow: hidden;
+    }
+    .nav-slider .slick-list{
+        overflow: visible;
     }
 
     .slick-slide {
