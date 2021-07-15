@@ -8,12 +8,19 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     //COMPANYNAME
     if (!empty($_POST['companyname'])) {
         $companyname = cleandata($_POST['companyname']);
+    } else {
+        header('Location: https://phpjobdag.be');
+        exit;
     }
 
     //NAME
     if (!empty($_POST['name'])) {
         $name = cleandata($_POST['name']);
+    } else {
+        header('Location: https://phpjobdag.be');
+        exit;
     }
+
 
     //EMAIL
     if (!empty($_POST["email"])) {
@@ -21,6 +28,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
             $error["email"] = "Please enter a valid email address.";
         }
+    } else {
+        header('Location: https://phpjobdag.be');
+        exit;
     }
 
     //PHONE
