@@ -794,13 +794,28 @@ margin-bottom: 1rem;
 }
 
 .checkbox__wrapper input{
-	margin-right:  5px;
+	margin-right:  3px;
 }
 
 .radio__wrapper{
 	margin-right: 20px;
 }
 
+
+@media only screen and (max-width: 400px) {
+	.checkbox__wrapper{
+		flex-direction: column;
+	}
+
+	.radio__wrapper{
+		margin-bottom: 1rem;
+	}
+
+	.radio__wrapper:last-of-type{
+		margin-bottom: 0;
+	}
+
+}
 
 ::placeholder {
 	/* Chrome, Firefox, Opera, Safari 10.1+ */
