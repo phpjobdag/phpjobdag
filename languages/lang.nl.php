@@ -33,7 +33,7 @@ $lang['counter4'] = 'Seconden';
 
 // Students
 $lang['studentTitle'] = 'WIE ZIJN WIJ?';
-$lang['Alexander'] = 'Fast-learning, enthusiastic and driven Web Developer with a specialty in Philosophy of Technology';
+$lang['Alexander'] = 'Snel lerende, enthousiaste en gedreven Web Ontwikkelaar met een specialiteit in techniekfilosofie';
 $lang['Anastasya'] = 'Kleine full stack developer met grote ambitie om één van de besten te worden in haar vak.';
 $lang['Arne'] = 'Ontwikkelaar op zoek naar mogelijkheden om mezelf te ontwikkelen.';
 $lang['Burcu'] = 'Doorgewinterde ontwerper. Aspirant ontwikkelaar. Op weg naar full-stack digital designer.';
