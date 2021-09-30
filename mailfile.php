@@ -57,8 +57,7 @@ function cleandata($data) {
 
 date_default_timezone_set('Etc/UTC');
 require './PHPMailer/PHPMailerAutoload.php';
-$email1 = 'sarah.vandermaesen@obelisk.be';
-$email2 = 'erhen3000@gmx.com';
+// $email = 'sarah.vandermaesen@obelisk.be';
 //Create a new PHPMailer instance
 $mail = new PHPMailer;
 //Tell PHPMailer to use SMTP
@@ -91,7 +90,7 @@ $mail->setFrom('noreply@phpjobdag.be');
 $mail->addReplyTo('noreply@phpjobdag.be');
 //Set who the message is to be sent to
 $mail->addAddress(
-$email1,$email2);
+$email);
 //Set the subject line
 $mail->Subject = 'Een email van phpjobdag 2021';
 //Read an HTML message body from an external file, convert referenced images to embedded,
