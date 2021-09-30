@@ -57,7 +57,7 @@ function cleandata($data) {
 
 date_default_timezone_set('Etc/UTC');
 require './PHPMailer/PHPMailerAutoload.php';
-// $email = 'sarah.vandermaesen@obelisk.be';
+$email = 'e@mail';
 //Create a new PHPMailer instance
 $mail = new PHPMailer;
 //Tell PHPMailer to use SMTP
